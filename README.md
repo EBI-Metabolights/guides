@@ -1,4 +1,4 @@
-# MetaboLight guides
+# MetaboLights guides
 
 Local installation guide
 
