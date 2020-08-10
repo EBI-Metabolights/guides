@@ -259,6 +259,7 @@
                 "sections": [
                     {
                         "title": "",
+                        
                         "content": "What is ORCID?",
                         "img": [
                             {
@@ -278,7 +279,7 @@
                 "sections": [
                     {
                         "title": "",
-                        "content": "The submitter is the person who creates the study. They will be able to directly view & edit the study during the submission process and all correspondence will be directly to them. They will also be the main contact once the study is public.<br/>Authors are added as for a manuscript etc but will not have edit or private access to the study. If you would like edit rights to be given to collaborators they will also need to create an account. The submitter can then contact us to ask for them to be added to the study. Group or project email addresses can be used to allow shared access to edit a study and link studies more readily.",
+                        "content": "The submitter is the person who creates the  co. They will be able to directly view & edit the study during the submission process and all correspondence will be directly to them. They will also be the main contact once the study is public.<br/>Authors are added as for a manuscript etc but will not have edit or private access to the study. If you would like edit rights to be given to collaborators they will also need to create an account. The submitter can then contact us to ask for them to be added to the study. Group or project email addresses can be used to allow shared access to edit a study and link studies more readily.",
                         "visible": true,
                         "img": [],
                         "video": []
@@ -288,7 +289,7 @@
         },
         "study": {
             "overview": {
-                "title": "MetaboLights study content overview",
+                "title": "Study content overview",
                 "sort_order": 0,
                 "description": "",
                 "visible": true,
@@ -430,7 +431,7 @@
                 ]
             },
             "reference": {
-                "title": "How to reference a MetaboLights study",
+                "title": "Reference a MetaboLights study",
                 "sort_order": 0,
                 "description": "Each new MetaboLights study is automatically assigned an Accession number. This is a permanent unique identifier and should be used whenever you refer to your metabolomics study in manuscripts, social media etc. and in any communication with the MetaboLights team.",
                 "visible": true,

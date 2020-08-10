@@ -11,6 +11,12 @@
             "name": "中文",
             "file": "zh.json",
             "default": false
+        },
+        {
+            "code": "es",
+            "name": "Spanish",
+            "file": "es.json",
+            "default": false
         }
     ]
 }
