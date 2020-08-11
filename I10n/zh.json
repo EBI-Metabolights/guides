@@ -210,7 +210,7 @@
       "password_rest" : {
         "title" : "",
         "sort_order" : 0,
-        "description": "Your email address will be your user name. Please contact us directly  if you need to update this at any time.",
+        "description" : "Your email address will be your user name. Please contact us directly  if you need to update this at any time.",
         "visible" : true,
         "sections" : [
           {
@@ -219,7 +219,7 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image17.png",
+                "url" : "image17.png",
                 "description" : ""
               }
             ],
@@ -230,7 +230,7 @@
       "update_email" : {
         "title" : "",
         "sort_order" : 0,
-        "description": "Your email address will be your user name. Please contact us directly  if you need to update this at any time.",
+        "description" : "Your email address will be your user name. Please contact us directly  if you need to update this at any time.",
         "visible" : true,
         "sections" : [
           {
@@ -274,7 +274,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "The submitter is the person who creates the study. They will be able to directly view & edit the study during the submission process and all correspondence will be directly to them. They will also be the main contact once the study is public.<br/>Authors are added as for a manuscript etc but will not have edit or private access to the study. If you would like edit rights to be given to collaborators they will also need to create an account. The submitter can then contact us to ask for them to be added to the study. Group or project email addresses can be used to allow shared access to edit a study and link studies more readily.",
+            "content" : "提交者是创建研究的人。他们将能够在提交过程中直接查看和编辑研究，所有沟通信件将直接发送给他们。 研究公开后，他们还将成为主要联系人。\n原稿提及的作者没有编辑或者访问私有研究的权利。如果您希望授予合作者编辑权，则他们还需要创建一个帐户，并联系我们将其添加到研究共同编辑中。",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -302,12 +302,12 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image29.png",
+                "url" : "image29.png",
                 "description" : "(a) 研究编号和题目<br/>(b) 作者信息<br/>(c) 摘要<br/>(d) 出版链接<br/>(e) 关键字<br/>(f) 协议<br/>\t\n"
               },
               {
-                "url": "image20.png",
-                "description": "(a) Study identifier & title (b) Author information (c) Abstract (d) Publication link (e) Keywords(f) Protocol text"
+                "url" : "image20.png",
+                "description" : "(a) Study identifier & title (b) Author information (c) Abstract (d) Publication link (e) Keywords(f) Protocol text"
               }
             ],
             "video" : []
@@ -393,7 +393,7 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image23.png",
+                "url" : "image23.png",
                 "description" : ""
               }
             ],
@@ -405,7 +405,7 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image3.png",
+                "url" : "image3.png",
                 "description" : ""
               }
             ],
@@ -417,7 +417,7 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image5.png",
+                "url" : "image5.png",
                 "description" : "在研究页面选择 “edit” 选项"
               }
             ],
@@ -437,31 +437,24 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image12.png",
+                "url" : "image12.png",
                 "description" : ""
               }
             ],
             "video" : []
           },
           {
-            "title": "",
-            "content": "You can access the study information page at any stage by choosing the",
-            "visible": true,
-            "img": [
-                {
-                    "url": "",
-                    "description": ""
-                }
+            "title" : "",
+            "content" : "您可以在任何阶段通过选择“Guided Submission”来访问研究信息页面：",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "",
+                "description" : ""
+              }
             ],
-            "video": []
-        },
-        {
-            "title": "",
-            "content": "option available from My Studies or in the bottom right corner of all studies.",
-            "visible": true,
-            "img": [],
-            "video": []
-        },
+            "video" : []
+          },
           {
             "title" : "稿件内容应该包含什么信息？",
             "visible" : true,
@@ -475,11 +468,11 @@
             "video" : []
           },
           {
-            "title": "You can also cite the MetaboLights reference el",
-            "content": "Haug et al. MetaboLights: a resource evolving in response to the needs of its scientific community. Nucleic Acids Research, gkz1019, doi:10.1093/nar/gkz1019, PMID:31691833.",
-            "visible": true,
-            "img": [],
-            "video": []
+            "title" : "你也可以添加MetaboLights作为参考文献",
+            "content" : "Haug et al. MetaboLights: a resource evolving in response to the needs of its scientific community. Nucleic Acids Research, gkz1019, doi:10.1093/nar/gkz1019, PMID:31691833.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
           },
           {
             "title" : "某期刊要求访问我的研究：",
@@ -487,7 +480,7 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image30.png",
+                "url" : "image30.png",
                 "description" : ""
               }
             ],
@@ -507,23 +500,23 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image8.png",
+                "url" : "image8.png",
                 "description" : ""
               }
             ],
             "video" : []
           },
           {
-            "title": "",
-            "content": "Where ontologies have not been added within tables a section will appear above the table to highlight terms. Simply click edit option to add on.",
-            "visible": true,
-            "img": [
-                {
-                    "url": "image7.png",
-                    "description": ""
-                }
+            "title" : "",
+            "content" : "Where ontologies have not been added within tables a section will appear above the table to highlight terms. Simply click edit option to add on.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image7.png",
+                "description" : ""
+              }
             ],
-            "video": []
+            "video" : []
           },
           {
             "表格操作" : "Tables",
@@ -604,7 +597,7 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image1.png",
+                "url" : "image1.png",
                 "description" : ""
               }
             ],
@@ -624,7 +617,7 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image4.png",
+                "url" : "image4.png",
                 "description" : ""
               }
             ]
@@ -635,7 +628,7 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image28.png",
+                "url" : "image28.png",
                 "description" : ""
               }
             ],
@@ -655,7 +648,7 @@
             "visible" : true,
             "img" : [
               {
-                "url": "image10.png",
+                "url" : "image10.png",
                 "description" : ""
               }
             ]
