@@ -2,20 +2,122 @@
   "created_at" : "2020-07-15",
   "updated_at" : "2020-07-15",
   "data" : {
-    "quick_start" : {
-      "create_account" : {
-        "title" : "创建账户",
+    "快速入门" : {
+      "Quick_start_guide" : {
+        "title" : "快速入门概述",
         "sort_order" : 0,
-        "description" : "创建Metabolights账户",
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "img" : [
+              {
+                "url" : "image36.png"
+              }
+            ]
+          }
+        ]
+      },
+      "Getting_started" : {
+        "title" : "我需要提供什么？",
+        "sort_order" : 1,
+        "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "建立Metabolights研究，请注册账户并原始数据.<br/>1) 创建Metabolights 账户www.ebi.ac.uk/metabolights/login <br/>2) 原始实验数据 (原始数据是试验设备生成的最初的数据，不是分析后的数据结果)。提交时无需立即添加此内容，但随后发布研究需需要上传原始数据。\n",
+            "content" : "</br>向MetaboLights提交研究的主要要求如下：</br></br>1) MetaboLights帐号。<br/><br/>2) 原始数据 (raw data)。例如: <i>用于分析的仪器信息或开放源产生的光谱文件</i> (此内容无需立即添加，但必须先上传，才能发布研究)。<br/><br/>3) 创建研究时，按照提供的模板填写研究元数据(metadata)。",
             "visible" : true,
             "img" : [
               {
-                "url" : "image18.png",
+                "url" : "",
+                "description" : ""
+              }
+            ],
+            "video" : [
+              {
+                "url" : "",
+                "description" : ""
+              }
+            ]
+          }
+        ]
+      },
+      "submission_stages" : {
+        "title" : "研究提交过程",
+        "sort_order" : 3,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "</br>研究提交过程的四个阶段。",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image37.png",
+                "description" : ""
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "</br><u>提交研究进行校验</u></br></br>当你完成元数据（metadata）提交，上传了原始数据（raw data），并且成功验证（validation）研究后。选择研究页面顶部的<b>status</b> 栏，将状态改为<b>curation</b>。 在此状态您将不再能够直接编辑您的研究，如果需要进一步修改，请联系<a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> </br>系统还会提示您设置研究的发布日期，检验过程至少要花费<u> <b> 4周</b> </u>时间，默认值为4周。</br></br>",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image21.png",
+                "description" : ""
+              }
+            ],
+            "video" : [
+              {
+                "url" : "",
+                "description" : ""
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "",
+            "visible" : false,
+            "img" : [
+              {
+                "url" : "image10.png",
+                "description" : ""
+              }
+            ],
+            "video" : [
+              {
+                "url" : "",
+                "description" : ""
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "<br>完成研究校验（curation）, 研究状态将变为 <b>review</b>。 同时将提供一个私有的链接，供您与期刊编辑，合作者共享 </br></br>",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image30.png",
+                "description" : ""
+              }
+            ],
+            "video" : [
+              {
+                "url" : "",
+                "description" : ""
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "<br>发布日期到来时，研究状态将自动变为<b>public</b>. 您可以在任何阶段通过联系<a href ='mailto:metabolights-help@ebi.ac.uk'> MetaboLights Help</a>来更改发布日期。",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "",
                 "description" : ""
               }
             ],
@@ -50,28 +152,49 @@
                 "description" : ""
               }
             ]
+          },
+          {
+            "title" : "",
+            "content" : "</br><u><i>提交者和作者</i></u></br>提交者是创建研究的人。他们将能够在提交过程中直接查看和编辑研究，所有沟通信件将直接发送给他们。 研究公开后，他们还将成为主要联系人。\n原稿提及的作者没有编辑或者访问私有研究的权利。如果您希望授予合作者编辑权，则他们还需要创建一个帐户，并<a href ='mailto:metabolights-help@ebi.ac.uk'>联系我们</a>将其添加到研究共同编辑中。</br>\n组或项目的电子邮件地址可用于共享访问以编辑研究并在搜索中更轻松地链接研究。",
+            "visible" : true
           }
         ]
       },
       "edit_study" : {
         "title" : "编辑研究",
-        "sort_order" : 2,
+        "sort_order" : 5,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "创建初始研究后，您可以使用在线编辑器选项查看并进行进一步更改。 通过“My Studies”页面访问。<br/>注意：您同样可以授予合作者对该研究的编辑权限。在他们建立Metabolights账户后，您应该与我们联系并提供合作者的详细信息。\n",
+            "content" : "<br>可以通过选择 <a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> 然后选择<b>Update now</b>访问现有研究。</br>或者通过分配的网址直接访问 (https://www.ebi.ac.uk/metabolights/MTBLSXXX).",
             "visible" : true,
             "img" : [
               {
-                "url" : "image13.png",
+                "url" : "image22.png",
                 "description" : ""
               }
-            ],
-            "video" : [
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "</br>这将带您进入现有研究列表，您可以在其中选择要编辑的研究。",
+            "visible" : true,
+            "img" : [
               {
-                "url" : "",
+                "url" : "image5.png",
+                "description" : ""
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "</br><i>您可以以使用研究右下角的标签，在研究概述和提交指引之间切换，来编辑研究。",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image39.png",
                 "description" : ""
               }
             ]
@@ -86,92 +209,74 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "为了使研究进入下一阶段，用户必须解决所有校验错误。 校验错误显示在研究顶部的信息栏中（如果未显示任何内容，则表明研究已通过校验）。Study Validations  标签中提供了更详细的校验信息。",
+            "content" : "<br>为了使研究进入下一阶段，必须解决所有验证错误。 验证错误在研究顶部的信息栏中显示（如果未显示任何内容，则表明研究已通过验证）。",
             "visible" : true,
             "img" : [
               {
-                "url" : "image34.png",
+                "url" : "image4.png",
                 "description" : ""
               }
-            ],
-            "video" : [
+            ]
+          },
+          {
+            "content" : "研究验证（ <b>Study Validations</b> ）标签中提供了更多信息。 通过选择下拉菜单，可以单独查看4个验证标志。  包括 <font color='#3cb371'>成功（successful）</font>, <font color='#1e90ff'>提醒（information）</font>, <font color='#ffa500'>警告（warning）</font>, <font color='#ff0000'>错误（error）</font>.  您必须解决所有错误项，尽可能的解决警告项，使研究进入下一个阶段。",
+            "visible" : true,
+            "img" : [
               {
-                "url" : "",
+                "url" : "image28.png",
                 "description" : ""
               }
             ]
           }
         ]
       },
-      "curation" : {
-        "title" : "数据归纳整理",
-        "sort_order" : 4,
+      "Referencing_a_study" : {
+        "title" : "引用研究",
+        "sort_order" : 7,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "成功完成研究信息校验后，选择“Status”并更改为 Curation, 将研究加入我们的归纳整理队列。 您将不再能够直接编辑此研究，如果需要进一步修改，请联系我们获得帮助。<br/>注意 数据归纳整理过程至少需要4周时间。\n",
+            "content" : "<br><u>研究编号</u><br><br>每个新的MetaboLights研究都会自动分配一个研究编号，例如。 MTBLS1。 这是一个永久的唯一标识符，应该用于在手稿和通讯邮件中引用研究。",
             "visible" : true,
-            "img" : [
-              {
-                "url" : "image21.png",
-                "description" : ""
-              }
-            ],
-            "video" : [
-              {
-                "url" : "",
-                "description" : ""
-              }
-            ]
-          }
-        ]
-      },
-      "review" : {
-        "title" : "\n审查状态",
-        "sort_order" : 5,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "Review status",
-            "content" : "成功归纳整理后，该研究的状态将更新为“Review”，并且在您的研究页面上将提供一个私人链接，您可以根据需要与期刊编辑，合作者等共享。",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image19.png",
-                "description" : ""
-              }
-            ],
-            "video" : [
-              {
-                "url" : "",
-                "description" : ""
-              }
-            ]
-          }
-        ]
-      },
-      "publication" : {
-        "title" : "发布",
-        "sort_order" : 6,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
+            "img" : []
+          },
           {
             "title" : "",
-            "content" : "当Realase Date 到来时，研究将自动发布。您可以随时通过 metabolights-help@ebi.ac.uk 直接与我们联系更改研究发布日期。",
+            "content" : "<u>哪里可以找到研究编号</u></br><br>首次创建新研究时，将为您提供有关研究唯一标识符的信息，如下所示。 您还将通过电子邮件收到此信息。",
             "visible" : true,
             "img" : [
               {
-                "url" : "image26.png",
+                "url" : "image12.png",
                 "description" : ""
               }
-            ],
-            "video" : [
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "您还可以在<a href='https://www.ebi.ac.uk/metabolights/editor/console'>My Studies</a>页面上查看您所有研究的列表及其唯一标识符。",
+            "visible" : true,
+            "img" : [
               {
-                "url" : "",
+                "url" : "image40.png",
+                "description" : ""
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "<br><u>文稿中如何引用研究</u><br><br>永久唯一标识符； MTBLSxxxx。</br>研究的网址 https://www.ebi.ac.uk/metabolights/MTBLSxxxx.</br>如果你想在文章中引用MetaboLights，请使用<a href='https://academic.oup.com/nar/article/48/D1/D440/5613675'>Haug et al</a>.",
+            "visible" : true,
+            "img" : []
+          },
+          {
+            "title" : "",
+            "content" : "<u>某期刊要求访问我的研究</u></br></br>研究完成并更新状态以供审核后，研究页面顶部将提供一个私人只读链接，可与该期刊共享。",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image30.png",
                 "description" : ""
               }
             ]
@@ -179,67 +284,67 @@
         ]
       }
     },
-    "account" : {
-      "create" : {
-        "title" : "Create account",
+    "MetaboLights账号" : {
+      "create_account" : {
+        "title" : "创建账户",
         "sort_order" : 0,
+        "description" : "创建Metabolights账户",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "</br>您可以通过选择上方的Login或通过以下链接创建帐户<a href='www.ebi.ac.uk/metabolights/newAccount'>Create account</a>.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image18a.png",
+                "description" : ""
+              }
+            ],
+            "video" : [
+              {
+                "url" : "",
+                "description" : ""
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "</br>创建您的MetaboLights帐户时，您的电子邮件地址将是您的用户名。 如果您需要更改用户名，请直接与我们联系。 </br></br>",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image35.png",
+                "description" : ""
+              }
+            ],
+            "video" : [
+              {
+                "url" : "",
+                "description" : ""
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "</br><i>创建账户时，需要激活账户，请检查您的电子邮件（包括垃圾邮件文件夹！）以进行确认。</br>或者，直接通过以下邮件与我们联系<a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a></i>.",
+            "visible" : true
+          }
+        ]
+      },
+      "account_detail_reset" : {
+        "title" : "更改登录方式",
+        "sort_order" : 1,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "在Metabolights建立研究前，您需要创建一个账户。您可以使用下面的链接，或者选择Log in登陆Metabolights的网站。  <br/>https://www.ebi.ac.uk/metabolights/login<br/>您的邮件地址将是您的用户名。如果需要更改，请直接与我们联系。\n",
+            "content" : "</br>如果您需要更改用户名或登录邮箱，请直接与我们<a href = 'mailto:metabolights-help@ebi.ac.uk'>联系。</a></br></br>重置密码请点击登陆页面下方的 <a href='https://www.ebi.ac.uk/metabolights/forgotPassword'>forgot your password</a> 。</br></br>",
             "visible" : true,
             "img" : [
               {
-                "url" : "image17.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "创建MetaboLights帐户时，您可以添加ORCID ID，以便您可以在研究成果中声明所提交的数据。<br/>什么是 ORCID?",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          }
-        ]
-      },
-      "password_rest" : {
-        "title" : "",
-        "sort_order" : 0,
-        "description" : "Your email address will be your user name. Please contact us directly  if you need to update this at any time.",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "",
-            "content" : "",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image17.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          }
-        ]
-      },
-      "update_email" : {
-        "title" : "",
-        "sort_order" : 0,
-        "description" : "Your email address will be your user name. Please contact us directly  if you need to update this at any time.",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "",
-            "content" : "",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image17.png",
+                "url" : "image18b.png",
                 "description" : ""
               }
             ],
@@ -249,16 +354,16 @@
       },
       "orcid" : {
         "title" : "ORCID",
-        "sort_order" : 0,
-        "description" : "创建MetaboLights帐户时，您可以添加ORCID ID，以便您可以在研究成果中声明所提交的数据。<br/>什么是 ORCID?",
+        "sort_order" : 2,
+        "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "What is ORCID?",
+            "content" : "您还可以关联您的ORCID帐户，从而可以在研究成果中声明提交的数据。</br><a target='_blank' href='https://orcid.org/about'> 什么是 ORCID?</a></br>",
             "img" : [
               {
-                "url" : "image32.png",
+                "url" : "image41.png",
                 "description" : ""
               }
             ],
@@ -266,44 +371,48 @@
           }
         ]
       },
-      "roles" : {
-        "title" : "Submitters & authors",
+      "My_Studies_page" : {
+        "title" : "我的研究",
+        "sort_order" : 3,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "</br><a href='https://www.ebi.ac.uk/metabolights/editor/console'>我的研究（My Studies）</a> 页面概述了您在MetaboLights中创建的所有研究。<br/><br/><ul><li>(a) 选择查看所有研究或具有特定状态的研究</li><li>(b) 查看每个研究的基本概要信息，包括登录号，标题，状态，发布日期</li><li>(c) 选择使用引导提交或在线编辑器工具编辑研究</li><li>(d) 查看提交教程视频</li><li>(e) 创建新研究</li></ul>",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image23.png",
+                "description" : ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "研究" : {
+      "overview" : {
+        "title" : "研究概述",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "提交者是创建研究的人。他们将能够在提交过程中直接查看和编辑研究，所有沟通信件将直接发送给他们。 研究公开后，他们还将成为主要联系人。\n原稿提及的作者没有编辑或者访问私有研究的权利。如果您希望授予合作者编辑权，则他们还需要创建一个帐户，并联系我们将其添加到研究共同编辑中。",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          }
-        ]
-      }
-    },
-    "study" : {
-      "overview" : {
-        "title" : "MetaboLights研究内容概述",
-        "sort_order" : 0,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "研究中要包括什么？",
-            "content" : "创建研究后，Guided submission 将逐步指导您完成提交。它将指导您完成原始数据 (raw) 和样本数据 (sample data) 的上传，创建实验 (assay)，并在相关领域为您提供本体词汇选择。 如果您没有掌握的所有信息，请不用担心！在 My Studies 页面，您可以随时访问和编辑整个研究。<br/>每个MetaboLights研究都有4个主要部分，研究概述 (description)，样本 (sample)，实验 (assay) 和代谢物信息 (metabolite)。 更多详细信息：\n",
+            "content" : "</br>创建研究时，提交引导将帮助您逐步进行设置。 它将指导您完成原始数据（raw data）和样本数据（sample data）的上传，创建分析方法（assay），并为您提供相关词汇/本体论选项。 如果您没有掌握的所有信息，请不用担心！ 在提交后，您可以随时通过“My Study”页面访问和编辑整个研究。</br></br>每个MetaboLights研究都有4个主要部分，研究描述（description），样本（sample），测定（assay）和代谢物信息（metabolite information）。 每个部分的介绍如下。每个部分都用指定文件对信息进行存储。 ",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "研究概述 (i_MTBLSxxx.txt)",
-            "content" : "研究概述向读者简单描述研究的相关内容和联系方式。",
+            "title" : "Study description (i_MTBLSxxx.txt)",
+            "content" : "研究描述用于向读者介绍有关研究的内容和联系方式。",
             "visible" : true,
             "img" : [
               {
                 "url" : "image29.png",
-                "description" : "(a) 研究编号和题目<br/>(b) 作者信息<br/>(c) 摘要<br/>(d) 出版链接<br/>(e) 关键字<br/>(f) 协议<br/>\t\n"
+                "description" : "(a) Study identifier & title (b) Author information (c) Abstract (d) Publication link (e) Keywords(f) Protocol text"
               },
               {
                 "url" : "image20.png",
@@ -313,95 +422,47 @@
             "video" : []
           },
           {
-            "title" : "样本信息 (s_MTBLSxxx.txt)",
-            "content" : "样本信息应提供有关每个样本以及研究中包括的所有相关对照/标准。每个研究只允许一个样本表。<br/>* 样本名<br/>* 样本元数据所需的信息（例如，生物体，有机体部分和样本类型，即对照，质控，实验样本<br/>* 其他样本描述符（选择 “ +Factor” 选项以包括例如性别，年龄，待遇）",
+            "title" : "Sample information (s_MTBLSxxx.txt)",
+            "content" : "样本信息应提供有关每个样本以及研究中包括的所有相关对照/标准。每个研究只允许<b>一个</b>样本表。</br>\n- 唯一的样本名</br>\n- 样本元数据所需的信息（例如，生物体，有机体部分和样本类型，即对照，质控，实验样本）</br>\n- 其他样本描述符（选择 “ +Factor” 选项以包括例如性别，年龄，待遇）</br>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "实验信息 (a_MTBLSxxx.txt)",
-            "content" : "实验信息用以描述实验过程中的每个对照和样本测定过程，并将样本名链接到其相应到原始数据文件（raw data file）和代谢鉴定表。每个研究可以添加多个实验信息。 ",
+            "title" : "Assay information (a_MTBLSxxx.txt)",
+            "content" : "实验信息用以描述实验过程中的每个对照和样本测定过程，并将样本名链接到其相应到原始数据文件（raw data file）和代谢鉴定表。每个研究可以添加多个实验信息。</br></br>实验信息被分为多个部分，每个部分以Protocol Ref 列开始。例如：色谱法 （Chromatography）, 用本体词汇描述列该方法的测定细节, 因此使用同一测定法的所有研究都可以被轻松找到。\n</br></br>",
             "visible" : true,
             "img" : [
               {
                 "url" : "image24.png",
-                "description" : "实验信息被分为多个部分，每个部分以Protocol Ref 列开始。例如：色谱法 （Chromatography）, 用本体词汇描述列该方法的测定细节, 因此使用同一测定法的所有研究都可以被轻松找到。"
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "代谢物信息 (m_MTBLSxxx.tsv)",
-            "content" : "代谢物信息应包括研究中识别的所有代谢物和特征。 每个实验都有相应的代谢物表。 如果结果是多个测定的累加结果，请使用测定表中的“ Metabolite assignment file ”列将所有实验指向相同的代谢物信息。<br/><br/> * 代谢物鉴定<br/>代谢物名或者未知（unknown）<br/>ChEBI 或者其他数据库标识。在Metabolights 团队对研究进行审核整理对过程中，所有代谢物名称和数据库标示都会被处理，如公式（formula），化学结构（smile /inChI ）等都会在ChEBI以标准化代谢物更新（ChEBI ontology）。<br/><br/> * 研究特定的代谢物信息<br/>根据实验类型，可能包括保留时间，m / z，电荷，化学位移，以及符合MSI标准的可信度（MSI standards）<br/><br/> * 每一个代谢物的相应样本信息 ",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image25.png",
-                "description" : "概述当前采用的代谢物标准 (Schmanski EL et al. 2014)"
-              }
-            ],
-            "video" : []
-          }
-        ]
-      },
-      "submission" : {
-        "title" : "提交阶段",
-        "sort_order" : 0,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "提交 Submission",
-            "content" : "研究对提交者和MetaboLights团队是私有的。提交者可以编辑提交的研究。 如要添加编辑权限给其他用户，请与我们联系。在研究进入下一个阶段前，必须通过所有校验。并且将研究状态改为Curation。研究将进入我们的整理列队中。",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "整理 Curation",
-            "content" : "研究对提交者和MetaboLights团队是私有的。在此阶段，提交者只有查看的权限。 <br/>* 如需再次修改研究，请与我们联系。\n",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "审查 Review",
-            "content" : "研究对提交者和MetaboLights团队是私有的。在此阶段，提交者只有查看的权限。 创建临时私有链接以供合作者和期刊审阅。\n",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "发表 Public",
-            "content" : "研究可以被公开查看和下载。*在此阶段，研究不应进行修改，但是，如果您确实需要编辑研究，请与我们联系\n",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          }
-        ]
-      },
-      "create_edit" : {
-        "title" : "创建&修改研究\n",
-        "sort_order" : 0,
-        "description" : "选择 Submit Study 将使您进入登录屏幕，然后进入“My Studies”页面。 从那里您可以创建一个新研究或编辑一个现有研究。",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "My studies 页面",
-            "content" : "您的 My Studies 概述了您在MetaboLights中创建的所有研究。<br/><ul><li>选择查看所有研究或具有特定状态的研究</li><li>查看每个研究的基本大纲信息，包括编号，标题，状态，发布日期</li><li>选择使用引导提交或在线编辑器工具编辑研究</li><li>观看提交教程视频</li><li>创建一个新的研究</li></ul>",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image23.png",
                 "description" : ""
               }
             ],
             "video" : []
           },
           {
+            "title" : "Metabolite information (m_MTBLSxxx.tsv)",
+            "content" : "代谢物信息应包括研究中识别的所有代谢物和特征。 每个实验都有相应的代谢物表。 如果结果是多个测定的累加结果，请使用测定表中的“ Metabolite assignment file ”列将所有实验指向相同的代谢物信息。</br></br>\n\n- 代谢物鉴定: 代谢物名或者未知（unknown），ChEBI 或者其他数据库标识。在Metabolights 团队对研究进行审核整理对过程中，所有代谢物名称和数据库标示都会被处理，如公式（formula），化学结构（smile /inChI ）等都会在ChEBI以标准化代谢物更新（ChEBI ontology）。</br></br>\n\n- 研究特定的代谢物信息：根据实验类型，可能包括保留时间，m / z，电荷，化学位移，以及符合MSI标准的可信度（MSI standards）</br></br>\n\n- 每一个代谢物的相应样本信息 </br>\n\n",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image25.png",
+                "description" : "Overview current adopted metabolite standards (Schmanski EL et al. 2014)"
+              }
+            ],
+            "video" : []
+          }
+        ]
+      },
+      "create_edit" : {
+        "title" : "创建 & 编辑研究",
+        "sort_order" : 1,
+        "description" : "选择 Submit Study 将使您进入登录屏幕，然后进入“My Studies”页面。 从那里您可以创建一个新研究或编辑一个现有研究。",
+        "visible" : true,
+        "sections" : [
+          {
             "title" : "创建新的研究",
-            "content" : "创建新研究后，您将进入引导提交界面。<br/>具有唯一的编号的新研究将自动生成。<br/>该研究也将添加到“我的研究”页面。 然后，您可以按照以下步骤将信息添加到您的研究中。<br/>*您可以随时退出引导提交，添加的信息将自动保存。 要以“指导提交”模式重新输入研究，只需转到“My studies”，然后选择研究信息下方的“Guide submission”选项。\n",
+            "content" : "创建新研究后，您将进入引导提交界面。<br/>具有唯一的编号的新研究将自动生成。<br/>该研究也将添加到“My Study”页面。 然后，您可以按照以下步骤将信息添加到您的研究中。<br/>*您可以随时退出引导提交，添加的信息将自动保存。 要以“指导提交”模式重新输入研究，只需转到“My studies”，然后选择研究信息下方的“Guide submission”选项。\n",
             "visible" : true,
             "img" : [
               {
@@ -413,173 +474,72 @@
           },
           {
             "title" : "编辑现有研究",
-            "content" : "所有研究都可以直接在线编辑。 有两种进入编辑模式的方式：<br/>在My Studies 页面中，选择研究信息下方的 “study overview” 选项。 也可以在“引导提交”模式下使用，在右下角查找弹出选项。<br/>研究可以在线编辑或下载和编辑，例如Excel。重要的是在编辑时不要删除列或更改列标题，因为格式是固定要求。如果需要下载编辑，则先需要通过选择+ factor可以添加其他列，再下载文件。 <br/>元数据的某些部分需要本体（ontology）字段。 使用在线选项添加信息时，键入时将显示本体选项。 如果上传的文件中未添加本体，则在线编辑器将提示您在表格上方的字段中选择本体。\n",
+            "content" : "所有研究都可以直接在线编辑。 有两种进入编辑模式的方式： <br/>在My Studies 页面中，选择研究信息下方的 “study overview” 选项。 也可以在“引导提交”模式下使用，在右下角查找弹出选项。或者在研究页面选择 “edit” 选项。\n <br/>研究可以在线编辑或下载和编辑，例如Excel。重要的是在编辑时不要删除列或更改列标题，因为格式是固定要求。如果需要下载编辑，则先需要通过选择+ factor可以添加其他列，再下载文件。<br/>元数据的某些部分需要本体（ontology）字段。 使用在线选项添加信息时，键入时将显示本体选项。 如果上传的文件中未添加本体，则在线编辑器将提示您在表格上方的字段中选择本体。",
             "visible" : true,
             "img" : [
               {
                 "url" : "image5.png",
-                "description" : "在研究页面选择 “edit” 选项"
+                "description" : "From your study page on the website, select the edit option"
               }
             ],
             "video" : []
           }
         ]
       },
-      "reference" : {
-        "title" : "如何引用MetaboLights研究",
-        "sort_order" : 0,
-        "description" : "每个新的MetaboLights研究都会自动分配一个编号（MTBLS****）。这是唯一的永久标识符，每当您在原稿，社交媒体等中引用新陈代谢研究以及与MetaboLights团队进行任何交流时，都应使用该标识符。",
+      "Add_raw_data" : {
+        "title" : "添加原始数据（raw data）",
+        "sort_order" : 2,
+        "description" : "MetaboLights研究的一个主要要求是包括原始数据。 上传原始数据和数据，并通过测定表（assay table）将每个原始数据文件关联起来。",
         "visible" : true,
         "sections" : [
           {
-            "title" : "在哪里可以找到研究的唯一标识符？",
-            "content" : "首次创建新研究时，系统将为您提供研究唯一标识符的相关信息。<br/>你同样可以在 My Studies 界面看到所有提交的研究. <br/>您可以在任何阶段通过选择“Guided Submission”来访问研究信息页面：<br/>可从“My Studies”或所有研究的右下角找到该选项。",
+            "title" : "",
+            "content" : "<br><b>在哪里可以找到上传选项？</b><br>使用引导式提交时，系统将提示您上传原始文件。 如果您当时没有可用的文件，则可以稍后从“My study”页面返回到指导提交的相同阶段。 或者，您可以在研究的“Online editor”视图中使用研究的“Files”选项卡中的上传文件。<br><br> 有两种文件上传方法：<br><br>(1) <b><i>Aspera Connect插件</b></i> (推荐)<br>Aspera是一个浏览器的插件。 选择Aspera Upload选项，然后选择Install plugin。 Aspera是一种传输文件的快速方法，它还使用户能够暂停传输，然后在您中断的地方续传。如果您在上传的文件列表中看到了.aspx，则表明文件上传未成功/或已暂停。 请在计算机上打开Aspera connect，以检查上传状态，并在必要时恢复上传。 如果上传完成，则可以删除.aspx附加文件或与我们联系。 注意 如果您没有安装浏览器插件的权限，则可能需要联系当地的IT支持。<br><br>(2) <b><i>FTP</b></i><br>FTP可以在任何计算机上直接从命令行或通过图形用户界面使用。 但是，必须在计算机上必须首先安装FTP客户端。 如果您不熟悉从命令行使用FTP的情况，我们建议您使用免费的FileZilla工具。 请参阅FileZilla页面上的FAQ部分，以获取有关此软件如何工作的特定详细信息。<br>",
             "visible" : true,
             "img" : [
               {
-                "url" : "image12.png",
-                "description" : ""
+                "url" : "image43.png",
+                "description" : "Guided submission upload"
+              },
+              {
+                "url" : "image45.png",
+                "description" : "Online editor upload"
               }
             ],
             "video" : []
           },
           {
             "title" : "",
-            "content" : "您可以在任何阶段通过选择“Guided Submission”来访问研究信息页面：",
+            "content" : "<b>可接受的原始文件格式</b><br> eg. .raw, .d, .cdf, open source formats (.mzML, .nmrML) ",
             "visible" : true,
             "img" : [
               {
                 "url" : "",
                 "description" : ""
               }
-            ],
-            "video" : []
+            ]
           },
           {
-            "title" : "稿件内容应该包含什么信息？",
-            "visible" : true,
-            "content" : "永久编号： MTBLS****<br/>新陈代谢研究的网址： https://www.ebi.ac.uk/metabolights/MTBLSxxxx<br/>您也可以引用MetaboLights作为参考文献： <br/>\nHaug et al. MetaboLights: a resource evolving in response to the needs of its scientific community. Nucleic Acids Research, gkz1019, doi:10.1093/nar/gkz1019, PMID:31691833. \n",
-            "img" : [
-              {
-                "url" : "",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "你也可以添加MetaboLights作为参考文献",
-            "content" : "Haug et al. MetaboLights: a resource evolving in response to the needs of its scientific community. Nucleic Acids Research, gkz1019, doi:10.1093/nar/gkz1019, PMID:31691833.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "某期刊要求访问我的研究：",
-            "content" : "当研究状态更改为 Review 并且在发布日期到来之前。在此阶段，可以为研究提供一个临时的私有链接，您可以根据需要将其与合作者和期刊共享。 这是一个只读链接，如果在在线编辑器的研究页面顶部可用，则为只读。该链接会出现在在线编辑器的顶部。",
+            "title" : "",
+            "content" : "<b>无法找到已上传的文件</b><br>如果您已上传文件，但在研究文件夹中看不到它们，请尝试在“uploaded files”标签上选择“copy to study folder”选项，然后刷新页面。 如果不成功，请联系MetaboLights帮助。",
             "visible" : true,
             "img" : [
               {
-                "url" : "image30.png",
+                "url" : "image44.png",
                 "description" : ""
               }
-            ],
-            "video" : []
+            ]
           }
         ]
       },
       "shortcuts" : {
-        "快捷键/功能" : "Shortcut / functions",
-        "sort_order" : 0,
+        "title" : "快捷键/部分功能",
+        "sort_order" : 3,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
-            "title" : "本体 （Ontologies）",
-            "content" : "本体会支持所有可用词汇/受控词汇。只需开始输入即可，如果有匹配词汇，选项将显示在下面，您可以选择适当的术语。如果您要查找的术语没有出现，只需按Enter键，然后输入文本即可将其添加为自由文本。如果未在表格内添加本体，则表格上方会出现一个标示。 只需单击编辑选项即可添加。",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image8.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "Where ontologies have not been added within tables a section will appear above the table to highlight terms. Simply click edit option to add on.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image7.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "表格操作" : "Tables",
-            "content" : "",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "",
-                "description" : "自动完成列<br/>单击列标题并输入文本以将信息添加到整个列。"
-              },
-              {
-                "url" : "",
-                "description" : "复制粘贴多个<br/>选择整列（单击标题）或突出显示几个单元格以将相同信息粘贴到每个单元格中。"
-              },
-              {
-                "url" : "",
-                "description" : "贴上清单<br/>选择整列（单击标题）粘贴列表（从第一个单元格开始） eg. 从Excel复制"
-              },
-              {
-                "url" : "",
-                "description" : "添加样本<br/>选择单元格并粘贴/键入样品名称"
-              },
-              {
-                "url" : "",
-                "description" : "添加多个样本<br/>使用+ samples添加样品名称列表或使用原始数据文件的名称导入"
-              },
-              {
-                "url" : "",
-                "description" : "添加行<br/>+row 选项"
-              },
-              {
-                "url" : "",
-                "description" : "删除行<br/>选择行尾以选中目标行，然后删除"
-              },
-              {
-                "url" : "",
-                "description" : "添加列s<br/>使用+ factor选项向样本表中添加更多列"
-              },
-              {
-                "url" : "",
-                "description" : "展开表格<br/>查看基础本体信息"
-              },
-              {
-                "url" : "",
-                "description" : "上传 / 下载<br/>上传/下载某一表格以离线编辑。"
-              },
-              {
-                "url" : "",
-                "description" : "过滤<br/>"
-              }
-            ],
-            "video" : []
-          }
-        ]
-      },
-      "protocols" : {
-        "title" : "方案 Protocol",
-        "sort_order" : 0,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "",
+            "title" : "方案",
             "content" : "设置实验时，会自动生成所需的方案字段，这些字段必须使用“Edit Description”选项来完成，并且不能删除或重命名。",
             "visible" : true,
             "img" : []
@@ -602,18 +562,54 @@
               }
             ],
             "video" : []
+          },
+          {
+            "title" : "Ontologies",
+            "content" : "本体会支持所有可用词汇/受控词汇。只需开始输入即可，如果有匹配词汇，选项将显示在下面，您可以选择适当的术语。如果您要查找的术语没有出现，只需按Enter键，然后输入文本即可将其添加为自由文本。",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image8.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "如果未在表格内添加本体，则表格上方会出现一个标示。 只需单击编辑选项即可添加",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image7.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "表格操作",
+            "content" : "",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image42.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
           }
         ]
       },
       "validations" : {
-        "title" : "校验（validation）",
-        "sort_order" : 0,
+        "title" : "校验",
+        "sort_order" : 4,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "研究必须通过校验才能进入下一个数据归纳整理阶段。 如果校验不成功，错误信息将显示在研究的顶部。并可以在“Study Validation”选项卡中找到更多信息。",
+            "content" : "研究必须通过校验才能进入下一个数据归纳整理阶段。 如果校验不成功，错误信息将显示在研究的顶部。并可以在“Study Validation”选项卡中找到更多信息。\n",
             "visible" : true,
             "img" : [
               {
@@ -624,7 +620,7 @@
           },
           {
             "title" : "",
-            "content" : "在校验选项卡中，您可以选择查看不同的校验级别。<br/>每个校验根据其所属的部分列出。 出版物，样品表，实验，文件。<br/>必须解决所有错误才能继续进行。 如果您需要协助以解决错误，请与我们联系。\n",
+            "content" : "在校验选项卡中，您可以选择查看不同的校验级别。</br>每个校验根据其所属的部分列出。 出版物，样品表，实验，文件。</br>必须解决所有错误才能继续进行。 如果您需要协助以解决错误，请与我们联系。</br>\n",
             "visible" : true,
             "img" : [
               {
@@ -638,7 +634,7 @@
       },
       "status" : {
         "title" : "研究状态更新",
-        "sort_order" : 0,
+        "sort_order" : 5,
         "description" : "",
         "visible" : true,
         "sections" : [
