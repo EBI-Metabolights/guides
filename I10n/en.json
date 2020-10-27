@@ -597,18 +597,14 @@
                         "title": "Update study title",
                         "content": "You can modify the study title by clicking on it, or use your publication title to update",
                         "visible": true,
-                        "img": [
-                            {
-                                "url": "title2.png",
-                                "description": "update study title with online editor"
-                            }
-                        ],
-                        "video": [
-                            {
-                                "url": "title_v_1.mov",
-                                "description": "change study title from the publication details"
-                            }
-                        ]
+                        "img": [{
+                            "url": "title2.png",
+                            "description": "update study title with online editor"
+                        }],
+                        "video": [{
+                            "url": "title_v_1.mov",
+                            "description": "change study title from the publication details"
+                        }]
                     },
                     {
                         "title": "Validation Rules",
@@ -621,8 +617,7 @@
                         "title": "Restful API",
                         "content": "https://www.ebi.ac.uk/",
                         "visible": true,
-                        "img": [
-                            {
+                        "img": [{
                                 "url": "title_get.png",
                                 "description": "GET study title"
                             },
@@ -637,27 +632,94 @@
             },
             "Person": {
                 "title": "Person",
-                "sort_order": 1,
-                "description": "Choosing the option to Submit Study will take you to a login screen and then to your My Studies page. From there you can create a new study or edit an existing study.",
+                "sort_order": 0,
+                "description": "",
                 "visible": true,
                 "sections": [{
-                        "title": "Create a new study",
-                        "content": "Creating a new study will take you to the Guided submission portal.<br/>A new study will be automatically generated with a unique accession number / study identifier.<br/>The study will also be added to your My Studies page. You can then follow the steps to add information to your study.<br/>*You can exit the guided submission at any time and the information you have added will be automatically saved. To re-enter the study in Guided submission mode, simply go to My studies and select the Guided submission option below the study information.",
+                        "title": "Change email ID",
+                        "content": "Please contact us directly at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> if you need to update your email ID at any time. ",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Change submitter / study owner",
+                        "content": "The submitter is the person who creates the study. They will be able to directly view & edit the study during the submission process and all correspondence will be directly to them. They will also be the main contact once the study is public. <br> You can change the study owenership to your colleague. They should create a MetaboLights account and then you can make him/her as study submitter",
                         "visible": true,
                         "img": [{
-                            "url": "image3.png",
-                            "description": ""
+                            "url": "submitter1.png",
+                            "description": "Change study submitter "
                         }],
                         "video": []
                     },
                     {
-                        "title": "Edit existing study",
-                        "content": "All studies can be edited directly online. There are 2 ways to enter the edit mode; <br/>In My Studies page select the Study overview option below the study information. *This is also available from the Guided submission mode, look for the pop out option in the bottom right corner. <br/>Studies can be edited online or downloaded and edited in eg. Excel. It is important not to remove columns or alter column headers when editing as the format is a fixed requirement. Additional columns can be added by choosing +factor, this should be done online before downloading files. <br/>Some sections of metadata require ontology fields. When adding information using the online options, ontology options will appear as you type. If uploading a file without ontologies added, the online editor will prompt you to select ontologies in the fields above the tables.",
+                        "title": "Give collaborators edit access to the study",
+                        "content": "Authors are added as for a manuscript etc but will not have edit or private access to the study. If you would like edit rights to be given to collaborators they will also need to create an account.  The submitter can then contact us to ask for them to be added to the study. Group or project email addresses can be used to allow shared access to edit a study and link studies more readily.",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Import authers from the publication",
+                        "content": "You also can import authers from the publication:", 
+                        "visible": true,
+                        "img": [],
+                        "video": [{
+                            "url": "person_v_1.mov",
+                            "description": "Import authers from the publication"
+                        }]
+                    },
+                    {
+                        "title": "GDPR",
+                        "content": "The 25th May 2018 marks the introduction across Europe of the General Data Protection Regulation (GDPR). This is the first European wide change in data handling legislation 1995. Current legislation varies from country to country which leads to differences as to how data was handled. The  GDPR needs no national legislation and provides a consistent framework across Europe as to how data must be handled.",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Validation rules",
+                        "content": "<b>ERROR Messgae 1:</b> The last name/surname of the contact. This should be a minimum of 2 characters long",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "",
+                        "content": "<b>ERROR Messgae 2:</b> The first name of the contact. This should be a minimum of 2 characters long",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+
+                    {
+                        "title": "Restful API",
+                        "content": "https://www.ebi.ac.uk/",
                         "visible": true,
                         "img": [{
-                            "url": "image5.png",
-                            "description": "From your study page on the website, select the edit option"
-                        }],
+                                "url": "submitter_post.png",
+                                "description": "POST/Add new Study Submitters"
+                            },
+                            {
+                                "url": "submitter_delete.png",
+                                "description": "DELETE a Study Submitter"
+                            },
+                            {
+                                "url": "contact_get.png",
+                                "description": "GET study Contacts"
+                            },
+                            {
+                                "url": "contact_put.png",
+                                "description": "PUT/update study Contacts"
+                            },
+                            {
+                                "url": "contact_post.png",
+                                "description": "POST/Add new Study Contact"
+                            },
+                            {
+                                "url": "contact_delete.png",
+                                "description": "DELETE study Contact"
+                            }
+                        ],
                         "video": []
                     }
                 ]
