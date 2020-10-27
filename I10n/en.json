@@ -661,7 +661,7 @@
                     },
                     {
                         "title": "Import authers from the publication",
-                        "content": "You also can import authers from the publication:", 
+                        "content": "You also can import authers from the publication:",
                         "visible": true,
                         "img": [],
                         "video": [{
@@ -726,56 +726,130 @@
             },
             "Abstract": {
                 "title": "Abstract",
-                "sort_order": 5,
+                "sort_order": 0,
                 "description": "",
                 "visible": true,
                 "sections": [{
-                    "title": "",
-                    "content": "",
-                    "visible": true,
-                    "img": [{
-                        "url": "image10.png",
-                        "description": ""
-                    }]
-                }]
+                        "title": "Update Abstract from the publication",
+                        "content": "Your MetaboLights study abstract can be updated to match your publication abstract",
+                        "visible": true,
+                        "img": [],
+                        "video": [{
+                            "url": "abstract.mov",
+                            "description": "Import authers from the publication"
+                        }]
+                    },
+                    {
+                        "title": "Formating abstract",
+                        "content": "Within abstract editing section there will be formatting options available as below.",
+                        "visible": true,
+                        "img": [{
+                            "url": "image1.png",
+                            "description": ""
+                        }],
+                        "video": []
+                    },
+
+                    {
+                        "title": "Validation rules",
+                        "content": "<b>ERROR Messgae 1:</b> Study description should be at least 60 characters long. Please use the abstract of the publication.",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+
+                    {
+                        "title": "Restful API",
+                        "content": "You can update the study abstract by using publication API.",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    }
+                ]
             },
             "Publications": {
                 "title": "Publications",
-                "sort_order": 2,
-                "description": "A primary requirement for a MetaboLights study is the inclusion of the raw data. Raw and data should be uploaded and each file linked to the appropriate study though the assay table.",
+                "sort_order": 0,
+                "description": "",
                 "visible": true,
                 "sections": [{
-                        "title": "",
-                        "content": "<br><b>Where do I find upload options</b><br>When using the Guided submission you will be prompted to upload raw files. If you do not have these available at the time you can come back to the same stage of the guided submission from your My Studies page at a later time. Alternatively you can use the upload option in the Files tab of your study in the Online editor view of your study.<br><br> There are 2 file upload methods;<br><br>(1) <b><i>Aspera connect plugin</b></i> (recommended)<br>Aspera is a plugin that is very simple to install in your browser. Select the  Aspera Upload option and then Install plugin. Aspera is a fast way of transferring files which also enables the user to stop the transfer, and later resume where you left off. If you see raw data files in the final upload with .aspx appended, the file upload may have paused. Please open Aspera connect on your computer to check the status of your upload and resume upload if necessary. If the upload has completed you can delete the .aspx appended files or contact us to do so. NB. You may need to contact your local IT support if you do not have privileges to install browser plugins.<br><br>(2) <b><i>FTP</b></i><br>FTP can be used on any computer, either directly from the command line or through a graphical user interface. However, on must computers you have to install an FTP client first. If you are not familiar with using FTP from the command line, we can recommend the free FileZilla tool. Please see the FAQ section on the FileZilla pages for specific details about how this software works.<br>",
+                        "title": "How to add DOI?",
+                        "content": "",
                         "visible": true,
-                        "img": [{
-                                "url": "image43.png",
-                                "description": "Guided submission upload"
-                            },
-                            {
-                                "url": "image45.png",
-                                "description": "Online editor upload"
-                            }
-                        ],
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Import publication details by PMID/DOI",
+                        "content": "",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "publication status",
+                        "content": "",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Validation rules",
+                        "content": "<b>ERROR Messgae 1:</b> Please provide the (tentative) title of your publication. This should be a minimum of 25 characters long.",
+                        "visible": true,
+                        "img": [],
                         "video": []
                     },
                     {
                         "title": "",
-                        "content": "<b>Accepted raw file formats</b><br> eg. .raw, .d, .cdf, open source formats (.mzML, .nmrML) ",
+                        "content": "<b>ERROR Messgae 2:</b> Please only provide the id number, not prefixed with PMID.",
                         "visible": true,
-                        "img": [{
-                            "url": "",
-                            "description": ""
-                        }]
+                        "img": [],
+                        "video": []
                     },
                     {
                         "title": "",
-                        "content": "<b>I can't see my files</b><br>If you have uploaded files but do not see them in your study folder, please try the <i>copy to study folder</i> option on the uploaded files tab and then refresh the page. If this is not successful please contact MetaboLights-help.",
+                        "content": "<b>ERROR Messgae 3:</b> Please provide a list of authors, separated by commas. As appears in the publication, do not include affiliation.",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "",
+                        "content": "<b>ERROR Messgae 4:</b> Please provide the publication status.",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "",
+                        "content": "<b>ERROR Messgae 5:</b> Please provide the publication status of your publication. This should be a minimum of 5 characters long.",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Restful API",
+                        "content": "https://www.ebi.ac.uk/",
                         "visible": true,
                         "img": [{
-                            "url": "image44.png",
-                            "description": ""
-                        }]
+                                "url": "publication_get.png",
+                                "description": "GET study publication"
+                            },
+                            {
+                                "url": "publication_put.png",
+                                "description": "PUT/update study publication"
+                            },
+                            {
+                                "url": "publication_post.png",
+                                "description": "POST/Add new Study publication"
+                            },
+                            {
+                                "url": "publication_delete.png",
+                                "description": "DELETE study publication"
+                            }
+                        ],
+                        "video": []
                     }
                 ]
             },
