@@ -855,86 +855,93 @@
             },
             "Keywords": {
                 "title": "Keywords",
-                "sort_order": 3,
+                "sort_order": 0,
                 "description": "",
                 "visible": true,
                 "sections": [{
-                        "title": "Protocol",
-                        "content": "When you set up an assay the required protocol fields are automatically generated, these must be completed using the Edit Description option and cannot be deleted or renamed.",
-                        "visible": true,
-                        "img": []
-                    },
-                    {
-                        "title": "",
-                        "content": "You can add further protocol sections which can be edited, named and also deleted.",
+                        "title": "Add keyword",
+                        "content": "",
                         "visible": true,
                         "img": [],
                         "video": []
                     },
                     {
-                        "title": "",
-                        "content": "Within each protocol section there will be formatting options available as below.",
-                        "visible": true,
-                        "img": [{
-                            "url": "image1.png",
-                            "description": ""
-                        }],
-                        "video": []
-                    },
-                    {
-                        "title": "Ontologies",
-                        "content": "Where possible terms are supported by controlled vocabularies / ontologies. Simply start to type and if available, options will appear below and you can select the appropriate term. If the term you are looking for does not appear, simply press enter and the text to add it as free text. ",
-                        "visible": true,
-                        "img": [{
-                            "url": "image8.png",
-                            "description": ""
-                        }],
-                        "video": []
-                    },
-                    {
-                        "title": "",
-                        "content": "Where ontologies have not been added within tables a section will appear above the table to highlight terms. Simply click edit option to add on.",
-                        "visible": true,
-                        "img": [{
-                            "url": "image7.png",
-                            "description": ""
-                        }],
-                        "video": []
-                    },
-                    {
-                        "title": "Editing tables",
+                        "title": "Why do we need to add Keywords?",
                         "content": "",
                         "visible": true,
-                        "img": [{
-                            "url": "image42.png",
-                            "description": ""
-                        }],
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Are there any limits on the number of keywords?",
+                        "content": "",
+                        "visible": true,
+                        "img": [],
                         "video": []
                     }
                 ]
             },
             "Factors": {
                 "title": "Factors",
-                "sort_order": 4,
+                "sort_order": 0,
                 "description": "",
                 "visible": true,
                 "sections": [{
-                        "title": "",
-                        "content": "A study must pass validation to be progressed to the curation stage. If the validations have been unsuccessful this will appear at the top of the study. Further information can then be found in the Study Validations tab.",
+                        "title": "What is a factor?",
+                        "content": "",
                         "visible": true,
-                        "img": [{
-                            "url": "image4.png",
-                            "description": ""
-                        }]
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Add factor",
+                        "content": "",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Add factor to the sample sheet",
+                        "content": "",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Validation rules",
+                        "content": "<b>ERROR Messgae 1:</b> Could not find any factors.",
+                        "visible": true,
+                        "img": [],
+                        "video": []
                     },
                     {
                         "title": "",
-                        "content": "Within the validations tab you can select to view the different validation levels. <br/>Each validation is listed according to the section it belongs eg. publication, sample table, assay, files.<br/>All errors must be resolved to progress. Please contact us if you need assistance to resolve an error.",
+                        "content": "<b>ERROR Messgae 2:</b> Please provide a valid ontology term for the factor. This should be a minimum of 5 characters long.",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Restful API",
+                        "content": "https://www.ebi.ac.uk/",
                         "visible": true,
                         "img": [{
-                            "url": "image28.png",
-                            "description": ""
-                        }],
+                                "url": "factor_get.png",
+                                "description": "GET study factors"
+                            },
+                            {
+                                "url": "factor_put.png",
+                                "description": "PUT/update study factor"
+                            },
+                            {
+                                "url": "factor_post.png",
+                                "description": "POST/Add new Study factor"
+                            },
+                            {
+                                "url": "factor_delete.png",
+                                "description": "DELETE study factor"
+                            }
+                        ],
                         "video": []
                     }
                 ]
