@@ -626,7 +626,14 @@
                     },
                     {
                         "title": "",
-                        "content": "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can update the title of your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://wwwdev.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23' target='_blank'><strong>GET</strong></a>, <a href='https://wwwdev.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24' target='_blank'><strong>PUT</strong></a> using our swagger interface. Please note that you would need an active MetaboLights account and API Key to access the API.</div>",
+                        "content": "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can update the title of your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://wwwdev.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23' target='_blank'><strong>GET</strong></a>, <a href='https://wwwdev.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24' target='_blank'><strong>PUT</strong></a> using our <a href='https://wwwdev.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "",
+                        "content": "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
                         "visible": true,
                         "img": [],
                         "video": []
