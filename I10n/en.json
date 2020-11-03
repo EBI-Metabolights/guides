@@ -583,13 +583,24 @@
                 "sort_order": 0,
                 "description": "",
                 "visible": true,
-                "sections": [{
-                        "title": "Add title",
-                        "content": "You can add the title when you create a new study. Study title should be at least 8 characters long. Please use the same title as the first publication.",
+                "sections": [
+                    {
+                        "title": "",
+                        "content": "Study title should summarize your study. A good title contains the fewest possible words that adequately describe the contents and/or purpose of your research. It is recommended to use the same title as the first publication.",
+                        "visible": true,
+                        "img": [],
+                        "video": []
+                    },
+                    {
+                        "title": "Add Study title",
+                        "content": "You can add the title when you create a new study through guided submission or in the full study overview.",
                         "visible": true,
                         "img": [{
                             "url": "title1.jpg",
-                            "description": "Add a title when you create a new study"
+                            "description": "Add a title in the guided submission"
+                        },{
+                            "url": "title_full_study_view.png",
+                            "description": "Add a title in full study view"
                         }],
                         "video": []
                     },
@@ -607,25 +618,17 @@
                         }]
                     },
                     {
-                        "title": "Validation Rules",
-                        "content": "<b>ERROR Messgae 1:</b> Study title should be at least 8 characters long. Please use the same title as the first publication.<br> Please update your study title with required length.",
+                        "title": "Validation Rules:",
+                        "content": "<ul><li>- Study title should be at least 8 characters long.</li></ul>",
                         "visible": true,
                         "img": [],
                         "video": []
                     },
                     {
-                        "title": "Restful API",
-                        "content": "https://www.ebi.ac.uk/",
+                        "title": "",
+                        "content": "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can update the title of your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://wwwdev.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23' target='_blank'><strong>GET</strong></a>, <a href='https://wwwdev.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24' target='_blank'><strong>PUT</strong></a> using our swagger interface. Please note that you would need an active MetaboLights account and API Key to access the API.</div>",
                         "visible": true,
-                        "img": [{
-                                "url": "title_get.png",
-                                "description": "GET study title"
-                            },
-                            {
-                                "url": "title_put.png",
-                                "description": "PUT/update study title"
-                            }
-                        ],
+                        "img": [],
                         "video": []
                     }
                 ]
