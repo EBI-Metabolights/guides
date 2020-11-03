@@ -613,7 +613,7 @@
                             "description": "update study title with online editor"
                         }],
                         "video": [{
-                            "url": "title_v_1.mov",
+                            "url": "assets/videos/201904_ML_ALL.mp4",
                             "description": "change study title from the publication details"
                         }]
                     },
