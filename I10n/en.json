@@ -724,7 +724,7 @@
         ]
       }
     },
-    "Descriptors" : {
+    "Study Description" : {
       "Title" : {
         "title" : "Study title",
         "sort_order" : 0,
@@ -882,6 +882,13 @@
         "visible" : true,
         "sections" : [
           {
+            "title" : "",
+            "content" : "Study abstract should briefly summarize your study, including 1) The overall purpose of the study; 2)The basic design of the study; 3)Major findings or trends found as a result of your analysis; 4)A brief summary. <br>It is recommended to use the same abstract as the publication. ",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
             "title" : "Update Abstract from the publication",
             "content" : "Your MetaboLights study abstract can be updated to match your publication abstract",
             "visible" : true,
@@ -1000,7 +1007,7 @@
           },
           {
             "title" : "Add keyword",
-            "content" : "To add new keywords to your study, you can click the +Add in keywords section. If the input term can’t match to any of our ontology control vocabulary, type your plain text and press enter to accept (then OK to add to the keyword).",
+            "content" : "To add new keywords to your study, you can click the +Add in keywords section. Type the keyword and use the drop down to select the most relevant ontology term. If the input term can’t match to any of our ontology control vocabulary, type your plain text and press enter to accept (then OK to add to the keyword).",
             "visible" : true,
             "img" : [{
               "url" : "keywords.png",
@@ -1031,7 +1038,7 @@
           },
           {
             "title" : "Add a factor",
-            "content" : "You can add study factors by click the +Add factor button in Factors section.",
+            "content" : "You can add study factors by click the +Add factor button in Factors section. Type the factor term and use the drop down to select the most relevant ontology term. If there is no ontology term avaliable, type your free text and press enter to accept (then OK to add to the factor).",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -1076,6 +1083,13 @@
                 "description" : "add factor to sample sheet"
               }
             ]
+          },
+          {
+            "title" : "Delete factor from the sample sheet",
+            "content" : "To delete the factor, you can download the sample file to remove associated column(s), and re-upload the modified file.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
           },
           {
             "title" : "Validation rules",
