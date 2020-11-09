@@ -1109,7 +1109,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "Study title should summarize your study. A good title contains the fewest possible words that adequately describe the contents and/or purpose of your research. It is recommended to use the same title as the first publication.",
+            "content" : "The sample information should provide all relevant facts about each sample and any controls / standards included in the study. There is ONE sample sheet per study. \nSample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment)",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1154,14 +1154,14 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "Study title should summarize your study. A good title contains the fewest possible words that adequately describe the contents and/or purpose of your research. It is recommended to use the same title as the first publication.",
+            "content" : "The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study. <br><br>\n\nThe assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
             "title" : "Validation Rules:",
-            "content" : "<ul><li>- At least one assay file in the study. </li></ul>\n<ul><li>- All the referenced assay files can be found. </li></ul>\n<ul><li>- No empty column names in the assay spreadsheet. </li></ul>\n<ul><li>- Template columns in the relevant assay sheet can not be removed. </li></ul>\n<ul><li>- Required columns completely can not be empty. </li></ul>\n<ul><li>- Are some required rows not filled in. </li></ul>\n<ul><li>- Sample names that are allreferenced in assays. </li></ul>\n<ul><li>- Raw or Derived files exsited in MS study. </li></ul>\n<ul><li>- Derived, fid or acqu files exsited in NMR study. </li></ul>\n<ul><li>- Are there more sample rows than assay rows. </li></ul>\n<ul><li>- Assay files are referenced of the correct type. </li></ul>\n",
+            "content" : "<ul><li>- At least one assay file in the study. </li></ul>\n<ul><li>- All the referenced assay files can be found. </li></ul>\n<ul><li>- No empty column names in the assay spreadsheet. </li></ul>\n<ul><li>- Template columns in the relevant assay sheet can not be removed. </li></ul>\n<ul><li>- Required columns can not be empty. </li></ul>\n<ul><li>- Sample names that are allreferenced in assays. </li></ul>\n<ul><li>- Raw or Derived files exsited in MS study. </li></ul>\n<ul><li>- Derived, fid or acqu files exsited in NMR study. </li></ul>\n<ul><li>- Are there more sample rows than assay rows. </li></ul>\n<ul><li>- Assay files are referenced of the correct type. </li></ul>\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1192,7 +1192,8 @@
     },
     "MAF" : {
       "Title" : {
-        "title" : "Study title",
+        "title" : "MAF",
+        "content" : "Each assay has a corresponding metabolite table. If results are cumulative of multiple assays, use the metabolite assignment file column in the assay table to point all assays to the same m_MTBLSxxx.tsv file name.\n\nThe metabolite information should include all metabolites / unknowns / features identified within the study.",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
