@@ -821,7 +821,7 @@
           },
           {
             "title" : "GDPR",
-            "content" : "The 25th May 2018 marks the introduction across Europe of the General Data Protection Regulation (GDPR). This is the first European wide change in data handling legislation 1995. Current legislation varies from country to country which leads to differences as to how data was handled. The  GDPR needs no national legislation and provides a consistent framework across Europe as to how data must be handled. find more about <a target='_blank' href='https://www.ebi.ac.uk/about/technology/2017/04/general-data-protection-regulation-gdpr/ '>EBI GDPR policy</a>.",
+            "content" : "The 25th May 2018 marks the introduction across Europe of the General Data Protection Regulation (GDPR). This is the first European wide change in data handling legislation 1995. Current legislation varies from country to country which leads to differences as to how data was handled. The  GDPR needs no national legislation and provides a consistent framework across Europe as to how data must be handled. <br><br>\n\nSince the GDPR regulations came into effect in May 2018 we have not observed significant changes in the submissions of human studies, many of which are urine, blood or tissue based. Within a submission there are varying levels of data requirement. Our primary requirement is the raw data set and, where we encourage as complete corresponding metadata as possible for the purposes of reanalysis, our basic requirement would involve only accompanying organism and organism part. Further information regarding the submission process can be viewed on our help page and the institutes data protection policy can be found here.<br><br>\n\nIn response to the wider metabolomics profile ethical debate and its increasing importance in clinical research, we are developing a controlled access version of MetaboLights. This will allow researchers to submit more restricted data which will then be available to others through ethics board approval, however this will not be in place until 2021 at the earliest. This will follow the model of the already existing European Genome-Phenome Archive (Submission FAQs and GDPR notice).<br><br>\n\nFind more about <a target='_blank' href='https://www.ebi.ac.uk/about/technology/2017/04/general-data-protection-regulation-gdpr/ '>EBI GDPR policy</a>.",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1193,14 +1193,14 @@
     "MAF" : {
       "Title" : {
         "title" : "MAF",
-        "content" : "Each assay has a corresponding metabolite table. If results are cumulative of multiple assays, use the metabolite assignment file column in the assay table to point all assays to the same m_MTBLSxxx.tsv file name.\n\nThe metabolite information should include all metabolites / unknowns / features identified within the study.",
+        "content" : "",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "Study title should summarize your study. A good title contains the fewest possible words that adequately describe the contents and/or purpose of your research. It is recommended to use the same title as the first publication.",
+            "content" : "Each assay has a corresponding metabolite table (referenced in the metabolite assignment file column). When you created your assay a corresponding metabolite annotation file will add to your study and referenced automatically (m_MTBLSxxx.tsv). The metabolite information should include all metabolites / unknowns / features identified within the study.<br>\n\nIf results are cumulative of multiple assays, use the metabolite assignment file column in the assay table to point all assays to the same m_MTBLSxxx.tsv file name.\n\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1278,6 +1278,13 @@
               }
             ],
             "video" : []
+          },
+          {
+            "title" : "Upload file to a subfolder",
+            "content" : "",
+            "visible" : true,
+            "img" : [],
+            "video" : []
           }
         ]
       },
@@ -1309,6 +1316,21 @@
           {
             "title" : "3. API download",
             "content" : "You can view/download files by using our webservice: typing https://www.ebi.ac.uk/metabolights/ws/studies/&lt;studyid&gt;/&lt;filename&gt; to your browser address bar. <br> <br>\n<div class='notification is-primary'> <b>MataboLights APIs</b> - You also can get Get ISA-Tab Investigation/Assay/Sample files programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API. - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8' target='_blank'><strong>GET_Investigation</strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10' target='_blank'><strong>GET_Assay </strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9' target='_blank'><strong>GET_Sample </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          }
+        ]
+      },
+      "Other" : {
+        "title" : "Other\n",
+        "sort_order" : 1,
+        "description" : "\n",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "Accepted Derived / raw file formats",
+            "content" : "Derived file formats: '.mzml', '.nmrml', '.mzxml', '.xml', '.mzdata', '.cef', '.cnx', '.peakml', '.xy', '.smp', '.scan' <br>\nRaw file formats:  '.d', '.raw', '.idb', '.cdf', '.wiff', '.scan', '.dat', '.cmp', '.cdf.cmp', '.lcd', '.abf', '.jpf', '.xps', '.mgf'\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1396,6 +1418,13 @@
           {
             "title" : "> Error: No raw or derived files found in assay",
             "content" : "The online editor by default recognises and lists only the root level files/folders.  Please organise your raw files and derived files in the subfolders and specify the full path in the assay sheets. <br>\nExample:<br>\nDERIVED_FILES/subfolder/file.mzml<br>\nRAW_FILES/subfolder/folder.d<br>\n",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "> Do you accept Excel format?\n",
+            "content" : "We support metabolite identification information reported as tab separated values (tsv file - <a href = 'https://isa-tools.org'>ISA</a> ) ",
             "visible" : true,
             "img" : [],
             "video" : []
