@@ -1461,7 +1461,21 @@
           },
           {
             "title" : "> Error: All Raw and Derived Spectral Data Files are missing from assay.",
-            "content" : "Please upload associate raw file and populate the 'RAW Spectral Data File' column with the names of the appropriate .raw file for the sample in your Assays. ",
+            "content" : "Please upload associate raw files and populate the 'RAW Spectral Data File' column with the names of the appropriate .raw file for the sample in your Assays. ",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "> What is the difference between \"Raw Spectral Data File\" and \"Derived Spectral Data File\"?",
+            "content" : "\"Raw Spectral Data File” are the files directly from the analysis platform. <br>\n\"Derived Spectral Data File” include opensource converted files (eg. your mzML) or any other derived file you may wish to include.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "> How can replicates be defined in the assay table? ",
+            "content" : "You could add an additional column to your assays called ‘replicate' which you might prefer to make a clear distinction that it is a replicate.",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1477,6 +1491,20 @@
           {
             "title" : "How can I add the columns to include the peak area of each metabolite identified per sample?",
             "content" : "Please download the MAF sheet, and edit it locally, e.g. Excel. You can add sample columns to the right end of the sheet and fill in the peak area values to the relevant sample columns in the relevant metabolite rows. Save and then re-upload MAF to your study. ",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "Where are the units of the final entries in the maf file defined? ",
+            "content" : "The MAF table values are generally given as either direct reads from the analysis platform or values normalised to controls. There is no unit fields defined.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "> If we enter several retention times (for different batches which are defined in the sample table), can they all be entered in the retention time column of the maf file separated by slashes?",
+            "content" : "You can add these as new rows if you want to specify the RT for each sample or separated with a pipeline “ | “ .",
             "visible" : true,
             "img" : [],
             "video" : []
