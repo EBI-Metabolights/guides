@@ -1350,6 +1350,13 @@
             "video" : []
           },
           {
+            "title" : "> Can I upload compressed file (*.zip)?",
+            "content" : "If your data is huge, compression definitely helps especially if you are using FTP. We are okay with both compressed or uncompressed RAW files. If you upload compressed .zip files, please let us know when you have finished uploading all your files. We will then unzip them for you.\n",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
             "title" : "> Error: Insufficient permissions?",
             "content" : "Please contact us at <a href='mailto:metabolights-help@ebi.ac.uk'>metabolights-help@ebi.ac.uk</a> to resolve this issue.",
             "visible" : true,
