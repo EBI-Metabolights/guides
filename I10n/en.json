@@ -1458,6 +1458,28 @@
             "visible" : true,
             "img" : [],
             "video" : []
+          },
+          {
+            "title" : "> Error: All Raw and Derived Spectral Data Files are missing from assay.",
+            "content" : "Please upload associate raw file and populate the 'RAW Spectral Data File' column with the names of the appropriate .raw file for the sample in your Assays. ",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          }
+        ]
+      },
+      "MAF" : {
+        "title" : "MAF\n",
+        "sort_order" : 0,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "How can I add the columns to include the peak area of each metabolite identified per sample?",
+            "content" : "Please download the MAF sheet, and edit it locally, e.g. Excel. You can add sample columns to the right end of the sheet and fill in the peak area values to the relevant sample columns in the relevant metabolite rows. Save and then re-upload MAF to your study. ",
+            "visible" : true,
+            "img" : [],
+            "video" : []
           }
         ]
       }
