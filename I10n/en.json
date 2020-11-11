@@ -1387,21 +1387,6 @@
           }
         ]
       },
-      "Protocol" : {
-        "title" : "Protocol",
-        "sort_order" : 0,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "> How to add enrich HTML to protocol?",
-            "content" : "",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          }
-        ]
-      },
       "Files" : {
         "title" : "Files",
         "sort_order" : 0,
