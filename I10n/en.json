@@ -713,7 +713,7 @@
             "visible" : true,
             "img" : [
               {
-                "url" : "title1.jpg",
+                "url" : "Title1.jpg",
                 "description" : "Add a title in the guided submission"
               },
               {
@@ -1113,6 +1113,54 @@
             "visible" : true,
             "img" : [],
             "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "Add a new sample",
+            "visible" : true,
+            "img" : [],
+            "video" : [
+              {
+                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/add sample.mov",
+                "description" : "add publication details in full study view"
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "Edit a sample sheet cell",
+            "visible" : true,
+            "img" : [],
+            "video" : [
+              {
+                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/edit a cell.mov",
+                "description" : "add publication details in full study view"
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "Edit a whole sample column",
+            "visible" : true,
+            "img" : [],
+            "video" : [
+              {
+                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/edit a column.mov",
+                "description" : "add publication details in full study view"
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "Delete a sample/row",
+            "visible" : true,
+            "img" : [],
+            "video" : [
+              {
+                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/delete sample.mov",
+                "description" : "add publication details in full study view"
+              }
+            ]
           },
           {
             "title" : "Validation Rules:",
