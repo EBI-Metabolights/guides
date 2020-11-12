@@ -14,7 +14,8 @@
               {
                 "url" : "image36.png"
               }
-            ]
+			],
+			"video" : []
           }
         ]
       },
@@ -90,7 +91,8 @@
                 "url" : "image37.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           },
           {
             "title" : "",
@@ -157,7 +159,8 @@
                 "url" : "image22.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           },
           {
             "title" : "",
@@ -181,7 +184,8 @@
                 "url" : "image22.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           },
           {
             "title" : "",
@@ -192,7 +196,8 @@
                 "url" : "image5.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           },
           {
             "title" : "",
@@ -203,7 +208,8 @@
                 "url" : "image39.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           }
         ]
       },
@@ -222,7 +228,8 @@
                 "url" : "image4.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           },
           {
             "content" : "Further information is available in the <b>Study Validations</b> tab. There are 4 validation flags which can be viewed individually by selecting the drop down menu. This includes <font color='#3cb371'>successful</font>, <font color='#1e90ff'>information</font>, <font color='#ffa500'>warning</font>, <font color='#ff0000'>error</font>. You must address all errors and should also address warnings where applicable to progress your study.",
@@ -232,7 +239,8 @@
                 "url" : "image28.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           }
         ]
       },
@@ -246,7 +254,8 @@
             "title" : "",
             "content" : "<br><u>Study accession number</u><br><br>Each new MetaboLights study is automatically assigned an accession number eg. MTBLS1. This is a permanent unique identifier and should be used to reference the study in manuscripts and other communications.",
             "visible" : true,
-            "img" : []
+			"img" : [],
+			"video" : []
           },
           {
             "title" : "",
@@ -257,7 +266,8 @@
                 "url" : "image12.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           },
           {
             "title" : "",
@@ -268,7 +278,8 @@
                 "url" : "image40.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           },
           {
             "title" : "",
@@ -285,7 +296,8 @@
                 "url" : "image30.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           }
         ]
       }
@@ -382,7 +394,8 @@
                 "url" : "image23.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           }
         ]
       }
@@ -513,7 +526,8 @@
                 "url" : "",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           },
           {
             "title" : "",
@@ -524,7 +538,8 @@
                 "url" : "image44.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           }
         ]
       },
@@ -538,7 +553,8 @@
             "title" : "Protocol",
             "content" : "When you set up an assay the required protocol fields are automatically generated, these must be completed using the Edit Description option and cannot be deleted or renamed.",
             "visible" : true,
-            "img" : []
+			"img" : [],
+			"video" : []
           },
           {
             "title" : "",
@@ -612,7 +628,8 @@
                 "url" : "image4.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           },
           {
             "title" : "",
@@ -643,7 +660,8 @@
                 "url" : "image10.png",
                 "description" : ""
               }
-            ]
+			],
+			"video" : []
           }
         ]
       }
