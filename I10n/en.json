@@ -1079,7 +1079,57 @@
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
-        "sections" : []
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "Protocols are central for reproducibility purposes; Metabolights keeps detailed descriptions of experiments in this section. includes: <br>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "1. Sample collection",
+            "content" : "",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "2. Extraction",
+            "content" : "",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "3. Chromatography/NMR sample",
+            "content" : "",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "4. Mass spectrometry/NMR spectroscopy",
+            "content" : "",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "5. Data transformation",
+            "content" : "Information about how the data is converted from a raw data format.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "6. Metabolite identification",
+            "content" : "",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          }
+        ]
       }
     },
     "Sample" : {
@@ -1188,8 +1238,8 @@
       }
     },
     "Assay" : {
-      "Assay" : {
-        "title" : "Assay",
+      "Assay Overview" : {
+        "title" : "Assay Overview",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
@@ -1218,6 +1268,72 @@
           {
             "title" : "",
             "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can download assay file from your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10' target='_blank'><strong>GET</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          }
+        ]
+      },
+      "NMR Assay" : {
+        "title" : "NMR Assay\n",
+        "sort_order" : 0,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "<table border=\"1\">\n\t<tr>\n\t\t<th>Column Name</th>\n\t\t<th >Description</th>\n\t</tr>\n\t<tr>\n\t\t<td>Sample Name</td>\n\t\t<td>A unique identifier from a particular source (a batch of samples can have a unique sample name but the same\n\t\t\tsource name). It’s usually associated with an output spectral data filename.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF Extraction</td>\n\t\t<td>This is the column marking the start of data pertaining to Extraction . This should be present in every\n\t\t\tsample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Extraction Method]</td>\n\t\t<td>This how a sample was extracted from its source material.</td>\n\t</tr>\n\t<tr>\n\t\t<td>Extract Name</td>\n\t\t<td>Leave blank if you don’t have one.</td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF NMR sample</td>\n\t\t<td>This is the column marking the start of data pertaining to NMR sample . This should be present in every\n\t\t\tsample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[NMR tube type]</td>\n\t\t<td>Size and type of tube e.g. ‘ standard 5 mm glass NMR tube (Wilmad, LabGlass, USA) ’.</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Solvent]</td>\n\t\t<td>Solvent used in the NMR sample</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Sample pH]</td>\n\t\t<td>Sample pH value</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Temperature]</td>\n\t\t<td>Sample Temperature value</td>\n\t</tr>\n\t<tr>\n\t\t<td>Unit</td>\n\t\t<td>With relevant temperature unit e.g. ‘ Kelvin ’ or ‘ Celsius ’</td>\n\t</tr>\n\t<tr>\n\t\t<td>Labeled Extract Name</td>\n\t\t<td>Leave blank if you don’t have one.</td>\n\t</tr>\n\t<tr>\n\t\t<td>Label</td>\n\t\t<td></td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF NMR spectroscopy</td>\n\t\t<td>This is the column marking the start of data pertaining to NMR spectroscopy . This should be present in\n\t\t\tevery sample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Instrument]</td>\n\t\t<td>Add the full name of the instrument you used for the NMR study in this assay, including the model number and\n\t\t\tits operating frequency\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[NMR Probe]</td>\n\t\t<td>Add a full description including the name and type of probe used e.g. ‘ 5 mm CPTCI 1H-13C/15N/D Z-GRD’ .\n\t\t\tThis information can be found in the ‘ Acquisition Parameter Data File ’, ‘ acqus.txt ’ found within the\n\t\t\tBruker raw data file structure, in the field marked ‘ $PROBHD= ’.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Number of transients]</td>\n\t\t<td>The number of scans acquired. This information can be found in the ‘ Acquisition Parameter Data File ’, ‘\n\t\t\tacqus.txt ’ found within the Bruker raw data file structure, in the field marked ‘ $NS= ’.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Pulse sequence name]</td>\n\t\t<td>The pulse sequence program used with a short description.This information can be found in the ‘ Acquisition\n\t\t\tParameter Data File ’, ‘ acqus.txt ’ found within the Bruker raw data file structure, in the field marked ‘\n\t\t\t$PULPROG= ’ and in the file ‘ pulseprogram.txt ’.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Magnetic field strength]</td>\n\t\t<td>In Tesla ( T )</td>\n\t</tr>\n\t<tr>\n\t\t<td>Unit</td>\n\t\t<td>Units can be added in exactly the same way as Temperature unit column</td>\n\t</tr>\n\t<tr>\n\t\t<td>Acquisition Parameter Data File</td>\n\t\t<td>These should contain the acquisition parameter data. In the Bruker raw data file structure, the file is\n\t\t\tcalled ‘ acqus.txt ’.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF NMR assay</td>\n\t\t<td>This is the column marking the start of data pertaining to NMR assay . This should be present in every\n\t\t\tsample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>NMR Assay Name</td>\n\t\t<td></td>\n\t</tr>\n\t<tr>\n\t\t<td>NMR Assay Name</td>\n\t\t<td>This can be, but doesn’t have to be, the same as the ‘ Sample Name ’</td>\n\t</tr>\n\t<tr>\n\t\t<td>Free Induction Decay Data File</td>\n\t\t<td>This is where you should enter, either the folder or the zipped NMR raw files for each sample in this\n\t\t\tstudy\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF Data transformation</td>\n\t\t<td>This is the column marking the start of data pertaining to Data transformation . This should be present in\n\t\t\tevery sample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Normalization name</td>\n\t\t<td>These should contain the normalization data files.</td>\n\t</tr>\n\t<tr>\n\t\t<td>Derived Spectral Data File</td>\n\t\t<td>If your data has been transformed into one of the open-source raw data formats e.g. JCAMP , nmrML , then add\n\t\t\tthem here\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF Metabolite identification</td>\n\t\t<td>This is the column marking the start of data pertaining to Metabolite identification . This should be\n\t\t\tpresent in every sample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Data Transformation Name</td>\n\t\t<td>These should contain the data transformation files</td>\n\t</tr>\n\t<tr>\n\t\t<td>Metabolite Assignment File (MAF)</td>\n\t\t<td>A TSV file containing information about the metabolites investigated in the study. Information regarding\n\t\t\tdatabase accession IDs , where in the spectra the metabolite is found and data pertaining to its abundance\n\t\t\twithin the study samples should be in this file.\n\t\t</td>\n\t</tr>\n</table>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          }
+        ]
+      },
+      "LC_MS Assay" : {
+        "title" : "LC_MS Assay\n",
+        "sort_order" : 0,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study. <br><br>\n\nThe assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          }
+        ]
+      },
+      "GC_MS Assay" : {
+        "title" : "GC_MS Assay",
+        "sort_order" : 0,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study. <br><br>\n\nThe assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.",
             "visible" : true,
             "img" : [],
             "video" : []
