@@ -1,6 +1,6 @@
 {
   "created_at" : "",
-  "updated_at" : "03/11/2020",
+  "updated_at" : "16/11/2020",
   "data" : {
     "Quick_start_Guide" : {
       "Quick_start_guide" : {
@@ -1425,7 +1425,7 @@
           },
           {
             "title" : "Upload file to a subfolder",
-            "content" : "",
+            "content" : "You need to organise files locally in the same folder structure and then upload. This would automatically added it to the corresponding folders in the study",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1452,9 +1452,13 @@
           },
           {
             "title" : "2. Aspera download",
-            "content" : "",
+            "content" : "To download <b>Public</b> study, you can use Aspera download in the file section.",
             "visible" : true,
-            "img" : [],
+            "img" : [
+              {
+                "url" : "aspera download.png"
+              }
+            ],
             "video" : []
           },
           {
@@ -1554,6 +1558,20 @@
           {
             "title" : "> Do you accept Excel format?\n",
             "content" : "We support metabolite identification information reported as tab separated values (tsv file - <a href = 'https://isa-tools.org'>ISA</a> ) ",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "> How can I move files from one folder to another?",
+            "content" : "Please contact us at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> to let us to move the files for you. Alternatively you can delete the files and reupload again in the right folder location",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "> Can I upload self-defined folder to the study?",
+            "content" : "You can structure the data in what ever the way you would like to in the study. We recommend you uploading RAW files in to the RAW_FILES folder and similarlu Derived files into the DERIVED_FILES folder.",
             "visible" : true,
             "img" : [],
             "video" : []
