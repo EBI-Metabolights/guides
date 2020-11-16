@@ -1193,6 +1193,13 @@
             ]
           },
           {
+            "title" : "Delete a added column",
+            "content" : "To delete the added column, you can download the sample file to remove associated column(s), and re-upload the modified file. <b> It is important not to remove original columns came with the study or alter column headers when editing as the format is a fixed requirement. </b>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
             "title" : "Validation Rules:",
             "content" : "<ul><li>- Sample columns present in sample file</li></ul>\n<ul><li>- \"Sample collection\" column completely filled in</li></ul>\n<ul><li>- No empty rows in sample file</li></ul>\n<ul><li>- Organism name should be at least 5 characters long.</li></ul>\n<ul><li>- Organism cannot be 'human' or 'man', please choose the 'Homo sapiens' taxonomy term</li></ul>\n<ul><li>- Organism cannot be one of the invalid terms.</li></ul>\n<b>Invalid organism term:</b> cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown\n",
             "visible" : true,
@@ -1599,13 +1606,6 @@
         "description" : "",
         "visible" : true,
         "sections" : [
-          {
-            "title" : "> Error: Sample name <sample name> is not used in any assay",
-            "content" : "",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
           {
             "title" : "> Error: All Raw and Derived Spectral Data Files are missing from assay.",
             "content" : "Please upload associate raw files and populate the 'RAW Spectral Data File' column with the names of the appropriate .raw file for the sample in your Assays. ",
