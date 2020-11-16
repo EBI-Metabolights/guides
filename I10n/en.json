@@ -1082,49 +1082,35 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "Protocols are central for reproducibility purposes; Metabolights keeps detailed descriptions of experiments in this section. includes: <br>",
+            "content" : "Protocols are central for reproducibility purposes; Metabolights keeps detailed descriptions of experiments in this section. includes: <br>\n1. Sample collection<br>\n2. Extraction<br>\n3. Chromatography/NMR sample<br>\n4. Mass spectrometry/NMR spectroscopy<br>\n5. Data transformation<br>\n6. Metabolite identification<br>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "1. Sample collection",
-            "content" : "",
+            "title" : "Validation rules",
+            "content" : "<ul><li>- The protocol should be at least 40 characters long.</li></ul>\n<ul><li>- The protocol name should be at least 8 characters long.</li></ul>\n<ul><li>- All expected protocol should be defined</li></ul>\n<ul><li>- All characters should be printable in the protocl description, ie. non UTF-8 compatible characters</li></ul>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "2. Extraction",
-            "content" : "",
+            "title" : "",
+            "content" : "<div class='notification is-primary'><b>MataboLights APIs</b> - You can get/add/update/delete protocol of your study\n\tprogrammatically using our APIs. <br> Try the MetaboLights factor API - <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37'\n\t\t\ttarget='_blank'><strong>GET</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34'\n\t\t\ttarget='_blank'><strong>POST</strong></a>, <a\n\t\t\thref='https://https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35'\n\t\t\ttarget='_blank'><strong>PUT</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33'\n\t\t\ttarget='_blank'><strong>DELETE</strong></a> using our <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>.\n\t<br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the\n\t\tAPI.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "3. Chromatography/NMR sample",
-            "content" : "",
+            "title" : "",
+            "content" : "<div class='notification is-primary'><b>MataboLights APIs</b> - You can get protocol and assay mappings for your study\n\tprogrammatically using our APIs. <br> Try the MetaboLights factor API - <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/Get_assays_linked_to_protocols_for_a_given_study'\n\t\t\ttarget='_blank'><strong>GET</strong></a>using our <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>.\n\t <br><i><small>Please note that you would need an active MetaboLights account and API Key to access the\n\t\tAPI.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "4. Mass spectrometry/NMR spectroscopy",
-            "content" : "",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "5. Data transformation",
-            "content" : "Information about how the data is converted from a raw data format.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "6. Metabolite identification",
-            "content" : "",
+            "title" : "",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1311,7 +1297,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study. <br><br>\n\nThe assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.",
+            "content" : "<table border=\"1\">\n\t<tr>\n\t\t<th>Column Name</th>\n\t\t<th>Description</th>\n\t</tr>\n\t<tr>\n\t\t<td>Sample Name</td>\n\t\t<td>A unique identifier from a particular source (a batch of samples can have a unique sample name but the same\n\t\t\tsource name). It’s usually associated with an output spectral data filename.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF Extraction</td>\n\t\t<td>This is the column marking the start of data pertaining to Extraction. This should be present in every\n\t\t\tsample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Post Extraction]</td>\n\t\t<td>This how the sample was extracted into a solvent prior to being injected into the analytical instrument of\n\t\t\tchoice.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Derivatization]</td>\n\t\t<td>If the sample has been subjected to chemical modification prior to injection, for instance: ‘sylilation’,\n\t\t\t‘acetylation’, ‘alkylation’.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Extract Name</td>\n\t\t<td>Leave blank if you don’t have one.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF Chromatography</td>\n\t\t<td>This is the column marking the start of data pertaining to Chromatography . This should be present in every\n\t\t\tsample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Chromatography Instrument]</td>\n\t\t<td>Add the full name of the instrument you used for the Chromatographic part of this assay, including the\n\t\t\tmanufacturer and model number as reported in manufacturer’s brochures, user manuals, or on their website\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Column model]</td>\n\t\t<td>Manufacturer, model number and dimensions in the format shown in the following examples: ‘HSS T3 C18 (1.8\n\t\t\tμm, 1.0 x 100 mm; Waters)’, ‘Hypersil GOLD C18 (1.9 μm, 2.1 mm x 150 mm; Thermo Scientific)’\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Column type]</td>\n\t\t<td>Type or phase of column used, e.g. ‘reverse phase’,‘normal phase’.</td>\n\t</tr>\n\t<tr>\n\t\t<td>Labeled Extract Name</td>\n\t\t<td>Leave blank if you don’t have one.</td>\n\t</tr>\n\t<tr>\n\t\t<td>Label</td>\n\t\t<td>If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye\n\t\t\twhich is bound to a material in order to make it detectable in an analytical instrument then enter it here.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF Mass spectrometry</td>\n\t\t<td>This is the column marking the start of data pertaining to Mass spectrometry. This should be present in\n\t\t\tevery sample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Scan polarity]</td>\n\t\t<td>this should be ‘positive’, ‘negative’ or ‘alternating’ for a LC/MS assay. Values should identical within\n\t\t\teach assay. If you have ‘positive’ or ‘negative’ values in the same assay then split them into separate\n\t\t\t‘positive’ and ‘negative’ assays.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Scan m/z range]</td>\n\t\t<td>The range used in the assay e.g. ’100-1000’.</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Instrument]</td>\n\t\t<td>Add the full name of the mass spectrometer/detector you used for this LC/MS assay, including the instrument\n\t\t\tmanufacturer and model number as reported in manufacturer’s brochures, user manuals, or on their website\n\t\t\te.g. ‘Bruker micrOTOF-Q II’, ‘LTQ Orbitrap Discovery’, ‘Thermo Scientific Exactive’.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Ion source]</td>\n\t\t<td>Where applicable to the instrument.</td>\n\t</tr>\n\t<tr>\n\t\t<td>Parameter Value[Mass analyzer]</td>\n\t\t<td>The analyser/detector of the mass fragments generated during the assay,</td>\n\t</tr>\n\t<tr>\n\t\t<td>MS Assay Name</td>\n\t\t<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>\n\t</tr>\n\t<tr>\n\t\t<td>Raw Spectral Data File</td>\n\t\t<td>This is where you should enter the Raw (unprocessed) MS data files ( .RAW )</td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF Data transformation</td>\n\t\t<td>This is the column marking the start of data pertaining to Data transformation . This should be present in\n\t\t\tevery sample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Normalization name</td>\n\t\t<td>these should contain the normalization data files preferably as an Excel spreadsheet file e.g.\n\t\t\t‘MSpos-Ex1-Col0-48h-Ag_normalized_data.xlsx’ or a text file. If you don’t have these then leave the\n\t\t\tcells/column blank.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Derived Spectral Data File</td>\n\t\t<td>If your data has been transformed into one of the open-source raw data formats e.g. mzML , CDF, or any other\n\t\t\tconverted file, then add them here\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Protocol REF Metabolite identification</td>\n\t\t<td>This is the column marking the start of data pertaining to Metabolite identification. This should be\n\t\t\tpresent in every sample row.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Data Transformation Name</td>\n\t\t<td>These should contain the data transformation files</td>\n\t</tr>\n\t<tr>\n\t\t<td>Metabolite Assignment File (MAF)</td>\n\t\t<td>A TSV file containing information about the metabolites investigated in the study. Information regarding\n\t\t\tdatabase accession IDs , where in the spectra the metabolite is found and data pertaining to its abundance\n\t\t\twithin the study samples should be in this file.\n\t\t</td>\n\t</tr>\n</table>",
             "visible" : true,
             "img" : [],
             "video" : []
