@@ -1582,6 +1582,13 @@
             "visible" : true,
             "img" : [],
             "video" : []
+          },
+          {
+            "title" : ">  How can I recover deleted files？",
+            "content" : "Please contact us directly at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> , we will help you to restore the deleted files.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
           }
         ]
       },
