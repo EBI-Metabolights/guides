@@ -432,7 +432,7 @@
           },
           {
             "title" : "Sample information (s_MTBLSxxx.txt)",
-            "content" : "The sample information should provide all relevant facts about each sample and any controls / standards included in the study. There is ONE sample sheet per study. <br/>Sample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment)",
+            "content" : "The sample information should provide all relevant facts about each sample and any controls / standards included in the study. There is ONE sample sheet per study. <br/>Sample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -920,7 +920,7 @@
           },
           {
             "title" : "publication status",
-            "content" : "- In preparation: Publication in preparation before submitting to a journal. <br>\n- Submitted: Publication submitted to a journal.<br>\n- Preprint: publications that have URL/DOI for an online copy that can be viewed by anyone but is not the final version<br>\n- Published: Publication published in a journal.<br>\n",
+            "content" : "- In preparation: Publication in preparation before submitting to a journal. <br>\n- Submitted: Publication submitted to a journal.<br>\n- Preprint: publications that have URL/DOI for an online copy that can be viewed by anyone but is not the final version.<br>\n- Published: Publication published in a journal.<br>\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -956,7 +956,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "Effective keywords for your study portray an accurate representation of what you publish. It also helps MetaboLights search to indexes the study. Keywords should:<br> -Represent the content of your manuscript <br> -Be specific to your field or sub-field",
+            "content" : "Effective keywords for your study portray an accurate representation of what you publish. It also helps MetaboLights search to indexes the study. Keywords should:<br> - Represent the content of your manuscript <br> - Be specific to your field or sub-field",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1008,7 +1008,7 @@
           },
           {
             "title" : "Check factor details",
-            "content" : "You can check factor details by click the term in Factors section",
+            "content" : "You can check factor details by click the term in Factors section.",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -1089,7 +1089,7 @@
           },
           {
             "title" : "Validation rules",
-            "content" : "<ul><li>- The protocol should be at least 40 characters long.</li></ul>\n<ul><li>- The protocol name should be at least 8 characters long.</li></ul>\n<ul><li>- All expected protocol should be defined</li></ul>\n<ul><li>- All characters should be printable in the protocol description, ie. non-UTF-8 compatible characters</li></ul>",
+            "content" : "<ul><li>- The protocol should be at least 40 characters long.</li></ul>\n<ul><li>- The protocol name should be at least 8 characters long.</li></ul>\n<ul><li>- All expected protocol should be defined.</li></ul>\n<ul><li>- All characters should be printable in the protocol description, ie. non-UTF-8 compatible characters.</li></ul>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1201,7 +1201,7 @@
           },
           {
             "title" : "Validation Rules:",
-            "content" : "<ul><li>- Sample columns present in the sample file</li></ul>\n<ul><li>- \"Sample collection\" column completely filled in</li></ul>\n<ul><li>- No empty rows in sample file</li></ul>\n<ul><li>- Organism name should be at least 5 characters long.</li></ul>\n<ul><li>- Organism cannot be 'human' or 'man', please choose the 'Homo sapiens' taxonomy term</li></ul>\n<ul><li>- Organism cannot be one of the invalid terms.</li></ul>\n<b>Invalid organism term:</b> cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matrix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown\n",
+            "content" : "<ul><li>- Sample columns present in the sample file.</li></ul>\n<ul><li>- \"Sample collection\" column completely filled in.</li></ul>\n<ul><li>- No empty rows in sample file.</li></ul>\n<ul><li>- Organism name should be at least 5 characters long.</li></ul>\n<ul><li>- Organism cannot be 'human' or 'man', please choose the 'Homo sapiens' taxonomy term.</li></ul>\n<ul><li>- Organism cannot be one of the invalid terms.</li></ul>\n<b>Invalid organism term:</b> cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matrix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown.\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1432,7 +1432,7 @@
           },
           {
             "title" : "Upload file to a subfolder",
-            "content" : "You need to organise files locally in the same folder structure and then upload. This would automatically add it to the corresponding folders in the study",
+            "content" : "You need to organise files locally in the same folder structure and then upload. This would automatically add it to the corresponding folders in the study.",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1470,7 +1470,7 @@
           },
           {
             "title" : "3. API download",
-            "content" : "You can view/download files by using our web service: typing https://www.ebi.ac.uk/metabolights/ws/studies/&lt;studyid&gt;/&lt;filename&gt; to your browser address bar. <br> <br>\n<div class='notification is-primary'> <b>MataboLights APIs</b> - You also can get Get ISA-Tab Investigation/Assay/Sample files programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API. - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8' target='_blank'><strong>GET_Investigation</strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10' target='_blank'><strong> GET_Assay </strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9' target='_blank'><strong> GET_Sample </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "You can view/download files by using our web service: typing <font color='#1e90ff'>https://www.ebi.ac.uk/metabolights/ws/studies/&lt;studyid&gt;/&lt;filename&gt;</font> to your browser address bar. <br> <br> \n<div class='notification is-primary'> <b>MataboLights APIs</b> - You also can get Get ISA-Tab Investigation/Assay/Sample files programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API. - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8' target='_blank'><strong>GET_Investigation</strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10' target='_blank'><strong> GET_Assay </strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9' target='_blank'><strong> GET_Sample </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1485,7 +1485,7 @@
         "sections" : [
           {
             "title" : "Accepted Derived / raw file formats",
-            "content" : "Derived file formats: '.mzml', '.nmrml', '.mzxml', '.xml', '.mzdata', '.cef', '.cnx', '.peakml', '.xy', '.smp', '.scan' <br>\nRaw file formats:  '.d', '.raw', '.idb', '.cdf', '.wiff', '.scan', '.dat', '.cmp', '.cdf.cmp', '.lcd', '.abf', '.jpf', '.xps', '.mgf'\n",
+            "content" : "<b>Derived file formats:</b> mzml, nmrml, mzxml, xml, mzdata, cef, cnx, peakml, xy, smp, scan <br>\n<b>Raw file formats: </b> d, raw, idb, cdf, wiff, scan, dat, cmp, cdf.cmp, lcd, abf, jpf, xps, mgf\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1564,7 +1564,7 @@
           },
           {
             "title" : "> Do you accept Excel format?\n",
-            "content" : "We support metabolite identification information reported as tab-separated values (tsv file - <a href = 'https://isa-tools.org'>ISA</a> ) ",
+            "content" : "We support metabolite identification information reported as tab-separated values (tsv file - <a href = 'https://isa-tools.org'>ISA</a> ) .",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1600,7 +1600,7 @@
         "sections" : [
           {
             "title" : "> What is the difference between sample name and source name?",
-            "content" : "<b>Source Name</b> is a general name that reflects the origin of the samples, e.g urine or serum. <br>\r<b>Sample Name</b>  is the most important element in the ISA-Tab structure that will link everything together. This should be a unique individual name to the sample that has been used throughout the study",
+            "content" : "<b>Source Name</b> is a general name that reflects the origin of the samples, e.g urine or serum. <br>\r<b>Sample Name</b>  is the most important element in the ISA-Tab structure that will link everything together. This should be a unique individual name to the sample that has been used throughout the study.",
             "visible" : true,
             "img" : [],
             "video" : []
