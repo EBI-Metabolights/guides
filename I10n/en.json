@@ -770,7 +770,7 @@
           },
           {
             "title" : "Import authers from the publication",
-            "content" : "You also can import authers from the publication:",
+            "content" : "You also can import authors from the publication:",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -837,7 +837,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "Study abstract should briefly summarize your study, including <br>1) The overall purpose of the study;<br>2)The basic design of the study;<br> 3)Major findings or trends found as a result of your analysis;<br> 4)A brief summary. <br>It is recommended to use the same abstract as the publication. ",
+            "content" : "Study abstract should briefly summarize your study, including <br>1) The overall purpose of the study;<br>2) The basic design of the study;<br> 3) Major findings or trends found as a result of your analysis;<br> 4) A brief summary. <br>It is recommended to use the same abstract as the publication. ",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -850,18 +850,18 @@
             "video" : [
               {
                 "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/abstract.mov",
-                "description" : "Import authers from the publication"
+                "description" : "Import abstract from the publication"
               }
             ]
           },
           {
             "title" : "Formating abstract",
-            "content" : "Within abstract editing section, there will be formatting options available as below.",
+            "content" : "Within the abstract editing section, there will be formatting options available as below.",
             "visible" : true,
             "img" : [
               {
                 "url" : "image1.png",
-                "description" : ""
+                "description" : "formating abstract"
               }
             ],
             "video" : []
