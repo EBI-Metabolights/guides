@@ -582,16 +582,16 @@
         "visible" : true,
         "sections" : [
           {
-            "title" : "Change submitter/study owner",
-            "content" : "The submitter is the person who creates the study. They will be able to directly view & edit the study during the submission process and all correspondence will be direct to them. They will also be the main contact once the study is public. <br> You can change the study ownership to your colleague. They should create a MetaboLights account and then you can make him/her as study submitter",
+            "title" : "",
+            "content" : "Please provide names and details for study authors. This can be done by selecting <b>+person</b> in the author section or by providing the manuscript DOI in the publication section and selecting the <b>Import author</b> option.\n",
             "visible" : true,
-            "img" : [
+            "img" : [],
+            "video" : [
               {
-                "url" : "submitter1.png",
-                "description" : "Change study submitter "
+                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/person_v_1.mov",
+                "description" : "Import authers from the publication"
               }
-            ],
-            "video" : []
+            ]
           },
           {
             "title" : "Give collaborators edit access to the study",
@@ -601,16 +601,16 @@
             "video" : []
           },
           {
-            "title" : "Import authers from the publication",
-            "content" : "You also can import authors from the publication:",
+            "title" : "Author study access",
+            "content" : "Submitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public. <br><br>\nAuthors are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study. <br><br>\nThe submitter can provide access & edit rights to other authors provided they also have a MetaboLights account. First add as an author (must include email), select name from the author list and then choose <b>Make Submitter</b> option.\n<br>",
             "visible" : true,
-            "img" : [],
-            "video" : [
+            "img" : [
               {
-                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/person_v_1.mov",
-                "description" : "Import authers from the publication"
+                "url" : "submitter1.png",
+                "description" : "Change study submitter "
               }
-            ]
+            ],
+            "video" : []
           },
           {
             "title" : "",
@@ -1187,6 +1187,21 @@
       }
     },
     "Files" : {
+      "Accepted file formats" : {
+        "title" : "Accepted file formats",
+        "sort_order" : 1,
+        "description" : "\n",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "Accepted Derived / raw file formats",
+            "content" : "<b>Derived file formats:</b> mzml, nmrml, mzxml, xml, mzdata, cef, cnx, peakml, xy, smp, scan <br>\n<b>Raw file formats: </b> d, raw, idb, cdf, wiff, scan, dat, cmp, cdf.cmp, lcd, abf, jpf, xps, mgf\n",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          }
+        ]
+      },
       "Upload" : {
         "title" : "Upload",
         "sort_order" : 0,
@@ -1289,21 +1304,6 @@
           {
             "title" : "3. API download",
             "content" : "You can view/download files by using our web service: typing <font color='#1e90ff'>https://www.ebi.ac.uk/metabolights/ws/studies/&lt;studyid&gt;/&lt;filename&gt;</font> to your browser address bar. <br> <br> \n<div class='notification is-primary'> <b>MetaboLights APIs</b> - You also can get Get ISA-Tab Investigation/Assay/Sample files programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API. - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8' target='_blank'><strong>GET_Investigation</strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10' target='_blank'><strong> GET_Assay </strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9' target='_blank'><strong> GET_Sample </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          }
-        ]
-      },
-      "Other" : {
-        "title" : "Other\n",
-        "sort_order" : 1,
-        "description" : "\n",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "Accepted Derived / raw file formats",
-            "content" : "<b>Derived file formats:</b> mzml, nmrml, mzxml, xml, mzdata, cef, cnx, peakml, xy, smp, scan <br>\n<b>Raw file formats: </b> d, raw, idb, cdf, wiff, scan, dat, cmp, cdf.cmp, lcd, abf, jpf, xps, mgf\n",
             "visible" : true,
             "img" : [],
             "video" : []
