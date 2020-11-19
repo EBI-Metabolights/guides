@@ -3,8 +3,8 @@
   "updated_at" : "16/11/2020",
   "data" : {
     "Quick_start_Guide" : {
-      "Quick_start_guide" : {
-        "title" : "Quick start overview",
+      "Quick start overview\nQuick start overview\nQuick start overview\nQuick start overview\n" : {
+        "title" : "Quick Start Overview",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
@@ -19,15 +19,15 @@
           }
         ]
       },
-      "Getting_started" : {
-        "title" : "What do I need?",
+      "Submission Checklist" : {
+        "title" : "Submission Checklist",
         "sort_order" : 1,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>The primary requirements for study submission to MetaboLights are as follows;</br></br>1) MetaboLights user account.<br/><br/>2) Raw data to submit ie. <i><b>spectral files</i></b> produced by the instrument used for analysis or an open source version.</i></br>(This does not need to be added straight away but will be required to be uploaded before the study can be publish).<br/><br/>3) Study metadata as per the provided template when creating a study.",
+            "content" : "</br>The primary requirements for study submission to MetaboLights are as follows;</br></br>\n\n1) MetaboLights user <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/MetaboLights_account/create_account'>account</a>.<br/>\n\n2) Raw data ie. <i><b>spectral files</i></b> produced by the analytical instrument and/or an open source version. Please see <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/Files/Accepted File Formats'> accepted file formats</a>. <br/>\n\n3) Complete <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/study/overview'> metadata</a>.\n\n",
             "visible" : true,
             "img" : [
               {
@@ -39,45 +39,8 @@
           }
         ]
       },
-      "create_account" : {
-        "title" : "Create account",
-        "sort_order" : 2,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "",
-            "content" : "</br>You can create an account by selecting Login above or via <a href='www.ebi.ac.uk/metabolights/newAccount'>Create account</a>.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image18a.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "</br>When creating your MetaboLights account your email address will be your user name. Please contact us directly if you need to update this at any time. </br></br>You can also link your ORCID account, allowing you to claim your data submissions in your research achievements.</br><a target='_blank' href='https://orcid.org/about'> What is ORCID?</a></br></br>",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image35.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "</br><i>If you have problems accessing your account, please check your email (junk folder also!) for a confirmation.</br>Alternatively, contact us directly at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a></i>.",
-            "visible" : true
-          }
-        ]
-      },
-      "submission_stages" : {
-        "title" : "Study Submission Process",
+      "Submission Process" : {
+        "title" : "Submission Process",
         "sort_order" : 3,
         "description" : "",
         "visible" : true,
@@ -120,7 +83,7 @@
           },
           {
             "title" : "",
-            "content" : "<br>Following successful curation, the status will be updated to <b>review</b> and a private <i>edit only</i> link will be available on your study page for you to share with journal editors, collaborators etc if requested.</br></br>",
+            "content" : "<br>Following successful curation, the status will be updated to <b>review</b> and a temporary private <i>read only</i> link will be available on your study page to share with journal editors, collaborators etc if requested.</br></br>",
             "visible" : true,
             "img" : [
               {
@@ -144,15 +107,15 @@
           }
         ]
       },
-      "create_study" : {
-        "title" : "Create study",
+      "Create Study" : {
+        "title" : "Create Study",
         "sort_order" : 4,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>Select <a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> followed by <b>Create online</b> to be guided through the study creation steps.",
+            "content" : "</br>Select <a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> followed by <b>Create online</b> to be taken to the Guided Submission Portal.<br>\nIf you have an existing account you will first be taken to My Studies where you can choose to edit an existing study or create a new study.\n",
             "visible" : true,
             "img" : [
               {
@@ -213,9 +176,141 @@
           }
         ]
       },
+      "Shortcuts/ functions" : {
+        "title" : "Shortcuts/ functions",
+        "sort_order" : 6,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "Protocol",
+            "content" : "When you set up an assay the required protocol fields are automatically generated, these must be completed using the Edit Description option and cannot be deleted or renamed.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "You can add further protocol sections which can be edited, named and also deleted.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "Within each protocol section there will be formatting options available as below.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image1.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "Ontologies",
+            "content" : "Where possible terms are supported by controlled vocabularies / ontologies. Simply start to type and if available, options will appear below and you can select the appropriate term. If the term you are looking for does not appear, simply press enter and the text to add it as free text. ",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image8.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "Where ontologies have not been added within tables a section will appear above the table to highlight terms. Simply click edit option to add on.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image7.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "Editing tables",
+            "content" : "",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image42.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          }
+        ]
+      },
+      "Study Overview" : {
+        "title" : "Study Overview",
+        "sort_order" : 7,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "</br>When you create a study the Guided submission process will take you through the setup step-by-step. It will guide you through raw and sample data upload, creating assays and provide you with controlled vocabulary/ontology options in relevant fields. If you don’t have all the information to hand, don’t worry! You can access and edit your entire study at any time when in submission from your My Studies page.</br></br>Each MetaboLights study has 4 main sections, study description, sample, assay and metabolite information. The basic outlines for each are given below. Each section also corresponds to a specific file as indicated in which the information is stored.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "Study description (i_MTBLSxxx.txt)",
+            "content" : "The study description should easily inform the reader about the study content and contacts.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image29.png",
+                "description" : "(a) Study identifier & title (b) Author information (c) Abstract (d) Publication link (e) Keywords(f) Protocol text"
+              },
+              {
+                "url" : "image20.png",
+                "description" : "(a) Study identifier & title (b) Author information (c) Abstract (d) Publication link (e) Keywords(f) Protocol text"
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "Sample information (s_MTBLSxxx.txt)",
+            "content" : "The sample information should provide all relevant facts about each sample and any controls / standards included in the study. There is ONE sample sheet per study. <br/>Sample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "Assay information (a_MTBLSxxx.txt)",
+            "content" : "The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study.</br></br>The assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.</br></br>",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image24.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "Metabolite information (m_MTBLSxxx.tsv)",
+            "content" : "Each assay has a corresponding metabolite table. If results are cumulative of multiple assays, use the metabolite assignment file column in the assay table to point all assays to the same m_MTBLSxxx.tsv file name.</br></br>The metabolite information should include all metabolites / unknowns / features identified within the study.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image25.png",
+                "description" : "Overview current adopted metabolite standards (Schmanski EL et al. 2014)"
+              }
+            ],
+            "video" : []
+          }
+        ]
+      },
       "validation" : {
         "title" : "Validate Study",
-        "sort_order" : 6,
+        "sort_order" : 8,
         "description" : "",
         "visible" : true,
         "sections" : [
@@ -246,7 +341,7 @@
       },
       "Referencing_a_study" : {
         "title" : "Referencing a study",
-        "sort_order" : 7,
+        "sort_order" : 9,
         "description" : "",
         "visible" : true,
         "sections" : [
@@ -298,6 +393,26 @@
               }
             ],
             "video" : []
+          }
+        ]
+      },
+      "Video tutorial" : {
+        "title" : "Video tutorial",
+        "sort_order" : 9,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "",
+            "visible" : true,
+            "img" : [],
+            "video" : [
+              {
+                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/201904_ML_ALL.mp4",
+                "description" : "Online Study Submission"
+              }
+            ]
           }
         ]
       }
@@ -722,7 +837,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can update the title of your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24' target='_blank'><strong>PUT</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can update the title of your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24' target='_blank'><strong>PUT</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -808,14 +923,14 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can add/delete submitters for your study programmatically using our APIs. <br> Try the MetaboLights submitter API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33' target='_blank'><strong>POST</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32' target='_blank'><strong>DELETE</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can add/delete submitters for your study programmatically using our APIs. <br> Try the MetaboLights submitter API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33' target='_blank'><strong>POST</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32' target='_blank'><strong>DELETE</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can get/add/update/delete contacts for your study programmatically using our APIs. <br> Try the MetaboLights contacts API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31' target='_blank'><strong>POST</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29' target='_blank'><strong>PUT</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28' target='_blank'><strong>DELETE</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get/add/update/delete contacts for your study programmatically using our APIs. <br> Try the MetaboLights contacts API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31' target='_blank'><strong>POST</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29' target='_blank'><strong>PUT</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28' target='_blank'><strong>DELETE</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -875,7 +990,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can get/update description of your study programmatically using our APIs. <br> Try the MetaboLights description API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26' target='_blank'><strong>PUT</strong></a></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get/update description of your study programmatically using our APIs. <br> Try the MetaboLights description API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26' target='_blank'><strong>PUT</strong></a></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -934,7 +1049,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can get/add/update/delete publication information of your study programmatically using our APIs. <br> Try the MetaboLights publication API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41_42_43_44_45_46_47_48' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41_42_43_44_45_46_47_48_49' target='_blank'><strong>POST</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41_42_43_44_45_46' target='_blank'><strong>PUT</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41_42_43_44_45_46_47' target='_blank'><strong>DELETE</strong></a></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get/add/update/delete publication information of your study programmatically using our APIs. <br> Try the MetaboLights publication API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41_42_43_44_45_46_47_48' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41_42_43_44_45_46_47_48_49' target='_blank'><strong>POST</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41_42_43_44_45_46' target='_blank'><strong>PUT</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41_42_43_44_45_46_47' target='_blank'><strong>DELETE</strong></a></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1058,7 +1173,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can get/add/update/delete factors of your study programmatically using our APIs. <br> Try the MetaboLights factor API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41' target='_blank'><strong>POST</strong></a>, <a href='https://https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41' target='_blank'><strong>PUT</strong></a>, <a https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39' target='_blank'><strong>DELETE</strong></a></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get/add/update/delete factors of your study programmatically using our APIs. <br> Try the MetaboLights factor API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41' target='_blank'><strong>POST</strong></a>, <a href='https://https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41' target='_blank'><strong>PUT</strong></a>, <a https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39' target='_blank'><strong>DELETE</strong></a></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1096,14 +1211,14 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'><b>MataboLights APIs</b> - You can get/add/update/delete protocol of your study\n\tprogrammatically using our APIs. <br> Try the MetaboLights factor API - <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37'\n\t\t\ttarget='_blank'><strong>GET</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34'\n\t\t\ttarget='_blank'><strong>POST</strong></a>, <a\n\t\t\thref='https://https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35'\n\t\t\ttarget='_blank'><strong>PUT</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33'\n\t\t\ttarget='_blank'><strong>DELETE</strong></a> using our <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>.\n\t<br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the\n\t\tAPI.</small></i></div>",
+            "content" : "<div class='notification is-primary'><b>MetaboLights APIs</b> - You can get/add/update/delete protocol of your study\n\tprogrammatically using our APIs. <br> Try the MetaboLights factor API - <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37'\n\t\t\ttarget='_blank'><strong>GET</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34'\n\t\t\ttarget='_blank'><strong>POST</strong></a>, <a\n\t\t\thref='https://https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35'\n\t\t\ttarget='_blank'><strong>PUT</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33'\n\t\t\ttarget='_blank'><strong>DELETE</strong></a> using our <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>.\n\t<br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the\n\t\tAPI.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'><b>MataboLights APIs</b> - You can get protocol and assay mappings for your study\n\tprogrammatically using our APIs. <br> Try the MetaboLights factor API - <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/Get_assays_linked_to_protocols_for_a_given_study'\n\t\t\ttarget='_blank'><strong>GET</strong></a>using our <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>.\n\t <br><i><small>Please note that you would need an active MetaboLights account and API Key to access the\n\t\tAPI.</small></i></div>",
+            "content" : "<div class='notification is-primary'><b>MetaboLights APIs</b> - You can get protocol and assay mappings for your study\n\tprogrammatically using our APIs. <br> Try the MetaboLights factor API - <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/Get_assays_linked_to_protocols_for_a_given_study'\n\t\t\ttarget='_blank'><strong>GET</strong></a>using our <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>.\n\t <br><i><small>Please note that you would need an active MetaboLights account and API Key to access the\n\t\tAPI.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1208,14 +1323,14 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can get a list of all sample names, mapped to files in the study and upload folder(s) programmatically using our APIs. <br> Try the MetaboLights study sample API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5' target='_blank'><strong>GET </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get a list of all sample names, mapped to files in the study and upload folder(s) programmatically using our APIs. <br> Try the MetaboLights study sample API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5' target='_blank'><strong>GET </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can get Get ISA-Tab Sample file programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9' target='_blank'><strong>GET </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get Get ISA-Tab Sample file programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9' target='_blank'><strong>GET </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1253,14 +1368,14 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can get/add/delete assays of your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11' target='_blank'><strong>POST</strong></a>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13 target='_blank'><strong> DELETE</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get/add/delete assays of your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11' target='_blank'><strong>POST</strong></a>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13 target='_blank'><strong> DELETE</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can download assay file from your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10' target='_blank'><strong>GET</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can download assay file from your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10' target='_blank'><strong>GET</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1365,7 +1480,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MataboLights APIs</b> - You can update the title of your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24' target='_blank'><strong>PUT</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can update the title of your study programmatically using our APIs. <br> Try the MetaboLights study title API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24' target='_blank'><strong>PUT</strong></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1470,7 +1585,7 @@
           },
           {
             "title" : "3. API download",
-            "content" : "You can view/download files by using our web service: typing <font color='#1e90ff'>https://www.ebi.ac.uk/metabolights/ws/studies/&lt;studyid&gt;/&lt;filename&gt;</font> to your browser address bar. <br> <br> \n<div class='notification is-primary'> <b>MataboLights APIs</b> - You also can get Get ISA-Tab Investigation/Assay/Sample files programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API. - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8' target='_blank'><strong>GET_Investigation</strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10' target='_blank'><strong> GET_Assay </strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9' target='_blank'><strong> GET_Sample </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "You can view/download files by using our web service: typing <font color='#1e90ff'>https://www.ebi.ac.uk/metabolights/ws/studies/&lt;studyid&gt;/&lt;filename&gt;</font> to your browser address bar. <br> <br> \n<div class='notification is-primary'> <b>MetaboLights APIs</b> - You also can get Get ISA-Tab Investigation/Assay/Sample files programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API. - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8' target='_blank'><strong>GET_Investigation</strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10' target='_blank'><strong> GET_Assay </strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9' target='_blank'><strong> GET_Sample </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
