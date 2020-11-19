@@ -3,8 +3,8 @@
   "updated_at" : "16/11/2020",
   "data" : {
     "Quick_start_Guide" : {
-      "Quick_start_guide" : {
-        "title" : "Quick start overview",
+      "Quick start overview\nQuick start overview\nQuick start overview\nQuick start overview\n" : {
+        "title" : "Quick Start Overview",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
@@ -19,15 +19,15 @@
           }
         ]
       },
-      "Getting_started" : {
-        "title" : "What do I need?",
+      "Submission Checklist" : {
+        "title" : "Submission Checklist",
         "sort_order" : 1,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>The primary requirements for study submission to MetaboLights are as follows;</br></br>1) MetaboLights user account.<br/><br/>2) Raw data to submit ie. <i><b>spectral files</i></b> produced by the instrument used for analysis or an open source version.</i></br>(This does not need to be added straight away but will be required to be uploaded before the study can be publish).<br/><br/>3) Study metadata as per the provided template when creating a study.",
+            "content" : "</br>The primary requirements for study submission to MetaboLights are as follows;</br></br>\n\n1) MetaboLights user <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/MetaboLights_account/create_account'>account</a>.<br/>\n\n2) Raw data ie. <i><b>spectral files</i></b> produced by the analytical instrument and/or an open source version. Please see <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/Files/Accepted File Formats'> accepted file formats</a>. <br/>\n\n3) Complete <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/study/overview'> metadata</a>.\n\n",
             "visible" : true,
             "img" : [
               {
@@ -39,8 +39,8 @@
           }
         ]
       },
-      "create_account" : {
-        "title" : "Create account",
+      "Create account" : {
+        "title" : "Create Account",
         "sort_order" : 2,
         "description" : "",
         "visible" : true,
@@ -76,8 +76,8 @@
           }
         ]
       },
-      "submission_stages" : {
-        "title" : "Study Submission Process",
+      "Submission Process" : {
+        "title" : "Submission Process",
         "sort_order" : 3,
         "description" : "",
         "visible" : true,
@@ -144,8 +144,8 @@
           }
         ]
       },
-      "create_study" : {
-        "title" : "Create study",
+      "Create Study" : {
+        "title" : "Create Study",
         "sort_order" : 4,
         "description" : "",
         "visible" : true,
@@ -213,9 +213,141 @@
           }
         ]
       },
+      "Shortcuts/ functions" : {
+        "title" : "Shortcuts/ functions",
+        "sort_order" : 6,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "Protocol",
+            "content" : "When you set up an assay the required protocol fields are automatically generated, these must be completed using the Edit Description option and cannot be deleted or renamed.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "You can add further protocol sections which can be edited, named and also deleted.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "Within each protocol section there will be formatting options available as below.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image1.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "Ontologies",
+            "content" : "Where possible terms are supported by controlled vocabularies / ontologies. Simply start to type and if available, options will appear below and you can select the appropriate term. If the term you are looking for does not appear, simply press enter and the text to add it as free text. ",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image8.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "Where ontologies have not been added within tables a section will appear above the table to highlight terms. Simply click edit option to add on.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image7.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "Editing tables",
+            "content" : "",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image42.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          }
+        ]
+      },
+      "Study Overview" : {
+        "title" : "Study Overview",
+        "sort_order" : 7,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "</br>When you create a study the Guided submission process will take you through the setup step-by-step. It will guide you through raw and sample data upload, creating assays and provide you with controlled vocabulary/ontology options in relevant fields. If you don’t have all the information to hand, don’t worry! You can access and edit your entire study at any time when in submission from your My Studies page.</br></br>Each MetaboLights study has 4 main sections, study description, sample, assay and metabolite information. The basic outlines for each are given below. Each section also corresponds to a specific file as indicated in which the information is stored.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "Study description (i_MTBLSxxx.txt)",
+            "content" : "The study description should easily inform the reader about the study content and contacts.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image29.png",
+                "description" : "(a) Study identifier & title (b) Author information (c) Abstract (d) Publication link (e) Keywords(f) Protocol text"
+              },
+              {
+                "url" : "image20.png",
+                "description" : "(a) Study identifier & title (b) Author information (c) Abstract (d) Publication link (e) Keywords(f) Protocol text"
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "Sample information (s_MTBLSxxx.txt)",
+            "content" : "The sample information should provide all relevant facts about each sample and any controls / standards included in the study. There is ONE sample sheet per study. <br/>Sample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "Assay information (a_MTBLSxxx.txt)",
+            "content" : "The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study.</br></br>The assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.</br></br>",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image24.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "Metabolite information (m_MTBLSxxx.tsv)",
+            "content" : "Each assay has a corresponding metabolite table. If results are cumulative of multiple assays, use the metabolite assignment file column in the assay table to point all assays to the same m_MTBLSxxx.tsv file name.</br></br>The metabolite information should include all metabolites / unknowns / features identified within the study.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image25.png",
+                "description" : "Overview current adopted metabolite standards (Schmanski EL et al. 2014)"
+              }
+            ],
+            "video" : []
+          }
+        ]
+      },
       "validation" : {
         "title" : "Validate Study",
-        "sort_order" : 6,
+        "sort_order" : 8,
         "description" : "",
         "visible" : true,
         "sections" : [
@@ -246,7 +378,7 @@
       },
       "Referencing_a_study" : {
         "title" : "Referencing a study",
-        "sort_order" : 7,
+        "sort_order" : 9,
         "description" : "",
         "visible" : true,
         "sections" : [
