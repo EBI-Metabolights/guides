@@ -16,6 +16,13 @@
               }
             ],
             "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "<table border=\"1\">\n\t<tr>\n\t\t<td>Create study</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"></a>\n\t\t</td>\n\t\t<td>Select Submit study to create a new study (or edit an existing study).<br>\n\n\t\t\tRecommended: Use the Create online option for a step-by-step guide to creating your study.<br>\n\n\t\t\tNB. the accession number assigned to your study MTBLSxxx will be the permanent identifier, please use this in manuscripts.<br>\n\n\t\t\tFor journal editor reviewer link see information below.<br>\n\n\t\t</td>\n\t</tr>\n</table>\n\n",
+            "visible" : true,
+            "img" : [],
+            "video" : []
           }
         ]
       },
