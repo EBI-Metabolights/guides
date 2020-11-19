@@ -120,7 +120,7 @@
           },
           {
             "title" : "",
-            "content" : "<br>Following successful curation, the status will be updated to <b>review</b> and a private <i>edit only</i> link will be available on your study page for you to share with journal editors, collaborators etc if requested.</br></br>",
+            "content" : "<br>Following successful curation, the status will be updated to <b>review</b> and a temporary private <i>read only</i> link will be available on your study page to share with journal editors, collaborators etc if requested.</br></br>",
             "visible" : true,
             "img" : [
               {
