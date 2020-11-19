@@ -184,12 +184,7 @@
             "title" : "",
             "content" : "Studies can be edited online or downloaded and edited in eg. Excel. It is important not to remove existing columns or alter column headers when editing as the format is a fixed requirement. Additional columns can be added by choosing +factor, this should be done online before downloading files.</br></br>\nSome sections of metadata require ontology fields. When adding information using the online options, ontology options will appear as you type. If uploading a file without ontologies added, the online editor will prompt you to select ontologies in the fields above the tables.\n",
             "visible" : true,
-            "img" : [
-              {
-                "url" : "image39.png",
-                "description" : ""
-              }
-            ],
+            "img" : [],
             "video" : []
           }
         ]
