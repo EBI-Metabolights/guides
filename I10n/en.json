@@ -15,7 +15,8 @@
                             {
                                 "url": "image36.png"
                             }
-                        ]
+                        ],
+                        "video": []
                     }
                 ]
             },
@@ -35,12 +36,7 @@
                                 "description": ""
                             }
                         ],
-                        "video": [
-                            {
-                                "url": "",
-                                "description": ""
-                            }
-                        ]
+                        "video": []
                     }
                 ]
             },
@@ -60,12 +56,7 @@
                                 "description": ""
                             }
                         ],
-                        "video": [
-                            {
-                                "url": "",
-                                "description": ""
-                            }
-                        ]
+                        "video": []
                     },
                     {
                         "title": "",
@@ -77,17 +68,14 @@
                                 "description": ""
                             }
                         ],
-                        "video": [
-                            {
-                                "url": "",
-                                "description": ""
-                            }
-                        ]
+                        "video": []
                     },
                     {
                         "title": "",
                         "content": "</br><i>If you have problems accessing your account, please check your email (junk folder also!) for a confirmation.</br>Alternatively, contact us directly at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a></i>.",
-                        "visible": true
+                        "visible": true,
+                        "img": [],
+                        "video": []
                     }
                 ]
             },
@@ -106,7 +94,8 @@
                                 "url": "image37.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     },
                     {
                         "title":"",
@@ -118,12 +107,7 @@
                                 "description": ""
                             }
                         ],
-                        "video": [
-                            {
-                                "url": "",
-                                "description": ""
-                            }
-                        ]
+                        "video": []
                     },
                     {
                         "title":"",
@@ -135,12 +119,7 @@
                                 "description": ""
                             }
                         ],
-                        "video": [
-                            {
-                                "url": "",
-                                "description": ""
-                            }
-                        ]
+                        "video": []
                     },
                     {
                         "title": "",
@@ -152,12 +131,7 @@
                                 "description": ""
                             }
                         ],
-                        "video": [
-                            {
-                                "url": "",
-                                "description": ""
-                            }
-                        ]
+                        "video": []
                     },
                     {
                         "title": "",
@@ -169,12 +143,7 @@
                                 "description": ""
                             }
                         ],
-                        "video": [
-                            {
-                                "url": "",
-                                "description": ""
-                            }
-                        ]
+                        "video": []
                     }
                 ]
             },
@@ -193,12 +162,15 @@
                                 "url": "image22.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     },
                     {
                         "title": "",
                         "content": "</br><u><i>Submitters and authors</i></u></br>The submitter is the person who creates the study. They will be able to directly view & edit the study during the submission process and all correspondence will be directly to them. They will also be the main contact once the study is public. Authors are added as for a manuscript etc but will not have edit or private access to the study. If you would like edit rights to be given to collaborators they will also need to create an account. The submitter should then <a href = 'mailto:metabolights-help@ebi.ac.uk'>contact us</a> to ask for further accounts to be added to the study. Group or project email addresses can be used to allow shared access to edit a study and link studies more readily in searches.",
-                        "visible": true
+                        "visible": true,
+                        "img": [],
+                        "video": []
                     }            
                 ]
             },
@@ -217,7 +189,8 @@
                                 "url": "image22.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     },
                     {
                         "title": "",
@@ -228,7 +201,8 @@
                                 "url": "image5.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     },
                     {
                         "title": "",
@@ -239,7 +213,8 @@
                                 "url": "image39.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     }            
                 ]
             },
@@ -258,7 +233,8 @@
                                 "url": "image4.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     },
                     {
                         "content": "Further information is available in the <b>Study Validations</b> tab. There are 4 validation flags which can be viewed individually by selecting the drop down menu. This includes <font color='#3cb371'>successful</font>, <font color='#1e90ff'>information</font>, <font color='#ffa500'>warning</font>, <font color='#ff0000'>error</font>. You must address all errors and should also address warnings where applicable to progress your study.",
@@ -268,7 +244,8 @@
                                     "url": "image28.png",
                                     "description": ""
                                 }
-                            ]
+                            ],
+                            "video": []
                     }
                 ]
             },
@@ -282,7 +259,8 @@
                         "title":"",
                         "content":"<br><u>Study accession number</u><br><br>Each new MetaboLights study is automatically assigned an accession number eg. MTBLS1. This is a permanent unique identifier and should be used to reference the study in manuscripts and other communications.",
                         "visible":true,
-                        "img":[]
+                        "img":[],
+                        "video": []
                     },
                     {
                         "title": "",
@@ -293,7 +271,8 @@
                                 "url": "image12.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     },
                     {                  
                         "title":"",
@@ -304,13 +283,15 @@
                                 "url": "image40.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     },
                     {
                         "title":"",
                         "content": "<br><u>What to include in a manuscript</u><br><br>Permanent unique identifier; MTBLSxxxx.</br>Public url for your metabolomics study https://www.ebi.ac.uk/metabolights/MTBLSxxxx.</br>You may also wish to cite the MetaboLights reference <a href='https://academic.oup.com/nar/article/48/D1/D440/5613675'>Haug et al</a>.",
                         "visible": true,
-                        "img":[]
+                        "img":[],
+                        "video": []
                     },
                     {
                         "title":"",
@@ -321,7 +302,8 @@
                                 "url": "image30.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     }
                 ]
             }
@@ -343,12 +325,7 @@
                                 "description": ""
                             }
                         ],
-                        "video": [
-                            {
-                                "url": "",
-                                "description": ""
-                            }
-                        ]
+                        "video": []
                     },
                     {
                         "title": "",
@@ -360,17 +337,14 @@
                                 "description": ""
                             }
                         ],
-                        "video": [
-                            {
-                                "url": "",
-                                "description": ""
-                            }
-                        ]
+                        "video": []
                     },
                     {
                         "title": "",
                         "content": "</br><i>If you have problems accessing your account for the first time, please check your email (junk folder also!) for a confirmation.</br>Alternatively, contact us <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a></i>.",
-                        "visible": true
+                        "visible": true,
+                        "img": [],
+                        "video": []
                     }
                 ]
             },       
@@ -428,7 +402,8 @@
                                 "url": "image23.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     }
                 ]
             }
@@ -559,7 +534,8 @@
                                 "url": "",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     },
                     {
                         "title": "",
@@ -570,7 +546,8 @@
                                     "url": "image44.png",
                                     "description": ""
                                 }
-                            ]
+                            ],
+                            "video": []
                     } 
                 ]
             },
@@ -584,7 +561,8 @@
                         "title": "Protocol",
                         "content": "When you set up an assay the required protocol fields are automatically generated, these must be completed using the Edit Description option and cannot be deleted or renamed.",
                         "visible": true,
-                        "img": []
+                        "img": [],
+                        "video": []
                     },
                     {
                         "title": "",
@@ -658,7 +636,8 @@
                                 "url": "image4.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     },
                     {
                         "title": "",
@@ -689,7 +668,8 @@
                                 "url": "image10.png",
                                 "description": ""
                             }
-                        ]
+                        ],
+                        "video": []
                     }
                 ]
             }
