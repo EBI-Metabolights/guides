@@ -114,11 +114,11 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>Select <a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> followed by <b>Create online</b> to be taken to the Guided Submission Portal.<br>\nIf you have an existing account you will first be taken to My Studies where you can choose to edit an existing study or create a new study.\n",
+            "content" : "</br>Select <a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> followed by <b>Create online</b> to be taken to the Guided Submission Portal.<br>\nIf you have an existing account you will first be taken to My Studies where you can choose to edit an existing study or create a new study. </br></br>\n\n<u><i>Guided Submission Portal</i></u></br>\nThe Guided Submission Portal will take you through the steps to create your study. </br>\nA new study will be automatically generated with a unique accession number / study identifier.\n\n",
             "visible" : true,
             "img" : [
               {
-                "url" : "image22.png",
+                "url" : "image12.png",
                 "description" : ""
               }
             ],
@@ -126,7 +126,14 @@
           },
           {
             "title" : "",
-            "content" : "</br><u><i>Submitters and authors</i></u></br>The submitter is the person who creates the study. They will be able to directly view & edit the study during the submission process and all correspondence will be direct to them. They will also be the main contact once the study is public. Authors are added as for a manuscript etc but will not have edit or private access to the study. If you would like edit rights to be given to collaborators they will also need to create an account. The submitter should then contact us to ask for further accounts to be added to the study. Group or project email addresses can be used to allow shared access to edit a study and link studies more readily in searches.",
+            "content" : "You can exit the guided submission at any time and the information you have added will be automatically saved. To re-enter the study in Guided Submission mode, simply go to My Studies and select the Guided Submission option below the study information.\n\n",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "<u><i>Submitters and authors</i></u></br>\nSubmitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public. </br></br>\nAuthors are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study. <br></br>\nThe submitter can provide access & edit rights to collaborators provided they have a MetaboLights account by adding first as an author and then choosing <a href='https://www.ebi.ac.uk/metabolights/guides/Study%20Description/Author'>Make submitter</a>.",
             "visible" : true
           }
         ]
