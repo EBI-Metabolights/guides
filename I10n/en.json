@@ -11,7 +11,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">\n\t<tr>\n\t\t<td>Checklist</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tBefore creating a study ensure you have the following;<br>\n\t\t\t1) MetaboLights <a href=\"www.ebi.ac.uk/metabolights/login\">account</a> <br>\n\t\t\t2) <a href=\"https://www.ebi.ac.uk/metabolights/guides/Study/Add_raw_data\">Raw data</a> to submit (or will\n\t\t\tdo by completion of study) <br>\n\t\t\t3) Supporting study information (ie. sample details, experimental methods, results)<br>\n\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Create</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tSelect <a href=\"https://www.ebi.ac.uk/metabolights/presubmit\">Submit study</a> to create a new study (or\n\t\t\tedit an existing study). Recommended: Use Create online to be guided through the study creation step by\n\t\t\tstep.<br><br>\n\t\t\t<i>NB. the accession number assigned to your study MTBLSxxx will be the permanent identifier (url\n\t\t\t\twww.ebi.ac.uk/metabolights/MTBLSxxx), please use this in manuscripts.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Edit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tUse the online editor option to view and edit existing studies. Access through My Studies page or with a\n\t\t\tstudy url. <br><br>\n\t\t\t<i>NB. You can give collaborators edit rights to the study following these <a\n\t\t\t\t\thref=\"https://www.ebi.ac.uk/metabolights/guides/Study%20Description/Author\">steps</a>.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Validate</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tStudies must pass validation to be submitted. Validation errors are evident in the information bar at the\n\t\t\ttop of the study (if nothing is displayed the study has passed validation). Details of errors are available\n\t\t\tin the study validations tab.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Submit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tTo submit study, select <b>Status</b> and change to curation (study must validate to do this). You can also\n\t\t\tset the publication date at this stage.<br><br>\n\t\t\t<i>NB. curation process will take a minimum of 4 weeks, publication date cannot be less than\n\t\t\t\tthis.</i><br><br>\n\n\t\t\tSubmitted studies cannot be edited, contact <a href=\"mailto:metabolights-help@ebi.ac.uk\">MetaboLights\n\t\t\thelp</a> if amendments are required.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Review</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tFollowing successful study curation, the status will be updated to Review. A temporary private link will be\n\t\t\tavailable on the study page to share with journal editors, collaborators etc. if requested.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Publish</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tA study will be published once the release date is reached. The date can be changed at any stage by <a\n\t\t\t\thref=\"mailto:metabolights-help@ebi.ac.uk\">contacting us</a> directly. <br><br>\n\t\t\t<i>Please also send manuscript DOI to MetaboLights-help once available.</i>\n\n\t\t</td>\n\t</tr>\n</table>",
+            "content" : "<br><br>\n<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">\n\t<tr>\n\t\t<td>Checklist</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tBefore creating a study ensure you have the following;<br>\n\t\t\t1) MetaboLights <a href=\"www.ebi.ac.uk/metabolights/login\">account</a> <br>\n\t\t\t2) <a href=\"https://www.ebi.ac.uk/metabolights/guides/Study/Add_raw_data\">Raw data</a> to submit (or will\n\t\t\tdo by completion of study) <br>\n\t\t\t3) Supporting study information (ie. sample details, experimental methods, results)<br>\n\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Create</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tSelect <a href=\"https://www.ebi.ac.uk/metabolights/presubmit\">Submit study</a> to create a new study (or\n\t\t\tedit an existing study). Recommended: Use Create online to be guided through the study creation step by\n\t\t\tstep.<br><br>\n\t\t\t<i>NB. the accession number assigned to your study MTBLSxxx will be the permanent identifier (url\n\t\t\t\twww.ebi.ac.uk/metabolights/MTBLSxxx), please use this in manuscripts.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Edit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tUse the online editor option to view and edit existing studies. Access through My Studies page or with a\n\t\t\tstudy url. <br><br>\n\t\t\t<i>NB. You can give collaborators edit rights to the study following these <a\n\t\t\t\t\thref=\"https://www.ebi.ac.uk/metabolights/guides/Study%20Description/Author\">steps</a>.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Validate</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tStudies must pass validation to be submitted. Validation errors are evident in the information bar at the\n\t\t\ttop of the study (if nothing is displayed the study has passed validation). Details of errors are available\n\t\t\tin the study validations tab.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Submit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tTo submit study, select <b>Status</b> and change to curation (study must validate to do this). You can also\n\t\t\tset the publication date at this stage.<br><br>\n\t\t\t<i>NB. curation process will take a minimum of 4 weeks, publication date cannot be less than\n\t\t\t\tthis.</i><br><br>\n\n\t\t\tSubmitted studies cannot be edited, contact <a href=\"mailto:metabolights-help@ebi.ac.uk\">MetaboLights\n\t\t\thelp</a> if amendments are required.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Review</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tFollowing successful study curation, the status will be updated to Review. A temporary private link will be\n\t\t\tavailable on the study page to share with journal editors, collaborators etc. if requested.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Publish</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tA study will be published once the release date is reached. The date can be changed at any stage by <a\n\t\t\t\thref=\"mailto:metabolights-help@ebi.ac.uk\">contacting us</a> directly. <br><br>\n\t\t\t<i>Please also send manuscript DOI to MetaboLights-help once available.</i>\n\n\t\t</td>\n\t</tr>\n</table>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -184,34 +184,25 @@
             "title" : "",
             "content" : "Studies can be edited online or downloaded and edited in eg. Excel. It is important not to remove existing columns or alter column headers when editing as the format is a fixed requirement. Additional columns can be added by choosing +factor, this should be done online before downloading files.</br></br>\nSome sections of metadata require ontology fields. When adding information using the online options, ontology options will appear as you type. If uploading a file without ontologies added, the online editor will prompt you to select ontologies in the fields above the tables.\n",
             "visible" : true,
-            "img" : [],
+            "img" : [
+              {
+                "url" : "image39.png",
+                "description" : ""
+              }
+            ],
             "video" : []
           }
         ]
       },
-      "Shortcuts/ functions" : {
-        "title" : "Shortcuts/ functions",
+      "Shortcuts/functions" : {
+        "title" : "Shortcuts/functions",
         "sort_order" : 6,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
-            "title" : "Protocol",
-            "content" : "When you set up an assay the required protocol fields are automatically generated, these must be completed using the Edit Description option and cannot be deleted or renamed.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "You can add further protocol sections which can be edited, named and also deleted.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "Within each protocol section there will be formatting options available as below.",
+            "title" : "Text fields",
+            "content" : "<br><br>In text fields such as abstract and protocols, formatting options are available as below. To accept a change select Save and OK to exit.",
             "visible" : true,
             "img" : [
               {
@@ -219,6 +210,13 @@
                 "description" : ""
               }
             ],
+            "video" : []
+          },
+          {
+            "title" : "Tables",
+            "content" : "<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">\n\t<tr>\n\t\t<td>Auto complete column</td>\n\t\t<td>Click on column header & enter text to add information to the entire column.</td>\n\t</tr>\n\t<tr>\n\t\t<td>Copy paste multiple</td>\n\t\t<td>Select an entire column (click on header) or highlight several cells to paste the <u>same</u> information\n\t\t\tinto each.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Paste list</td>\n\t\t<td>\n\t\t\tSelect an entire column (click on header) to paste a list (starting in first cell) from eg. Excel\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Add sample</td>\n\t\t<td>Select cell and paste / type sample name</td>\n\t</tr>\n\t<tr>\n\t\t<td>Add multiple samples</td>\n\t\t<td>Use +samples to add a list of sample name or import names using the names of raw data files</td>\n\t</tr>\n\t<tr>\n\t\t<td> Add row</td>\n\t\t<td>+row</td>\n\t</tr>\n\t<tr>\n\t\t<td>Delete row</td>\n\t\t<td>Select end of row to highlight, then delete option.\n\t\t\t<a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image14.png\"><img\n\t\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image14.png\"></a>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Add columns</td>\n\t\t<td>Use +factor option to add more columns to sample sheet</td>\n\t</tr>\n\t<tr>\n\t\t<td>Expand table</td>\n\t\t<td>To view underlying ontology information</td>\n\t</tr>\n\t<tr>\n\t\t<td>Upload / download</td>\n\t\t<td>\n\t\t\tUp / download files underlying a specific table to edit offline in eg. text editor or Excel etc (ensure to\n\t\t\tretain study name & extension)\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td> Filter</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image33.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image33.png\"></a></td>\n\t</tr>\n</table>",
+            "visible" : true,
+            "img" : [],
             "video" : []
           },
           {
@@ -240,18 +238,6 @@
             "img" : [
               {
                 "url" : "image7.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "Editing tables",
-            "content" : "",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image42.png",
                 "description" : ""
               }
             ],
