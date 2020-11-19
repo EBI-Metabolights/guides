@@ -11,7 +11,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "<br><br>\n<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">\n\t<tr>\n\t\t<td>Checklist</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tBefore creating a study ensure you have the following;<br>\n\t\t\t1) MetaboLights <a href=\"www.ebi.ac.uk/metabolights/login\">account</a> <br>\n\t\t\t2) <a href=\"https://www.ebi.ac.uk/metabolights/guides/Study/Add_raw_data\">Raw data</a> to submit (or will\n\t\t\tdo by completion of study) <br>\n\t\t\t3) Supporting study information (ie. sample details, experimental methods, results)<br>\n\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Create</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tSelect <a href=\"https://www.ebi.ac.uk/metabolights/presubmit\">Submit study</a> to create a new study (or\n\t\t\tedit an existing study). Recommended: Use Create online to be guided through the study creation step by\n\t\t\tstep.<br><br>\n\t\t\t<i>NB. the accession number assigned to your study MTBLSxxx will be the permanent identifier (url\n\t\t\t\twww.ebi.ac.uk/metabolights/MTBLSxxx), please use this in manuscripts.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Edit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tUse the online editor option to view and edit existing studies. Access through My Studies page or with a\n\t\t\tstudy url. <br><br>\n\t\t\t<i>NB. You can give collaborators edit rights to the study following these <a\n\t\t\t\t\thref=\"https://www.ebi.ac.uk/metabolights/guides/Study%20Description/Author\">steps</a>.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Validate</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tStudies must pass validation to be submitted. Validation errors are evident in the information bar at the\n\t\t\ttop of the study (if nothing is displayed the study has passed validation). Details of errors are available\n\t\t\tin the study validations tab.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Submit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tTo submit study, select <b>Status</b> and change to curation (study must validate to do this). You can also\n\t\t\tset the publication date at this stage.<br><br>\n\t\t\t<i>NB. curation process will take a minimum of 4 weeks, publication date cannot be less than\n\t\t\t\tthis.</i><br><br>\n\n\t\t\tSubmitted studies cannot be edited, contact <a href=\"mailto:metabolights-help@ebi.ac.uk\">MetaboLights\n\t\t\thelp</a> if amendments are required.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Review</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tFollowing successful study curation, the status will be updated to Review. A temporary private link will be\n\t\t\tavailable on the study page to share with journal editors, collaborators etc. if requested.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Publish</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tA study will be published once the release date is reached. The date can be changed at any stage by <a\n\t\t\t\thref=\"mailto:metabolights-help@ebi.ac.uk\">contacting us</a> directly. <br><br>\n\t\t\t<i>Please also send manuscript DOI to MetaboLights-help once available.</i>\n\n\t\t</td>\n\t</tr>\n</table>",
+            "content" : "<br><br>\n<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">\n\t<tr>\n\t\t<td>Checklist</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tBefore creating a study ensure you have the following;<br>\n\t\t\t1) MetaboLights <a href=\"www.ebi.ac.uk/metabolights/login\">account</a> <br>\n\t\t\t2) <a href=\"https://www.ebi.ac.uk/metabolights/guides/Study/Add_raw_data\">Raw data</a> to submit (or will\n\t\t\tdo by completion of study) <br>\n\t\t\t3) Supporting study information (ie. sample details, experimental methods, results)<br>\n\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Create</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tSelect <a href=\"https://www.ebi.ac.uk/metabolights/presubmit\">Submit study</a> to create a new study (or\n\t\t\tedit an existing study). Recommended: Use Create online to be guided through the study creation step by\n\t\t\tstep.<br><br>\n\t\t\t<i>NB. the accession number assigned to your study MTBLSxxx will be the permanent identifier (url\n\t\t\t\twww.ebi.ac.uk/metabolights/MTBLSxxx), please use this in manuscripts.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Edit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tUse the online editor option to view and edit existing studies. Access through My Studies page or with a\n\t\t\tstudy url. <br><br>\n\t\t\t<i>NB. You can give collaborators edit rights to the study following these <a\n\t\t\t\t\thref=\"https://www.ebi.ac.uk/metabolights/guides/Study%20Description/Authors”>steps</a>.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Validate</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tStudies must pass validation to be submitted. Validation errors are evident in the information bar at the\n\t\t\ttop of the study (if nothing is displayed the study has passed validation). Details of errors are available\n\t\t\tin the study validations tab.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Submit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tTo submit study, select <b>Status</b> and change to curation (study must validate to do this). You can also\n\t\t\tset the publication date at this stage.<br><br>\n\t\t\t<i>NB. curation process will take a minimum of 4 weeks, publication date cannot be less than\n\t\t\t\tthis.</i><br><br>\n\n\t\t\tSubmitted studies cannot be edited, contact <a href=\"mailto:metabolights-help@ebi.ac.uk\">MetaboLights\n\t\t\thelp</a> if amendments are required.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Review</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tFollowing successful study curation, the status will be updated to Review. A temporary private link will be\n\t\t\tavailable on the study page to share with journal editors, collaborators etc. if requested.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Publish</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tA study will be published once the release date is reached. The date can be changed at any stage by <a\n\t\t\t\thref=\"mailto:metabolights-help@ebi.ac.uk\">contacting us</a> directly. <br><br>\n\t\t\t<i>Please also send manuscript DOI to MetaboLights-help once available.</i>\n\n\t\t</td>\n\t</tr>\n</table>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -448,6 +448,26 @@
           }
         ]
       },
+      "Personal API token" : {
+        "title" : "Personal API token",
+        "sort_order" : 0,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "If you want to use the MetaboLights web service, you could find your personal API token from <a target='_blank' href='https://www.ebi.ac.uk/metabolights/myAccount '>my account</a>.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "API token.png",
+                "description" : "Get personal API token"
+              }
+            ],
+            "video" : []
+          }
+        ]
+      },
       "account_detail_reset" : {
         "title" : "Update login details",
         "sort_order" : 1,
@@ -517,50 +537,27 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "Study title should summarize your study. A good title contains the fewest possible words that adequately describe the contents and/or purpose of your research. It is recommended to use the same title as the first publication.",
+            "content" : "The study title should be clear and concise, ideally the same title as used for the corresponding manuscript. </br>\nSubmitters can add or modify a study title by selecting the title section and entering in the new title in the dialogue box or by providing the manuscript DOI in the publication section and selecting the <b>Import title</b> option.\n",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "Add Study title",
-            "content" : "You can add the title when you create a new study through guided submission or in the full study overview.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "Title1.jpg",
-                "description" : "Add a title in the guided submission"
-              },
-              {
-                "url" : "title_full_study_view.png",
-                "description" : "Add a title in full study view"
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "Update study title",
-            "content" : "You can modify the study title by clicking on it, or use your publication title to update.",
+            "title" : "",
+            "content" : "",
             "visible" : true,
             "img" : [
               {
                 "url" : "title2.png",
-                "description" : "update study title with online editor"
+                "description" : "Update study title with online editor"
               }
             ],
             "video" : [
               {
                 "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/title_v_1.mov",
-                "description" : "change study title from the publication details"
+                "description" : "Change study title from the publication details"
               }
             ]
-          },
-          {
-            "title" : "Validation Rules:",
-            "content" : "<ul><li>- Study title should be at least 8 characters long.</li></ul>",
-            "visible" : true,
-            "img" : [],
-            "video" : []
           },
           {
             "title" : "",
@@ -578,19 +575,12 @@
           }
         ]
       },
-      "Author" : {
-        "title" : "Author",
+      "Authors" : {
+        "title" : "Authors",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
-          {
-            "title" : "Change email ID",
-            "content" : "Please contact us directly at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> if you need to update your email ID at any time. ",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
           {
             "title" : "Change submitter/study owner",
             "content" : "The submitter is the person who creates the study. They will be able to directly view & edit the study during the submission process and all correspondence will be direct to them. They will also be the main contact once the study is public. <br> You can change the study ownership to your colleague. They should create a MetaboLights account and then you can make him/her as study submitter",
@@ -621,32 +611,6 @@
                 "description" : "Import authers from the publication"
               }
             ]
-          },
-          {
-            "title" : "Personal API token",
-            "content" : "If you want to use the MetaboLights web service, you could find your personal API token from <a target='_blank' href='https://www.ebi.ac.uk/metabolights/myAccount '>my account</a>.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "API token.png",
-                "description" : "Get personal API token"
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "GDPR",
-            "content" : "The 25th May 2018 marks the introduction across Europe of the General Data Protection Regulation (GDPR). This is the first European wide change in data handling legislation 1995. Current legislation varies from country to country which leads to differences as to how data was handled. The GDPR needs no national legislation and provides a consistent framework across Europe as to how data must be handled.<br><br>\n\nSince the GDPR regulations came into effect in May 2018 we have not observed significant changes in the submissions of human studies, many of which are urine, blood or tissue based. Within a submission, there are varying levels of data requirement. Our primary requirement is the raw data set and, where we encourage as complete corresponding metadata as possible for the purposes of reanalysis, our basic requirement would involve only the accompanying organism and organism part. Further information regarding the submission process can be viewed on our help page and the institute's data protection policy can be found here.<br><br>\n\nIn response to the wider metabolomics profile ethical debate and its increasing importance in clinical research, we are developing a controlled access version of MetaboLights. This will allow researchers to submit more restricted data which will then be available to others through ethics board approval, however, this will not be in place until 2021 at the earliest. This will follow the model of the already existing European Genome-Phenome Archive (Submission FAQs and GDPR notice).<br><br>\n\nFind more about <a target='_blank' href='https://www.ebi.ac.uk/about/technology/2017/04/general-data-protection-regulation-gdpr/ '>EBI GDPR policy</a>.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "Validation rules",
-            "content" : "<ul><li>- The last name/surname should be at least 2 characters long.</li></ul>\n<ul><li>- The first name should be at least 2 characters long.</li></ul>",
-            "visible" : true,
-            "img" : [],
-            "video" : []
           },
           {
             "title" : "",
