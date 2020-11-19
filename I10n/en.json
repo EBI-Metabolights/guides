@@ -508,272 +508,6 @@
         ]
       }
     },
-    "Study" : {
-      "overview" : {
-        "title" : "Study overview",
-        "sort_order" : 0,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "",
-            "content" : "</br>When you create a study the Guided submission process will take you through the setup step-by-step. It will guide you through raw and sample data upload, creating assays and provide you with controlled vocabulary/ontology options in relevant fields. If you don’t have all the information to hand, don’t worry! You can access and edit your entire study at any time when in submission from your My Studies page.</br></br>Each MetaboLights study has 4 main sections, study description, sample, assay and metabolite information. The basic outlines for each are given below. Each section also corresponds to a specific file as indicated in which the information is stored.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "Study description (i_MTBLSxxx.txt)",
-            "content" : "The study description should easily inform the reader about the study content and contacts.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image29.png",
-                "description" : "(a) Study identifier & title (b) Author information (c) Abstract (d) Publication link (e) Keywords(f) Protocol text"
-              },
-              {
-                "url" : "image20.png",
-                "description" : "(a) Study identifier & title (b) Author information (c) Abstract (d) Publication link (e) Keywords(f) Protocol text"
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "Sample information (s_MTBLSxxx.txt)",
-            "content" : "The sample information should provide all relevant facts about each sample and any controls / standards included in the study. There is ONE sample sheet per study. <br/>Sample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "Assay information (a_MTBLSxxx.txt)",
-            "content" : "The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study.</br></br>The assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.</br></br>",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image24.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "Metabolite information (m_MTBLSxxx.tsv)",
-            "content" : "Each assay has a corresponding metabolite table. If results are cumulative of multiple assays, use the metabolite assignment file column in the assay table to point all assays to the same m_MTBLSxxx.tsv file name.</br></br>The metabolite information should include all metabolites / unknowns / features identified within the study.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image25.png",
-                "description" : "Overview current adopted metabolite standards (Schmanski EL et al. 2014)"
-              }
-            ],
-            "video" : []
-          }
-        ]
-      },
-      "create_edit" : {
-        "title" : "Create & edit studies",
-        "sort_order" : 1,
-        "description" : "Choosing the option to Submit Study will take you to a login screen and then to your My Studies page. From there you can create a new study or edit an existing study.",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "Create a new study",
-            "content" : "Creating a new study will take you to the Guided submission portal.<br/>A new study will be automatically generated with a unique accession number / study identifier.<br/>The study will also be added to your My Studies page. You can then follow the steps to add information to your study.<br/>*You can exit the guided submission at any time and the information you have added will be automatically saved. To re-enter the study in Guided submission mode, simply go to My studies and select the Guided submission option below the study information.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image3.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "Edit existing study",
-            "content" : "All studies can be edited directly online. There are 2 ways to enter the edit mode; <br/>In My Studies page select the Study overview option below the study information. *This is also available from the Guided submission mode, look for the pop-out option in the bottom right corner. <br/>Studies can be edited online or downloaded and edited in eg. Excel. It is important not to remove columns or alter column headers when editing as the format is a fixed requirement. Additional columns can be added by choosing +factor, this should be done online before downloading files. <br/>Some sections of metadata require ontology fields. When adding information using the online options, ontology options will appear as you type. If uploading a file without ontologies added, the online editor will prompt you to select ontologies in the fields above the tables.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image5.png",
-                "description" : "From your study page on the website, select the edit option"
-              }
-            ],
-            "video" : []
-          }
-        ]
-      },
-      "Add_raw_data" : {
-        "title" : "Add raw data",
-        "sort_order" : 2,
-        "description" : "A primary requirement for a MetaboLights study is the inclusion of the raw data. Raw and data should be uploaded and each file linked to the appropriate study though the assay table.",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "",
-            "content" : "<br><b>Where do I find upload options?</b><br>When using the Guided submission you will be prompted to upload raw files. If you do not have these available at the time you can come back to the same stage of the guided submission from your My Studies page at a later time. Alternatively, you can use the upload option in the Files tab of your study in the Online editor view of your study.<br><br> There are 2 file upload methods;<br><br>(1) <b><i>Aspera connect plugin</b></i> (recommended)<br>Aspera is a plugin that is very simple to install in your browser. Select the  Aspera Upload option and then Install the plugin. Aspera is a fast way of transferring files which also enables the user to stop the transfer, and later resume where you left off. If you see raw data files in the final upload with .aspx appended, the file upload may have paused. Please open Aspera connect on your computer to check the status of your upload and resume upload if necessary. If the upload has completed you can delete the .aspx appended files or contact us to do so. NB. You may need to contact your local IT support if you do not have privileges to install browser plugins.<br><br>(2) <b><i>FTP</b></i><br>FTP can be used on any computer, either directly from the command line or through a graphical user interface. However, on most computers, you have to install an FTP client first. If you are not familiar with using FTP from the command line, we can recommend the free FileZilla tool. Please see the FAQ section on the FileZilla pages for specific details about how this software works.<br>",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image43.png",
-                "description" : "Guided submission upload"
-              },
-              {
-                "url" : "image45.png",
-                "description" : "Online editor upload"
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "<b>Accepted raw file formats</b><br> eg. .raw, .d, .cdf, open source formats (.mzML, .nmrML) ",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "<b>I can't see my files</b><br>If you have uploaded files but do not see them in your study folder, please try the <i>copy to study folder</i> option on the uploaded files tab and then refresh the page. If this is not successful please contact MetaboLights-help.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image44.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          }
-        ]
-      },
-      "shortcuts" : {
-        "title" : "Shortcuts / functions",
-        "sort_order" : 3,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "Protocol",
-            "content" : "When you set up an assay the required protocol fields are automatically generated, these must be completed using the Edit Description option and cannot be deleted or renamed.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "You can add further protocol sections which can be edited, named and also deleted.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "Within each protocol section there will be formatting options available as below.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image1.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "Ontologies",
-            "content" : "Where possible terms are supported by controlled vocabularies / ontologies. Simply start to type and if available, options will appear below and you can select the appropriate term. If the term you are looking for does not appear, simply press enter and the text to add it as free text. ",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image8.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "Where ontologies have not been added within tables a section will appear above the table to highlight terms. Simply click edit option to add on.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image7.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "Editing tables",
-            "content" : "",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image42.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          }
-        ]
-      },
-      "validations" : {
-        "title" : "Validations",
-        "sort_order" : 4,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "",
-            "content" : "A study must pass validation to be progressed to the curation stage. If the validations have been unsuccessful this will appear at the top of the study. Further information can then be found in the Study Validations tab.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image4.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "Within the validations tab you can select to view the different validation levels. <br/>Each validation is listed according to the section it belongs to eg. publication, sample table, assay, files.<br/>All errors must be resolved to progress. Please contact us if you need assistance to resolve an error.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image28.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          }
-        ]
-      },
-      "status" : {
-        "title" : "Study status update",
-        "sort_order" : 5,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "",
-            "content" : "",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image10.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          }
-        ]
-      }
-    },
     "Study Description" : {
       "Title" : {
         "title" : "Study title",
@@ -1497,7 +1231,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "When using the Guided submission you will be prompted to upload raw files. If you do not have these available at the time you can come back to the same stage of the guided submission from your My Studies page at a later time. Alternatively, you can use the upload option in the Files tab of your study in the Online editor view of your study. <br><br>There are 2 file upload methods;",
+            "content" : "A primary requirement for a MetaboLights study is the inclusion of the raw data. Raw and data should be uploaded and each file linked to the appropriate study though the assay table. When using the Guided submission you will be prompted to upload raw files. If you do not have these available at the time you can come back to the same stage of the guided submission from your My Studies page at a later time. Alternatively, you can use the upload option in the Files tab of your study in the Online editor view of your study. <br><br>There are 2 file upload methods;",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1543,6 +1277,18 @@
             "content" : "You need to organise files locally in the same folder structure and then upload. This would automatically add it to the corresponding folders in the study.",
             "visible" : true,
             "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "I can't see my files",
+            "content" : "If you have uploaded files but do not see them in your study folder, please try the copy to study folder option on the uploaded files tab and then refresh the page. If this is not successful please contact <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a>.\n",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "image44.png\n",
+                "description" : ""
+              }
+            ],
             "video" : []
           }
         ]
