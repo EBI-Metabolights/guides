@@ -583,9 +583,14 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "Please provide names and details for study authors. This can be done by selecting <b>+person</b> in the author section or by providing the manuscript DOI in the publication section and selecting the <b>Import author</b> option.\n",
+            "content" : "Please provide names and details for study authors. This can be done by selecting <b>+Add person</b> in the author section or by providing the manuscript DOI in the publication section and selecting the <b>Import author</b> option.\n",
             "visible" : true,
-            "img" : [],
+            "img" : [
+              {
+                "url" : "add study author.png",
+                "description" : "Add study author"
+              }
+            ],
             "video" : [
               {
                 "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/person_v_1.mov",
