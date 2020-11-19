@@ -395,6 +395,26 @@
             "video" : []
           }
         ]
+      },
+      "Video tutorial" : {
+        "title" : "Video tutorial",
+        "sort_order" : 9,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "",
+            "visible" : true,
+            "img" : [],
+            "video" : [
+              {
+                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/201904_ML_ALL.mp4",
+                "description" : "Online Study Submission"
+              }
+            ]
+          }
+        ]
       }
     },
     "MetaboLights_account" : {
