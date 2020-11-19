@@ -39,43 +39,6 @@
           }
         ]
       },
-      "Create account" : {
-        "title" : "Create Account",
-        "sort_order" : 2,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "",
-            "content" : "</br>You can create an account by selecting Login above or via <a href='www.ebi.ac.uk/metabolights/newAccount'>Create account</a>.",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image18a.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "</br>When creating your MetaboLights account your email address will be your user name. Please contact us directly if you need to update this at any time. </br></br>You can also link your ORCID account, allowing you to claim your data submissions in your research achievements.</br><a target='_blank' href='https://orcid.org/about'> What is ORCID?</a></br></br>",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image35.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "</br><i>If you have problems accessing your account, please check your email (junk folder also!) for a confirmation.</br>Alternatively, contact us directly at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a></i>.",
-            "visible" : true
-          }
-        ]
-      },
       "Submission Process" : {
         "title" : "Submission Process",
         "sort_order" : 3,
@@ -152,7 +115,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>Select <a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> followed by <b>Create online</b> to be guided through the study creation steps.",
+            "content" : "</br>Select <a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> followed by <b>Create online</b> to be taken to the Guided Submission Portal.<br>\nIf you have an existing account you will first be taken to My Studies where you can choose to edit an existing study or create a new study.\n",
             "visible" : true,
             "img" : [
               {
