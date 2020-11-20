@@ -939,18 +939,6 @@
             "video" : []
           },
           {
-            "title" : "Editing tables",
-            "content" : "",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image42.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
             "title" : "",
             "content" : "Add a new sample",
             "visible" : true,
