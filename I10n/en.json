@@ -255,7 +255,7 @@
           },
           {
             "title" : "Study description (i_MTBLSxxx.txt)",
-            "content" : "The study description should easily inform the reader about the study content and contacts.",
+            "content" : "This section provides a description of the study, an overview that will inform the reader the type of data they will find. There are several parts to this section; </br>\n(a) Study identifier & title</br>\nMTBLSXXX identifier provided by MetaboLights and descriptive title which should match manuscript title.</br></br>\n\n(b) Author information</br>\nA list of all contributing authors.</br></br>\n\n(c) Abstract</br>\nHigh level description of the study.</br></br>\n\n(d) Manuscript publication information</br>\nManuscript title, authors and public link. A tentative title should be provided if the manuscript is in preparation. This can be updated at any stage by contacting MetaboLights Help directly and a DOI / PMID Identifier can be used to update title/author/abstract directly from the manuscript.</br></br>\n\n(e) Keywords / Descriptors </br>\neg. untargeted metabolites, high performance liquid chromatography, oncology</br></br>\n\n(f) Descriptive protocols</br>\nWhen an assay is selected a set of corresponding protocol boxes will automatically be generated in the protocol section to guide the required information.</br></br>\n",
             "visible" : true,
             "img" : [
               {
