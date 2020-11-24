@@ -594,14 +594,7 @@
             ]
           },
           {
-            "title" : "Give collaborators edit access to the study",
-            "content" : "Authors are added as for a manuscript editor but will not have edit or private access to the study. If you would like edit rights to be given to collaborators they will also need to create an account.  The submitter can then contact us to ask for them to be added to the study. Group or project email addresses can be used to allow shared access to edit a study and link studies more readily.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "Author study access",
+            "title" : "Study access for authors",
             "content" : "Submitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public. <br><br>\nAuthors are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study. <br><br>\nThe submitter can provide access & edit rights to other authors provided they also have a MetaboLights account. First add as an author (must include email), select name from the author list and then choose <b>Make Submitter</b> option.\n<br>",
             "visible" : true,
             "img" : [
@@ -643,7 +636,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "Study abstract should briefly summarize your study, including <br>1) The overall purpose of the study;<br>2) The basic design of the study;<br> 3) Major findings or trends found as a result of your analysis;<br> 4) A brief summary. <br>It is recommended to use the same abstract as the publication. ",
+            "content" : "The abstract should give a brief summary of the study as highlighted below. It is recommended to use the same abstract as the publication. <br>\n1) The overall purpose of the study<br>\n2) The basic design of the study<br>\n3) Major findings or trends found as a result of your analysis<br>\n4) A brief summary<br>\n",
             "visible" : true,
             "img" : [],
             "video" : []
