@@ -1,6 +1,6 @@
 {
   "created_at" : "",
-  "updated_at" : "19/11/2020",
+  "updated_at" : "25/11/2020",
   "data" : {
     "Quick_start_Guide" : {
       "Quick start overview\nQuick start overview\nQuick start overview\nQuick start overview\n" : {
@@ -780,96 +780,6 @@
             "video" : []
           }
         ]
-      },
-      "Factors" : {
-        "title" : "Factors",
-        "sort_order" : 0,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "content" : "Study Factors are key parameters within a study that differentiate samples into groups e.g. ‘ gene knockout’ , ‘gender ’, ‘ location ’, ‘ year ’, ‘ age ’, ‘ time elapsed ’ etc.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "Add a factor",
-            "content" : "You can add study factors by clicking the +Add factor button in Factors section. Type the factor term and use the drop-down to select the most relevant ontology term. If there is no ontology term available, type your free text and press enter to accept (then OK to add to the factor).",
-            "visible" : true,
-            "img" : [],
-            "video" : [
-              {
-                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/factor_v_1.mov",
-                "description" : "add factor to sample sheet"
-              }
-            ]
-          },
-          {
-            "title" : "Check factor details",
-            "content" : "You can check factor details by click the term in Factors section.",
-            "visible" : true,
-            "img" : [],
-            "video" : [
-              {
-                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/factor_v_3.mov",
-                "description" : "add factor to sample sheet"
-              }
-            ]
-          },
-          {
-            "title" : "Modify/Delete the factor",
-            "content" : "You can modify/delete a factor by click the pencil sign.",
-            "visible" : true,
-            "img" : [],
-            "video" : [
-              {
-                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/factor_v_4.mov",
-                "description" : "add factor to sample sheet"
-              }
-            ]
-          },
-          {
-            "title" : "Add factor to the sample sheet",
-            "content" : "You can add further columns to the sample sheet by selecting +factor.",
-            "visible" : true,
-            "img" : [],
-            "video" : [
-              {
-                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/factor_v_2.mov",
-                "description" : "add factor to sample sheet"
-              }
-            ]
-          },
-          {
-            "title" : "Delete factor from the sample sheet",
-            "content" : "To delete the factor, you can download the sample file to remove the associated column(s) and re-upload the modified file.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "Validation rules",
-            "content" : "<ul><li>- The factor should be at least 5 characters long.</li></ul>\n",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get/add/update/delete factors of your study programmatically using our APIs. <br> Try the MetaboLights factor API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41' target='_blank'><strong>POST</strong></a>, <a href='https://https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41' target='_blank'><strong>PUT</strong></a>, <a https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39' target='_blank'><strong>DELETE</strong></a></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          }
-        ]
       }
     },
     "Protocol" : {
@@ -881,7 +791,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "Protocols are central for reproducibility purposes; Metabolights keeps detailed descriptions of experiments in this section. includes: <br>\n1. Sample collection<br>\n2. Extraction<br>\n3. Chromatography/NMR sample<br>\n4. Mass spectrometry/NMR spectroscopy<br>\n5. Data transformation<br>\n6. Metabolite identification<br>",
+            "content" : "Protocols are central for reproducibility purposes and should provide a detailed description of the steps taken in the study. When an assay is selected, the protocol section will populate with several titled sections which you can add your specific study details to. <br><br>\n\nEg. Liquid chromatography - Mass Spectrometry<br>\n1. <b>Sample collection</b><br>\n\t<i>Describe the origin of samples, any relevant treatment, time points etc. and the collection and storage procedure.</i><br><br>\n2. <b>Extraction</b><br>\n<i>Describe any extraction or preparation methods applied to the sample before analysis.<br>\nPlease also include any control samples prepared for the assay eg. pooled samples, standards, quality control, solvent blank etc</i><br><br>\n3. <b>Chromatography</b><br>\n<i>Provide details of the instrument and column used (make & manufacturer), mobile phase and gradient, and settings such as temperatures, flow rate, injection volume.</i><br><br>\n4. <b>Mass spectrometry</b><br>\n<i>Provide details of the instrument used (make & manufacturer), ion source, ionisation mode (positive / negative), m/z range, and specific parameters such as temperatures, voltages, flow rates, scan rates.</i><br><br>\n5. <b>Data transformation</b><br>\n<i>Provide details of methods / pipelines and software used to transform the raw data.</i><br><br>\n6. <b>Metabolite identification</b><br>\n<i>Provide details of methods / pipelines, reference databases and software used to identify features and/or annotate metabolites.</i><br><br>\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -926,14 +836,14 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "The sample information should provide all relevant facts about each sample and any controls/standards included in the study. There is ONE sample sheet per study. \nSample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment)",
+            "content" : "The sample information should provide all relevant facts about each sample and any controls/standards included in the study. There is ONE sample sheet per study. <br><br>\nSample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
             "title" : "",
-            "content" : "Add a new sample",
+            "content" : "A group of samples can be added to the sample table using <b>+Samples</b> and pasting a list or selecting to import Raw data file names if appropriate. There is also the option to add as many new rows as required with <b>+Rows</b> and edit cells individually. \n",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -942,6 +852,108 @@
                 "description" : "add publication details in full study view"
               }
             ]
+          },
+          {
+            "title" : "Validation Rules:",
+            "content" : "<ul><li>- Sample columns present in the sample file.</li></ul>\n<ul><li>- \"Sample collection\" column completely filled in.</li></ul>\n<ul><li>- No empty rows in sample file.</li></ul>\n<ul><li>- Organism name should be at least 5 characters long.</li></ul>\n<ul><li>- Organism cannot be 'human' or 'man', please choose the 'Homo sapiens' taxonomy term.</li></ul>\n<ul><li>- Organism cannot be one of the invalid terms.</li></ul>\n<b>Invalid organism term:</b> cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matrix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown.\n",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get a list of all sample names, mapped to files in the study and upload folder(s) programmatically using our APIs. <br> Try the MetaboLights study sample API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5' target='_blank'><strong>GET </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get Get ISA-Tab Sample file programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9' target='_blank'><strong>GET </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          }
+        ]
+      },
+      "Factors" : {
+        "title" : "Factors",
+        "sort_order" : 0,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "content" : "The standard information captured in a sample sheet includes the organism and part of the organism studied. Each study will then vary in what sample information can be provided as eg. clinic samples may have gender, age and treatment information available and plant samples might have genetic variants and geological locations. This further information which helps to describe samples and to stratify the groups of interest for analysis and statistics is added to sample tables as factors.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "Add factor in the sample sheet",
+            "content" : "From the sample section select <b>+Add factor</b>. Type the factor term and use the drop-down to select the most relevant ontology term. If there is no ontology term available, type your free text and press enter to accept (then OK to add to the factor). In the second step you can add a unit if the factor information you are adding includes numerical values, if not simply select add factor in this step. <br><br>\nA new column will then be added to the sample sheet so you can add the relevant information for each sample.\n",
+            "visible" : true,
+            "img" : [],
+            "video" : [
+              {
+                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/factor_v_2.mov",
+                "description" : "add factor to sample sheet"
+              }
+            ]
+          },
+          {
+            "title" : "Delete factor column in sample sheet",
+            "content" : "To delete the factor, download the sample file and select to open with eg. Excel, then simply remove the factor related columns and re-upload the modified file. There will be 3-4 columns for each factor; Factor Value[factor_name], Unit (if added), Term source REF, Term accession number. <br>\n<b><i>It is important not to remove the original columns or alter column headers when editing as the format is a fixed requirement. </i></b>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "View factor information\n",
+            "content" : "A list of all factors added to the study together with the ontology information can be found on the first tab of your study.",
+            "visible" : true,
+            "img" : [],
+            "video" : [
+              {
+                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/factor_v_3.mov",
+                "description" : "add factor to sample sheet"
+              }
+            ]
+          },
+          {
+            "title" : "",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get/add/update/delete factors of your study programmatically using our APIs. <br> Try the MetaboLights factor API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41' target='_blank'><strong>POST</strong></a>, <a href='https://https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39_40_41' target='_blank'><strong>PUT</strong></a>, <a https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37_38_39' target='_blank'><strong>DELETE</strong></a></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          }
+        ]
+      },
+      "Editing sample information" : {
+        "title" : "Editing sample information",
+        "sort_order" : 0,
+        "description" : "",
+        "visible" : true,
+        "sections" : [
+          {
+            "title" : "",
+            "content" : "The sample table can be edited online with features as described below and in <a href='https://www.ebi.ac.uk/metabolights/guides/Quick_start_Guide/Shortcuts%2Ffunctions'>shortcuts/functions</a>. Please note, the Protocol Ref in the sample table must be Sample collection. <br><br>\n\nAlternatively, once all additional factor columns have been added the sample file can be downloaded & edited in eg. Excel. It is important that the standard structure of the sample table is not altered, do not remove or alter existing columns (only factors) and retain the file name & extensions.\n\n",
+            "visible" : true,
+            "img" : [],
+            "video" : []
           },
           {
             "title" : "",
@@ -978,41 +990,6 @@
                 "description" : "add publication details in full study view"
               }
             ]
-          },
-          {
-            "title" : "Delete an added column",
-            "content" : "To delete the added column, you can download the sample file to remove the associated column(s) and re-upload the modified file. <b> It is important not to remove original columns came with the study or alter column headers when editing as the format is a fixed requirement. </b>",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "Validation Rules:",
-            "content" : "<ul><li>- Sample columns present in the sample file.</li></ul>\n<ul><li>- \"Sample collection\" column completely filled in.</li></ul>\n<ul><li>- No empty rows in sample file.</li></ul>\n<ul><li>- Organism name should be at least 5 characters long.</li></ul>\n<ul><li>- Organism cannot be 'human' or 'man', please choose the 'Homo sapiens' taxonomy term.</li></ul>\n<ul><li>- Organism cannot be one of the invalid terms.</li></ul>\n<b>Invalid organism term:</b> cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matrix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown.\n",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get a list of all sample names, mapped to files in the study and upload folder(s) programmatically using our APIs. <br> Try the MetaboLights study sample API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5' target='_blank'><strong>GET </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get Get ISA-Tab Sample file programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9' target='_blank'><strong>GET </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
-            "visible" : true,
-            "img" : [],
-            "video" : []
           }
         ]
       }
