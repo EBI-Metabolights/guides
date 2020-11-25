@@ -520,14 +520,14 @@
     },
     "研究概述" : {
       "Title" : {
-        "title" : "Study title",
+        "title" : "研究标题",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "The study title should be clear and concise, ideally the same title as used for the corresponding manuscript. </br>\nSubmitters can add or modify a study title by selecting the title section and entering in the new title in the dialogue box or by providing the manuscript DOI in the publication section and selecting the <b>Import title</b> option.\n",
+            "content" : "研究标题应简洁明了，最好与相应的手稿使用相同的标题。</br>\n提交者可以通过选择标题部分并在对话框中输入新标题，或通过在出版物部分提供手稿DOI并选择<b>Import title</b> 选项来添加或修改研究标题。\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -558,7 +558,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> 无法找到你想要的？ 查看我们的 <a href='/guides/FAQs' target='_blank'>FAQ's</a>了解最常见的问题和解决方案。</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -566,19 +566,19 @@
         ]
       },
       "Authors" : {
-        "title" : "Authors",
+        "title" : "作者",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "Please provide names and details for study authors. This can be done by selecting <b>+Add person</b> in the author section or by providing the manuscript DOI in the publication section and selecting the <b>Import author</b> option.\n",
+            "content" : "请提供研究作者的姓名和详细信息。 可以通过在“作者”部分中选择<b>+Add person</b>或在出版物部分中提供手稿DOI并选择 <b>Import author</b>选项来完成。",
             "visible" : true,
             "img" : [
               {
                 "url" : "add study author.png",
-                "description" : "Add study author"
+                "description" : "添加研究作者"
               }
             ],
             "video" : [
@@ -589,8 +589,8 @@
             ]
           },
           {
-            "title" : "Study access for authors",
-            "content" : "Submitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public. <br><br>\nAuthors are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study. <br><br>\nThe submitter can provide access & edit rights to other authors provided they also have a MetaboLights account. First add as an author (must include email), select name from the author list and then choose <b>Make Submitter</b> option.\n<br>",
+            "title" : "作者的权限",
+            "content" : "提交者是研究的创建者和编辑，他们在提交过程中有权访问和编辑私人研究，我们也将直接和提交者联系。 研究公开后，他们还将成为主要联系人。 <br><br>\n作者被指定为贡献者（如手稿），但不会自动拥有编辑权或对该研究的私人访问权。 <br><br>\n如果其他作者也具有MetaboLights帐户，则提交者可以向其他作者授予访问和编辑权限。 首先添加为作者（必须包括电子邮件），从作者列表中选择名称，然后选择<b>Make Submitter</b>选项。<br>",
             "visible" : true,
             "img" : [
               {
@@ -616,7 +616,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> 无法找到你想要的？ 查看我们的 <a href='/guides/FAQs' target='_blank'>FAQ's</a>了解最常见的问题和解决方案。</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -624,21 +624,21 @@
         ]
       },
       "Abstract" : {
-        "title" : "Abstract",
+        "title" : "摘要",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "The abstract should give a brief summary of the study as highlighted below. It is recommended to use the same abstract as the publication. <br>\n1) The overall purpose of the study<br>\n2) The basic design of the study<br>\n3) Major findings or trends found as a result of your analysis<br>\n4) A brief summary<br>\n",
+            "content" : "摘要应概述研究，如下所示。 建议使用与出版物相同的摘要。<br>\n1）研究的目的<br>\n2）研究的基本设计<br>\n3）分析发现的主要发现或趋势<br>\n4）简要总结<br>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "Update Abstract from the publication",
-            "content" : "Your MetaboLights study abstract can be updated to match your publication abstract.",
+            "title" : "更新出版物的摘要",
+            "content" : "您的MetaboLights研究摘要可以利用出版物摘要进行更新。",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -649,8 +649,8 @@
             ]
           },
           {
-            "title" : "Formating abstract",
-            "content" : "Within the abstract editing section, there will be formatting options available as below.",
+            "title" : "摘要编辑",
+            "content" : "在摘要编辑部分中，将提供以下格式选项。",
             "visible" : true,
             "img" : [
               {
@@ -661,8 +661,8 @@
             "video" : []
           },
           {
-            "title" : "Validation rules",
-            "content" : "<ul><li>- The study abstract should be at least 60 characters long.</li></ul>\n",
+            "title" : "验证规则",
+            "content" : "<ul><li>- 研究摘要至少应包含60个字符。</li></ul>\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -676,7 +676,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> 无法找到你想要的？ 查看我们的 <a href='/guides/FAQs' target='_blank'>FAQ's</a>了解最常见的问题和解决方案。</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -684,21 +684,21 @@
         ]
       },
       "Publications" : {
-        "title" : "Publications",
+        "title" : "出版物",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "The publication information should match any associated manuscript, include title, abstract, authors and publication status.",
+            "content" : "出版物信息应与相关的手稿相匹配，包括标题，摘要，作者和出版物状态。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "Add publication",
-            "content" : "Please add your publication details by guided submission or study online editor. The study title, abstract and authors also can be imported using a publication DOI, PubMed or EuropePMC identifier.",
+            "title" : "添加出版物信息",
+            "content" : "请通过引导提交或研究在线编辑器添加出版物详细信息。 也可以使用出版物DOI，PubMed或EuropePMC标识符导入研究标题，摘要和作者。",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -713,15 +713,15 @@
             ]
           },
           {
-            "title" : "publication status",
-            "content" : "- In preparation: Publication in preparation before submitting to a journal. <br>\n- Submitted: Publication submitted to a journal.<br>\n- Preprint: publications that have URL/DOI for an online copy that can be viewed by anyone but is not the final version.<br>\n- Published: Publication published in a journal.<br>\n",
+            "title" : "出版状态",
+            "content" : "- 准备中(In preparation)：在准备发表之前，先提交期刊。<br>\n- 已提交(Submitted)：出版物已提交至期刊。<br>\n- 预印本(Preprint)：具有URL / DOI的在线副本的出版物，任何人都可以查看，但不是最终版本。<br>\n- 已发布(Published)：在期刊上发布的出版物。<br>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "Validation rules",
-            "content" : "<ul><li>- The publication title should be at least 25 characters long.</li></ul>\n<ul><li>- Provide a list of authors, separated by commas. As appears in the publication, do not include affiliation.</li></ul>\n<ul><li>- Only provide the id number, not prefixed with PMID.</li></ul>\n<ul><li>- Provide the publication status, this should be at least 5 characters long.</li></ul>",
+            "title" : "验证规则",
+            "content" : "<ul><li>- 出版物标题的长度至少应为25个字符。</li></ul>\n<ul><li>- 提供作者列表，以逗号分隔。 如出版物中所示，不包括从属关系。</li></ul>\n<ul><li>- 仅提供ID号，不带PMID前缀。</li></ul>\n<ul><li>- 提供发布状态，该状态至少应为5个字符。</li></ul>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -735,7 +735,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> 无法找到你想要的？ 查看我们的 <a href='/guides/FAQs' target='_blank'>FAQ's</a>了解最常见的问题和解决方案。</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -743,21 +743,21 @@
         ]
       },
       "Keywords" : {
-        "title" : "Keywords",
+        "title" : "关键字",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "Effective keywords for your study portray an accurate representation of what you publish. It also helps MetaboLights search to indexes the study. Keywords should:<br> - Represent the content of your manuscript <br> - Be specific to your field or sub-field",
+            "content" : "有效关键字可以准确表示您发表的内容。 它还可以帮助MetaboLights搜索为研究建立索引。 关键字应：<br>-代表手稿的内容<br>-特定于您的领域或子领域",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "Add keyword",
-            "content" : "To add new keywords to your study, you can click the +Add in the keywords section. Type the keyword and use the drop-down to select the most relevant ontology term. If the input term can’t match to any of our ontology control vocabulary, type your plain text and press enter to accept (then OK to add to the keyword).",
+            "title" : "添加关键字",
+            "content" : "添加关键字到您的研究中，您可以单击关键字部分中的+Add。 输入关键字，然后使用下拉菜单选择最相关的本体词汇。 如果输入词与我们的任何本体控制词汇都不匹配，请输入纯文本，然后按Enter键接受（然后单击确定以添加到关键字中）。",
             "visible" : true,
             "img" : [
               {
@@ -768,8 +768,8 @@
             "video" : []
           },
           {
-            "title" : "Are there any limits on the number of keywords?",
-            "content" : "We have no limit on the number of keywords.",
+            "title" : "关键字数量是否有限制？",
+            "content" : "我们对关键字的数量没有限制。",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -779,21 +779,21 @@
     },
     "协议" : {
       "Protocol" : {
-        "title" : "Protocol",
+        "title" : "协议",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "Protocols are central for reproducibility purposes and should provide a detailed description of the steps taken in the study. When an assay is selected, the protocol section will populate with several titled sections which you can add your specific study details to. <br><br>\n\nEg. Liquid chromatography - Mass Spectrometry<br>\n1. <b>Sample collection</b><br>\n\t<i>Describe the origin of samples, any relevant treatment, time points etc. and the collection and storage procedure.</i><br><br>\n2. <b>Extraction</b><br>\n<i>Describe any extraction or preparation methods applied to the sample before analysis.<br>\nPlease also include any control samples prepared for the assay eg. pooled samples, standards, quality control, solvent blank etc</i><br><br>\n3. <b>Chromatography</b><br>\n<i>Provide details of the instrument and column used (make & manufacturer), mobile phase and gradient, and settings such as temperatures, flow rate, injection volume.</i><br><br>\n4. <b>Mass spectrometry</b><br>\n<i>Provide details of the instrument used (make & manufacturer), ion source, ionisation mode (positive / negative), m/z range, and specific parameters such as temperatures, voltages, flow rates, scan rates.</i><br><br>\n5. <b>Data transformation</b><br>\n<i>Provide details of methods / pipelines and software used to transform the raw data.</i><br><br>\n6. <b>Metabolite identification</b><br>\n<i>Provide details of methods / pipelines, reference databases and software used to identify features and/or annotate metabolites.</i><br><br>\n",
+            "content" : "方案对于可重复性目的至关重要，应详细说明研究中采取的步骤。选择测定后，方案部分将填充几个标题部分，您可以在其中添加特定的研究详细信息。<br><br>\n\n以液相色谱-质谱研究为例<br>\n1. <b>样品采集(Sample collection)</b><br>\n\t<i>描述样品的来源，任何相关处理，时间点等以及收集和储存程序。</i><br><br>\n2. <b>提取(Extraction)</b><br>\n<i>描述分析前应用于样品的任何提取或制备方法。<br>\n还请包括为分析准备的任何对照样品，例如。合并样品，标准品，质量控制，溶剂空白等</i><br><br>\n3. <b>色谱法(Chromatography)</b><br>\n<i>提供使用的仪器和色谱柱（制造商和制造商），流动相和梯度以及温度，流速，进样量等设置的详细信息。</i><br><br>\n4. <b>质谱法(Mass spectrometry)</b><br>\n<i>提供所用仪器（制造商和制造商），离子源，电离模式（正/负），m / z范围以及特定参数（例如温度，电压，流速，扫描速率）的详细信息。</i><br><br>\n5. <b>数据转换(Data transformation)</b><br>\n<i>提供用于转换原始数据的方法/软件的详细信息。</i><br><br>\n6. <b>代谢物鉴定(Metabolite identification)</b><br>\n<i>提供方法/调控，参考数据库和用于识别特征和/或注释代谢物的软件的详细信息。</i><br><br>\n",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "Validation rules",
-            "content" : "<ul><li>- The protocol should be at least 40 characters long.</li></ul>\n<ul><li>- The protocol name should be at least 8 characters long.</li></ul>\n<ul><li>- All expected protocol should be defined.</li></ul>\n<ul><li>- All characters should be printable in the protocol description, ie. non-UTF-8 compatible characters.</li></ul>",
+            "title" : "验证规则",
+            "content" : "<ul><li>- 协议长度至少应为40个字符。</li></ul>\n<ul><li>- 协议名称至少应包含8个字符。</li></ul>\n<ul><li>- 应该完成所有预期的协议。</li></ul>\n<ul><li>- 所有字符应在协议描述中可显示，即。 非UTF-8兼容字符。</li></ul>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -814,7 +814,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> 无法找到你想要的？ 查看我们的 <a href='/guides/FAQs' target='_blank'>FAQ's</a>了解最常见的问题和解决方案。</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -824,21 +824,21 @@
     },
     "样本" : {
       "Sample" : {
-        "title" : "Sample",
+        "title" : "样本（Sample）",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "The sample information should provide all relevant facts about each sample and any controls/standards included in the study. There is ONE sample sheet per study. <br><br>\nSample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).",
+            "content" : "样品信息应提供有关每个样品以及研究中包括的任何对照/标准品的所有相关事实。 每个研究只能有一个样本表。</br></br>\n样品元数据应包括唯一的样品名称(sample name)，有机物(organism)，有机物部分（organism part，用于对照，例如experimental blank and solvent）和样品类型（sample type，例如control, QC, experimental sample）。 通过选择+Factor来添加新的列（如Gender，age，Treatment），应在可用的地方包括更多样本描述符。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
             "title" : "",
-            "content" : "A group of samples can be added to the sample table using <b>+Samples</b> and pasting a list or selecting to import Raw data file names if appropriate. There is also the option to add as many new rows as required with <b>+Rows</b> and edit cells individually. \n",
+            "content" : "可以使用<b> + Samples </b>将一组样本添加到样本表中，并粘贴一个列表，或者选择导入原始数据文件名（如果适用）。 还可以选择使用<b> +Row</ b> 添加所需数量的新行并分别编辑单元格。\n",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -849,8 +849,8 @@
             ]
           },
           {
-            "title" : "Validation Rules:",
-            "content" : "<ul><li>- Sample columns present in the sample file.</li></ul>\n<ul><li>- \"Sample collection\" column completely filled in.</li></ul>\n<ul><li>- No empty rows in sample file.</li></ul>\n<ul><li>- Organism name should be at least 5 characters long.</li></ul>\n<ul><li>- Organism cannot be 'human' or 'man', please choose the 'Homo sapiens' taxonomy term.</li></ul>\n<ul><li>- Organism cannot be one of the invalid terms.</li></ul>\n<b>Invalid organism term:</b> cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matrix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown.\n",
+            "title" : "验证规则:",
+            "content" : "<ul><li>- 样本列有对应的样本文件。</li></ul>\n<ul><li>- \"Sample collection\" 列没有空白单元。</li></ul>\n<ul><li>- 样本文件中没有空白行。</li></ul>\n<ul><li>- 有机物名称应该包含5个字符。</li></ul>\n<ul><li>- 有机物名称 'human' 或者 'man', 请使用 'Homo sapiens' 学术分类。</li></ul>\n<ul><li>- 有机物不可以是无效词语。</li></ul>\n<b>无效词语包括:</b> cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matrix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown.\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -871,7 +871,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> 无法找到你想要的？ 查看我们的 <a href='/guides/FAQs' target='_blank'>FAQ's</a>了解最常见的问题和解决方案。</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -879,20 +879,20 @@
         ]
       },
       "Factors" : {
-        "title" : "Factors",
+        "title" : "要素（Factors）",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
-            "content" : "The standard information captured in a sample sheet includes the organism and part of the organism studied. Each study will then vary in what sample information can be provided as eg. clinic samples may have gender, age and treatment information available and plant samples might have genetic variants and geological locations. This further information which helps to describe samples and to stratify the groups of interest for analysis and statistics is added to sample tables as factors.",
+            "content" : "样本表中捕获的标准信息包括生物体（organism）和有机体部分（organism part）。根据每个研究的不同，样本信息也将多样化，例如临床样本可能具有性别，年龄和治疗的信息， 而植物样本可能具有遗传变异和地理位置等信息。 有助于描述样本分类，进行分析和统计的附加信息将作为要素（factor）添加到样本表中。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "Add factor in the sample sheet",
-            "content" : "From the sample section select <b>+Add factor</b>. Type the factor term and use the drop-down to select the most relevant ontology term. If there is no ontology term available, type your free text and press enter to accept (then OK to add to the factor). In the second step you can add a unit if the factor information you are adding includes numerical values, if not simply select add factor in this step. <br><br>\nA new column will then be added to the sample sheet so you can add the relevant information for each sample.\n",
+            "title" : "样本表中添加要素",
+            "content" : "从样本部分中选择<b> +Factor</b>。 输入要素名称，然后使用下拉菜单选择最相关的本体词汇。 如果没有可用的本体术语，请键入您的要素名称，然后按Enter键接受（然后单击OK添加到要素中）。 在第二步中，如果要添加的因子信息包括数值，则可以添加一个单位，如果不添加单位，请在此步骤中选择add factor。 <br> <br>\n添加一个要素将在样品表中添加一个新列，以便您可以为每个样品添加相关信息。",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -903,15 +903,15 @@
             ]
           },
           {
-            "title" : "Delete factor column in sample sheet",
-            "content" : "To delete the factor, download the sample file and select to open with eg. Excel, then simply remove the factor related columns and re-upload the modified file. There will be 3-4 columns for each factor; Factor Value[factor_name], Unit (if added), Term source REF, Term accession number. <br>\n<b><i>It is important not to remove the original columns or alter column headers when editing as the format is a fixed requirement. </i></b>",
+            "title" : "从样本表中删除要素列",
+            "content" : "要删除要素，请下载样本文件，然后用软件打开，例如 Excel。 然后只需删除与因子相关的列并重新上传修改后的文件。 每个因素将有3-4列； Factor Value[factor_name], Unit (如果已添加), Term source REF, Term accession number <br>\n<b> <i>请注意编辑时不要删除原始列或更改列标题，因为保持原有格式是强制要求。 </ i> </ b>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "View factor information\n",
-            "content" : "A list of all factors added to the study together with the ontology information can be found on the first tab of your study.",
+            "title" : "查看要素信息\n",
+            "content" : "可在研究的第一个选项卡上找到添加到研究中的所有要素以及本体信息的列表。",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -930,7 +930,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> 无法找到你想要的？ 查看我们的 <a href='/guides/FAQs' target='_blank'>FAQ's</a>了解最常见的问题和解决方案。</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -938,21 +938,21 @@
         ]
       },
       "Editing sample information" : {
-        "title" : "Editing sample information",
+        "title" : "编辑样本信息",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "The sample table can be edited online with features as described below and in <a href='https://www.ebi.ac.uk/metabolights/guides/Quick_start_Guide/Shortcuts%2Ffunctions'>shortcuts/functions</a>. Please note, the Protocol Ref in the sample table must be Sample collection. <br><br>\n\nAlternatively, once all additional factor columns have been added the sample file can be downloaded & edited in eg. Excel. It is important that the standard structure of the sample table is not altered, do not remove or alter existing columns (only factors) and retain the file name & extensions.\n\n",
+            "content" : "可以使用以下功能或者<a href='https://www.ebi.ac.uk/metabolights/guides/Quick_start_Guide/Shortcuts%2Ffunctions'>快捷方式/功能</a>中的功能在线编辑样本表。 请注意，样品表中的Protocol Ref必须为Sample collection。 <br> <br>\n\n或者，一旦添加了所有其他要素列，就可以在样本文件中下载和编辑示例文件，例如 Excel。 请注意编辑时不要删除原始列或更改列标题，因为保持原有格式是强制要求。并保留文件名和扩展名。\n",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
             "title" : "",
-            "content" : "Edit a sample sheet cell",
+            "content" : "编辑样本工作表单元格",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -964,7 +964,7 @@
           },
           {
             "title" : "",
-            "content" : "Edit a whole sample column",
+            "content" : "编辑整个样本列",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -976,7 +976,7 @@
           },
           {
             "title" : "",
-            "content" : "Delete a sample/row",
+            "content" : "删除一个样本/行",
             "visible" : true,
             "img" : [],
             "video" : [
