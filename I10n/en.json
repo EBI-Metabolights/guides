@@ -1210,7 +1210,7 @@
             "video" : []
           },
           {
-            "title" : "Upload file to a subfolder",
+            "title" : "Upload file to a folder",
             "content" : "You need to organise files locally in the same folder structure and then upload. This would automatically add it to the corresponding folders in the study.",
             "visible" : true,
             "img" : [],
