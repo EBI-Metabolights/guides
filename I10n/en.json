@@ -849,7 +849,11 @@
             "video" : [
               {
                 "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/add sample.mov",
-                "description" : "add publication details in full study view"
+                "description" : "Add list of samples"
+              },
+              {
+                "url" : "http://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/import sample from raw.mov",
+                "description" : "Import raw data file name to samples"
               }
             ]
           },
