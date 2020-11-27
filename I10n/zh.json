@@ -1265,48 +1265,36 @@
       }
     },
     "常见问题解答" : {
-      "Upload-Download" : {
-        "title" : "Upload/Download Files",
+      "上传&下载" : {
+        "title" : "上传/下载文件",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
-            "title" : "> What is the difference between FTP and Aspera?",
-            "content" : "FTP, or File Transfer Protocol, is a standard network protocol for exchanging files across the internet. Aspera is a faster alternative to FTP and provides greater user control enabling individual transfer rates and bandwidth sharing to be set.",
+            "title" : "> FTP和Aspera有什么区别？",
+            "content" : "FTP或文件传输协议，是用于在Internet上交换文件的标准网络协议。 Aspera作为FTP替代品，并提供了更快的传输速度和更好的用户控制功能，可设置单独的传输速率和带宽共享。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "> Failed to open TCP connection for SSH error while using Aspera",
-            "content" : "This error was due to your firewall settings, which is preventing the Aspera connect plugin from connecting to our servers. Please make sure that your firewall isn’t blocking request to our servers. (Remote host: <b>hx-fasp-1.ebi.ac.uk / fasp.ebi.ac.uk</b>, Port: <b>33001</b>) and run the diagnosis <a target='_blank' href='https://test-connect.asperasoft.com/'>Aspera test-connect</a>.<br/><br/> If the problem still persists, please contact us at <a href='mailto:metabolights-help@ebi.ac.uk'>metabolights-help@ebi.ac.uk</a>, along with your Aspera log files. <br/><a target='_blank' href='https://www.ibm.com/support/pages/where-are-logs-ibm-aspera-connect-located'>Where can I find Aspera log files?</a><br/><br/><i><small>Typically, consumer and business firewalls allow direct outbound connections from client computers on TCP and UDP. There is no configuration required for Aspera transfers in this case. In the special case of firewalls disallowing direct outbound connections, typically using proxy servers for Web browsing, the following configuration applies: <br/>- Allow outbound connections from the Aspera client on the TCP port (TCP/33001, by default, when connecting to a Windows server, or on another non-default port for other server operating systems). <br/>- Allow outbound connections from the Aspera client on the fasp UDP port (33001, by default). <br/>- If you have a local firewall on your server (like Windows Firewall), verify that it is not blocking your SSH and fasp transfer ports (e.g. TCP/UDP 33001).<small></i>",
+            "title" : ">使用Aspera时无法打开TCP连接,显示SSH错误",
+            "content" : "此错误是由于您的防火墙设置所致，阻止了Aspera connect插件连接到我们的服务器。请确保您的防火墙没有阻止对我们服务器的请求。 （远程主机：<b> hx-fasp-1.ebi.ac.uk / fasp.ebi.ac.uk </ b>，端口：<b> 33001 </ b>），然后运行诊断<a target = '_blank'href ='https：//test-connect.asperasoft.com/'> Aspera测试连接</a>。<br/> <br/>如果问题仍然存在，请通过<a href与我们联系='mailto：metabolights-help@ebi.ac.uk'> metabolights-help@ebi.ac.uk </a>，并提供您的<a target='_blank' href='https://www.ibm.com/support/pages/where-are-logs-ibm-aspera-connect-located'>Aspera日志文件</a>。<br/><br/>\n\n<i><small>通常，消费者和企业防火墙允许来自客户端计算机的TCP和UDP直接连接。 在这种情况下，Aspera传输不需要任何配置。 在防火墙不允许直接连接的特殊情况下（通常使用代理服务器进行Web浏览），适用以下配置：<br/>-在连接时允许来自Aspera客户端在TCP端口（默认情况下为TCP / 33001）连接 Windows服务器上，或在其他服务器操作系统的另一个非默认端口上）。 <br/>-允许fasp UDP端口（默认为33001）上来自Aspera客户端的连接。 <br/>-如果服务器上有本地防火墙（例如Windows防火墙），请确认它没有阻止SSH和fasp传输端口（例如TCP / UDP 33001）。<small></i>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "> How to use FTP uploader (e.g. FileZilla)\n",
-            "content" : "You willl receive a email when you request a upload folder for your study, including:<br>\nuser: mtblight <br>\npassword: **** <br>\nserver: ftp-private.ebi.ac.uk <br>\nremote folder: /prod/&lt;your studyID&gt-obfuscation_code <br><br>\n\nPlease be aware the remote folder needs to be entirely typed, as the folder is not browsable. So use \"cd /prod/&lt;your studyID&gt;-obfuscation_code\" to access your private folder. For example with <a href = 'https://filezilla-project.org '>FileZilla</a>:",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "FileZilla.jpg\n",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "> Can I upload a compressed file (*.zip)?",
-            "content" : "If your data is huge, compression definitely helps especially if you are using FTP. We are okay with both compressed or uncompressed RAW files. If you upload compressed .zip files, please let us know when you have finished uploading all your files. We will then unzip them for you.\n",
+            "title" : "> 我可以上传压缩文件（* .zip）吗？",
+            "content" : "如果您的数据量很大，则压缩无疑会有所帮助，尤其是在使用FTP的情况下。 压缩或未压缩的RAW文件都可以。 如果您上传压缩的.zip文件，请在上传完所有文件后通知我们。 然后，我们将为您解压缩它们。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "> Error: Insufficient permissions?",
-            "content" : "Please contact us at <a href='mailto:metabolights-help@ebi.ac.uk'>metabolights-help@ebi.ac.uk</a> to resolve this issue.",
+            "title" : "> 错误: Insufficient permissions?",
+            "content" : "请通过<a href='mailto:metabolights-help@ebi.ac.uk'> metabolights-help@ebi.ac.uk </a>与我们联系以解决此问题。",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1314,64 +1302,49 @@
         ]
       },
       "Files" : {
-        "title" : "Files",
+        "title" : "文件",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
-            "title" : "> Error: Insufficient permissions",
-            "content" : "Please contact us directly at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> to resolve this issue.",
+            "title" : "> 错误: Insufficient permissions?",
+            "content" : "请通过<a href='mailto:metabolights-help@ebi.ac.uk'> metabolights-help@ebi.ac.uk </a>与我们联系以解决此问题。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "> Error: No raw or derived files found in the assay",
-            "content" : "The online editor by default recognises and lists only the root level files/folders.  Please organise your raw files and derived files in the subfolders and specify the full path in the assay sheets. <br>\nExample:<br>\nDERIVED_FILES/subfolder/file.mzml<br>\nRAW_FILES/subfolder/folder.d<br>\n",
+            "title" : "> 错误: No raw or derived files found in the assay",
+            "content" : "默认情况下，在线编辑器仅识别根级别的文件/文件夹。 请在文件夹中整理您的原始文件和派生文件，并在实验报告指定完整路径。 <br>\n示例：<br>\nDERIVED_FILES/subfolder/file.mzml<br>\nRAW_FILES/subfolder/folder.d<br>",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "> Do you accept Excel format?\n",
-            "content" : "We support metabolite identification information reported as tab-separated values (tsv file - <a href = 'https://isa-tools.org'>ISA</a> ) .",
+            "title" : "> 是否接受Excel格式?\n",
+            "content" : "我们仅支持以制表符分隔值（tsv file - <a href = 'https://isa-tools.org'>ISA</a>）报告的代谢物识别信息（metabolite identification information）。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "> How can I move files from one folder to another?",
-            "content" : "Please contact us at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> to let us move the files for you. Alternatively, you can delete the files and reupload again in the right folder location.",
+            "title" : "> 如何将文件从一个文件夹移动到另一个文件夹？",
+            "content" : "请通过<a href ='mailto:metabolights-help@ebi.ac.uk'> MetaboLights帮助</a>与我们联系，以便我们为您移动文件。 或者，您可以删除文件并在正确的文件夹位置再次重新上传。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "> Can I upload self-defined folder to the study?",
-            "content" : "You can structure the data in whatever the way you would like to in the study. We recommend you upload RAW files into the RAW_FILES folder and similarly Derived files into the DERIVED_FILES folder.",
+            "title" : "> 我可以将自定义文件夹上传到研究中吗？",
+            "content" : "您可以按照研究中想要的任何方式来构造数据。 我们建议您将RAW文件上传到RAW _FILES文件夹中，并将类似的衍生文件上传到DERIVED _FILES文件夹中。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : ">  How can I recover deleted files？",
-            "content" : "Please contact us directly at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a>, we will help you to restore the deleted files.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          }
-        ]
-      },
-      "Sample" : {
-        "title" : "Sample",
-        "sort_order" : 0,
-        "description" : "",
-        "visible" : true,
-        "sections" : [
-          {
-            "title" : "> What is the difference between sample name and source name?",
-            "content" : "<b>Source Name</b> is a general name that reflects the origin of the samples, e.g urine or serum. <br>\r<b>Sample Name</b>  is the most important element in the ISA-Tab structure that will link everything together. This should be a unique individual name to the sample that has been used throughout the study.",
+            "title" : ">  如何恢复已删除的文件？",
+            "content" : "请直接通过<a href ='mailto:metabolights-help@ebi.ac.uk'> MetaboLights帮助</a>与我们联系，我们将帮助您恢复已删除的文件。",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1379,28 +1352,28 @@
         ]
       },
       "Assay" : {
-        "title" : "Assay",
+        "title" : "实验",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
-            "title" : "> Error: All Raw and Derived Spectral Data Files are missing from assay.",
-            "content" : "Please upload associate raw files and populate the 'RAW Spectral Data File' column with the names of the appropriate .raw file for the sample in your Assays. ",
+            "title" : "> 错误: All Raw and Derived Spectral Data Files are missing from assay.",
+            "content" : "请上传相关的原始文件，并在化验中为样本添加适当的.raw文件名，并正确填写“ RAW Spectral Data File”列。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "> What is the difference between \"Raw Spectral Data File\" and \"Derived Spectral Data File\"?",
-            "content" : "\"Raw Spectral Data File” are the files directly from the analysis platform. <br>\n\"Derived Spectral Data File” include opensource converted files (eg. your mzML) or any other derived file you may wish to include.",
+            "title" : "> \"Raw Spectral Data File\" 和 \"Derived Spectral Data File\" 的区别是什么?",
+            "content" : "\"Raw Spectral Data File” 是直接来自分析平台的文件<br>\n\"Derived Spectral Data File” 它们包括开源转换的文件（例如，您的mzML）或您可能希望包含的任何其他派生文件。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "> How can replicates be defined in the assay table? ",
-            "content" : "You could add an additional column to your assays called ‘replicate' which you might prefer to make a clear distinction that it is a replicate.",
+            "title" : "> 如何在实验表中定义重复项？",
+            "content" : "您可以在测定中添加一个称为“replicate”的附加列，您可能希望明确区分它是复制品。",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1414,22 +1387,15 @@
         "visible" : true,
         "sections" : [
           {
-            "title" : "> How can I add the columns to include the peak area of each metabolite identified per sample?",
-            "content" : "Please download the MAF sheet, and edit it locally, e.g. Excel. You can add sample columns to the right end of the sheet and fill in the peak area values to the relevant sample columns in the relevant metabolite rows. Save and then re-upload MAF to your study. ",
+            "title" : "> 如何添加列以包括每个样品中鉴定出的每种代谢物的峰值？",
+            "content" : "请下载MAF表格，然后在本地进行编辑，如 Excel。 您可以将样本栏添加到表格的右端，并将峰值填写到相关代谢物行中的相关样本栏。 保存，然后将MAF重新上传到您的研究中。",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "> Where are the units of the final entries in the maf file defined? ",
-            "content" : "The MAF table values are generally given as either direct reads from the analysis platform or values normalised to controls. There are no unit fields defined.",
-            "visible" : true,
-            "img" : [],
-            "video" : []
-          },
-          {
-            "title" : "> If we enter several retention times (for different batches which are defined in the sample table), can they all be entered in the retention time column of the maf file separated by slashes?",
-            "content" : "You can add these as new rows if you want to specify the RT for each sample or separated with a pipeline “ | “.",
+            "title" : "> maf文件中最终条目的单位在哪里定义？",
+            "content" : "MAF表值通常以从分析平台直接读取或标准化为对照的值的形式给出。 没有定义单位字段。",
             "visible" : true,
             "img" : [],
             "video" : []
