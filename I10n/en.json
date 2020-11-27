@@ -1120,7 +1120,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "Each assay has a corresponding metabolite table (referenced in the metabolite assignment file column). When you created your assay a corresponding metabolite annotation file will add to your study and referenced automatically (m_MTBLSxxx.tsv). The metabolite information should include all metabolites / unknowns / features identified within the study.<br>\n\nIf results are cumulative of multiple assays, use the metabolite assignment file column in the assay table to point all assays to the same m_MTBLSxxx.tsv file name.\n\n",
+            "content" : "When you create an assay a corresponding metabolite annotation file will add to your study. Metabolite information should include all <b>metabolites / unknowns / features</b> identified within the study. You should complete the table with as much information as possible (note you can leave smiles / InChI empty as these can be auto completed from metabolite names or database identifiers during curation). Sample names should be automatically included in the columns to the right of the table (please contact us if not or download & edit in eg. excel), in each column sample values per metabolite should be included.</br></br>\n\nThe metabolite table file (m_MTBLSxxx.tsv) should be referenced in the metabolite assignment file column of each assay. If results are cumulative of multiple assays, enter the same file for each.\n",
             "visible" : true,
             "img" : [],
             "video" : []
