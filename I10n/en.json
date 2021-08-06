@@ -3,7 +3,7 @@
   "updated_at" : "25/11/2020",
   "data" : {
     "Quick_start_Guide" : {
-      "Quick start overview" : {
+      "Quick start overview\nQuick start overview\nQuick start overview\nQuick start overview\n" : {
         "title" : "Quick Start Overview",
         "sort_order" : 0,
         "description" : "",
@@ -550,7 +550,7 @@
             ],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/title_v_1.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/title_v_1.mov",
                 "description" : "Change study title from the publication details"
               }
             ]
@@ -589,7 +589,7 @@
             ],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/person_v_1.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/person_v_1.mov",
                 "description" : "Import authers from the publication"
               }
             ]
@@ -649,7 +649,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/abstract.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/abstract.mov",
                 "description" : "Import abstract from the publication"
               }
             ]
@@ -709,11 +709,11 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/publication_v_0.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/publication_v_0.mov",
                 "description" : "add publication details in the guided submission"
               },
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/publication_v_1.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/publication_v_1.mov",
                 "description" : "add publication details in full study view"
               }
             ]
@@ -849,11 +849,11 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/add sample.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/add sample.mov",
                 "description" : "Add list of samples"
               },
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/import sample from raw.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/import sample from raw.mov",
                 "description" : "Import raw data file name to samples"
               }
             ]
@@ -907,7 +907,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/factor_v_2.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/factor_v_2.mov",
                 "description" : "add factor to sample sheet"
               }
             ]
@@ -926,7 +926,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/factor_v_3.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/factor_v_3.mov",
                 "description" : "add factor to sample sheet"
               }
             ]
@@ -967,7 +967,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/edit a cell.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/edit a cell.mov",
                 "description" : "add publication details in full study view"
               }
             ]
@@ -979,7 +979,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/edit a column.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/edit a column.mov",
                 "description" : "add publication details in full study view"
               }
             ]
@@ -991,7 +991,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/delete sample.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/delete sample.mov",
                 "description" : "add publication details in full study view"
               }
             ]
@@ -1192,7 +1192,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/install aspera.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/install aspera.mov",
                 "description" : "Install Aspera"
               }
             ]
@@ -1204,7 +1204,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/upload file by aspera.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/upload file by aspera.mov",
                 "description" : "upload file by aspera"
               }
             ]
@@ -1248,7 +1248,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/editor/assets/videos/download files.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/download files.mov",
                 "description" : "Install Aspera"
               }
             ]
