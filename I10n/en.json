@@ -1222,6 +1222,26 @@
             "video" : []
           },
           {
+            "title": "Synchronise upload and study folders",
+            "content": "After successfully uploading files (Aspera or FTP), they still need to be synced to the study folder (the directory that is eventually made public). This is done in the online editor:<br>\n First, click the box ‘Check FTP Upload Folder’ to check whether there is a difference between the upload and study folder. For example, newly uploaded files not present in the study directory.\n ",
+            "visible": true,
+            "img": [{
+              "url" : "check-ftp.jpg\n",
+              "description" : ""
+            }],
+            "video": []
+          },
+          {
+            "title": "",
+            "content": "Second, click the box ‘Synchronise Folders’ to sync files from the upload to study folder. This may take some minutes to complete.\n ",
+            "visible": true,
+            "img": [{
+              "url" : "sync-ftp.jpg\n",
+              "description" : ""
+            }],
+            "video": []
+          },
+          {
             "title" : "I can't see my files",
             "content" : "If you have uploaded files but do not see them in your study folder, please try the copy to study folder option on the uploaded files tab and then refresh the page. If this is not successful please contact <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a>.\n",
             "visible" : true,
