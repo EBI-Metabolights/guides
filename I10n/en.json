@@ -1243,7 +1243,7 @@
           },
           {
             "title" : "I can't see my files",
-            "content" : "If you have uploaded files but do not see them in your study folder, please try the copy to study folder option on the uploaded files tab and then refresh the page. If this is not successful please contact <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a>.\n",
+            "content" : "If you have uploaded files but do not see them in your study folder, please try to refresh the page. If this is not successful please contact <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a>.\n",
             "visible" : true,
             "img" : [
               {
