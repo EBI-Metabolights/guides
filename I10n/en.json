@@ -1223,7 +1223,7 @@
           },
           {
             "title": "Synchronise upload and study folders",
-            "content": "After successfully uploading files (Aspera or FTP), they still need to be synced to the study folder (the directory that is eventually made public). This is done in the online editor:<br>\n\n First, click the box ‘Check FTP Upload Folder’ to check whether there is a difference between the upload and study folder. For example, newly uploaded files not present in the study directory.\n ",
+            "content": "After successfully uploading files (Aspera or FTP), they still need to be synced to the study folder (the directory that is eventually made public). This is done in the online editor:<br>\n<br>\n First, click the box ‘Check FTP Upload Folder’ to check whether there is a difference between the upload and study folder. For example, newly uploaded files not present in the study directory.\n ",
             "visible": true,
             "img": [{
               "url" : "check-ftp.png\n",
