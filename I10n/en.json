@@ -11,7 +11,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">\n\t<tr>\n\t\t<td>Checklist</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tBefore creating a study ensure you have the following;<br>\n\t\t\t1) MetaboLights <a href=\"guides/MetaboLights_account/create_account\">account</a> <br>\n\t\t\t2) <a href=\"https://wwwdev.ebi.ac.uk/metabolights/guides/Study/Add_raw_data\">Raw data</a> to submit (or will\n\t\t\tdo by completion of study) <br>\n\t\t\t3) Supporting study information (ie. sample details, experimental methods, results)<br>\n\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Create</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tSelect <a href=\"https://www.ebi.ac.uk/metabolights/presubmit\">Submit study</a> to create a new study (or\n\t\t\tedit an existing study). Recommended: Use Create online to be guided through the study creation step by\n\t\t\tstep.<br><br>\n\t\t\t<i>NB. the accession number assigned to your study MTBLSxxx will be the permanent identifier (url\n\t\t\t\twww.ebi.ac.uk/metabolights/MTBLSxxx), please use this in manuscripts.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Edit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tUse the online editor option to view and edit existing studies. Access through My Studies page or with a\n\t\t\tstudy url. <br><br>\n\t\t\t<i>NB. You can give collaborators edit rights to the study following these <a\n\t\t\t\t\thref=\"https://wwwdev.ebi.ac.uk/metabolights/guides/Study%20Description/Author\">steps</a>.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Validate</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tStudies must pass validation to be submitted. Validation errors are evident in the information bar at the\n\t\t\ttop of the study (if nothing is displayed the study has passed validation). Details of errors are available\n\t\t\tin the study validations tab.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Submit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tTo submit study, select <b>Status</b> and change to curation (study must validate to do this). You can also\n\t\t\tset the publication date at this stage.<br><br>\n\t\t\t<i>NB. curation process will take a minimum of 4 weeks, publication date cannot be less than\n\t\t\t\tthis.</i><br><br>\n\n\t\t\tSubmitted studies cannot be edited, contact <a href=\"mailto:metabolights-help@ebi.ac.uk\">MetaboLights\n\t\t\thelp</a> if amendments are required.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Review</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tFollowing successful study curation, the status will be updated to Review. A temporary private link will be\n\t\t\tavailable on the study page to share with journal editors, collaborators etc. if requested.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Publish</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tA study will be published once the release date is reached. The date can be changed at any stage by <a\n\t\t\t\thref=\"mailto:metabolights-help@ebi.ac.uk\">contacting us</a> directly. <br><br>\n\t\t\t<i>Please also send manuscript DOI to MetaboLights-help once available.</i>\n\n\t\t</td>\n\t</tr>\n</table>",
+            "content" : "<table class=\"table is-bordered is-striped is-narrow is-hoverable is-fullwidth\">\n\t<tr>\n\t\t<td>Checklist</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image18.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tBefore creating a study ensure you have the following;<br>\n\t\t\t1) MetaboLights <a href=\"guides/MetaboLights_account/create_account\">account</a> <br>\n\t\t\t2) <a href=\"guides/Study/Add_raw_data\">Raw data</a> to submit (or will\n\t\t\tdo by completion of study) <br>\n\t\t\t3) Supporting study information (ie. sample details, experimental methods, results)<br>\n\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Create</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image22.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tSelect <a target='_blank' href=\"https://www.ebi.ac.uk/metabolights/presubmit\">Submit study</a> to create a new study (or\n\t\t\tedit an existing study). Recommended: Use Create online to be guided through the study creation step by\n\t\t\tstep.<br><br>\n\t\t\t<i>NB. the accession number assigned to your study MTBLSxxx will be the permanent identifier (url\n\t\t\t\twww.ebi.ac.uk/metabolights/MTBLSxxx), please use this in manuscripts.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Edit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image5.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tUse the online editor option to view and edit existing studies. Access through My Studies page or with a\n\t\t\tstudy url. <br><br>\n\t\t\t<i>NB. You can give collaborators edit rights to the study following these <a\n\t\t\t\t\thref=\"guides/Study%20Description/Authors\">steps</a>.</i>\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Validate</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image4.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tStudies must pass validation to be submitted. Validation errors are evident in the information bar at the\n\t\t\ttop of the study (if nothing is displayed the study has passed validation). Details of errors are available\n\t\t\tin the study validations tab.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Submit</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/imageX.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tTo submit study, select <b>Status</b> and change to curation (study must validate to do this). You can also\n\t\t\tset the publication date at this stage.<br><br>\n\t\t\t<i>NB. curation process will take a minimum of 4 weeks, publication date cannot be less than\n\t\t\t\tthis.</i><br><br>\n\n\t\t\tSubmitted studies cannot be edited, contact <a href=\"mailto:metabolights-help@ebi.ac.uk\">MetaboLights\n\t\t\thelp</a> if amendments are required.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Review</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image30.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tFollowing successful study curation, the status will be updated to Review. A temporary private link will be\n\t\t\tavailable on the study page to share with journal editors, collaborators etc. if requested.\n\t\t</td>\n\t</tr>\n\t<tr>\n\t\t<td>Publish</td>\n\t\t<td><a href=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"><img\n\t\t\t\tstyle=\"display:block;\" width=\"100%\" height=\"100%\"\n\t\t\t\tsrc=\"https://raw.githubusercontent.com/EBI-Metabolights/guides/master/media/images/image26.png\"></a>\n\t\t</td>\n\t\t<td>\n\t\t\tA study will be published once the release date is reached. The date can be changed at any stage by <a\n\t\t\t\thref=\"mailto:metabolights-help@ebi.ac.uk\">contacting us</a> directly. <br><br>\n\t\t\t<i>Please also send manuscript DOI to MetaboLights-help once available.</i>\n\n\t\t</td>\n\t</tr>\n</table>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -26,7 +26,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>The primary requirements for study submission to MetaboLights are as follows;</br></br>\n\n1) MetaboLights user <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/MetaboLights_account/create_account'>account</a>.<br/>\n\n2) Raw data ie. <i><b>spectral files</i></b> produced by the analytical instrument and/or an open source version. Please see <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/Files/Accepted File Formats'> accepted file formats</a>. <br/>\n\n3) Complete <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/study/overview'> metadata</a>.\n\n",
+            "content" : "</br>The primary requirements for study submission to MetaboLights are as follows;</br></br>\n\n1) MetaboLights user <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/MetaboLights_account/create_account'>account</a>.<br/>\n\n2) Raw data ie. <i><b>spectral files</i></b> produced by the analytical instrument and/or an open source version. Please see <a target='_blank' href='guides/Files/Raw%20data'> accepted file formats</a>. <br/>\n\n3) Complete <a target='_blank' href='https://www.ebi.ac.uk/metabolights/guides/study/overview'> metadata</a>.\n\n",
             "visible" : true,
             "img" : [
               {
@@ -114,7 +114,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>Select <a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> followed by <b>Create online</b> to be taken to the Guided Submission Portal.<br>\nIf you have an existing account you will first be taken to My Studies where you can choose to edit an existing study or create a new study. </br></br>\n\n<u><i>Guided Submission Portal</i></u></br>\nThe Guided Submission Portal will take you through the steps to create your study. </br>\nA new study will be automatically generated with a unique accession number / study identifier.\n\n",
+            "content" : "</br>Select <a target='_blank' href='console'>Submit study</a> followed by <b>Create online</b> to be taken to the Guided Submission Portal.<br>\nIf you have an existing account you will first be taken to My Studies where you can choose to edit an existing study or create a new study. </br></br>\n\n<u><i>Guided Submission Portal</i></u></br>\nThe Guided Submission Portal will take you through the steps to create your study. </br>\nA new study will be automatically generated with a unique accession number / study identifier.\n\n",
             "visible" : true,
             "img" : [
               {
@@ -133,7 +133,7 @@
           },
           {
             "title" : "",
-            "content" : "<u><i>Submitters and authors</i></u></br>\nSubmitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public. </br></br>\nAuthors are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study. <br></br>\nThe submitter can provide access & edit rights to collaborators provided they have a MetaboLights account by adding first as an author and then choosing <a href='https://www.ebi.ac.uk/metabolights/guides/Study%20Description/Author'>Make submitter</a>. <br></br> \n A Submitter can only create or currently have a maximum of 2 studies in the Submission stage. If you need to create more studies then contact the MetaboLights team through the support email: <a href='mailto:metabolights-help@ebi.ac.uk'>metabolights-help@ebi.ac.uk</a>.",
+            "content" : "<u><i>Submitters and authors</i></u></br>\nSubmitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public. </br></br>\nAuthors are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study. <br></br>\nThe submitter can provide access & edit rights to collaborators provided they have a MetaboLights account by adding first as an author and then choosing <a target='_blank' href='guides/Study%20Description/Authors'>Make submitter</a>. <br></br> \n A Submitter can only create or currently have a maximum of 2 studies in the Submission stage. If you need to create more studies then contact the MetaboLights team through the support email: <a href='mailto:metabolights-help@ebi.ac.uk'>metabolights-help@ebi.ac.uk</a>.",
             "visible" : true
           }
         ]
@@ -146,7 +146,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "<br> All studies can be edited directly online. To access, choose from the options below. <br>\n- Select <a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> followed by <b>Update now</b> and select the appropriate study from your list.<br><br>\n- Use the url assigned when your study was created and choose the <i>Edit</i> option (https://www.ebi.ac.uk/metabolights/MTBLSXXX). <br>\n\n",
+            "content" : "<br> All studies can be edited directly online. To access, choose from the options below. <br>\n- Navigate to Editor <a target='_blank' href='console'>Home</a> and select the appropriate study from your list by clicking Study overview link.<br><br>\n- Use the url assigned when your study was created. Your study URL will be something like (https://www.ebi.ac.uk/metabolights/editor/MTBLSXXX) and then click Edit button right corner. You can also find your study on  <a target='_blank' href='https://www.ebi.ac.uk/metabolights/studies'>browse study page<a> after logged in <br>\n\n",
             "visible" : true,
             "img" : [
               {
@@ -360,7 +360,7 @@
           },
           {
             "title" : "",
-            "content" : "You can also see a list of all your studies & their unique identifiers on your <a href='https://www.ebi.ac.uk/metabolights/editor/console'>My Studies</a> page.",
+            "content" : "You can also see a list of all your studies & their unique identifiers on your <a target='_blank' href='console'>My Studies</a> page.",
             "visible" : true,
             "img" : [
               {
@@ -414,7 +414,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>You can create an account by selecting Login above and <a href='www.ebi.ac.uk/metabolights/newAccount'>Create a new account</a>.",
+            "content" : "</br>You can create an account by selecting Login above and <a target='_blank' href='https://www.ebi.ac.uk/metabolights/newAccount'>Create a new account</a>.",
             "visible" : true,
             "img" : [
               {
@@ -455,7 +455,7 @@
             "visible" : true,
             "img" : [
               {
-                "url" : "API token.png",
+                "url" : "api_token.png",
                 "description" : "Get personal API token"
               }
             ],
@@ -471,7 +471,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>Your email address will be your user name. Please contact us directly at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> if you need to update this at any time. </br></br>To rest a password simply click the <a href='https://www.ebi.ac.uk/metabolights/forgotPassword'>forgot your password</a> link on the login page.</br></br>",
+            "content" : "</br>Your email address will be your user name. Please contact us directly at <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> if you need to update this at any time. </br></br>To rest a password simply click the <a target='_blank' href='https://www.ebi.ac.uk/metabolights/forgotPassword'>forgot your password</a> link on the login page.</br></br>",
             "visible" : true,
             "img" : [
               {
@@ -511,7 +511,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>Your <a href='https://www.ebi.ac.uk/metabolights/editor/console'>My Studies</a> page provides an overview of all studies you have created in MetaboLights.<br/><br/><ul><li>(a) Select to view all studies or studies with a particular status</li><li>(b) View basic outline information for each study including accession number, title, status, release date</li><li>(c) Choose to edit a study using Guided submission or Online editor tools</li><li>(d) View the submission tutorial video</li><li>(e) Create a new study</li></ul>",
+            "content" : "</br>Your <a target='_blank' href='console'>My Studies</a> page provides an overview of all studies you have created in MetaboLights.<br/><br/><ul><li>(a) Select to view all studies or studies with a particular status</li><li>(b) View basic outline information for each study including accession number, title, status, release date</li><li>(c) Choose to edit a study using Guided submission or Online editor tools</li><li>(d) View the submission tutorial video</li><li>(e) Create a new study</li></ul>",
             "visible" : true,
             "img" : [
               {
@@ -564,7 +564,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -583,7 +583,7 @@
             "visible" : true,
             "img" : [
               {
-                "url" : "add study author.png",
+                "url" : "add_study_author.png",
                 "description" : "Add study author"
               }
             ],
@@ -622,7 +622,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -682,7 +682,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -741,7 +741,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -806,7 +806,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'><b>MetaboLights APIs</b> - You can get/add/update/delete protocol of your study\n\tprogrammatically using our APIs. <br> Try the MetaboLights factor API - <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37'\n\t\t\ttarget='_blank'><strong>GET</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34'\n\t\t\ttarget='_blank'><strong>POST</strong></a>, <a\n\t\t\thref='https://https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35'\n\t\t\ttarget='_blank'><strong>PUT</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33'\n\t\t\ttarget='_blank'><strong>DELETE</strong></a> using our <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>.\n\t<br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the\n\t\tAPI.</small></i></div>",
+            "content" : "<div class='notification is-primary'><b>MetaboLights APIs</b> - You can get/add/update/delete protocol of your study\n\tprogrammatically using our APIs. <br> Try the MetaboLights factor API - <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36_37'\n\t\t\ttarget='_blank'><strong>GET</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34'\n\t\t\ttarget='_blank'><strong>POST</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/'\n\t\t\ttarget='_blank'><strong>PUT</strong></a>, <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33'\n\t\t\ttarget='_blank'><strong>DELETE</strong></a> using our <a\n\t\t\thref='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>.\n\t<br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the\n\t\tAPI.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -820,7 +820,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -881,7 +881,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -940,7 +940,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -955,7 +955,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "The sample table can be edited online with features as described below and in <a href='https://www.ebi.ac.uk/metabolights/guides/Quick_start_Guide/Shortcuts%2Ffunctions'>shortcuts/functions</a>. Please note, the Protocol Ref in the sample table must be Sample collection. <br><br>\n\nAlternatively, once all additional factor columns have been added the sample file can be downloaded & edited in eg. Excel. It is important that the standard structure of the sample table is not altered, do not remove or alter existing columns (only factors) and retain the file name & extensions.\n\n",
+            "content" : "The sample table can be edited online with features as described below and in <a target='_blank' href='guides/Quick_start_Guide/Shortcuts/functions'>shortcuts/functions</a>. Please note, the Protocol Ref in the sample table must be Sample collection. <br><br>\n\nAlternatively, once all additional factor columns have been added the sample file can be downloaded & edited in eg. Excel. It is important that the standard structure of the sample table is not altered, do not remove or alter existing columns (only factors) and retain the file name & extensions.\n\n",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1036,7 +1036,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1058,7 +1058,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1080,7 +1080,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1102,7 +1102,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1141,7 +1141,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload-Download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
