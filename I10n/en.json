@@ -18,7 +18,7 @@
           }
         ]
       },
-      "Submission Checklist" : {
+      "Submission_checklist" : {
         "title" : "Submission Checklist",
         "sort_order" : 1,
         "description" : "",
@@ -38,7 +38,7 @@
           }
         ]
       },
-      "Submission Process" : {
+      "Submission_process" : {
         "title" : "Submission Process",
         "sort_order" : 3,
         "description" : "",
@@ -106,7 +106,7 @@
           }
         ]
       },
-      "Create Study" : {
+      "Create_study" : {
         "title" : "Create Study",
         "sort_order" : 4,
         "description" : "",
@@ -138,7 +138,7 @@
           }
         ]
       },
-      "Edit study" : {
+      "Edit_study" : {
         "title" : "Edit Study",
         "sort_order" : 5,
         "description" : "",
@@ -189,7 +189,7 @@
           }
         ]
       },
-      "Shortcuts/functions" : {
+      "Shortcuts_functions" : {
         "title" : "Shortcuts/functions",
         "sort_order" : 6,
         "description" : "",
@@ -240,7 +240,7 @@
           }
         ]
       },
-      "Study Overview" : {
+      "Study_overview" : {
         "title" : "Study Overview",
         "sort_order" : 7,
         "description" : "",
@@ -384,7 +384,7 @@
           }
         ]
       },
-      "Video tutorial" : {
+      "Video_tutorial" : {
         "title" : "Video tutorial",
         "sort_order" : 9,
         "description" : "",
@@ -443,7 +443,7 @@
           }
         ]
       },
-      "Personal API token" : {
+      "Personal_api_token" : {
         "title" : "Personal API token",
         "sort_order" : 1,
         "description" : "",
@@ -525,7 +525,7 @@
       }
     },
     "Study_description" : {
-      "Title" : {
+      "Study_title" : {
         "title" : "Study title",
         "sort_order" : 0,
         "description" : "",
@@ -947,7 +947,7 @@
           }
         ]
       },
-      "Editing sample information" : {
+      "Editing_sample_information" : {
         "title" : "Editing sample information",
         "sort_order" : 0,
         "description" : "",
@@ -1000,7 +1000,7 @@
       }
     },
     "Assay" : {
-      "Assay Overview" : {
+      "Assay_overview" : {
         "title" : "Assay Overview",
         "sort_order" : 0,
         "description" : "",
@@ -1043,7 +1043,7 @@
           }
         ]
       },
-      "NMR Assay" : {
+      "NMR_assay" : {
         "title" : "NMR Assay\n",
         "sort_order" : 0,
         "description" : "",
@@ -1065,7 +1065,7 @@
           }
         ]
       },
-      "LC_MS Assay" : {
+      "LC_MS_assay" : {
         "title" : "LC_MS Assay\n",
         "sort_order" : 0,
         "description" : "",
@@ -1087,7 +1087,7 @@
           }
         ]
       },
-      "GC_MS Assay" : {
+      "GC_MS_Assay" : {
         "title" : "GC_MS Assay",
         "sort_order" : 0,
         "description" : "",
