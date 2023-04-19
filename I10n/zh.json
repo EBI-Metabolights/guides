@@ -109,7 +109,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br> 选择<b>Create online</b>进入提交导览，然后选择<a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> 创建一个新的研究。</br>\n如果您已经提交研究，则将首先进入“My Studies”，在这里您可以选择编辑现有研究或创建新研究。</br> </br> \n\n<u><i>研究提交导览</i></u></br>\n研究提交导览将指导您一步步的完成研究的创建。</br>\n新研究将自动生成，具有唯一的登录号/研究标识符。\n",
+            "content" : "</br> 选择<b>Create online</b>进入提交导览，然后选择<a href='https://www.ebi.ac.uk/metabolights/editor'>Submit study</a> 创建新研究。</br>\n如果您已经提交研究，则将首先进入“My Studies”，在这里您可以选择编辑现有研究或创建新研究。</br> </br> \n\n<u><i>研究提交导览</i></u></br>\n研究提交导览将指导您一步步的完成研究的创建。</br>\n新研究将自动生成，具有唯一的登录号/研究标识符。\n",
             "visible" : true,
             "img" : [
               {
@@ -141,7 +141,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "<br> 所有研究都可以直接在线编辑。 要访问，请从以下选项中进入编辑模式。 <br>\n- 选择 <a href='https://www.ebi.ac.uk/metabolights/presubmit'>Submit study</a> 然后选择<b>Update now</b>访问现有研究。<br>\n- 通过分配的网址直接访问 (https://www.ebi.ac.uk/metabolights/MTBLSXXX)。<br>\n\n",
+            "content" : "<br> 所有研究都可以直接在线编辑。 要访问，请从以下选项中进入编辑模式。 <br>\n- 选择 <a href='https://www.ebi.ac.uk/metabolights/editor'>Submit study</a> 然后选择<b>Study Overview</b>访问现有研究。<br>\n- 通过分配的网址直接访问 (https://www.ebi.ac.uk/metabolights/MTBLSXXX)。<br>\n\n",
             "visible" : true,
             "img" : [
               {
@@ -392,7 +392,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/contents/assets/videos/201904_ML_ALL.mp4",
+                "url" : "https://www.ebi.ac.uk/metabolights/resources/videos/201904_ML_ALL.mp4",
                 "description" : "MetaboLights study submission process tutorial video.\n"
               }
             ]
