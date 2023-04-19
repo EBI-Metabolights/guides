@@ -133,7 +133,7 @@
           },
           {
             "title" : "",
-            "content" : "<u><i>Submitters and authors</i></u></br>\nSubmitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public. </br></br>\nAuthors are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study. <br></br>\nThe submitter can provide access & edit rights to collaborators provided they have a MetaboLights account by adding first as an author and then choosing <a target='_blank' href='guides/Study%20Description/Authors'>Make submitter</a>. <br></br> \n A Submitter can only create or currently have a maximum of 2 studies in the Submission stage. If you need to create more studies then contact the MetaboLights team through the support email: <a href='mailto:metabolights-help@ebi.ac.uk'>metabolights-help@ebi.ac.uk</a>.",
+            "content" : "<u><i>Submitters and authors</i></u></br>\nSubmitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public. </br></br>\nAuthors are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study. <br></br>\nThe submitter can provide access & edit rights to collaborators provided they have a MetaboLights account by adding first as an author and then choosing <a target='_blank' href='guides/Study_description/Authors'>Make submitter</a>. <br></br> \n A Submitter can only create or currently have a maximum of 2 studies in the Submission stage. If you need to create more studies then contact the MetaboLights team through the support email: <a href='mailto:metabolights-help@ebi.ac.uk'>metabolights-help@ebi.ac.uk</a>.",
             "visible" : true
           }
         ]
@@ -146,7 +146,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "<br> All studies can be edited directly online. To access, choose from the options below. <br>\n- Navigate to Editor <a target='_blank' href='console'>Home</a> and select the appropriate study from your list by clicking Study overview link.<br><br>\n- Use the url assigned when your study was created. Your study URL will be something like (https://www.ebi.ac.uk/metabolights/editor/MTBLSXXX) and then click Edit button right corner. You can also find your study on  <a target='_blank' href='https://www.ebi.ac.uk/metabolights/studies'>browse study page<a> after logged in <br>\n\n",
+            "content" : "<br> All studies can be edited directly online. To access, choose from the options below. <br>\n- Navigate to Editor <a target='_blank' href='console'>Home</a> and select the appropriate study from your list by clicking Study overview link.<br><br>\n- Use the url assigned when your study was created. Your study URL will be something like (https://www.ebi.ac.uk/metabolights/editor/MTBLSXXX) and then click Edit button right corner. You can also find your study here in the <a target='_blank' href='https://www.ebi.ac.uk/metabolights/studies'>browse study page</a> after logged in <br>\n\n",
             "visible" : true,
             "img" : [
               {
@@ -158,7 +158,7 @@
           },
           {
             "title" : "",
-            "content" : "- Select your study directly from <a href='console'>My Studies</a> page using the Study Overview option.",
+            "content" : "- Select your study directly from <a target='_blank' href='console'>My Studies</a> page using the Study Overview option.",
             "visible" : true,
             "img" : [
               {
@@ -397,7 +397,7 @@
             "img" : [],
             "video" : [
               {
-                "url" : "https://www.ebi.ac.uk/metabolights/contents/assets/videos/201904_ML_ALL.mp4",
+                "url" : "https://www.ebi.ac.uk/metabolights/resources/videos/201904_ML_ALL.mp4",
                 "description" : "MetaboLights study submission process tutorial video.\n"
               }
             ]
@@ -933,7 +933,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get/add/update/delete factors of your study programmatically using our APIs. <br> Try the MetaboLights factor API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'><strong>POST</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'><strong>PUT</strong></a>, <a https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'><strong>DELETE</strong></a></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "content" : "<div class='notification is-primary'> <b>MetaboLights APIs</b> - You can get/add/update/delete factors of your study programmatically using our APIs. <br> Try the MetaboLights factor API - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'><strong>GET</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'><strong>POST</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'><strong>PUT</strong></a>, <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'><strong>DELETE</strong></a></a> using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
             "visible" : true,
             "img" : [],
             "video" : []
@@ -1058,7 +1058,7 @@
           },
           {
             "title" : "",
-            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='/guides/FAQs/Upload_download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
+            "content" : "<div class='notification is-warning'> Can't find what you are looking for? Check out our <a href='guides/FAQs/Upload_download' target='_blank'>FAQ's</a> for most commonly asked questions and solutions.</div>",
             "visible" : true,
             "img" : [],
             "video" : []
