@@ -1310,7 +1310,8 @@
             "visible" : true,
             "img" : [
               {
-                "url" : "aspera download.png"
+                "url" : "aspera_download.png",
+                "description" : ""
               }
             ],
             "video" : []
