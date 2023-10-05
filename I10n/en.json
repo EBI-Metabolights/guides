@@ -1173,20 +1173,27 @@
         ]
       },
       "Upload" : {
-        "title" : "Upload",
+        "title" : "Upload & Synchronisation",
         "sort_order" : 0,
         "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "",
-            "content" : "A primary requirement for a MetaboLights study is the inclusion of the raw data. Files can be uploaded when first creating the study or at any stage prior to submitting a study for curation. <br><br>There are 2 file upload methods as highlighted below.\n",
+            "content" : "A primary requirement for a MetaboLights study is the inclusion of the raw and/or derived data. Files can be uploaded when first creating the study or at any stage prior to submitting a study for curation. The submitted data will be updated to the study in 2 steps.<br><br>\n1. Uploading to FTP folder <br>\n 2. Synchronising with Study folder",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "1. Aspera connect plugin (recommended)",
+            "title" : "Uploading to FTP folder",
+            "content" : "There are 2 ways to upload files to FTP. On the Files tab, click <b>Upload</b> and a pop-up box will show both the options.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "1. Aspera connect plugin (recommended for small set of files)",
             "content" : "Aspera is a plugin that is very simple to install in your browser. Select the Aspera Upload option and then Install the plugin. Aspera is a fast way of transferring files which also enables the user to stop the transfer, and later resume where you left off. ",
             "visible" : true,
             "img" : [],
@@ -1199,54 +1206,82 @@
           },
           {
             "title" : "",
-            "content" : "If you see raw data files in the final upload with .aspx appended, the file upload may have paused. Please open Aspera connect on your computer to check the status of your upload and resume upload if necessary. If the upload has completed you can delete the .aspx appended files or contact us to do so. NB. You may need to contact your local IT support if you do not have privileges to install browser plugins.",
+            "content" : "If you see raw data files in the final upload with .aspx appended, the file upload may have paused. Please open Aspera connect on your computer to check the status of your upload and resume upload if necessary. If the upload has completed you can delete the .aspx appended files or contact us to do so. (note) You may need to contact your local IT support if you do not have privileges to install browser plugins.<br> Once the Aspera plugin is installed, you can upload files by clicking <b>Aspera Upload</b> and then <b>Upload files</b> from the pop-up window.",
             "visible" : true,
             "img" : [],
             "video" : [
               {
-                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/upload file by aspera.mov",
+                "url" : "https://ftp.ebi.ac.uk/pub/databases/metabolights/documentation/videos/upload-files-aspera.mp4",
                 "description" : "upload file by aspera"
               }
             ]
           },
           {
-            "title" : "2. FTP",
-            "content" : "FTP can be used on any computer, either directly from the command line or through a graphical user interface. However, on most computers, you have to install an FTP client first. If you are not familiar with using FTP from the command line, we can recommend the free <a href = 'https://filezilla-project.org '>FileZilla</a> tool. <br><br>\nYou willl receive a email when you request a upload folder for your study, including FTP setting parameters:<br>\nuser: mtblight <br>\npassword: **** <br>\nserver: ftp-private.ebi.ac.uk <br>\nremote folder: /prod/&lt;your studyID&gt-obfuscation_code <br><br>\n\nPlease be aware the remote folder needs to be entirely typed, as the folder is not browsable. So use \"cd /prod/&lt;your studyID&gt;-obfuscation_code\" to access your private folder.",
+            "title" : "2. FTP (recommended for large set of files)",
+            "content" : "FTP can be used on any computer, either directly from the command line or through a graphical user interface. However, on most computers, you have to install an FTP client first. If you are not familiar with using FTP from the command line, we can recommend the free <a href = 'https://filezilla-project.org '>FileZilla</a> tool. <br><br>\nYou should have received two emails after study creation. One email provides the details about the FTP server and credentials.  You can also get these details from the pop-up window by clicking <b>Files</b> tab -> <b>Upload</b> -> <b>Private FTP Upload</b>.",
             "visible" : true,
             "img" : [
               {
-                "url" : "FileZilla.jpg\n",
+                "url" : "ftp-details.png\n",
                 "description" : ""
               }
             ],
             "video" : []
           },
           {
-            "title": "Synchronise upload and study folders",
-            "content": "After successfully uploading files (Aspera or FTP), they still need to be synced to the study folder (the directory that is eventually made public). This is done in the online editor:<br>\n<br>\n First, click the box ‘Check FTP Upload Folder’ to check whether there is a difference between the upload and study folder. For example, newly uploaded files not present in the study directory.\n ",
+            "title" : "",
+            "content" : "Your details will be something like below. <br>\nuser: mtblight <br>\npassword: **** <br>\nserver: ftp-private.ebi.ac.uk <br>\nremote folder: /prod/&lt;your studyID&gt-obfuscation_code <br><br>\n\nAfter installation of <b>FileZilla</b>, open and enter the FTP connection details. You need to enter Host, Username and Password to connect to the FTP server. Once connected <b>you will not be</b> able to browse the folder, you need to copy paste the remote folder path in Remote site text box and press enter, then your FTP folder will be browsable on the right side.",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "FileZilla1.png\n",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },
+          {
+            "title" : "",
+            "content" : "Once the upload folder is opened and browsable, you will be able to drag & drop files from your local system (left side) to the FTP folder (right side).",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title": "Synchronising with Study folder",
+            "content": "After successfully uploading files (Aspera or FTP), they still need to be synced to the study folder (the directory that is eventually made public). This is done through the Files tab in the MetaboLights Editor.<br>\n<br>\n When you scroll down, you will see two boxes like below.\n ",
             "visible": true,
             "img": [{
-              "url" : "check-ftp.png\n",
+              "url" : "boxes.png\n",
               "description" : ""
             }],
             "video": []
           },
           {
             "title": "",
-            "content": "Second, click the box ‘Synchronise Folders’ to sync files from the upload to study folder. This may take some minutes to complete.\n ",
+            "content": "Files on MetaboLights are stored as two types - Metadata files or Data files. Metadata files are ISA tabular files such as i_Investigation.txt, s_MTBLSxxx.txt, a_MTBLSxxx.txt and m_MTBLSxxx_maf.tsv. Data files are RAW_FILES and/or DERIVED_FILES produced from the analytical instrument. There are two boxes to allow the submitter to synchronise metadata and data separately. You can also check the last status. As you can see in the box there are two blue tabs - <b>Check Updates</b> & <b>Start Synchronisation</b>. \n ",
             "visible": true,
-            "img": [{
-              "url" : "sync-ftp.png\n",
-              "description" : ""
-            }],
+            "img": [],
             "video": []
           },
           {
-            "title" : "I can't see my files",
-            "content" : "If you have uploaded files but do not see them in your study folder, please try to refresh the page. If this is not successful please contact <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a>.\n",
+            "title" : "Check Updates",
+            "content" : "After clicking <b>Check Updates</b>, you will see the comparison between the FTP (upload) folder and study folder. This will give the details of the latest files that were uploaded which need to be synced with the study folder. \n",
             "visible" : true,
-            "img" : [
-            ],
+            "img" : [{
+              "url" : "metadata1.png\n",
+              "description" : ""
+            }],
+            "video" : []
+          },
+          {
+            "title" : "Start Synchronisation",
+            "content" : "After clicking <b>Start Synchronisation</b>, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Editor after clicking the <b>Refresh<b> button.\n",
+            "visible" : true,
+            "img" : [{
+              "url" : "metadata2.png\n",
+              "description" : ""
+            }],
             "video" : []
           }
         ]
@@ -1275,7 +1310,8 @@
             "visible" : true,
             "img" : [
               {
-                "url" : "aspera download.png"
+                "url" : "aspera_download.png",
+                "description" : ""
               }
             ],
             "video" : []
