@@ -310,11 +310,33 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "<br>A study must pass validation to progress to the curation stage. Validation errors are evident in the information bar at the top of the study (if nothing is displayed the study has passed validation). Further information can then be found in the Study Validations tab.\n",
+            "content" : "<br>A study must pass validation to progress to the curation stage. Validation errors are evident in the information bar at the top of the study (if nothing is displayed the study has passed validation). Further information can then be found in the <b>Study Validations</b> tab.\n",
             "visible" : true,
             "img" : [
               {
-                "url" : "image4.png",
+                "url" : "validation-tab.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },{
+            "title" : "",
+            "content" : "<br>For the new studies in the initial stage, it shows status as <b>Validation Required</b>. You need to click <b>Start Validation</b> button to run the validation job. \n",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "start-validation.png",
+                "description" : ""
+              }
+            ],
+            "video" : []
+          },{
+            "title" : "",
+            "content" : "<br> Once the validation process has completed, the status will be updated on the top of the tab as well as inside the box.\n",
+            "visible" : true,
+            "img" : [
+              {
+                "url" : "validation-done.png",
                 "description" : ""
               }
             ],
