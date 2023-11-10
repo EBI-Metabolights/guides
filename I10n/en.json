@@ -1187,7 +1187,7 @@
           },
           {
             "title" : "Accepted file formats for raw data",
-            "content" : "<b>Derived file formats:</b> abf, cdf, cdf.cmp, cmp, d, dat, hr, ibd, jpf, lcd, mgf, qgd, raw, scan.wiff, xp \n",
+            "content" : "<b>Derived file formats:</b> cdf, cef, cnx, dx, imzml, mgf, msp, mzdata, mzml, mzxml, nmrml, peakml, scan, smp, wiff, xlsx, xml, xy <br>\n<b>Raw file formats: </b> abf, cdf, cdf.cmp, cmp, d, dat, hr, ibd, jpf, lcd, mgf, qgd, raw, scan.wiff, xp\n",
             "visible" : true,
             "img" : [],
             "video" : []
