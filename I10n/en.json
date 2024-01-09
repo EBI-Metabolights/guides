@@ -363,7 +363,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "<br><u>What to include in a manuscript</u><br><br>\n- Permanent unique identifier; MTBLSxxxx.<br>\n- Public url for your metabolomics study https://www.ebi.ac.uk/metabolights/MTBLSxxxx.<br>\n- You may also wish to cite the MetaboLights reference <a href='https://academic.oup.com/nar/article/48/D1/D440/5613675'>Haug et al</a>.",
+            "content" : "<br><u>What to include in a manuscript</u><br><br>\n- Permanent unique identifier; MTBLSxxxx.<br>\n- Public url for your metabolomics study https://www.ebi.ac.uk/metabolights/MTBLSxxxx.<br>\n- You may also wish to cite the MetaboLights reference <a href='https://doi.org/10.1093/nar/gkad1045'>Yurekten et al</a>.",
             "visible" : true,
             "img" : [],
             "video" : []

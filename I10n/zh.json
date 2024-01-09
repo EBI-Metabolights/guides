@@ -336,7 +336,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "<br><u>文稿中如何引用研究</u><br><br>\n- 永久唯一标识符； MTBLSxxxx。</br>\n- 研究的网址 https://www.ebi.ac.uk/metabolights/MTBLSxxxx.</br>\n- 如果你想在文章中引用MetaboLights，请使用<a href='https://academic.oup.com/nar/article/48/D1/D440/5613675'>Haug et al</a>.",
+            "content" : "<br><u>文稿中如何引用研究</u><br><br>\n- 永久唯一标识符； MTBLSxxxx。</br>\n- 研究的网址 https://www.ebi.ac.uk/metabolights/MTBLSxxxx.</br>\n- 如果你想在文章中引用MetaboLights，请使用<a href='https://doi.org/10.1093/nar/gkad1045'>Yurekten et al</a>.",
             "visible" : true,
             "img" : [],
             "video" : []
