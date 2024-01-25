@@ -1311,7 +1311,7 @@
       "Download" : {
         "title" : "Download\n",
         "sort_order" : 1,
-        "description" : "Studies can be edited online or downloaded and edited in eg. Excel. There are three file download methods;\n",
+        "description" : "On the Files tab, click blue cloud icons to download individual files or grey cloud icon to download multiple files.\n",
         "visible" : true,
         "sections" : [
           {
@@ -1327,12 +1327,12 @@
             ]
           },
           {
-            "title" : "2. Aspera download",
-            "content" : "To download <b>Public</b> study, you can use Aspera download in the file section.",
+            "title" : "2. FTP and Aspera download",
+            "content" : "On the Files tab, click *Browse Files* to open a new tab to show study files content from FTP public. If you click *FTP Download*, that will open Explorer with study files FTP public path (Assuming you are using a Mac). If you click *Aspera Download*, study files can be downloaded using Aspera tool - 'Download files' (Assuming you have installed Aspera plugin on your browser).",
             "visible" : true,
             "img" : [
               {
-                "url" : "aspera_download.png",
+                "url" : "ftp-aspera-download.png",
                 "description" : ""
               }
             ],
