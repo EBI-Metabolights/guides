@@ -1311,12 +1311,12 @@
       "Download" : {
         "title" : "Download\n",
         "sort_order" : 1,
-        "description" : "On the Files tab, click blue cloud icons to download individual files or grey cloud icon to download multiple files.\n",
+        "description" : "",
         "visible" : true,
         "sections" : [
           {
             "title" : "1. Download from the online editor",
-            "content" : "",
+            "content" : "On the Files tab, click blue cloud icons to download individual files or grey cloud icon to download multiple files.",
             "visible" : true,
             "img" : [],
             "video" : [
@@ -1328,7 +1328,7 @@
           },
           {
             "title" : "2. FTP and Aspera download",
-            "content" : "On the Files tab, click *Browse Files* to open a new tab to show study files content from FTP public. If you click *FTP Download*, that will open Explorer with study files FTP public path (Assuming you are using a Mac). If you click *Aspera Download*, study files can be downloaded using Aspera tool - 'Download files' (Assuming you have installed Aspera plugin on your browser).",
+            "content" : "On the Files tab, click <b>Browse Files</b> to open a new tab to show study files content from FTP public. If you click <b>FTP Download</b>, that will open Explorer with study files FTP public path (Assuming you are using a Mac). If you click <b>Aspera Download</b>, study files can be downloaded using Aspera tool - <b>Download files</b> button (Assuming you have installed Aspera plugin on your browser).",
             "visible" : true,
             "img" : [
               {
