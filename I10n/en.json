@@ -1339,8 +1339,22 @@
             "video" : []
           },
           {
+            "title" : "",
+            "content" : "All public studies can be downloaded from our public FTP site. Server : ftp.ebi.ac.uk ; directory path : /pub/databases/metabolights/studies/public/ (You would need a FTP client software like <b>Filezilla</b> to access and download).Each public study can be found in the corresponding <b>MTBLS-id</b> folder.",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
             "title" : "3. API download",
             "content" : "You can view/download files by using our web service: typing <font color='#1e90ff'>https://www.ebi.ac.uk/metabolights/ws/studies/&lt;studyid&gt;/&lt;filename&gt;</font> to your browser address bar. <br> <br> \n<div class='notification is-primary'> <b>MetaboLights APIs</b> - You also can get Get ISA-Tab Investigation/Assay/Sample files programmatically using our APIs.  <br> Try the MetaboLights study ISA-Tab sample API. - <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'><strong>GET_Investigation</strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/' target='_blank'><strong> GET_Assay </strong>,<a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'><strong> GET_Sample </strong></a>using our <a href='https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec' target='_blank'>swagger interface</a>. <br/> <i><small>Please note that you would need an active MetaboLights account and API Key to access the API.</small></i></div>",
+            "visible" : true,
+            "img" : [],
+            "video" : []
+          },
+          {
+            "title" : "3. Globus",
+            "content" : "<a href='https://www.globus.org/' target='_blank'>Globus</a> provides a more user-friendly, feature-rich directory interface for interacting with the FTP server.The public study Files can be downloaded through <a href='https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=%2Fpub%2Fdatabases%2Fmetabolights%2Fstudies%2Fpublic%2F&two_pane=false' target='_blank'>Globus</a> <b>'EMBL-EBI Public Data’</b> endpoint from the ‘/pub/databases/metabolights/studies/public/’ subfolders:",
             "visible" : true,
             "img" : [],
             "video" : []
