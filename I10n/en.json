@@ -1358,7 +1358,7 @@
             "video" : []
           },
           {
-            "title" : "3. Globus",
+            "title" : "4. Globus",
             "content" : "<a href='https://www.globus.org/' target='_blank'>Globus</a> provides a more user-friendly, feature-rich directory interface for interacting with the FTP server.The public study Files can be downloaded through <a href='https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=%2Fpub%2Fdatabases%2Fmetabolights%2Fstudies%2Fpublic%2F&two_pane=false' target='_blank'>our Globus Endpoint</a> <b>'EMBL-EBI Public Data'</b> and the subfolders of the path  ‘/pub/databases/metabolights/studies/public/’",
             "visible" : true,
             "img" : [
