@@ -1,0 +1,1188 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://wwww.ebi.ac.uk/metabolights/guides/Assay/">
+      
+      
+        <link rel="prev" href="../Sample/">
+      
+      
+        <link rel="next" href="../MAF/">
+      
+      
+      <link rel="icon" href="../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+    
+    
+      
+        <title>Assay - MetaboLights Guides</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#assay" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="MetaboLights Guides" class="md-header__button md-logo" aria-label="MetaboLights Guides" data-md-component="logo">
+      
+  <img src="../assets/metabolights.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MetaboLights Guides
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Assay
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MetaboLights Guides" class="md-nav__button md-logo" aria-label="MetaboLights Guides" data-md-component="logo">
+      
+  <img src="../assets/metabolights.png" alt="logo">
+
+    </a>
+    MetaboLights Guides
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quick Start Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Submission
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Submission
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MetaboLights_account/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MetaboLights Account
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Study_description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Study Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Protocol/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protocol
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sample/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sample
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Assay
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Assay
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assay-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assay Overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Assay Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#validation-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validation Rules:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nmr-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      NMR Assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lc_ms-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      LC_MS Assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gc_ms-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      GC_MS Assay
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MAF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MAF
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Files/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Files
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FAQs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Video/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Video Tutorial
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assay-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assay Overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Assay Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#validation-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validation Rules:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nmr-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      NMR Assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lc_ms-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      LC_MS Assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gc_ms-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      GC_MS Assay
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<div><h1 id="assay">Assay<a class="headerlink" href="#assay" title="Permanent link">¶</a></h1>
+<h2 id="assay-overview">Assay Overview<a class="headerlink" href="#assay-overview" title="Permanent link">¶</a></h2>
+<p>The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study.</p>
+<p>The assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.</p>
+<h3 id="validation-rules">Validation Rules:<a class="headerlink" href="#validation-rules" title="Permanent link">¶</a></h3>
+<ul>
+<li>At least one assay file in the study.</li>
+<li>All the referenced assay files can be found.</li>
+<li>No empty column names in the assay spreadsheet.</li>
+<li>Template columns in the relevant assay sheet can not be removed.</li>
+<li>Required columns can not be empty.</li>
+<li>Sample names that are all referenced in assays.</li>
+<li>Raw or Derived files existed in MS study.</li>
+<li>Derived, fid or acqu files existed in NMR study.</li>
+<li>Are there more sample rows than assay rows.</li>
+<li>Assay files are referenced of the correct type.</li>
+</ul>
+<h2 id="nmr-assay">NMR Assay<a class="headerlink" href="#nmr-assay" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sample Name</td>
+<td>A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename.</td>
+<td>pas101220_104</td>
+</tr>
+<tr>
+<td>Protocol REF - Extraction</td>
+<td>This is the column marking the start of data pertaining to <strong>Extraction</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Extraction</td>
+</tr>
+<tr>
+<td>Parameter Value - Extraction Method</td>
+<td>This how a sample was extracted from its source material.</td>
+<td>Methanol</td>
+</tr>
+<tr>
+<td>Extract Name</td>
+<td>Leave blank if you don’t have one.</td>
+<td></td>
+</tr>
+<tr>
+<td>Protocol REF - NMR sample</td>
+<td>This is the column marking the start of data pertaining to <strong>NMR sample</strong>. This should be present in every sample row.</td>
+<td>NMR sample</td>
+</tr>
+<tr>
+<td>Parameter Value - NMR tube type</td>
+<td>Size and type of tube.</td>
+<td>standard 5 mm glass NMR tube (Wilmad, LabGlass, USA)</td>
+</tr>
+<tr>
+<td>Parameter Value - Solvent</td>
+<td>Solvent used in the NMR sample.</td>
+<td>D2O</td>
+</tr>
+<tr>
+<td>Parameter Value - Sample pH</td>
+<td>Sample pH value.</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Parameter Value - Temperature</td>
+<td>Sample Temperature value.</td>
+<td>298</td>
+</tr>
+<tr>
+<td>Unit</td>
+<td>With relevant temperature unit.</td>
+<td>Celsius</td>
+</tr>
+<tr>
+<td>Labelled Extract Name</td>
+<td>Leave blank if you don’t have one.</td>
+<td></td>
+</tr>
+<tr>
+<td>Label</td>
+<td>If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here.</td>
+<td>hydrogen molecular entity</td>
+</tr>
+<tr>
+<td>Protocol REF - NMR spectroscopy</td>
+<td>This is the column marking the start of data pertaining to <strong>NMR spectroscopy</strong>. This should be present in every sample row.</td>
+<td>NMR spectroscopy</td>
+</tr>
+<tr>
+<td>Parameter Value - Instrument</td>
+<td>Add the full name of the instrument you used for the NMR study in this assay, including the model number and its operating frequency</td>
+<td>Varian Unity Inova 500 MHz spectrometer</td>
+</tr>
+<tr>
+<td>Parameter Value - NMR Probe</td>
+<td>Add a full description including the name and type of probe used.This information can be found in the ‘Acquisition Parameter Data File’, ‘acqus.txt’ found within the Bruker raw data file structure, in the field marked ‘ $PROBHD= ’.</td>
+<td>5 mm CPTCI 1H-13C/15N/D Z-GRD</td>
+</tr>
+<tr>
+<td>Parameter Value - Number of transients</td>
+<td>The number of scans acquired. This information can be found in the ‘Acquisition Parameter Data File’, ‘acqus.txt’ found within the Bruker raw data file structure, in the field marked ‘$NS=’.</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Parameter Value - Pulse sequence name</td>
+<td>The pulse sequence program used with a short description.This information can be found in the ‘Acquisition Parameter Data File’, ‘acqus.txt’ found within the Bruker raw data file structure, in the field marked ‘ $PULPROG= ’ and in the file ‘pulseprogram.txt’.</td>
+<td>1D 1H with presaturation (presat)</td>
+</tr>
+<tr>
+<td>Parameter Value - Magnetic field strength</td>
+<td>In Tesla (T)</td>
+<td>11.7</td>
+</tr>
+<tr>
+<td>Unit</td>
+<td>Units can be added in exactly the same way as Temperature unit column.</td>
+<td>Tesla</td>
+</tr>
+<tr>
+<td>Acquisition Parameter Data File</td>
+<td>These should contain the acquisition parameter data. In the Bruker raw data file structure, the file is called ‘acqus.txt ’.</td>
+<td>acqus1.txt</td>
+</tr>
+<tr>
+<td>Protocol REF - NMR assay</td>
+<td>This is the column marking the start of data pertaining to <strong>NMR assay</strong>. This should be present in every sample row.</td>
+<td>NMR assay</td>
+</tr>
+<tr>
+<td>NMR Assay Name</td>
+<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>
+<td>17_QC1</td>
+</tr>
+<tr>
+<td>Free Induction Decay Data File</td>
+<td>This is where you should enter, either the folder or the zipped NMR raw files for each sample in this study.</td>
+<td>17_QC1.zip</td>
+</tr>
+<tr>
+<td>Protocol REF Data transformation</td>
+<td>This is the column marking the start of data pertaining to <strong>Data transformation</strong>. This should be present in every sample row.</td>
+<td>Data transformation</td>
+</tr>
+<tr>
+<td>Normalization name</td>
+<td>These should contain the normalization data files.</td>
+<td>Total sum</td>
+</tr>
+<tr>
+<td>Derived Spectral Data File</td>
+<td>If your data has been transformed into one of the open-source raw data formats e.g. JCAMP , nmrML , then add them here.Please add full path of the file in the cell</td>
+<td>17_QC1.nmrML  <strong>OR if in folder structure</strong> FILES/DERIVED_FILES/NMR/17_QC1.nmrML</td>
+</tr>
+<tr>
+<td>Protocol REF Metabolite identification</td>
+<td>This is the column marking the start of data pertaining to <strong>Metabolite identification</strong>. This should be present in every sample row.</td>
+<td>Metabolite identification</td>
+</tr>
+<tr>
+<td>Data Transformation Name</td>
+<td>These should contain the data transformation files</td>
+<td></td>
+</tr>
+<tr>
+<td>Metabolite Assignment File (MAF)</td>
+<td>A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs , where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file.</td>
+<td>m_mtbls1_NMR_spectroscopy_v2_maf.tsv</td>
+</tr>
+</tbody>
+</table>
+<p>Can't find what you are looking for? Check out our <a href="../FAQs/#upload-download">FAQ's</a> for most commonly asked questions and solutions.</p>
+<h2 id="lc_ms-assay">LC_MS Assay<a class="headerlink" href="#lc_ms-assay" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sample Name</td>
+<td>A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename.</td>
+<td>ADG10003u_007</td>
+</tr>
+<tr>
+<td>Protocol REF - Extraction</td>
+<td>This is the column marking the start of data pertaining to <strong>Extraction</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Extraction</td>
+</tr>
+<tr>
+<td>Parameter Value - Post Extraction</td>
+<td>This column describes how the sample was extracted into a solvent prior to being injected into the analytical instrument of choice.</td>
+<td>400 µL water</td>
+</tr>
+<tr>
+<td>Parameter Value - Derivatization</td>
+<td>If the sample has been subjected to chemical modification prior to injection.</td>
+<td>sylilation</td>
+</tr>
+<tr>
+<td>Extract Name</td>
+<td>Leave blank if you don’t have one.</td>
+<td></td>
+</tr>
+<tr>
+<td>Protocol REF - Chromatography</td>
+<td>This is the column marking the start of data pertaining to <strong>Chromatography</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Chromatography</td>
+</tr>
+<tr>
+<td>Parameter Value - Chromatography Instrument</td>
+<td>Add the full name of the instrument you used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals, or on their website.</td>
+<td>Shimadzu Nexera UHPLC system</td>
+</tr>
+<tr>
+<td>Parameter Value - Column model</td>
+<td>Manufacturer, model number and dimensions.</td>
+<td>HSS T3 C18 (1.8 μm, 1.0 x 100 mm; Waters)</td>
+</tr>
+<tr>
+<td>Parameter Value - Column type</td>
+<td>Type or phase of column used.</td>
+<td>reverse phase</td>
+</tr>
+<tr>
+<td>Labelled Extract Name</td>
+<td>Leave blank if you don’t have one.</td>
+<td></td>
+</tr>
+<tr>
+<td>Label</td>
+<td>If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here.</td>
+<td></td>
+</tr>
+<tr>
+<td>Protocol REF - Mass spectrometry</td>
+<td>This is the column marking the start of data pertaining to <strong>Mass spectrometry</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Mass spectrometry</td>
+</tr>
+<tr>
+<td>Parameter Value - Scan polarity</td>
+<td>Values should identical within each assay. If you have ‘positive’ or ‘negative’ values in the same assay then split them into separate ‘positive’ and ‘negative’ assays.</td>
+<td>positive</td>
+</tr>
+<tr>
+<td>Parameter Value - Scan m/z range</td>
+<td>The range used in the assay.</td>
+<td>100-1000</td>
+</tr>
+<tr>
+<td>Parameter Value - Instrument</td>
+<td>Add the full name of the mass spectrometer/detector you used for this LC/MS assay, including the instrument manufacturer and model number as reported in manufacturer’s brochures, user manuals, or on their website.</td>
+<td>Bruker micrOTOF-Q II</td>
+</tr>
+<tr>
+<td>Parameter Value - Ion source</td>
+<td>Where applicable to the instrument.</td>
+<td>ESI</td>
+</tr>
+<tr>
+<td>Parameter Value - Mass analyzer</td>
+<td>The analyser/detector of the mass fragments generated during the assay.</td>
+<td>Triple quadrupole</td>
+</tr>
+<tr>
+<td>MS Assay Name</td>
+<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>
+<td>treated 0 min rabbit 1</td>
+</tr>
+<tr>
+<td>Raw Spectral Data File</td>
+<td>This is where you should enter the Raw (unprocessed) MS data files (.RAW).Please add full path of the file in the cell.</td>
+<td>FILES/Sepd340.raw <strong>OR if in folder structure</strong> FILES/RAW_FILES/LC_MS/Sepd340.raw</td>
+</tr>
+<tr>
+<td>Protocol REF - Data transformation</td>
+<td>This is the column marking the start of data pertaining to <strong>Data transformation</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Data transformation</td>
+</tr>
+<tr>
+<td>Normalization name</td>
+<td>these should contain the normalization data files preferably as an Excel spreadsheet file. If you don’t have these then leave the cells/column blank.</td>
+<td>MSpos-Ex1-Col0-48h-Ag_normalized_data.xlsx</td>
+</tr>
+<tr>
+<td>Derived Spectral Data File</td>
+<td>If your data has been transformed into one of the open-source raw data formats e.g. mzML , CDF, or any other converted file, then add them here.Please add full path of the file in the cell.</td>
+<td>FILES/Sepd340.mzML <strong>OR if in folder structure</strong> FILES/DERIVED_FILES/LC_MS/Sepd340.mzML</td>
+</tr>
+<tr>
+<td>Protocol REF - Metabolite identification</td>
+<td>This is the column marking the start of data pertaining to <strong>Metabolite identification</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Metabolite identification</td>
+</tr>
+<tr>
+<td>Data Transformation Name</td>
+<td>These should contain the data transformation files.</td>
+<td></td>
+</tr>
+<tr>
+<td>Metabolite Assignment File (MAF)</td>
+<td>A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs , where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file.</td>
+<td>m_mtbls1_mass_spectrometry_v2_maf.tsv</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gc_ms-assay">GC_MS Assay<a class="headerlink" href="#gc_ms-assay" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sample Name</td>
+<td>A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename.</td>
+<td>Example_1</td>
+</tr>
+<tr>
+<td>Protocol REF - Extraction</td>
+<td>This is the column marking the start of data pertaining to <strong>Extraction</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Extraction</td>
+</tr>
+<tr>
+<td>Parameter Value - Post Extraction</td>
+<td>This how the sample was extracted into a solvent prior to being injected into the analytical instrument of choice.</td>
+<td>2 ml ethyl acetate</td>
+</tr>
+<tr>
+<td>Parameter Value - Derivatization</td>
+<td>If the sample has been subjected to chemical modification prior to injection.</td>
+<td>sylilation</td>
+</tr>
+<tr>
+<td>Extract Name</td>
+<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>
+<td>Example_1</td>
+</tr>
+<tr>
+<td>Protocol REF - Chromatography</td>
+<td>This is the column marking the start of data pertaining to <strong>Chromatography</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Chromatography</td>
+</tr>
+<tr>
+<td>Parameter Value - Chromatography Instrument</td>
+<td>Add the full name of the instrument used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals or website.</td>
+<td>Shimadzu GCMS-QP2010 Ultra</td>
+</tr>
+<tr>
+<td>Parameter Value - Autosampler model</td>
+<td>Add the full name of the autosampler used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals or website.</td>
+<td></td>
+</tr>
+<tr>
+<td>Parameter Value - Column model</td>
+<td>Manufacturer, model number and dimensions in the format shown in the examples:</td>
+<td>Zebron ZB-AAA GC(10 m x 0.25 mm; Phenomenex)</td>
+</tr>
+<tr>
+<td>Parameter Value - Column type</td>
+<td>Polarity of column used. This information can be found on the manufacturer’s website.</td>
+<td>low polarity <strong>OR</strong> medium polarity <strong>OR</strong> high polarity</td>
+</tr>
+<tr>
+<td>Parameter Value - Guard column</td>
+<td>Manufacturer, model number and dimensions in the format shown in the examples:</td>
+<td></td>
+</tr>
+<tr>
+<td>Labeled Extract Name</td>
+<td>Leave blank if you don’t have one.</td>
+<td></td>
+</tr>
+<tr>
+<td>Label</td>
+<td>If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here.</td>
+<td></td>
+</tr>
+<tr>
+<td>Protocol REF - Mass spectrometry</td>
+<td>This is the column marking the start of data pertaining to <strong>Mass spectrometry</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Mass spectrometry</td>
+</tr>
+<tr>
+<td>Parameter Value - Scan polarity</td>
+<td>This should be ‘positive’ for a GC/MS assay.</td>
+<td>positive</td>
+</tr>
+<tr>
+<td>Parameter Value - Scan m/z range</td>
+<td>The range used in the assay.</td>
+<td>50-400</td>
+</tr>
+<tr>
+<td>Parameter Value - Instrument</td>
+<td>Add the full name of the mass spectrometer/detector used for this GC/MS assay, including the instrument manufacturer and model number as reported in manufacturer’s brochures, user manuals or website.</td>
+<td>Thermo Electron Trace DSQ</td>
+</tr>
+<tr>
+<td>Parameter Value - Ion source</td>
+<td>Where applicable to the instrument.</td>
+<td>electron ionization</td>
+</tr>
+<tr>
+<td>Parameter Value - Mass analyzer</td>
+<td>The analyser/detector of the mass fragments generated during the assay.</td>
+<td>quadrupole</td>
+</tr>
+<tr>
+<td>MS Assay Name</td>
+<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>
+<td>Example_1</td>
+</tr>
+<tr>
+<td>Raw Spectral Data File</td>
+<td>This is where you should enter the Raw (unprocessed) MS data files (.RAW). Please add full path of the file in the cell.</td>
+<td>FILES/myfilename1.raw <strong>OR if in folder structure</strong> FILES/RAW_FILES/myfilename1.raw</td>
+</tr>
+<tr>
+<td>Protocol REF - Data transformation</td>
+<td>This is the column marking the start of data pertaining to <strong>Data transformation</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Data transformation</td>
+</tr>
+<tr>
+<td>Normalization name</td>
+<td>These should contain the normalization data files preferably as an Excel spreadsheet file. If you don’t have these then leave the cells/column blank.</td>
+<td>normalized-data.xlsx</td>
+</tr>
+<tr>
+<td>Derived Spectral Data File</td>
+<td>If your data has been transformed into one of the open-source raw data formats, e.g. mzML, or any other converted file, then add them here. Please add full path of the file in the cell.</td>
+<td>FILES/myfilename1.mzML <strong>OR if in folder structure</strong> FILES/DERIVED_FILES/myfilename1.mzML</td>
+</tr>
+<tr>
+<td>Protocol REF - Metabolite identification</td>
+<td>This is the column marking the start of data pertaining to <strong>Metabolite identification</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Metabolite identification</td>
+</tr>
+<tr>
+<td>Data Transformation Name</td>
+<td>These should contain the data transformation files.</td>
+<td></td>
+</tr>
+<tr>
+<td>Metabolite Assignment File (MAF)</td>
+<td>A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs, where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file.</td>
+<td>m_MTBLS1_GC-MS_positive__metabolite_profiling_v2_maf.tsv</td>
+</tr>
+</tbody>
+</table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Sample/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Sample">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Sample
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../MAF/" class="md-footer__link md-footer__link--next" aria-label="Next: MAF">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                MAF
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://x.com/MetaboLights" target="_blank" rel="noopener" title="x.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9zm-24.8 373.8h39.1L151.1 88h-42z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://bsky.app/profile/metabolights.bsky.social" target="_blank" rel="noopener" title="bsky.app" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2 42.1-31.6 110.3-56 110.3 21.8 0 15.5-8.9 130.5-14.1 149.2-18.2 64.8-84.4 81.4-143.3 71.3C456 322 482.2 380 425.6 438c-107.4 110.2-154.3-27.6-166.3-62.9-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8c-12 35.3-59 173.1-166.3 62.9-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1 10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.code.copy", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.path", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      
+    
+  </body>
+</html>
