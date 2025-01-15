@@ -58,7 +58,7 @@
           },
           {
             "title" : "",
-            "content" : "</br><u>Submitting a study for curation</u></br></br>Once you have completed the study metadata, uploaded raw data files and the study successfully validates, select the <b>status</b> bar at the top of your study and change to <b>curation</b>. You will no longer be able to directly edit your study, please contact <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> if you need to make further amendments.</br>You will also be prompted to set the public release date for your study, <i>please note this is automatically set to a minimum of <u><b>4 weeks</b></u> to allow for the curation process</i>.</br></br>",
+            "content" : "</br><u>Submitting a study for curation</u></br></br>Once you have completed the study metadata, uploaded raw data files and the study successfully validates, select the status bar at the top of your study and change from ‘Submitted’ to ‘In Curation’. You will no longer be able to directly edit your study, please contact <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> if you need to make further amendments.</br>You will also be prompted to set the public release date for your study.</br></br>",
             "visible" : true,
             "img" : [
               {
@@ -82,7 +82,7 @@
           },
           {
             "title" : "",
-            "content" : "<br>Following successful curation, the status will be updated to <b>review</b> and a temporary private <i>read only</i> link will be available on your study page to share with journal editors, collaborators etc if requested.</br></br>",
+            "content" : "<br>Once ‘In Curation,’ a temporary private read only link will be available on your study page to share with journal editors, collaborators etc if requested.</br></br>",
             "visible" : true,
             "img" : [
               {
@@ -114,7 +114,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>Select <a target='_blank' href='console'>Submit study</a> followed by <b>Create online</b> to be taken to the Guided Submission Portal.<br>\nIf you have an existing account you will first be taken to My Studies where you can choose to edit an existing study or create a new study. </br></br>\n\n<u><i>Guided Submission Portal</i></u></br>\nThe Guided Submission Portal will take you through the steps to create your study. </br>\nA new study will be automatically generated with a unique accession number / study identifier.\n\n",
+            "content" : "</br>Select <a target='_blank' href='console'>Submit study</a> followed by <b>Create New Study</b> to be taken to the Guided Submission Portal.<br>\n If you have an existing account you will first be taken to My Studies where you can choose to edit an existing study (MTBLSxxx) or create a new study (REQxxx). </br></br>\n\n<u><i>Guided Submission Portal</i></u></br>\nThe Guided Submission Portal will take you through the steps to create your MetaboLights submission (study). </br>\nA new temporary submission request will be automatically generated with a unique accession number / study identifier.\n\n",
             "visible" : true,
             "img" : [
               {
@@ -133,7 +133,7 @@
           },
           {
             "title" : "",
-            "content" : "<u><i>Submitters and authors</i></u></br>\nSubmitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public. </br></br>\nAuthors are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study. <br></br>\nThe submitter can provide access & edit rights to collaborators provided they have a MetaboLights account by adding first as an author and then choosing <a target='_blank' href='guides/Study_description/Authors'>Make submitter</a>. <br></br> \n A Submitter can only create or currently have a maximum of 2 studies in the Submission stage. If you need to create more studies then contact the MetaboLights team through the support email: <a href='mailto:metabolights-help@ebi.ac.uk'>metabolights-help@ebi.ac.uk</a>.",
+            "content" : "<u><i>Submitters and Study Contacts</i></u></br>\nSubmitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public. </br></br>\nStudy Contacts are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study. <br></br>\nThe submitter can provide access & edit rights to collaborators provided they have a MetaboLights account by adding first as an author and then choosing <a target='_blank' href='guides/Study_description/Authors'>Make submitter</a>. <br></br> \n A Submitter can only create or currently have a maximum of 2 studies in the Submission stage. If you need to create more studies then contact the MetaboLights team through the support email: <a href='mailto:metabolights-help@ebi.ac.uk'>metabolights-help@ebi.ac.uk</a>.",
             "visible" : true
           }
         ]
@@ -146,7 +146,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "<br> All studies can be edited directly online. To access, choose from the options below. <br>\n- Navigate to Editor <a target='_blank' href='console'>Home</a> and select the appropriate study from your list by clicking Study overview link.<br><br>\n- Use the url assigned when your study was created. Your study URL will be something like (https://www.ebi.ac.uk/metabolights/editor/MTBLSXXX) and then click Edit button right corner. You can also find your study here in the <a target='_blank' href='https://www.ebi.ac.uk/metabolights/studies'>browse study page</a> after logged in <br>\n\n",
+            "content" : "<br> All studies can be edited directly online. To access, choose from the options below. <br>\n- Navigate to Editor <a target='_blank' href='console'>Home</a> and select the appropriate study from your My Studies page and click Study overview.<br>\n\n",
             "visible" : true,
             "img" : [
               {
@@ -158,7 +158,7 @@
           },
           {
             "title" : "",
-            "content" : "- Select your study directly from <a target='_blank' href='console'>My Studies</a> page using the Study Overview option.",
+            "content" : "- Use the temporary URL assigned when your study was created. This will be something like (https://www.ebi.ac.uk/metabolights/editor/study/REQxxx) <br><br>When editing a study there is always the option to switch between the Guided Submission mode & the Study Overview editor. Look for the pop-out option in the bottom right corner of the screen or choose either option on your My studies page.\n",
             "visible" : true,
             "img" : [
               {
@@ -170,19 +170,7 @@
           },
           {
             "title" : "",
-            "content" : "When editing a study there is always the option to switch between the Guided Submission mode & the Study Overview editor. Look for the pop-out option in the bottom right corner of the screen or choose either option on your My studies page.\n",
-            "visible" : true,
-            "img" : [
-              {
-                "url" : "image39.png",
-                "description" : ""
-              }
-            ],
-            "video" : []
-          },
-          {
-            "title" : "",
-            "content" : "Studies can be edited online or downloaded and edited in eg. Excel. It is important not to remove existing columns or alter column headers when editing as the format is a fixed requirement. Additional columns can be added by choosing +factor, this should be done online before downloading files.</br></br>\nSome sections of metadata require ontology fields. When adding information using the online options, ontology options will appear as you type. If uploading a file without ontologies added, the online editor will prompt you to select ontologies in the fields above the tables.\n",
+            "content" : "Studies can be edited online or downloaded and edited in eg. Excel. It is important <b>not to remove existing columns or alter column headers</b>when editing, as the format is a fixed requirement linked to validation. Additional columns can be added, eg. in the Samples Section by choosing +factor, to better describe samples. This should be done online before downloading files. <br><br> Some sections of metadata require ontology fields. When adding information using the online options, ontology options will appear as you type. If uploading a file without ontologies added, the Online Editor will prompt you to select ontologies in the fields above the tables.\n",
             "visible" : true,
             "img" : [],
             "video" : []
