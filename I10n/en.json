@@ -2,7 +2,7 @@
   "created_at" : "",
   "updated_at" : "14/01/2025",
   "data" : {
-    "Quick_start_Guide" : {
+    "Quick_start Guide" : {
       "Quick_start_overview" : {
         "title" : "Quick Start Overview",
         "sort_order" : 0,
@@ -114,7 +114,7 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>Select <a target='_blank' href='console'>Submit study</a> followed by <b>Create New Study</b> to be taken to the Guided Submission Portal.<br>\n If you have an existing account you will first be taken to My Studies where you can choose to edit an existing study (MTBLSxxx) or create a new study (REQxxx). </br></br>\n\n<u><i>Guided Submission Portal</i></u></br>\nThe Guided Submission Portal will take you through the steps to create your MetaboLights submission (study). </br>\nA new temporary submission request will be automatically generated with a unique accession number / study identifier.\n\n",
+            "content" : "</br>Select <a target='_blank' href='console'>Submit study</a> followed by <b>Create New Study</b> to be taken to the Guided Submission Portal.<br>\n If you have an existing account you will first be taken to My Studies where you can choose to edit an existing study (MTBLSxxx) or create a new study (REQxxx). </br></br>\n\n<u><i>Guided Submission Portal</i></u></br>\nThe Guided Submission Portal will take you through the steps to create your MetaboLights submission (study). </br>\nA new temporary submission request will be automatically generated with a unique study identifier.\n\n",
             "visible" : true,
             "img" : [
               {
@@ -236,19 +236,19 @@
         "sections" : [
           {
             "title" : "",
-            "content" : "</br>When you create a study the Guided submission process will take you through the setup step-by-step. It will guide you through raw and sample data upload, creating assays and provide you with controlled vocabulary/ontology options in relevant fields. If you don’t have all the information to hand, don’t worry! You can access and edit your entire study at any time when in submission from your My Studies page.</br></br>Each MetaboLights study has 4 main sections, study description, sample, assay and metabolite information. The basic outlines for each are given below. Each section also corresponds to a specific file as indicated in which the information is stored.",
+            "content" : "</br>When you create a study the <b>Guided submission</b> process will take you through the setup step-by-step. It will guide you through raw and sample data upload, creating assays and provide you with controlled vocabulary/ontology options in relevant fields. If you don’t have all the information to hand, don’t worry! You can access and edit your entire study at any time when in submission from your <a target='_blank' href='console'>My Studies</a> page.</br></br>Each MetaboLights study has 4 main sections, study description, sample, assay and metabolite information. The basic outlines for each are given below. Each section also corresponds to a specific file as indicated in which the information is stored.",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
-            "title" : "Study description (i_MTBLSxxx.txt)",
-            "content" : "This section provides a description of the study, an overview that will inform the reader the type of data they will find. There are several parts to this section; </br>\n(a) Study identifier & title</br>\nMTBLSXXX identifier provided by MetaboLights and descriptive title which should match manuscript title.</br></br>\n\n(b) Author information</br>\nA list of all contributing authors.</br></br>\n\n(c) Abstract</br>\nHigh level description of the study.</br></br>\n\n(d) Manuscript publication information</br>\nManuscript title, authors and public link. A tentative title should be provided if the manuscript is in preparation. This can be updated at any stage by contacting MetaboLights Help directly and a DOI / PMID Identifier can be used to update title/author/abstract directly from the manuscript.</br></br>\n\n(e) Keywords / Descriptors </br>\neg. untargeted metabolites, high performance liquid chromatography, oncology</br></br>\n\n(f) Descriptive protocols</br>\nWhen an assay is selected a set of corresponding protocol boxes will automatically be generated in the protocol section to guide the required information.</br></br>\n",
+            "title" : "Study description (i_investigation.txt)",
+            "content" : "This section provides a description of the study, an overview that will inform the reader the type of data they will find. There are several parts to this section; </br>\n(a) Study identifier & title</br>\nMTBLSXXX identifier provided by MetaboLights and descriptive title which should match manuscript title.</br></br>\n\n(b) Contacts information</br>\nA list of all contributing authors.</br></br>\n\n(c) Study Description (Abstract)</br>\nHigh level description of the study.</br></br>\n\n(d) Publication information</br>\nManuscript title, authors and public link. A tentative title should be provided if the manuscript is in preparation. This can be updated at any stage by contacting <a href = 'mailto:metabolights-help@ebi.ac.uk'>MetaboLights Help</a> directly and a DOI / PMID Identifier can be used to update title/author/abstract directly from the manuscript.</br></br>\n\n(e) Design Descriptors (Keywords) </br>\neg. untargeted metabolites, high performance liquid chromatography, oncology</br></br>\n\n(f) Descriptive protocols</br>\nWhen an assay is selected a set of corresponding protocol boxes will automatically be generated in the protocol section to guide the required information.</br></br>\n",
             "visible" : true,
             "img" : [
               {
                 "url" : "image29.png",
-                "description" : "(a) Study identifier & title (b) Author information (c) Abstract (d) Publication link (e) Keywords(f) Protocol text"
+                "description" : "a) Study identifier & title (b) Contacts (c) Study Description (Abstract) (d) Publication link (e) Design Descriptors (Keywords) (f) Protocol text"
               },
               {
                 "url" : "image20.png",
@@ -259,14 +259,14 @@
           },
           {
             "title" : "Sample information (s_MTBLSxxx.txt)",
-            "content" : "The sample information should provide all relevant facts about each sample and any controls / standards included in the study. There is ONE sample sheet per study. <br/>Sample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).",
+            "content" : "This section contains all information related to the samples and controls / standards included in the study. <br><br>It includes details as which Organism is the focus of the study, the Organism parts which have been sampled, the Sample type (experimental sample, pooled quality control sample, experimental blank, media blank, solvent blank etc.) and any strain, cultivar or breed investigated (Variant).<br>Further descriptors which will help to describe and stratify samples (eg. Gender, Age, Treatment), should be included where available by adding Factors. Check the <a href='guides/Sample/Sample' target='_blank'>Sample section in our guides for more information.",
             "visible" : true,
             "img" : [],
             "video" : []
           },
           {
             "title" : "Assay information (a_MTBLSxxx.txt)",
-            "content" : "The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study.</br></br>The assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.</br></br>",
+            "content" : "The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study.</br></br>The assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.",
             "visible" : true,
             "img" : [
               {
@@ -278,7 +278,7 @@
           },
           {
             "title" : "Metabolite information (m_MTBLSxxx.tsv)",
-            "content" : "Each assay has a corresponding metabolite table. If results are cumulative of multiple assays, use the metabolite assignment file column in the assay table to point all assays to the same m_MTBLSxxx.tsv file name.</br></br>The metabolite information should include all metabolites / unknowns / features identified within the study.",
+            "content" : "Each assay has a corresponding metabolite table. If results are cumulative of multiple assays, use the metabolite assignment file column in the assay table to point all assays to the same m_MTBLSxxx.tsv file name. <br><br>The metabolite information <b>should include all metabolites / unknowns / features</b> identified within the study.",
             "visible" : true,
             "img" : [
               {
