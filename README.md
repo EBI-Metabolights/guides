@@ -2,9 +2,24 @@
 
 Local installation guide
 
-- Clone this repository
-```git clone https://github.com/EBI-Metabolights/guides.git```
-- Alternatively, you may use tools such as source tree to clone this repository
---  https://www.sourcetreeapp.com/
-- Run ```$ sh run_server.sh```
-- Browse to http://localhost:8080/guides
+- Install your preferred IDE (vscode, etc.)
+- Install dependencies
+  - git
+  - python 3.12
+  - python dependency management tool - poetry
+- Clone this repository and setup environment
+
+```bash
+git clone https://github.com/EBI-Metabolights/guides.git
+cd guides
+poetry update
+```
+
+- Start local server
+
+```bash
+mkdocs serve
+
+```
+
+- View the documentation content on Web Browser http://127.0.0.1:8000/metabolights/guides/
