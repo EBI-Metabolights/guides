@@ -1,5 +1,6 @@
-# Quick Start Guide
+# Quick Start Guide by Noemi
 ## Overview
+
 
 
 /// success | Checklist 
@@ -18,23 +19,27 @@ Before creating a study ensure you have the following;
 
 
 /// success | Create 
-Select [Submit study](https://www.ebi.ac.uk/metabolights/editor/console) to create a new study (or edit an existing study). 
+Select [Submit study](https://www.ebi.ac.uk/metabolights/editor/console) in the MetaboLights homepage to create a new submission (or edit an existing one). 
 
-![Create](assets/images/image22.png)
 
-**Recommended**: *Use Create online to be guided through the study creation step by step.*
+**Recommended**: *Use ‘Create New Study’ from the editor console and select ‘Guided Submission’ to be guided through the submission creation step by step.*
 
-**N.B.** *the accession number assigned to your study MTBLSxxx will be the permanent identifier (url www.ebi.ac.uk/metabolights/MTBLSxxx), please use this in manuscripts.*
+![Create](assets\images\NEW GUIDES\QuickStartOverview_Create.png)
+
+Choose to upload your RAW files at this point or later.
+
+**Note:** *You will be issued a temporary identifier (REQxxx). Please refer to this identifier in any communication with the MetaboLights team.*
+
 ///
 
 
 /// success | Edit 
 
-Use the online editor option to view and edit existing studies. Access through My Studies page or with a study url.  
+Use the Online Editor option to view and edit existing submissions. Access through *My Studies* page or with a study URL.  
 
-![Edit](assets/images/image5.png)
+![Edit](assets\images\NEW GUIDES\QuickStartOverview_Edit.png)
 
-**N.B.**: *You can give collaborators edit rights to the study following these [steps](Study_description.md#authors).*
+**Note:** *You can give collaborators edit rights to the study following these [steps](Study_description.md#authors).*
 
 ///
 
@@ -43,7 +48,14 @@ Use the online editor option to view and edit existing studies. Access through M
 
 Studies must pass validation to be submitted. Validation errors are evident in the information bar at the top of the study (if nothing is displayed the study has passed validation). Details of errors are available in the study validations tab.
 
-![Validation Tab](assets/images/validation-tab.png)
+![Validation Tab](assets\images\NEW GUIDES\QuickStartOverview_Validate.png)
+
+**Validation Framework v2** - With the aim of improving reporting and speeding up data release, the MetaboLights team has developed a more structured and stricter [new study validation ruleset](https://github.com/EBI-Metabolights/mtbls-validation). 
+
+
+Temporary submission requests (REQxxx) must pass validation to be promoted to ‘In Curation’ and get assigned a full MetaboLights study accession number (MTBLSxxx). 
+Validation errors are evident in the information bar at the top of the study (if no validation box is displayed, next to ‘Release Date’, the study has passed validation). Details of errors are available in the ‘Study Validations’ tab.
+
 
 ///
 
@@ -51,33 +63,53 @@ Studies must pass validation to be submitted. Validation errors are evident in t
 
 /// success | Submit 
 
-To submit study, select **Status** and change to curation (study must validate to do this). You can also set the publication date at this stage. 
+To promote your temporary submission request (REQxxx) to ‘In Curation’ and obtain a full MetaboLights study accession number (MTBLSxxx), select **Status** and change from ‘Submitted’ to ‘In Curation’. 
+
+![Submit](assets\images\NEW GUIDES\QuickStartOverview_Submit.png)
+
+You can also set the Public Release Date at this stage. 
+
+**Note:** ‘In Curation’ studies cannot be edited, please contact [MetaboLights help](metabolights-help@ebi.ac.uk) if amendments are required or you need to include a manuscript DOI number.
+
+///
 
 
-![Submit](assets/images/imageX.png)
+/// success | Curation
 
-**N.B.**  curation process will take a minimum of 4 weeks, publication date cannot be less than this.
+Studies which pass the new version of validation and have status promoted to ‘In Curation’ will instantly receive a private reviewer link and be eligible to go public without MetaboLights curation (please contact [MetaboLights help](metabolights-help@ebi.ac.uk)). 
 
-Submitted studies cannot be edited, contact MetaboLights help if amendments are required.
+![Validation Tab](assets\images\NEW GUIDES\QuickStartOverview_Curation.png)
+
+**Note:** MetaboLights curation will be retained in certain cases. The process will take a minimum of 4 weeks, publication date cannot be less than this.
 
 ///
 
 
 /// success | Review 
 
-Following successful study curation, the status will be updated to Review. A temporary private link will be available on the study page to share with journal editors, collaborators etc. if requested.
+Following successful study curation by the MetaboLights team, the status will be updated to ‘In Review’. A temporary private link will be available on the study page to share with journal editors, collaborators etc. 
 
-![Review](assets/images/image30.png)
+![Review](assets\images\NEW GUIDES\QuickStartOverview_InReview.png)
 
 ///
 
 /// success | Publish 
 
-A study will be published once the release date is reached. The date can be changed at any stage by contacting us directly.  
+The MetaboLights team approves the study and promotes the status from ‘In Curation’ to ‘In Review’ or ‘Public’. 
 
-![Publish](assets/images/image26.png){width=300 height=150}
+![Publish](assets\images\NEW GUIDES\QuickStartOverview_Public.png){width=300 height=150}
 
-*Please also send manuscript DOI to MetaboLights-help once available.*
+Please add to your manuscript the following sentence (typically in the "Methods" section or just before/in the Acknowledgements):
+
+*"The metabolomics data have been deposited to MetaboLights[1] repository with the study identifier MTBLSxxx".*
+
+MetaboLights reference:
+
+[1] Yurekten O, Payne T, Tejera N, Amaladoss FX, Martin C, Williams M, O'Donovan C. MetaboLights: open data repository for metabolomics. Nucleic Acids Res. 2024 Jan 5;52(D1):D640-D646. doi:[10.1093/nar/gkad1045](https://doi.org/10.1093/nar/gkad1045). PMID:37971328.
+
+We would recommend you to also include this information in a much abridged form into the abstract itself, e.g. *"Data are available via MetaboLights with identifier MTBLSxxx."*
+
+**Note:** Please send manuscript DOI to [MetaboLights help](metabolights-help@ebi.ac.uk) once available.
 ///
 
 
@@ -87,13 +119,74 @@ The primary requirements for study submission to MetaboLights are as follows;
 1. MetaboLights user [account](MetaboLights_account.md#create-account).
 2. Raw data ie. ***spectral files*** produced by the analytical instrument and/or an open source version. Please see  [accepted file formats](Files.md#raw-data).
 3. Complete  [metadata](index.md#study-overview).
+   
+
+/// tip
+
+**Before Submission:**
+
+- Check that your raw or derived file formats are acceptable for MetaboLights repository (link to raw data).
+
+- Filenames should contain only .-_A-Za-z0-9 characters. Space characters are not allowed. Check whether all raw data files and folders have valid names and rename filenames, if needed.
+
+- If your raw data files are folders (e.g. .d, .raw, or any NMR raw data folder), each raw data folder is compressed with zip utility **individually**. A zip file containing multiple raw folders is not allowed.
+
+- Organize your raw and derived data files on your local storage. Create subfolders if needed. Subfolder names should contain only .-_A-Za-z0-9 characters. Space characters are not allowed.
+
+- If you want to use FTP to upload your data files, install an FTP client (e.g. FileZilla).
+
+- If you are not principal investigator of the study, collect principal investigator contact information (e.g. email, phone number, fax number, affiliation, etc.).
+
+**During Submission:**
+
+- If you are experiencing problems with Aspera, try to use FTP client to upload your data (i.e. Filezilla).
+  
+- Ensure your data file uploads are completed successfully. 
+  
+- Do not forget to synchronise your FTP folder after your new uploads.
+  
+- Complete all fields of the following sections:
+    - Summary: title, abstract/description, contacts
+    - Publications
+    - Descriptors
+    - Protocols 
+    - Samples
+    - Assays
+    - Metabolites
+
+- Add principal investigator as a contact person.
+- Define at least one study factor and complete its values.
+- Ensure sample names are unique and referenced in assay files.
+- If you want to bulk update on your local, follow these steps:
+  
+    - Download metadata file on Files tab.
+  
+    - Open the metadata file with your favorite editor (Microsoft Excel, OpenOffice, etc) without changing the original format and encoding.
+  
+    - Update the metadata data file.
+  
+    - Save it without changing the original format and encoding.
+  
+    - Ensure that the local metadata file name is exactly the same as in your study folder.
+  
+    - Upload the metadata file and synchronise your study folder.
+  
+    - Refresh your editor, if needed. 
+
+- Reference your raw data or derived files in the **'Raw Spectral Data File'** or **'Derived Spectral Data File'** column of your ASSAY files. Be sure all referenced data files start with FILES/ prefix. Example: FILES/RAW_FILES/myfiles.raw OR FILES/DERIVED_FILES/myfiles.mzML.
+  
+- Datasets with ***.wiff*** and ***.wiff.scan*** files require the upload of both types of files. Adding an extra  **'Raw Spectral Data File'** column is required to reference them in the corresponding ASSAY.
+
+- Run study validation and fix all errors. 
+
+///
 
 
 ## Submission Process
 Overview of the 4 stages in the study submission process.
 
 
-![Process](assets/images/image37.png){width=500}
+![Process](assets/images/NEW GUIDES/NewWorkflow.png){width=500}
 
 ### Submitting a study for curation
 

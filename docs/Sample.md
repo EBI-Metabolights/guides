@@ -5,6 +5,33 @@ The sample information should provide all relevant facts about each sample and a
 Sample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).
 
 A group of samples can be added to the sample table using **+Samples** and pasting a list or selecting to import Raw data file names if appropriate. There is also the option to add as many new rows as required with **+Rows** and edit cells individually.
+    ![Portal](assets\images\examplesofsamples.png){width=900 height=1200}
+
+Example of required information for different Sample types
+
+| Column Name | Description | Example 1 | Example 2 | Example 3| Example 4 | Example 5 | Example 6 | Example 7 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Source Name | Unique source identifier of the Sample or simply repeat 'Sample Name’ | Single standard | Standard mix | Blank1 | QC1 | Sample1 | QC2 | Sample2 |
+| **Characteristics[Organism]** | A living entity | reference compound | reference compound | blank | Homo sapiens | Homo sapiens | Mus musculus | Mus musculus |
+| **Term Source REF** | Selected ontology | BAO | BAO | | NCBITaxon | NCBITaxon | NCBITaxon | NCBITaxon |
+| **Term Accession Number** | Ontology term URL | http://www.bioassayontology.org/bao#BAO_0002092 | http://www.bioassayontology.org/bao#BAO_0002092 | | http://purl.obolibrary.org/obo/NCBITaxon_9606 | http://purl.obolibrary.org/obo/NCBITaxon_9606 | http://purl.obolibrary.org/obo/NCBITaxon_10090 | http://purl.obolibrary.org/obo/NCBITaxon_10090 |
+| **Characteristics[Organism Part]**| A portion of an organism | pure substance | mixture | solvent | blood plasma | blood plasma | blood plasma | blood plasma |
+| **Term Source REF** | Selected ontology | CHEBI | CHEBI | CHEBI | BTO | BTO | BTO | BTO |
+| **Term Accession Number** | Ontology term URL | http://purl.obolibrary.org/obo/CHEBI_60003 | http://purl.obolibrary.org/obo/CHEBI_60004 | http://purl.obolibrary.org/obo/CHEBI_46787 | http://purl.obolibrary.org/obo/BTO_0000131 | http://purl.obolibrary.org/obo/BTO_0000131 | http://purl.obolibrary.org/obo/BTO_0000131 | http://purl.obolibrary.org/obo/BTO_0000131 |
+| **Characteristics[Variant]** | Selected breed, strain, cultivar, etc (if available) | | | | | | C57BL/6J | C57BL/6J |
+| **Term Source REF** | Selected ontology | | | | | | EFO | EFO |
+| **Term Accession Number** | Ontology term URL | | | | | | http://www.ebi.ac.uk//efo/EFO_0000606 | http://www.ebi.ac.uk//efo/EFO_0000606 |
+| **Characteristics[Sample type]** | Sample role in the experiment | reference compound | reference compound mix | solvent blank | pooled quality control sample | experimental sample | pooled quality control sample | experimental sample |
+| **Term Source REF** | Selected ontology | MSIO | MSIO | MSIO | MTBLS | CHMO | MTBLS | CHMO |
+| **Term Accession Number** | Ontology term URL | http://purl.obolibrary.org/obo/MSIO_0000023 | http://purl.obolibrary.org/obo/MSIO_0000024 | http://purl.obolibrary.org/obo/MSIO_0000026 | http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001090 | http://purl.obolibrary.org/obo/CHMO_0002746 | http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001090 | http://purl.obolibrary.org/obo/CHMO_0002746 |
+| **Protocol REF** | Predetermined content: **'Sample Collection'**. The example term **MUST** be present in all rows of this column | Sample collection | Sample collection | Sample collection | Sample collection | Sample collection | Sample collection | Sample collection |
+| **Sample Name** | Unique identifier from a particular source. Usually associated with an output spectral data filename. | Leucin standard | Standard Mix | Blank1 | QC1 | Sample1 | QC2 | Sample2 |
+
+
+
+
+
+
 
 
 ### Validation Rules:
@@ -13,11 +40,29 @@ A group of samples can be added to the sample table using **+Samples** and pasti
 * Sample columns present in the sample file.
 * "Sample collection" column completely filled in.
 * No empty rows in sample file.
+* Organism and Organism Part characteristics and at least a Factor column are required
 * Organism name should be at least 5 characters long.
 * Organism cannot be 'human' or 'man', please choose the 'Homo sapiens' taxonomy term.
 * Organism cannot be one of the invalid terms.
 
 **Invalid organism term:** cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matrix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown.
+
+More information regarding validation rules in [GitHub](https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/sample-validation-rules.md ).
+
+
+
+/// success |  
+
+**MetaboLights APIs** - You can get a list of all sample names, mapped to files in the study and upload folder(s) programmatically using our APIs.
+Try the MetaboLights study sample API - [GET](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5) using our [swagger interface](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec).
+Please note that you would need an active MetaboLights account and API Key to access the API.
+
+ **MetaboLights APIs** - You can get Get ISA-Tab Sample file programmatically using our APIs.
+Try the MetaboLights study ISA-Tab sample API - [GET](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/) using our [swagger interface](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec).
+Please note that you would need an active MetaboLights account and API Key to access the API.
+
+///
+
 
 
 
@@ -29,12 +74,29 @@ From the sample section select **+Add factor**. Type the factor term and use the
 
 A new column will then be added to the sample sheet so you can add the relevant information for each sample.
 
+Example on how to add 'Treatment' Factor to Samples 
+    ![Portal](assets\images\NEW GUIDES\Factors.png){width=700 height=700}
+
 
 ### Delete factor column in sample sheet
-To delete the factor, download the sample file and select to open with eg. Excel, then simply remove the factor related columns and re-upload the modified file. There will be 3-4 columns for each factor; Factor Value[factor\_name], Unit (if added), Term source REF, Term accession number.
+To delete the factor, download the sample file and select to open with eg. Excel, then simply remove the factor related columns and re-upload the modified file. **There will be 3-4 columns for each factor**; Factor Value[factor\_name], Unit (if added), Term source REF, Term accession number.
 
 ***It is important not to remove the original columns or alter column headers when editing as the format is a fixed requirement.***
 
 ### View factor information
-
 A list of all factors added to the study together with the ontology information can be found on the first tab of your study.
+
+View summary of all Factors present in a study in the *Descriptors* section
+    ![Portal](assets\images\NEW GUIDES\Factors_View_in_Descriptors.png){width=700 height=700}
+
+/// success |  
+
+**MetaboLights APIs** - You can get/add/update/delete factors of your study programmatically using our APIs.
+
+Try the MetaboLights factor API - [GET](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec), [POST](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec), [PUT](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec), [DELETE](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec) using our [swagger interface](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec).
+
+
+*Please note that you would need an active MetaboLights account and API Key to access the API.*
+
+///
+
