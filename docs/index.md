@@ -190,39 +190,34 @@ Overview of the 4 stages in the study submission process.
 
 ### Submitting a study for curation
 
-Once you have completed the study metadata, uploaded raw data files and the study successfully validates, select the **status** bar at the top of your study and change to **curation**. You will no longer be able to directly edit your study, please contact MetaboLights Help if you need to make further amendments.You will also be prompted to set the public release date for your study, *please note this is automatically set to a minimum of **4 weeks** to allow for the curation process*.
+Once you have completed the study metadata, uploaded raw data files and the study successfully validates, select the **status**  at the top of your study and change from ***‘Submitted’*** to ***‘In Curation’***. You will no longer be able to directly edit your study, please contact MetaboLights Help if you need to make further amendments.
 
-
+You will also be prompted to set the Public Release Date for your study.
 
 ![Status](assets/images/image21.png){width=400}
 
-Following successful curation, the status will be updated to **review** and a temporary private *read only* link will be available on your study page to share with journal editors, collaborators etc if requested.
-
+Once ***‘In Curation’***, a temporary private read only link will be available on your study page to share with journal editors, collaborators etc., if requested.
 
 ![Status](assets/images/image30.png){width=800}
 
 Once the release date is reached the study will become **public**. You can update this date at any stage by contacting MetaboLights Help.
 
 ## Create Study
-Select [Submit study](https://www.ebi.ac.uk/metabolights/editor/console) followed by **Create online** to be taken to the Guided Submission Portal.
+Select [Submit study](https://www.ebi.ac.uk/metabolights/editor/console) followed by 'Create New Study' to be taken to the Guided Submission Portal.
+If you have an existing account you will first be taken to My Studies where you can choose to edit an existing study (MTBLSxxx) or create a new study (REQxxx).
 
-If you have an existing account you will first be taken to My Studies where you can choose to edit an existing study or create a new study.
-
-### Guided Submission Portal
-
-The Guided Submission Portal will take you through the steps to create your study.
-A new study will be automatically generated with a unique accession number / study identifier.
-
+### Guided Submission Portal 
+The Guided Submission Portal will take you through the steps to create your MetaboLights submission (study).
+A new temporary submission request will be automatically generated with a unique study identifier. 
 
 ![Portal](assets/images/image12.png)
 
 You can exit the guided submission at any time and the information you have added will be automatically saved. To re-enter the study in Guided Submission mode, simply go to My Studies and select the Guided Submission option below the study information.
 
-
 ### Submitters and authors
 Submitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public.
 
-Authors are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study.
+Study Contacts are named contributors (as for a manuscript) but will not automatically have edit rights or private access to the study.
 
 The submitter can provide access & edit rights to collaborators provided they have a MetaboLights account by adding first as an author and then choosing [Make submitter](Study_description.md#authors).
 
@@ -232,25 +227,19 @@ A Submitter can only create or currently have a maximum of 2 studies in the Subm
 
  All studies can be edited directly online. To access, choose from the options below.
 
-- Navigate to Editor [Home](https://www.ebi.ac.uk/metabolights/editor/console) and select the appropriate study from your list by clicking Study overview link.
+- Navigate to MetaboLights Editor[Home](https://www.ebi.ac.uk/metabolights/editor/console) and  page and click Study overview.
 
+- Use the temporary URL assigned when your study was created. This will be something like (https://www.ebi.ac.uk/metabolights/editor/study/REQxxx). 
 
-- Use the url assigned when your study was created. Your study URL will be something like (https://www.ebi.ac.uk/metabolights/editor/MTBLSXXX) and then click Edit button right corner. You can also find your study here in the [browse study page](https://www.ebi.ac.uk/metabolights/studies) after logged in
+When editing a study there is always the option to switch between the **Guided Submission** mode & the **Study Overview** editor. Look for the pop-out option in the bottom right corner of the screen or choose either option on your My studies page.
 
-    ![Portal](assets/images/image5a.png)
+![Portal](assets/images/image5a.png)
 
-- Select your study directly from [My Studies](https://www.ebi.ac.uk/metabolights/editor/console) page using the Study Overview option.
+Studies can be edited **online** or **downloaded and edited in eg. Excel**. 
 
-    ![Portal](assets/images/image38.png)
+It is important **not to remove existing columns, change column order or alter column headers** when editing, as the format is a fixed requirement linked to validation. Additional columns can be added, eg. in the Samples Section by choosing **+factor**, to better describe samples. This should be done online before downloading files.
 
-When editing a study there is always the option to switch between the Guided Submission mode & the Study Overview editor. Look for the pop-out option in the bottom right corner of the screen or choose either option on your My studies page.
-
-![Portal](assets/images/image39.png)
-
-Studies can be edited online or downloaded and edited in eg. Excel. It is important not to remove existing columns or alter column headers when editing as the format is a fixed requirement. Additional columns can be added by choosing +factor, this should be done online before downloading files.
-
-Some sections of metadata require ontology fields. When adding information using the online options, ontology options will appear as you type. If uploading a file without ontologies added, the online editor will prompt you to select ontologies in the fields above the tables.
-
+Some sections of metadata require ontology fields. When adding information using the online options, ontology options will appear as you type. If uploading a file without ontologies added, the Online Editor will prompt you to select ontologies in the fields above the tables.
 
 ## Shortcuts & Functions
 ### Text fields
@@ -287,16 +276,21 @@ Where ontologies have not been added within tables a section will appear above t
 ![Portal](assets/images/image7.png)
 
 ## Study Overview
-When you create a study the Guided submission process will take you through the setup step-by-step. It will guide you through raw and sample data upload, creating assays and provide you with controlled vocabulary/ontology options in relevant fields. If you don’t have all the information to hand, don’t worry! You can access and edit your entire study at any time when in submission from your My Studies page.Each MetaboLights study has 4 main sections, study description, sample, assay and metabolite information. The basic outlines for each are given below. Each section also corresponds to a specific file as indicated in which the information is stored.
+When you create a study the Guided submission process will take you through the setup step-by-step. It will guide you through raw and sample data upload, creating assays and provide you with controlled vocabulary/ontology options in relevant fields. If you don’t have all the information to hand, don’t worry! You can access and edit your entire study at any time when in submission from your [My Studies](https://www.ebi.ac.uk/metabolights/editor/console) page.
+
+Each MetaboLights study has 4 main sections, study description, sample, assay and metabolite information. The basic outlines for each are given below. Each section also corresponds to a specific file as indicated in which the information is stored.
 
 ### Study description (i_MTBLSxxx.txt)
 This section provides a description of the study, an overview that will inform the reader the type of data they will find.
 
 ![Portal](assets/images/image29.png)
 ![Portal](assets/images/image20.png)
-There are several parts to this section;
+**Note:** *Study identifier & title (b) Contacts (c) Study Description (Abstract) (d) Publication link (e) Design Descriptors (Keywords) (f) Protocol text*
 
-* `(a) Study identifier & title`: MTBLSXXX identifier provided by MetaboLights and descriptive title which should match manuscript title.
+
+There are several parts to this section:
+
+* `(a) Study identifier & title`: MTBLSxxx identifier provided by MetaboLights and descriptive title which should match manuscript title.
 * `(b) Author information`: A list of all contributing authors.
 * `(c) Abstract`: High level description of the study.
 * `(d) Manuscript publication information:` Manuscript title, authors and public link. A tentative title should be provided if the manuscript is in preparation. This can be updated at any stage by contacting MetaboLights Help directly and a DOI / PMID Identifier can be used to update title/author/abstract directly from the manuscript.
@@ -332,13 +326,19 @@ A study must pass validation to progress to the curation stage. Validation error
 
 For the new studies in the initial stage, it shows status as **Validation Required**. You need to click **Start Validation** button to run the validation job.
 
+
 ![Portal](assets/images/start-validation.png){width=600}
 
- Once the validation process has completed, the status will be updated on the top of the tab as well as inside the box.
+ Once the validation process has completed, the status will be updated on top of the Study title and inside the Validation box.
+
 
 ![Portal](assets/images/validation-done.png){width=600}
 
-Further information is available in the **Study Validations** tab. There are 4 validation flags which can be viewed individually by selecting the drop-down menu. This includes `successful`, `information`, `warning`, `error`. You must address all errors and should also address warnings where applicable to progress your study.
+The validations report can be downloaded by clicking on the **Download Report** button. The resulting reports generated each time the validations are triggered are available by selecting the **Select a Report** drop-down menu.
+
+Further information is available in the Study Validations tab. There are 7 validation tabs, which include the reported **ERRORS** and **WARNINGS** found in all sections of the study. You must address all errors and should also address warnings where applicable to progress your study.
+
+Study validation will need to be re-run after making any type of edits to the study (e.g. metadata updates and/or data files uploads). If you have any problems or queries, please contact [MetaboLights help](metabolights-help@ebi.ac.uk).
 
 ![Portal](assets/images/image28.png){width=600}
 
@@ -352,17 +352,31 @@ Further information is available in the **Study Validations** tab. There are 4 v
 
 ### Study accession number
 
-Each new MetaboLights study is automatically assigned an accession number eg. MTBLS1. This is a permanent unique identifier and should be used to reference the study in manuscripts and other communications.
+When you first create a new study you will be provided with information about the temporary submission request (eg. REQxxx) as shown below. You will also receive this information by email. This **REQxxx** is a temporary identifier and **should not** be included in your manuscript.
 
-When you first create a new study you will be provided with information about the study unique identifier as shown below. You will also receive this information by email.
+replace picture 
 ![Portal](assets/images/image12.png)
 
-You can also see a list of all your studies & their unique identifiers on your [My Studies](https://www.ebi.ac.uk/metabolights/editor/console) page.
+Once the study passes the required validation and status is promoted to ‘Private’, an accession number (eg. MTBLSxxx) will be issued. This **MTBLSxxx** permanent unique identifier **should be** used to reference the study in manuscripts and other communications. 
+
+As part of MetaboLights new workflow, submitters can change the status of their studies from ‘Private’ to ‘Public’.  You can also use your MetaboLights study URL https://www.ebi.ac.uk/metabolights/MTBLSxxxx to reference your study in any type of publication. 
+
+You can see a list of all your submission requests (REQxxx), studies (MTBLSxxx) & their unique identifiers on your [My Studies](https://www.ebi.ac.uk/metabolights/editor/console) page.
 
 ![Portal](assets/images/image40.png)
 
-### Private reviewer link
-Once a study has been completed & the status updated to review, a private read-only link will be available at the top of your study page to share with the journal.
+### Reviewer link
+Once a study has been completed and the status updated to ‘Private’, a private read-only link will be available at the top of your study page to share with the journal.
 
 ![Portal](assets/images/image30.png)
 
+This link will be also present in those studies ‘In Review’, after they have been manually curated.
+
+Screenshot
+
+What to include in your Manuscript
+Please add to your manuscript the following sentence (typically in the "Methods" section or just before/in the Acknowledgements):
+"The metabolomics data have been deposited to MetaboLights[1] repository with the study identifier MTBLSxxx".
+MetaboLights reference:
+[1] Yurekten O, Payne T, Tejera N, Amaladoss FX, Martin C, Williams M, O'Donovan C. MetaboLights: open data repository for metabolomics. Nucleic Acids Res. 2024 Jan 5;52(D1):D640-D646. doi:10.1093/nar/gkad1045. PMID:37971328.
+We would recommend you to also include this information in a much abridged form into the abstract itself, e.g. "Data are available via MetaboLights with identifier MTBLSxxx."
