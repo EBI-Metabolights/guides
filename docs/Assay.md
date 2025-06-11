@@ -20,10 +20,10 @@ The assay is divided into sections each starting with a Protocol Ref column, eg.
 
 ## NMR Assay
 
-
 | Column Name | Description | Example |
 | --- | --- | --- |
-| Sample Name | A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename. | pas101220\_104 |
+| Test | | Test
+| Sample Name | A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename. | pas101220_104 |
 | Protocol REF - Extraction | This is the column marking the start of data pertaining to **Extraction**. The example term MUST be present in all rows of this column. | Extraction |
 | Parameter Value - Extraction Method | This how a sample was extracted from its source material. | Methanol |
 | Extract Name | Leave blank if you don’t have one. |  |

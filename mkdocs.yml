@@ -1,5 +1,5 @@
 site_name: MetaboLights Guides
-site_url: https://wwww.ebi.ac.uk/metabolights/guides
+site_url: https://ebi-metabolights.github.io/guides/
 theme:
   name: material
   logo: assets/metabolights.png
@@ -18,8 +18,8 @@ theme:
   # - navigation.instant.preview
   - navigation.instant.progress
   - navigation.path
-  # - navigation.tabs
-  # - navigation.tabs.sticky
+  - navigation.tabs
+  - navigation.tabs.sticky
   - navigation.top
   - navigation.tracking
   - search.highlight
@@ -44,9 +44,9 @@ nav:
   - MAF: MAF.md
   - Files: Files.md
 - FAQs: FAQs.md
-- Video Tutorial: Video.md
+# - Video Tutorial: Video.md
 plugins:
-    - mkdocs-video
+- mkdocs-video
 markdown_extensions:
 # Python Markdown
 - abbr:
