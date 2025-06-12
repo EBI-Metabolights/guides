@@ -3,10 +3,10 @@
 ### *What is the difference between FTP and Aspera?*
 FTP, or File Transfer Protocol, is a standard network protocol for exchanging files across the internet. Aspera is a faster alternative to FTP and provides greater user control enabling individual transfer rates and bandwidth sharing to be set.
 
-### *Failed to open TCP connection for SSH error while using Aspera*
+
 This error was due to your firewall settings, which is preventing the Aspera connect plugin from connecting to our servers. Please make sure that your firewall isn’t blocking request to our servers. (Remote host: **hx-fasp-1.ebi.ac.uk / fasp.ebi.ac.uk**, Port: **33001**) and run the diagnosis [Aspera test-connect](https://test-connect.asperasoft.com/).
 
- If the problem still persists, please contact us at metabolights-help@ebi.ac.uk, along with your Aspera log files.
+ If the problem still persists, please contact us at <metabolights-help@ebi.ac.uk>, along with your Aspera log files.
 [Where can I find Aspera log files?](https://www.ibm.com/support/pages/where-are-logs-ibm-aspera-connect-located)
 
 *Typically, consumer and business firewalls allow direct outbound connections from client computers on TCP and UDP. There is no configuration required for Aspera transfers in this case. In the special case of firewalls disallowing direct outbound connections, typically using proxy servers for Web browsing, the following configuration applies:
@@ -36,7 +36,7 @@ Please be aware the remote folder needs to be entirely typed, as the folder is n
 
 /// warning | If you have raw data folders (d, .raw, or any NMR raw data folder), compress them individually.
 
-**Starting on 12th June 2025, MetaboLights will allow only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)**. If your study includes raw data folders, please compress each folder **individually** using a ZIP utility before submission.  **A zip file containing multiple raw folders is not allowed.**
+**Starting on 12th June 2025, MetaboLights will accept only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)**. If your study includes raw data folders, please compress each folder **individually** using a ZIP utility before submission.  **A zip file containing multiple raw folders is not accepted.**
 
 ///
 

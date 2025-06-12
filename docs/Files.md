@@ -11,7 +11,7 @@ Raw data will be published on FILES subfolder so RAW file and Derived files path
 
 /// warning | If you have raw data folders (d, .raw, or any NMR raw data folder), compress them individually.
 
-**Starting on 12th June 2025, MetaboLights will allow only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)**. If your study includes raw data folders, please compress each folder **individually** using a ZIP utility before submission.  **A zip file containing multiple raw folders is not allowed.**
+**Starting on 12th June 2025, MetaboLights will accept only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)**. If your study includes raw data folders, please compress each folder **individually** using a ZIP utility before submission.  **A zip file containing multiple raw folders is not accepted.**
 
 ///
 
@@ -102,6 +102,7 @@ Files on MetaboLights are stored as two types - Metadata files or Data files. Me
 
 
 ### Start Metadata Synchronisation
+
 After clicking **Start Synchronisation**, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Editor after clicking the **Refresh **button.****
 
 ![Portal](assets/images/metadata2.png){width=400}
