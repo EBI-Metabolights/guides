@@ -569,15 +569,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#failed-to-open-tcp-connection-for-ssh-error-while-using-aspera" class="md-nav__link">
-    <span class="md-ellipsis">
-      Failed to open TCP connection for SSH error while using Aspera
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#how-to-use-ftp-uploader-eg-filezilla" class="md-nav__link">
     <span class="md-ellipsis">
       How to use FTP uploader (e.g. FileZilla)
@@ -814,9 +805,8 @@
 <h2 id="upload-download">Upload Download<a class="headerlink" href="#upload-download" title="Permanent link">¶</a></h2>
 <h3 id="what-is-the-difference-between-ftp-and-aspera"><em>What is the difference between FTP and Aspera?</em><a class="headerlink" href="#what-is-the-difference-between-ftp-and-aspera" title="Permanent link">¶</a></h3>
 <p>FTP, or File Transfer Protocol, is a standard network protocol for exchanging files across the internet. Aspera is a faster alternative to FTP and provides greater user control enabling individual transfer rates and bandwidth sharing to be set.</p>
-<h3 id="failed-to-open-tcp-connection-for-ssh-error-while-using-aspera"><em>Failed to open TCP connection for SSH error while using Aspera</em><a class="headerlink" href="#failed-to-open-tcp-connection-for-ssh-error-while-using-aspera" title="Permanent link">¶</a></h3>
 <p>This error was due to your firewall settings, which is preventing the Aspera connect plugin from connecting to our servers. Please make sure that your firewall isn’t blocking request to our servers. (Remote host: <strong>hx-fasp-1.ebi.ac.uk / fasp.ebi.ac.uk</strong>, Port: <strong>33001</strong>) and run the diagnosis <a href="https://test-connect.asperasoft.com/">Aspera test-connect</a>.</p>
-<p>If the problem still persists, please contact us at metabolights-help@ebi.ac.uk, along with your Aspera log files.
+<p>If the problem still persists, please contact us at <a href="mailto:metabolights-help@ebi.ac.uk">metabolights-help@ebi.ac.uk</a>, along with your Aspera log files.
 <a href="https://www.ibm.com/support/pages/where-are-logs-ibm-aspera-connect-located">Where can I find Aspera log files?</a></p>
 <p>*Typically, consumer and business firewalls allow direct outbound connections from client computers on TCP and UDP. There is no configuration required for Aspera transfers in this case. In the special case of firewalls disallowing direct outbound connections, typically using proxy servers for Web browsing, the following configuration applies:</p>
 <ul>
@@ -839,7 +829,7 @@
 <h3 id="can-i-upload-a-compressed-file-zip"><em>Can I upload a compressed file (</em>.zip)?*<a class="headerlink" href="#can-i-upload-a-compressed-file-zip" title="Permanent link">¶</a></h3>
 <div class="admonition warning">
 <p class="admonition-title">If you have raw data folders (d, .raw, or any NMR raw data folder), compress them individually.</p>
-<p><strong>Starting on 12th June 2025, MetaboLights will allow only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)</strong>. If your study includes raw data folders, please compress each folder <strong>individually</strong> using a ZIP utility before submission.  <strong>A zip file containing multiple raw folders is not allowed.</strong></p>
+<p><strong>Starting on 12th June 2025, MetaboLights will accept only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)</strong>. If your study includes raw data folders, please compress each folder <strong>individually</strong> using a ZIP utility before submission.  <strong>A zip file containing multiple raw folders is not accepted.</strong></p>
 </div>
 <h3 id="error-insufficient-permissions"><em>Error: Insufficient permissions?</em><a class="headerlink" href="#error-insufficient-permissions" title="Permanent link">¶</a></h3>
 <p>Please contact us at metabolights-help@ebi.ac.uk to resolve this issue.</p>
