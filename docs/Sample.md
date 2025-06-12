@@ -7,7 +7,9 @@ Sample metadata should include a unique sample name, organism, organism part (fo
 A group of samples can be added to the sample table using **+Samples** and pasting a list or selecting to import Raw data file names if appropriate. There is also the option to add as many new rows as required with **+Rows** and edit cells individually.
     ![Portal](assets/images/examplesofsamples.png){width=900 height=1200}
 
+
 Example of required information for different Sample types
+
 
 | Column Name | Description | Example 1 | Example 2 | Example 3| Example 4 | Example 5 | Example 6 | Example 7 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -47,28 +49,6 @@ Example of required information for different Sample types
 
 **Invalid organism term:** cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matrix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown.
 
-<<<<<<< Updated upstream
-More information regarding validation rules in [GitHub](https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/sample-validation-rules.md ).
-
-
-
-/// success |  
-
-**MetaboLights APIs** - You can get a list of all sample names, mapped to files in the study and upload folder(s) programmatically using our APIs.
-Try the MetaboLights study sample API - [GET](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/nickname_0_1_2_3_4_5) using our [swagger interface](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec).
-Please note that you would need an active MetaboLights account and API Key to access the API.
-
- **MetaboLights APIs** - You can get Get ISA-Tab Sample file programmatically using our APIs.
-Try the MetaboLights study ISA-Tab sample API - [GET](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec/) using our [swagger interface](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec).
-Please note that you would need an active MetaboLights account and API Key to access the API.
-
-///
-
-
-
-
-=======
->>>>>>> Stashed changes
 ## Factors
 
 The standard information captured in a sample sheet includes the organism and part of the organism studied. Each study will then vary in what sample information can be provided as eg. clinic samples may have gender, age and treatment information available and plant samples might have genetic variants and geological locations. This further information which helps to describe samples and to stratify the groups of interest for analysis and statistics is added to sample tables as factors.
@@ -84,24 +64,14 @@ Example on how to add 'Treatment' Factor to Samples
 
 
 ### Delete factor column in sample sheet
+
 To delete the factor, download the sample file and select to open with eg. Excel, then simply remove the factor related columns and re-upload the modified file. **There will be 3-4 columns for each factor**; Factor Value[factor\_name], Unit (if added), Term source REF, Term accession number.
 
 ***It is important not to remove the original columns or alter column headers when editing as the format is a fixed requirement.***
 
 ### View factor information
+
 A list of all factors added to the study together with the ontology information can be found on the first tab of your study.
 
 View summary of all Factors present in a study in the *Descriptors* section
     ![Portal](assets/images/NEW_GUIDES/Factors_View_in_Descriptors.png){width=700 height=700}
-
-/// success |  
-
-**MetaboLights APIs** - You can get/add/update/delete factors of your study programmatically using our APIs.
-
-Try the MetaboLights factor API - [GET](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec), [POST](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec), [PUT](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec), [DELETE](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec) using our [swagger interface](https://www.ebi.ac.uk/metabolights/ws/api/spec.html#!/spec).
-
-
-*Please note that you would need an active MetaboLights account and API Key to access the API.*
-
-///
-

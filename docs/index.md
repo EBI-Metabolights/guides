@@ -6,41 +6,42 @@
 
 **Before Submission:**
 
-- Create MetaboLights user [account](MetaboLights_account.md#create-account) (If you have not created yet).
+- [X] Create MetaboLights user [account](MetaboLights_account.md#create-account) (If you do not have one).
 
-- Make ready study raw data ie. ***spectral files*** produced by the analytical instrument and/or an open source version. Please see  [accepted file formats](Files.md#raw-data).
+- [X] Make ready study supplementary, derived, and raw data. ie. ***spectral files*** produced by the analytical instrument and/or an open source version. Please see  [accepted file formats](Files.md#raw-data).
 
-- MetaboLights **allows only file names containing letters (a–z, A–Z), numbers (0–9), hyphens (-), underscores (_), or dots (.)**. Please ensure that supplementary, derived, and raw derived data file names comply with this pattern. Otherwise, rename them accordingly. **Space characters are not allowed.**
+- [X] MetaboLights **allows only file names containing letters (a–z, A–Z), numbers (0–9), hyphens (-), underscores (_), or dots (.)**. Please ensure that supplementary, derived, and raw data file names comply with this pattern. Otherwise, rename them accordingly. **Space characters are not allowed.**
 
-- **Starting on 12th June 2025, MetaboLights will allow only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)**. If your study includes raw data folders, please compress each folder **individually** using a ZIP utility before submission.  **A zip file containing multiple raw folders is not allowed.**
+- [X] **Starting on 12th June 2025, MetaboLights will allow only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)**. If your study includes raw data folders, please compress each folder **individually** using a ZIP utility before submission.  **A zip file containing multiple raw folders is not allowed.**
 
-- Organize your supplementary, raw and derived data files on your local storage. Create subfolders if needed. **Subfolder names MUST comply with filename pattern**. Ensure subfolder names contain only letters (a–z, A–Z), numbers (0–9), hyphens (-), underscores (_), or dots (.)
+- [X] Organize your supplementary, raw and derived data files on your local storage. Create subfolders if needed. **Subfolder names MUST comply with filename pattern**. Ensure subfolder names contain only letters (a–z, A–Z), numbers (0–9), hyphens (-), underscores (_), or dots (.)
 
-- If you want to use FTP to upload your data files, install an FTP client (e.g. FileZilla).
+- [X] If you want to use FTP to upload your data files, install an FTP client (e.g. FileZilla).
 
-- If you are not principal investigator of the study, collect principal investigator contact information (e.g. email, phone number, fax number, affiliation, etc.).
+- [X] If you are not principal investigator of the study, collect principal investigator contact information (e.g. email, phone number, fax number, affiliation, etc.).
 
 **During Submission:**
 
-- If you are experiencing problems with Aspera, try to use FTP client to upload your data (i.e. Filezilla).
+
+- [X] If you are experiencing problems with Aspera, try to use FTP client to upload your data (i.e. Filezilla).
   
-- Ensure your data file uploads are completed successfully. 
+- [X] Ensure your data file uploads are completed successfully. 
   
-- Do not forget to index your FTP folder after your new uploads.
+- [X] Do not forget to index your FTP folder after your new uploads.
   
-- Complete all fields of the following sections [metadata](index.md#study-overview):
+- [X] Complete all fields of the following sections [metadata](index.md#study-overview):
     - Summary: title, abstract/description, contacts
     - Publications
-    - Descriptors
+    - Descriptors: Define at least 3 keywords.
     - Protocols 
     - Samples
     - Assays
     - Metabolites
 
-- Add principal investigator as a contact person.
-- Define at least one study factor and complete its values (At least two rows MUST be filled with different factor values).
-- Ensure sample names are unique and referenced in assay files.
-- If you want to bulk update on your local, follow these steps:
+- [X] Add principal investigator as a contact person.
+- [X] Define at least one study factor and complete its values (At least two rows MUST be filled with different factor values).
+- [X] Ensure sample names are unique and referenced in assay files.
+- [X] If you want to bulk update on your local, follow these steps:
   
     - Download metadata file on Files tab.
   
@@ -56,11 +57,12 @@
   
     - Refresh your editor (if needed) 
 
-- Reference your raw data or derived files in the **'Raw Spectral Data File'** or **'Derived Spectral Data File'** column of your ASSAY files. **Be sure all referenced data files start with FILES/ prefix**. Example: FILES/RAW_FILES/myfiles.raw OR FILES/DERIVED_FILES/myfiles.mzML.
+- [X] Reference your raw data or derived files in the **'Raw Spectral Data File'** or **'Derived Spectral Data File'** column of your ASSAY files. **Be sure all referenced data files start with FILES/ prefix**. Example: FILES/RAW_FILES/myfiles.raw OR FILES/DERIVED_FILES/myfiles.mzML.
   
-- Datasets with ***.wiff*** and ***.wiff.scan*** files require the upload of both types of files. Adding an extra  **'Raw Spectral Data File'** column is required to reference them in the corresponding ASSAY.
+- [X] Datasets with ***.wiff*** and ***.wiff.scan*** files require the upload of both types of files. Adding an extra  **'Raw Spectral Data File'** column is required to reference them in the corresponding ASSAY.
 
-- Run study validation and fix all errors. 
+- [X] Run study validation and fix all errors.
+- [X] Define and update your study release date.
 
 ///
 
@@ -87,7 +89,7 @@ Use the Online Editor option to view and edit existing submissions. Access throu
 
 ![Edit](assets/images/NEW_GUIDES/QuickStartOverview_Edit.png)
 
-**Note:** *You can give collaborators edit rights to the study following these [steps](Study_description.md#authors).*
+**Note:** *You can give collaborators edit rights to the study following these [steps](Study_description/#study-access-for-authors).*
 
 ///
 
@@ -373,5 +375,3 @@ You can see a list of all your submission requests (REQxxx), studies (MTBLSxxx) 
 Once a study has been completed and the status updated to ‘Private’, a private read-only link will be available at the top of your study page to share with the journal.
 
 ![Portal](assets/images/image30.png)
-
-This link will be also present in those studies ‘In Review’, after they have been manually curated.

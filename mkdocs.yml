@@ -47,7 +47,11 @@ nav:
 # - Video Tutorial: Video.md
 plugins:
 - mkdocs-video
+- search
 markdown_extensions:
+- def_list
+- pymdownx.tasklist:
+    custom_checkbox: true
 # Python Markdown
 - abbr:
 - attr_list:

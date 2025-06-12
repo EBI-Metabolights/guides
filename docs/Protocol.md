@@ -22,7 +22,6 @@ Please also include any control samples prepared for the assay eg. pooled sample
 *Provide details of methods / pipelines and software used to transform the raw data.*
 
 6. **Metabolite identification**
-
 *Provide details of methods / pipelines, reference databases and software used to identify features and/or annotate metabolites.*
 
 ///

@@ -1,6 +1,6 @@
 # MetaboLights Account
 ## Create account
-You can create an account by selecting Login above and [Create a new account](https://www.ebi.ac.uk/metabolights/newAccount).
+You can create an account by selecting 'Login' and [Create a new account](https://www.ebi.ac.uk/metabolights/newAccount).
 
 ![Portal](assets/images/image18a.png){width=600}
 
@@ -8,7 +8,7 @@ When creating your MetaboLights account your email address will be your user nam
 
 ![Portal](assets/images/image35.png){width=600}
 
-  *If you have problems accessing your account for the first time, please check your email (junk folder also!) for a confirmation.Alternatively, contact us MetaboLights Help*.
+  *If you have problems accessing your account for the first time, please check your email (junk folder also!) for a confirmation. Alternatively, contact us MetaboLights Help*.
 
 ## Personal API token
 If you want to use the MetaboLights web service, you could find your personal API token from [my account](https://www.ebi.ac.uk/metabolights/myAccount%20).

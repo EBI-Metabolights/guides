@@ -92,6 +92,11 @@ Effective keywords for your study portray an accurate representation of what you
 
 To add new keywords to your study, you can click the +Add in the keywords section. Type the keyword and use the drop-down to select the most relevant ontology term. If the input term can’t match to any of our ontology control vocabulary, type your plain text and press enter to accept (then OK to add to the keyword).
 
+
+/// note 
+You must define at least 3 keywords for your study.
+///
+
 ![Portal](assets/images/keywords.png)
 
 ### Are there any limits on the number of keywords?

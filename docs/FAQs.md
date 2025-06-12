@@ -10,6 +10,7 @@ This error was due to your firewall settings, which is preventing the Aspera con
 [Where can I find Aspera log files?](https://www.ibm.com/support/pages/where-are-logs-ibm-aspera-connect-located)
 
 *Typically, consumer and business firewalls allow direct outbound connections from client computers on TCP and UDP. There is no configuration required for Aspera transfers in this case. In the special case of firewalls disallowing direct outbound connections, typically using proxy servers for Web browsing, the following configuration applies:
+
 - Allow outbound connections from the Aspera client on the TCP port (TCP/33001, by default, when connecting to a Windows server, or on another non-default port for other server operating systems).
 - Allow outbound connections from the Aspera client on the fasp UDP port (33001, by default).
 - If you have a local firewall on your server (like Windows Firewall), verify that it is not blocking your SSH and fasp transfer ports (e.g. TCP/UDP 33001).*
@@ -32,7 +33,13 @@ Please be aware the remote folder needs to be entirely typed, as the folder is n
 ![Portal](assets/images/FileZilla.jpg)
 
 ### *Can I upload a compressed file (*.zip)?*
-If your data is huge, compression definitely helps especially if you are using FTP. We are okay with both compressed or uncompressed RAW files. If you upload compressed .zip files, please let us know when you have finished uploading all your files. We will then unzip them for you.
+
+/// warning | If you have raw data folders (d, .raw, or any NMR raw data folder), compress them individually.
+
+**Starting on 12th June 2025, MetaboLights will allow only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)**. If your study includes raw data folders, please compress each folder **individually** using a ZIP utility before submission.  **A zip file containing multiple raw folders is not allowed.**
+
+///
+
 
 
 ### *Error: Insufficient permissions?*
