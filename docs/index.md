@@ -114,7 +114,7 @@ Validation errors are evident in the information bar at the top of the study (if
 
 To promote your temporary submission request (REQxxx) to ‘Private’ and obtain a full MetaboLights study accession number (MTBLSxxx), select **Status** and change from 'Provisional' to ‘Private’. 
 
-![Submit](assets/images/NEW_GUIDES/QuickStartOverview_Submit.png)
+![Submit](assets/images/NEW_GUIDES/QuickStartOverview_Private.png)
 
 /// warning | Update release date before make your study Private
 If your study reaches 'Private' status, you can make it public at any time. MetaboLights will automatically release your dataset to the public upon notification of the corresponding publication. If the MetaboLights team selects your study for manual curation, it will become public once the curation is complete. Otherwise, the study will be made public automatically when the selected release date is reached.
@@ -149,7 +149,7 @@ We would recommend you to also include this information in a much abridged form 
 
 After studies which pass the new version of validation and have status promoted to ‘Private', private reviewer link will be available on the study page to share with journal editors, collaborators etc. Your study will be eligible to go public.
 
-![Validation Tab](assets/images/NEW_GUIDES/QuickStartOverview_Curation.png)
+![Validation Tab](assets/images/NEW_GUIDES/QuickStartOverview_ReviewerLink.png)
 
 **Note:** MetaboLights curation will be retained in certain cases. The process will take a minimum of 4 weeks, publication date cannot be less than this.
 
@@ -177,7 +177,7 @@ We would recommend you to also include this information in a much abridged form 
 
 ## Submission Process
 
-Overview of the 4 stages in the study submission process.
+Overview of the 3 stages in the study submission process.
 
 
 ![Process](assets/images/NEW_GUIDES/NewWorkflow.png){width=500}
@@ -206,7 +206,7 @@ If you have an existing account you will first be taken to My Studies where you 
 The Guided Submission Portal will take you through the steps to create your MetaboLights submission (study).
 A new temporary submission request will be automatically generated with a unique study identifier. 
 
-![Portal](assets/images/image12.png)
+![Portal](assets/images/NEW_GUIDES/GuidedSubmission.png)
 
 You can exit the guided submission at any time and the information you have added will be automatically saved. To re-enter the study in Guided Submission mode, simply go to My Studies and select the Guided Submission option below the study information.
 
