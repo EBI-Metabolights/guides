@@ -182,19 +182,16 @@ Overview of the 3 stages in the study submission process.
 
 ![Process](assets/images/NEW_GUIDES/NewWorkflow.png){width=500}
 
-### Submitting a study for curation
+### 'In Curation' Studies 
 
-Once you have completed the study metadata, uploaded raw data files and the study successfully validates, select the **status**  at the top of your study and change from ***Provisional*** to ***‘Private’***. You will no longer be able to directly edit your study, please contact MetaboLights Help if you need to make further amendments.
+SStudies with status **In Curation** in the previous workflow, will now have **Private** status under the **new workflow**.
 
-You will also be prompted to set the Public Release Date for your study.
+For those submitters who wish to make their studies ***Public***, please: 
 
-![Status](assets/images/image21.png){width=400}
 
-Once ***‘Private’***, a temporary private read only link will be available on your study page to share with journal editors, collaborators etc., if requested.
-
-![Status](assets/images/image30.png){width=800}
-
-Once the release date is reached the study will become **public**. You can update this date at any stage by contacting MetaboLights Help.
+1) Change status to ***Provisional*** (drop down menu in the status bar at the top of your study).
+2) Run new Study Validations and address errors, until validation is successful.
+3) Change status to ***Private*** (i.e. keep private until publication is out) or ***Public*** (for immediate release).
 
 ## Create Study
 
