@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://www.ebi.ac.uk/metabolights/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <loc>https://ebi-metabolights.github.io/guides/</loc>
+         <lastmod>2025-06-13</lastmod>
     </url>
     <url>
-         <loc>https://www.ebi.ac.uk/metabolights/Assay/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <loc>https://ebi-metabolights.github.io/guides/Assay/</loc>
+         <lastmod>2025-06-13</lastmod>
     </url>
     <url>
-         <loc>https://www.ebi.ac.uk/metabolights/FAQs/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <loc>https://ebi-metabolights.github.io/guides/FAQs/</loc>
+         <lastmod>2025-06-13</lastmod>
     </url>
     <url>
-         <loc>https://www.ebi.ac.uk/metabolights/Files/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <loc>https://ebi-metabolights.github.io/guides/Files/</loc>
+         <lastmod>2025-06-13</lastmod>
     </url>
     <url>
-         <loc>https://www.ebi.ac.uk/metabolights/MAF/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <loc>https://ebi-metabolights.github.io/guides/MAF/</loc>
+         <lastmod>2025-06-13</lastmod>
     </url>
     <url>
-         <loc>https://www.ebi.ac.uk/metabolights/MetaboLights_account/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <loc>https://ebi-metabolights.github.io/guides/MetaboLights_account/</loc>
+         <lastmod>2025-06-13</lastmod>
     </url>
     <url>
-         <loc>https://www.ebi.ac.uk/metabolights/Protocol/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <loc>https://ebi-metabolights.github.io/guides/Protocol/</loc>
+         <lastmod>2025-06-13</lastmod>
     </url>
     <url>
-         <loc>https://www.ebi.ac.uk/metabolights/Sample/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <loc>https://ebi-metabolights.github.io/guides/Sample/</loc>
+         <lastmod>2025-06-13</lastmod>
     </url>
     <url>
-         <loc>https://www.ebi.ac.uk/metabolights/Study_description/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <loc>https://ebi-metabolights.github.io/guides/Study_description/</loc>
+         <lastmod>2025-06-13</lastmod>
     </url>
     <url>
-         <loc>https://www.ebi.ac.uk/metabolights/Video/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <loc>https://ebi-metabolights.github.io/guides/Video/</loc>
+         <lastmod>2025-06-13</lastmod>
     </url>
 </urlset>
