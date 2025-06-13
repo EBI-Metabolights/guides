@@ -89,7 +89,7 @@ Use the Online Editor option to view and edit existing submissions. Access throu
 
 ![Edit](assets/images/NEW_GUIDES/QuickStartOverview_Edit.png)
 
-**Note:** *You can give collaborators edit rights to the study following these [steps](Study_description/#study-access-for-authors).*
+**Note:** *You can give collaborators edit rights to the study following these [steps](Study_description.md/#study-access-for-authors).*
 
 ///
 

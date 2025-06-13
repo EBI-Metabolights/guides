@@ -1,5 +1,5 @@
 site_name: MetaboLights Guides
-site_url: https://ebi-metabolights.github.io/guides/
+site_url: https://www.ebi.ac.uk/metabolights
 theme:
   name: material
   logo: assets/metabolights.png
@@ -34,6 +34,8 @@ extra:
   - icon: fontawesome/brands/bluesky
     link: https://bsky.app/profile/metabolights.bsky.social
 nav:
+- MetaboLights Home: https://www.ebi.ac.uk/metabolights
+- MetaboLights Editor: https://www.ebi.ac.uk/metabolights/editor/console
 - index.md
 - Submission:
   - MetaboLights Account: MetaboLights_account.md
