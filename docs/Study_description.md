@@ -16,7 +16,7 @@ The study title should be clear and concise, ideally the same title as used for 
 
 Submitters can add or modify a study title by selecting the title section and entering in the new title in the dialogue box or by providing the manuscript DOI in the publication section and selecting the **Import title** option.
 
-![](assets/images/title2.png)
+![](assets/images/NEW_GUIDES/StudyTitle.png)
 
 ---
 

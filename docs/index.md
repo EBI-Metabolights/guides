@@ -207,6 +207,10 @@ A new temporary submission request will be automatically generated with a unique
 
 You can exit the guided submission at any time and the information you have added will be automatically saved. To re-enter the study in Guided Submission mode, simply go to My Studies and select the Guided Submission option below the study information.
 
+You can also switch between guided submission and online editor at any point by clicking on the icon on the bottom right of the screen. 
+
+![Portal](assets/images/NEW_GUIDES/GuidedSubmission_OnlineEditor.png)
+
 ### Submitters and authors
 
 Submitters are the study creators and editors, they have access and edit rights to the private study during the submission process and correspondence will be directed to the submitter. They will also be the main contact for once the study is public.
@@ -223,11 +227,13 @@ A Submitter can only create or currently have a maximum of 2 studies in the Subm
 
 - Navigate to MetaboLights Editor[Home](https://www.ebi.ac.uk/metabolights/editor/console) and  page and click Study overview.
 
+![Portal](assets/images/NEW_GUIDES/Edit_StudyOverview.png)
+
 - Use the temporary URL assigned when your study was created. This will be something like (https://www.ebi.ac.uk/metabolights/editor/study/REQxxx). 
 
 When editing a study there is always the option to switch between the **Guided Submission** mode & the **Study Overview** editor. Look for the pop-out option in the bottom right corner of the screen or choose either option on your My studies page.
 
-![Portal](assets/images/image5a.png)
+![Portal](assets/images/NEW_GUIDES/GuidedSubmission_OnlineEditor.png)
 
 Studies can be edited **online** or **downloaded and edited in eg. MS Excel**. 
 
