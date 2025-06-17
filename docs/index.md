@@ -160,7 +160,7 @@ After studies which pass the new version of validation and have status promoted 
 
 Make your study public once your manuscript is accepted and no further updates are needed.
 
-![Publish](assets/images/NEW_GUIDES/QuickStartOverview_Public.png){width=300 height=150}
+![Publish](assets/images/NEW_GUIDES/MakeStudyPublic.png){width=300 height=150}
 
 Please add to your manuscript the following sentence (typically in the "Methods" section or just before/in the Acknowledgements):
 
@@ -184,14 +184,16 @@ Overview of the 3 stages in the study submission process.
 
 ### 'In Curation' Studies 
 
-Sgit pulltudies with status **In Curation** in the previous workflow, will now have **Private** status under the **new workflow**.
+Studies with status **In Curation** in the previous workflow, will now have **Private** status under the **new workflow**.
 
 For those submitters who wish to make their studies ***Public***, please: 
 
 
 1) Change status to ***Provisional*** (drop down menu in the status bar at the top of your study).
-2) Run new Study Validations and address errors, until validation is successful.
-3) Change status to ***Private*** (i.e. keep private until publication is out) or ***Public*** (for immediate release).
+ 
+3) Run new Study Validations and address errors, until validation is successful.
+   
+4) Change status to ***Private*** (i.e. keep private until publication is out) or ***Public*** (for immediate release).
 
 ## Create Study
 
