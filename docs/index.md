@@ -184,7 +184,7 @@ Overview of the 3 stages in the study submission process.
 
 ### 'In Curation' Studies 
 
-SStudies with status **In Curation** in the previous workflow, will now have **Private** status under the **new workflow**.
+Sgit pulltudies with status **In Curation** in the previous workflow, will now have **Private** status under the **new workflow**.
 
 For those submitters who wish to make their studies ***Public***, please: 
 
