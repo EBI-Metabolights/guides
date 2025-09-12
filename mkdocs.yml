@@ -37,7 +37,7 @@ nav:
 - MetaboLights Home: https://www.ebi.ac.uk/metabolights
 - MetaboLights Editor: https://www.ebi.ac.uk/metabolights/editor/console
 - index.md
-- Submission:
+- Extended Guide:
   - MetaboLights Account: MetaboLights_account.md
   - Study Description: Study_description.md
   - Protocol: Protocol.md
@@ -45,6 +45,7 @@ nav:
   - Assay: Assay.md
   - MAF: MAF.md
   - Files: Files.md
+- Example Studies: Examples.md
 - FAQs: FAQs.md
 # - Video Tutorial: Video.md
 plugins:

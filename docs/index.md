@@ -110,22 +110,24 @@ Validation errors are evident in the information bar at the top of the study (if
 ///
 
 
-/// success | Make Your Study Private
+/// success | Make Your Study 'Private'
 
 To promote your temporary submission request (REQxxx) to ‘Private’ and obtain a full MetaboLights study accession number (MTBLSxxx), select **Status** and change from 'Provisional' to ‘Private’. 
 
 ![Submit](assets/images/NEW_GUIDES/QuickStartOverview_Private.png)
 
-/// warning | Update release date before make your study Private
-If your study reaches 'Private' status, you can make it public at any time. MetaboLights will automatically release your dataset to the public upon notification of the corresponding publication. If the MetaboLights team selects your study for manual curation, it will become public once the curation is complete. Otherwise, the study will be made public automatically when the selected release date is reached.
+/// warning | Update release date before making your study Private
+If your study reaches 'Private' status, you can make it public at any time. 
 
-If the study is selected by the MetaboLights team for manual curation, the curation process may extend the selected release date
+MetaboLights will automatically release your dataset to the public 1) when the selected release date is reached or 2) upon notification of the corresponding publication. 
+
+If the MetaboLights team selects your study for manual curation, the curation process may extend the selected release date and the study will become public once the curation is complete. 
 
 ///
 
-/// note | Update your private study
+/// note | Update your 'Private' study
 
-Private’ studies cannot be edited. if amendments are required (e.g. update manuscript DOI number, update release), change your study status to 'Provisional' and update your study. After you complete amendments, validate your study and update study status to 'Private' again.
+'Private’ studies cannot be edited. If amendments are required (e.g. update manuscript DOI number, update release), change your study status to 'Provisional' and update your study. After you complete amendments, validate your study and update study status to 'Private' again.
 ///
 
 
@@ -139,6 +141,7 @@ Please add to your manuscript the following sentence (typically in the "Methods"
 MetaboLights reference:
 
 [1] Yurekten O, Payne T, Tejera N, Amaladoss FX, Martin C, Williams M, O'Donovan C. MetaboLights: open data repository for metabolomics. Nucleic Acids Res. 2024 Jan 5;52(D1):D640-D646. doi:10.1093/nar/gkad1045. PMID:37971328.
+
 We would recommend you to also include this information in a much abridged form into the abstract itself, e.g. "Data are available via MetaboLights with identifier MTBLSxxx."
 
 ///
@@ -147,11 +150,11 @@ We would recommend you to also include this information in a much abridged form 
 
 /// success | Obtain Your Reviewer Link
 
-After studies which pass the new version of validation and have status promoted to ‘Private', private reviewer link will be available on the study page to share with journal editors, collaborators etc. Your study will be eligible to go public.
+‘Private' studies offer a private read-only 'Reviewer Link' on the study page, which it will make easier to share your validated submissions with collaborators, reviewers, editors, etc.
 
 ![Validation Tab](assets/images/NEW_GUIDES/QuickStartOverview_ReviewerLink.png)
 
-**Note:** MetaboLights curation will be retained in certain cases. The process will take a minimum of 4 weeks, publication date cannot be less than this.
+**Note:** MetaboLights curation will be retained in certain cases.
 
 ///
 
@@ -160,7 +163,9 @@ After studies which pass the new version of validation and have status promoted 
 
 Make your study public once your manuscript is accepted and no further updates are needed.
 
-![Publish](assets/images/NEW_GUIDES/MakeStudyPublic.png){width=300 height=150}
+![Publish](assets/images/NEW_GUIDES/MakeStudyPublic.png)
+
+**Note:** *It can take up to 24h for your study to be publicly available.*
 
 Please add to your manuscript the following sentence (typically in the "Methods" section or just before/in the Acknowledgements):
 

@@ -5,7 +5,14 @@ The sample information should provide all relevant facts about each sample and a
 Sample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).
 
 A group of samples can be added to the sample table using **+Samples** and pasting a list or selecting to import Raw data file names if appropriate. There is also the option to add as many new rows as required with **+Rows** and edit cells individually.
+
     ![Portal](assets/images/examplesofsamples.png){width=900 height=1200}
+
+### Delete selected samples from sample sheet
+
+To delete a sample in the online editor, click the first cell on the left of the sample row to highlight it. Then, select the Delete button that appears next to the Download and View file options.
+
+A second option to delete samples is to download the Sample Sheet, open with eg. Excel, delete selected rows, save file without changing file name or extension, re-upload it to the study and synchronize Metadata files. 
 
 
 Example of required information for different Sample types
@@ -39,15 +46,18 @@ Example of required information for different Sample types
 ### Validation Rules:
 
 
-* Sample columns present in the sample file.
-* "Sample collection" column completely filled in.
-* No empty rows in sample file.
-* Organism and Organism Part characteristics and at least a Factor column are required
-* Organism name should be at least 5 characters long.
+* Only one sample file should be present per study.
+* Do not delete or change the order of the columns in the sample file or change column headers.
+* "Sample collection" column should be completely filled in.
+* All sample names should be unique in sample file.
+* No empty rows should be present in sample file.
+* Organism and Organism Part characteristics and at least a Factor column are required.
 * Organism cannot be 'human' or 'man', please choose the 'Homo sapiens' taxonomy term.
 * Organism cannot be one of the invalid terms.
 
 **Invalid organism term:** cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matrix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown.
+
+For comprehensive details on the validation rules that apply to Samples, please visit our [GitHub validation-rules docs](https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/sample-validation-rules.md) 
 
 ## Factors
 
@@ -65,7 +75,10 @@ Example on how to add 'Treatment' Factor to Samples
 
 ### Delete factor column in sample sheet
 
-To delete the factor, download the sample file and select to open with eg. Excel, then simply remove the factor related columns and re-upload the modified file. **There will be 3-4 columns for each factor**; Factor Value[factor\_name], Unit (if added), Term source REF, Term accession number.
+
+To delete a factor using the online editor, simply click on green button present next to the selected factor (edit button) and click on the red delete button present in the editing window. 
+
+AnotherAs an alternative, download the sample file and select to open with eg. Excel, then simply remove the factor related columns and re-upload the modified file. **There will be 3-4 columns for each factor**; Factor Value[factor\_name], Unit (if added), Term source REF, Term accession number.
 
 ***It is important not to remove the original columns or alter column headers when editing as the format is a fixed requirement.***
 

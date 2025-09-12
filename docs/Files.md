@@ -38,7 +38,14 @@ Eg. File organisation for LC-MS study with positive & negative ionisation mode
 ### Accepted file formats for raw data
 **Raw file formats:** baf, cmp, d, dat, fid, hr, ibd, jpf, lcd, ms, ogd, peg, qgd, raw, ser, wiff + wiff.scan, xp
 
-**Derived file formats:** abf, cdf, cef, cnx, dx, imzml, mgf, msp, mzml, mzxml, nmrml, peakml, smp, xlsx\*, xml, xy
+**Derived file formats:** abf, cdf, cef, cnx, dx, imzml, mgf, msp, mzml, mzxml, nmrml, peakml, smp, xlsx\*, xml, xy     ".cdf",
+        ".imzml",
+        ".mzml",
+        ".mzmlb",
+        ".mzxml",
+        ".nmrml",
+        ".scan",
+        ".wiff"
 
 **\*not acceptable alone (must be accompanied with spectrum / chromatogram data)**
 

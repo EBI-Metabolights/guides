@@ -7,16 +7,17 @@ The assay is divided into sections each starting with a Protocol Ref column, eg.
 ### Validation Rules:
 
 
-* At least one assay file in the study.
-* All the referenced assay files can be found.
-* No empty column names in the assay spreadsheet.
-* Template columns in the relevant assay sheet can not be removed.
+* At least one Assay file should be present in the study.
+* All the Assay files referenced in the i.Investigation.txt file are present in the study.
+* The Assay file name must not contain invalid characters. Only the following are allowed: . - _ A–Z a–z 0–9 (spaces are not permitted).
+* Do not delete or change the order of the columns in the Assay file or change column headers.
+* No empty column names should be present in the Assay file.
 * Required columns can not be empty.
-* Sample names that are all referenced in assays.
-* Raw or Derived files existed in MS study.
-* Derived, fid or acqu files existed in NMR study.
-* Are there more sample rows than assay rows.
-* Assay files are referenced of the correct type.
+* All samples should be referenced in Assays.
+* For MS Assays (e.g. LC-MS, GC-MS, DI-MS), Raw data files or Derived data files must be referenced in Assay file.
+* For NMR Assays, Derived Spectral Data Files, Acquisition Parameter Data Files (acqu) and Free Induction Decay Data Files (fid) must be referenced in Assay file.
+
+For comprehensive details on the validation rules that apply to Assays, please visit our [GitHub validation-rules docs](https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/assay-validation-rules.md) 
 
 ## NMR Assay
 
@@ -81,10 +82,10 @@ The assay is divided into sections each starting with a Protocol Ref column, eg.
 | Parameter Value - Ion source | Where applicable to the instrument. | ESI |
 | Parameter Value - Mass analyzer | The analyser/detector of the mass fragments generated during the assay. | Triple quadrupole |
 | MS Assay Name | This can be, but doesn’t have to be, the same as the ‘Sample Name’ | treated 0 min rabbit 1 |
-| Raw Spectral Data File | This is where you should enter the Raw (unprocessed) MS data files (.RAW).Please add full path of the file in the cell. | FILES/Sepd340.raw **OR if in folder structure** FILES/RAW\_FILES/LC\_MS/Sepd340.raw |
+| Raw Spectral Data File | This is where you should reference the Raw (unprocessed) MS data files (.RAW). Please add full path of the file in the cell. | FILES/Sepd340.raw **OR if in folder structure** FILES/RAW\_FILES/LC\_MS/Sepd340.raw |
 | Protocol REF - Data transformation | This is the column marking the start of data pertaining to **Data transformation**. The example term MUST be present in all rows of this column. | Data transformation |
 | Normalization name | these should contain the normalization data files preferably as an Excel spreadsheet file. If you don’t have these then leave the cells/column blank. | MSpos-Ex1-Col0-48h-Ag\_normalized\_data.xlsx |
-| Derived Spectral Data File | If your data has been transformed into one of the open-source raw data formats e.g. mzML , CDF, or any other converted file, then add them here.Please add full path of the file in the cell. | FILES/Sepd340.mzML **OR if in folder structure** FILES/DERIVED\_FILES/LC\_MS/Sepd340.mzML |
+| Derived Spectral Data File | If your data has been transformed into one of the open-source raw data formats e.g. mzML , CDF, or any other converted file, then they should be referenced  here. Please add full path of the file in the cell. | FILES/Sepd340.mzML **OR if in folder structure** FILES/DERIVED\_FILES/LC\_MS/Sepd340.mzML |
 | Protocol REF - Metabolite identification | This is the column marking the start of data pertaining to **Metabolite identification**. The example term MUST be present in all rows of this column. | Metabolite identification |
 | Data Transformation Name | These should contain the data transformation files. |  |
 | Metabolite Assignment File (MAF) | A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs , where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file. | m\_mtbls1\_mass\_spectrometry\_v2\_maf.tsv |
@@ -115,10 +116,10 @@ The assay is divided into sections each starting with a Protocol Ref column, eg.
 | Parameter Value - Ion source | Where applicable to the instrument. | electron ionization |
 | Parameter Value - Mass analyzer | The analyser/detector of the mass fragments generated during the assay. | quadrupole |
 | MS Assay Name | This can be, but doesn’t have to be, the same as the ‘Sample Name’ | Example\_1 |
-| Raw Spectral Data File | This is where you should enter the Raw (unprocessed) MS data files (.RAW). Please add full path of the file in the cell. | FILES/myfilename1.raw **OR if in folder structure** FILES/RAW\_FILES/myfilename1.raw |
+| Raw Spectral Data File | This is where you should reference the Raw (unprocessed) MS data files (.RAW). Please add full path of the file in the cell. | FILES/myfilename1.raw **OR if in folder structure** FILES/RAW\_FILES/myfilename1.raw |
 | Protocol REF - Data transformation | This is the column marking the start of data pertaining to **Data transformation**. The example term MUST be present in all rows of this column. | Data transformation |
 | Normalization name | These should contain the normalization data files preferably as an Excel spreadsheet file. If you don’t have these then leave the cells/column blank. | normalized-data.xlsx |
-| Derived Spectral Data File | If your data has been transformed into one of the open-source raw data formats, e.g. mzML, or any other converted file, then add them here. Please add full path of the file in the cell. | FILES/myfilename1.mzML **OR if in folder structure** FILES/DERIVED\_FILES/myfilename1.mzML |
+| Derived Spectral Data File | If your data has been transformed into one of the open-source raw data formats, e.g. mzML, or any other converted file, then they should be referenced here. Please add full path of the file in the cell. | FILES/myfilename1.mzML **OR if in folder structure** FILES/DERIVED\_FILES/myfilename1.mzML |
 | Protocol REF - Metabolite identification | This is the column marking the start of data pertaining to **Metabolite identification**. The example term MUST be present in all rows of this column. | Metabolite identification |
 | Data Transformation Name | These should contain the data transformation files. |  |
 | Metabolite Assignment File (MAF) | A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs, where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file. | m\_MTBLS1\_GC-MS\_positive\_\_metabolite\_profiling\_v2\_maf.tsv |
