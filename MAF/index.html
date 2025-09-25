@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#maf" class="md-skip">
+        <a href="#metabolite-annotation-file-maf" class="md-skip">
           Skip to content
         </a>
       
@@ -229,11 +229,28 @@
   
     
   
-  Submission
+  Extended Guide
 
         </a>
       </li>
     
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Examples/" class="md-tabs__link">
+        
+  
+    
+  
+  Example Studies
+
+      </a>
+    </li>
   
 
       
@@ -402,7 +419,7 @@
             
   
   <span class="md-ellipsis">
-    Submission
+    Extended Guide
     
   </span>
   
@@ -413,7 +430,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Submission
+            Extended Guide
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -582,7 +599,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#maf_1" class="md-nav__link">
+  <a href="#maf" class="md-nav__link">
     <span class="md-ellipsis">
       MAF
     </span>
@@ -602,6 +619,24 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lc-ms-and-gc-ms-maf" class="md-nav__link">
+    <span class="md-ellipsis">
+      LC-MS and GC-MS MAF
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nmr-maf" class="md-nav__link">
+    <span class="md-ellipsis">
+      NMR MAF
+    </span>
+  </a>
   
 </li>
       
@@ -650,6 +685,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../Examples/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example Studies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../FAQs/" class="md-nav__link">
         
   
@@ -680,10 +736,10 @@
 
 
 
-<div><h1 id="maf">MAF<a class="headerlink" href="#maf" title="Permanent link">¶</a></h1>
-<h2 id="maf_1">MAF<a class="headerlink" href="#maf_1" title="Permanent link">¶</a></h2>
-<p>When you create an assay a corresponding metabolite annotation file will add to your study. Metabolite information should include all <strong>metabolites / unknowns / features</strong> identified within the study. You should complete the table with as much information as possible. Sample names should be automatically included in the columns to the right of the table (please contact us if not or download &amp; edit in eg. excel), in each column sample values per metabolite should be included.</p>
-<p>The metabolite table file (m_MTBLSxxx.tsv) should be referenced in the metabolite assignment file column of each assay. If results are cumulative of multiple assays, enter the same file for each.</p>
+<div><h1 id="metabolite-annotation-file-maf">Metabolite Annotation File (MAF)<a class="headerlink" href="#metabolite-annotation-file-maf" title="Permanent link">¶</a></h1>
+<h2 id="maf">MAF<a class="headerlink" href="#maf" title="Permanent link">¶</a></h2>
+<p>When you create an assay a corresponding metabolite annotation file will add to your study. Metabolite information should include all <strong>metabolites / unknowns / features</strong> identified within the study. You should complete the table with as much information as possible. Sample names should be automatically included in the columns to the right of the table (please contact us if not or download &amp; edit in e.g., Excel), in each column sample values per metabolite should be included.</p>
+<p>The Metabolite Annotation File (m_MTBLSxxx.tsv) should be referenced in the metabolite assignment file column of each assay. If results are cumulative of multiple assays, enter the same file for each.</p>
 <h3 id="validation-rules">Validation Rules<a class="headerlink" href="#validation-rules" title="Permanent link">¶</a></h3>
 <ul>
 <li>
@@ -710,7 +766,247 @@
 <li>
 <p>No empty rows in the MAF.</p>
 </li>
-</ul></div>
+</ul>
+<p>For comprehensive details on the validation rules that apply to Assays, please visit our <a href="https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/metabolite-validation-rules.md">GitHub validation-rules docs</a> </p>
+<h2 id="lc-ms-and-gc-ms-maf">LC-MS and GC-MS MAF<a class="headerlink" href="#lc-ms-and-gc-ms-maf" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>database_identifier</td>
+<td>Stable external accession for the compound/feature.  <code>Recommended, if available</code></td>
+<td>(e.g., CHEBI:27389)</td>
+</tr>
+<tr>
+<td>chemical_formula</td>
+<td>Molecular formula of the identified compound    <code>Optional</code></td>
+<td>(plain text, e.g., C4H9NO2)</td>
+</tr>
+<tr>
+<td>smiles</td>
+<td>SMILES string for the compound    <code>Optional</code></td>
+<td>canonical if available; plain text (e.g., CC(CN)C(O)=O)</td>
+</tr>
+<tr>
+<td>inchi</td>
+<td>Full InChI string for the compound (starting with InChI=; not the InChIKey) <code>Optional</code></td>
+<td>e.g., InChI=1S/C4H9NO2/c1-3(2-5)4(6)7/h3H,2,5H2,1H3,(H,6,7)</td>
+</tr>
+<tr>
+<td>metabolite_identification</td>
+<td>Human-readable metabolite name or, if unknown, your metabolites/unknowns/features as reported  <strong><code>Required</code></strong></td>
+<td>e.g., 3-Aminoisobutyric acid, or Feature 001, Feature 002, Unknown1, etc.</td>
+</tr>
+<tr>
+<td>mass_to_charge</td>
+<td>Precursor/Parent/Feature m/z (numeric). Typically the molecular ion. For MS/MS or MSn provide precursor ion m/z.     <strong><code>Required</code></strong></td>
+<td>e.g '104' for 3-Aminoisobutyric acid in [M-H]+ mode</td>
+</tr>
+<tr>
+<td>fragmentation</td>
+<td>Fragment/Daughter/Product m/z (numeric). For MS/MS or MSn provide product ion(s)   <code>Recommended, if available</code>  (<strong><code>Required</code></strong> for MRM, Precursor Ion Scan)</td>
+<td>e.g. for '3-Aminoisobutyric acid': 86, 87, 69, 58.</td>
+</tr>
+<tr>
+<td>modifications</td>
+<td>Chemical modifications/adducts/derivatisation noted for the feature   <code>Recommended, if available</code></td>
+<td>e.g., [M+Na]+, [M+K]+, TMS-deriv., etc.</td>
+</tr>
+<tr>
+<td>charge</td>
+<td>Observed charge state for the compound/feature.      <code>Recommended, if available</code></td>
+<td>e.g., [M-H]+, [M-H]-, OR Positive, Negative, OR +1, -1.</td>
+</tr>
+<tr>
+<td>retention_time</td>
+<td>Chromatographic RT used for the assignment (numeric; unit as used by your pipeline).     <strong><code>Required</code></strong></td>
+<td>e.g., 3.15</td>
+</tr>
+<tr>
+<td>taxid</td>
+<td>NCBI Taxonomy ID for the biological source associated with this identification (if applicable).  <code>Optional</code></td>
+<td>e.g., NCBI:txid9606</td>
+</tr>
+<tr>
+<td>species</td>
+<td>Species name corresponding to taxid, aligned with your Sample sheet’s organism term.    <code>Optional</code></td>
+<td>e.g., Homo sapiens, Mus musculus, etc.</td>
+</tr>
+<tr>
+<td>database</td>
+<td>Name of the spectral/compound database or library used for the match (text). Field often used to report Compound ID present in secondary database    <code>Optional</code></td>
+<td>e.g., PubChem Compound identifier (CID:XXXX)</td>
+</tr>
+<tr>
+<td>database_version</td>
+<td>Direct URL/URI to the external record or evidence for the identification (resolvable link)  <code>Optional</code></td>
+<td>e.g., https://pubchem.ncbi.nlm.nih.gov/</td>
+</tr>
+<tr>
+<td>reliability</td>
+<td>Qualitative confidence level/category for the identification or Metabolomics Standards Initiative (MSI) level  (see https://doi.org/10.1021/es5002105).   <code>Recommended, if available</code></td>
+<td>e.g., 'MSI:2', 'MSI:1' etc.</td>
+</tr>
+<tr>
+<td>uri</td>
+<td>Direct URL/URI to the external record or evidence for the identification (resolvable link).     <code>Optional</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>search_engine</td>
+<td>Name (and optional version) of the software/tool used for the identification or match.    <code>Optional</code></td>
+<td>e.g., library search, MZmine, XCMS, etc.</td>
+</tr>
+<tr>
+<td>search_engine_score</td>
+<td>Primary score reported by the search tool (numeric); specify score type in your methods/protocol.    <code>Optional</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>smallmolecule_abundance_sub</td>
+<td>Aggregated abundance for the metabolite (e.g., subject/condition-level summary). If reporting per-sample values, put those in the auto-added sample columns on the right and leave this blank.    <code>Optional</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>smallmolecule_abundance_stdev_sub</td>
+<td>Standard deviation corresponding to smallmolecule_abundance_sub (numeric).      <code>Optional</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>smallmolecule_abundance_std_error_sub</td>
+<td>Standard error corresponding to smallmolecule_abundance_sub (numeric).    <code>Optional</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>SampleName1</td>
+<td>Quantification value (e.g. concentration, AUC, etc.).   <code>Recommended, if available</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>SampleName2</td>
+<td>Quantification value (e.g. concentration, AUC, etc.).   <code>Recommended, if available</code></td>
+<td>---</td>
+</tr>
+</tbody>
+</table>
+<h2 id="nmr-maf">NMR MAF<a class="headerlink" href="#nmr-maf" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>database_identifier</td>
+<td>Stable external accession for the compound/feature.  <code>Recommended, if available</code></td>
+<td>(e.g., CHEBI:27389)</td>
+</tr>
+<tr>
+<td>chemical_formula</td>
+<td>Molecular formula of the identified compound    <code>Optional</code></td>
+<td>(plain text, e.g., C4H9NO2)</td>
+</tr>
+<tr>
+<td>smiles</td>
+<td>SMILES string for the compound    <code>Optional</code></td>
+<td>canonical if available; plain text (e.g., CC(CN)C(O)=O)</td>
+</tr>
+<tr>
+<td>inchi</td>
+<td>Full InChI string for the compound (starting with InChI=; not the InChIKey) <code>Optional</code></td>
+<td>e.g., InChI=1S/C4H9NO2/c1-3(2-5)4(6)7/h3H,2,5H2,1H3,(H,6,7)</td>
+</tr>
+<tr>
+<td>metabolite_identification</td>
+<td>Human-readable metabolite name or, if unknown, your metabolites/unknowns/features as reported  <strong><code>Required</code></strong></td>
+<td>e.g., 3-Aminoisobutyric acid, or Feature 001, Feature 002, Unknown1, etc.</td>
+</tr>
+<tr>
+<td>chemical_shift</td>
+<td>---     <code>Recommended, if available</code></td>
+<td>e.g., ----</td>
+</tr>
+<tr>
+<td>multiplicity</td>
+<td><code>Recommended, if available</code></td>
+<td>e.g.,-----</td>
+</tr>
+<tr>
+<td>taxid</td>
+<td>NCBI Taxonomy ID for the biological source associated with this identification (if applicable).  <code>Optional</code></td>
+<td>e.g., NCBI:txid9606</td>
+</tr>
+<tr>
+<td>species</td>
+<td>Species name corresponding to taxid, aligned with your Sample sheet’s organism term.    <code>Optional</code></td>
+<td>e.g., Homo sapiens, Mus musculus, etc.</td>
+</tr>
+<tr>
+<td>database</td>
+<td>Name of the spectral/compound database or library used for the match (text). Field often used to report Compound ID present in secondary database    <code>Optional</code></td>
+<td>e.g., PubChem Compound identifier (CID:XXXX)</td>
+</tr>
+<tr>
+<td>database_version</td>
+<td>Direct URL/URI to the external record or evidence for the identification (resolvable link)  <code>Optional</code></td>
+<td>e.g., https://pubchem.ncbi.nlm.nih.gov/</td>
+</tr>
+<tr>
+<td>reliability</td>
+<td>Qualitative confidence level/category for the identification or Metabolomics Standards Initiative (MSI) level  (see https://doi.org/10.1021/es5002105).   <code>Recommended, if available</code></td>
+<td>e.g., 'MSI:2', 'MSI:1' etc.</td>
+</tr>
+<tr>
+<td>uri</td>
+<td>Direct URL/URI to the external record or evidence for the identification (resolvable link).     <code>Optional</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>search_engine</td>
+<td>Name (and optional version) of the software/tool used for the identification or match.    <code>Optional</code></td>
+<td>e.g., library search, MZmine, XCMS, etc.</td>
+</tr>
+<tr>
+<td>search_engine_score</td>
+<td>Primary score reported by the search tool (numeric); specify score type in your methods/protocol.    <code>Optional</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>smallmolecule_abundance_sub</td>
+<td>Aggregated abundance for the metabolite (e.g., subject/condition-level summary). If reporting per-sample values, put those in the auto-added sample columns on the right and leave this blank.    <code>Optional</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>smallmolecule_abundance_stdev_sub</td>
+<td>Standard deviation corresponding to smallmolecule_abundance_sub (numeric).      <code>Optional</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>smallmolecule_abundance_std_error_sub</td>
+<td>Standard error corresponding to smallmolecule_abundance_sub (numeric).    <code>Optional</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>SampleName1</td>
+<td>Quantification value (e.g. concentration, AUC, etc.).   <code>Recommended, if available</code></td>
+<td>---</td>
+</tr>
+<tr>
+<td>SampleName2</td>
+<td>Quantification value (e.g. concentration, AUC, etc.).   <code>Recommended, if available</code></td>
+<td>---</td>
+</tr>
+</tbody>
+</table></div>
 
 
 

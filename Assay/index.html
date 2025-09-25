@@ -229,11 +229,28 @@
   
     
   
-  Submission
+  Extended Guide
 
         </a>
       </li>
     
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Examples/" class="md-tabs__link">
+        
+  
+    
+  
+  Example Studies
+
+      </a>
+    </li>
   
 
       
@@ -402,7 +419,7 @@
             
   
   <span class="md-ellipsis">
-    Submission
+    Extended Guide
     
   </span>
   
@@ -413,7 +430,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Submission
+            Extended Guide
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -584,15 +601,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#nmr-assay" class="md-nav__link">
-    <span class="md-ellipsis">
-      NMR Assay
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#lc_ms-assay" class="md-nav__link">
     <span class="md-ellipsis">
       LC_MS Assay
@@ -605,6 +613,15 @@
   <a href="#gc_ms-assay" class="md-nav__link">
     <span class="md-ellipsis">
       GC_MS Assay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nmr-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      NMR Assay
     </span>
   </a>
   
@@ -677,6 +694,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../Examples/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example Studies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../FAQs/" class="md-nav__link">
         
   
@@ -710,20 +748,304 @@
 <div><h1 id="assay">Assay<a class="headerlink" href="#assay" title="Permanent link">¶</a></h1>
 <h2 id="assay-overview">Assay Overview<a class="headerlink" href="#assay-overview" title="Permanent link">¶</a></h2>
 <p>The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study.</p>
-<p>The assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.</p>
+<p>The assay is divided into sections each starting with a Protocol Ref column, e.g., Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.</p>
 <h3 id="validation-rules">Validation Rules:<a class="headerlink" href="#validation-rules" title="Permanent link">¶</a></h3>
 <ul>
-<li>At least one assay file in the study.</li>
-<li>All the referenced assay files can be found.</li>
-<li>No empty column names in the assay spreadsheet.</li>
-<li>Template columns in the relevant assay sheet can not be removed.</li>
+<li>At least one Assay file should be present in the study.</li>
+<li>All the Assay files referenced in the i.Investigation.txt file are present in the study.</li>
+<li>The Assay file name must not contain invalid characters. Only the following are allowed: . - _ A–Z a–z 0–9 (spaces are not permitted).</li>
+<li>Do not delete or change the order of the columns in the Assay file or change column headers.</li>
+<li>No empty column names should be present in the Assay file.</li>
 <li>Required columns can not be empty.</li>
-<li>Sample names that are all referenced in assays.</li>
-<li>Raw or Derived files existed in MS study.</li>
-<li>Derived, fid or acqu files existed in NMR study.</li>
-<li>Are there more sample rows than assay rows.</li>
-<li>Assay files are referenced of the correct type.</li>
+<li>All samples should be referenced in Assays.</li>
+<li>For MS Assays (e.g. LC-MS, GC-MS, DI-MS), Raw data files or Derived data files must be referenced in Assay file.</li>
+<li>For NMR Assays, Derived Spectral Data Files, Acquisition Parameter Data Files (acqu) and Free Induction Decay Data Files (fid) must be referenced in Assay file.</li>
 </ul>
+<p>For comprehensive details on the validation rules that apply to Assays, please visit our <a href="https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/assay-validation-rules.md">GitHub validation-rules docs</a> </p>
+<h2 id="lc_ms-assay">LC_MS Assay<a class="headerlink" href="#lc_ms-assay" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sample Name</td>
+<td>A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename.</td>
+<td>ADG10003u_007</td>
+</tr>
+<tr>
+<td>Protocol REF - Extraction</td>
+<td>This is the column marking the start of data pertaining to <strong>Extraction</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Extraction</td>
+</tr>
+<tr>
+<td>Parameter Value - Post Extraction</td>
+<td>This column describes how the sample was extracted into a solvent prior to being injected into the analytical instrument of choice.</td>
+<td>400 µL water</td>
+</tr>
+<tr>
+<td>Parameter Value - Derivatization</td>
+<td>If the sample has been subjected to chemical modification prior to injection.</td>
+<td>sylilation</td>
+</tr>
+<tr>
+<td>Extract Name</td>
+<td>Leave blank if you don’t have one.</td>
+<td></td>
+</tr>
+<tr>
+<td>Protocol REF - Chromatography</td>
+<td>This is the column marking the start of data pertaining to <strong>Chromatography</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Chromatography</td>
+</tr>
+<tr>
+<td>Parameter Value - Chromatography Instrument</td>
+<td>Add the full name of the instrument you used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals, or on their website.</td>
+<td>Shimadzu Nexera UHPLC system</td>
+</tr>
+<tr>
+<td>Parameter Value - Column model</td>
+<td>Manufacturer, model number and dimensions.</td>
+<td>HSS T3 C18 (1.8 μm, 1.0 x 100 mm; Waters)</td>
+</tr>
+<tr>
+<td>Parameter Value - Column type</td>
+<td>Type or phase of column used.</td>
+<td>reverse phase</td>
+</tr>
+<tr>
+<td>Labelled Extract Name</td>
+<td>Leave blank if you don’t have one.</td>
+<td></td>
+</tr>
+<tr>
+<td>Label</td>
+<td>If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here.</td>
+<td></td>
+</tr>
+<tr>
+<td>Protocol REF - Mass spectrometry</td>
+<td>This is the column marking the start of data pertaining to <strong>Mass spectrometry</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Mass spectrometry</td>
+</tr>
+<tr>
+<td>Parameter Value - Scan polarity</td>
+<td>Values should identical within each assay. If you have ‘positive’ or ‘negative’ values in the same assay then split them into separate ‘positive’ and ‘negative’ assays.</td>
+<td>positive</td>
+</tr>
+<tr>
+<td>Parameter Value - Scan m/z range</td>
+<td>The range used in the assay.</td>
+<td>100-1000</td>
+</tr>
+<tr>
+<td>Parameter Value - Instrument</td>
+<td>Add the full name of the mass spectrometer/detector you used for this LC/MS assay, including the instrument manufacturer and model number as reported in manufacturer’s brochures, user manuals, or on their website.</td>
+<td>Bruker micrOTOF-Q II</td>
+</tr>
+<tr>
+<td>Parameter Value - Ion source</td>
+<td>Where applicable to the instrument.</td>
+<td>ESI</td>
+</tr>
+<tr>
+<td>Parameter Value - Mass analyzer</td>
+<td>The analyser/detector of the mass fragments generated during the assay.</td>
+<td>Triple quadrupole</td>
+</tr>
+<tr>
+<td>MS Assay Name</td>
+<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>
+<td>treated 0 min rabbit 1</td>
+</tr>
+<tr>
+<td>Raw Spectral Data File</td>
+<td>This is where you should reference the Raw (unprocessed) MS data files (.RAW). Please add full path of the file in the cell.</td>
+<td>FILES/Sepd340.raw <strong>OR if in folder structure</strong> FILES/RAW_FILES/LC_MS/Sepd340.raw</td>
+</tr>
+<tr>
+<td>Protocol REF - Data transformation</td>
+<td>This is the column marking the start of data pertaining to <strong>Data transformation</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Data transformation</td>
+</tr>
+<tr>
+<td>Normalization name</td>
+<td>these should contain the normalization data files preferably as an Excel spreadsheet file. If you don’t have these then leave the cells/column blank.</td>
+<td>MSpos-Ex1-Col0-48h-Ag_normalized_data.xlsx</td>
+</tr>
+<tr>
+<td>Derived Spectral Data File</td>
+<td>If your data has been transformed into one of the open-source raw data formats e.g. mzML , CDF, or any other converted file, then they should be referenced  here. Please add full path of the file in the cell.</td>
+<td>FILES/Sepd340.mzML <strong>OR if in folder structure</strong> FILES/DERIVED_FILES/LC_MS/Sepd340.mzML</td>
+</tr>
+<tr>
+<td>Protocol REF - Metabolite identification</td>
+<td>This is the column marking the start of data pertaining to <strong>Metabolite identification</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Metabolite identification</td>
+</tr>
+<tr>
+<td>Data Transformation Name</td>
+<td>These should contain the data transformation files.</td>
+<td></td>
+</tr>
+<tr>
+<td>Metabolite Assignment File (MAF)</td>
+<td>A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs , where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file.</td>
+<td>m_mtbls1_mass_spectrometry_v2_maf.tsv</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gc_ms-assay">GC_MS Assay<a class="headerlink" href="#gc_ms-assay" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sample Name</td>
+<td>A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename.</td>
+<td>Example_1</td>
+</tr>
+<tr>
+<td>Protocol REF - Extraction</td>
+<td>This is the column marking the start of data pertaining to <strong>Extraction</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Extraction</td>
+</tr>
+<tr>
+<td>Parameter Value - Post Extraction</td>
+<td>This how the sample was extracted into a solvent prior to being injected into the analytical instrument of choice.</td>
+<td>2 ml ethyl acetate</td>
+</tr>
+<tr>
+<td>Parameter Value - Derivatization</td>
+<td>If the sample has been subjected to chemical modification prior to injection.</td>
+<td>sylilation</td>
+</tr>
+<tr>
+<td>Extract Name</td>
+<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>
+<td>Example_1</td>
+</tr>
+<tr>
+<td>Protocol REF - Chromatography</td>
+<td>This is the column marking the start of data pertaining to <strong>Chromatography</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Chromatography</td>
+</tr>
+<tr>
+<td>Parameter Value - Chromatography Instrument</td>
+<td>Add the full name of the instrument used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals or website.</td>
+<td>Shimadzu GCMS-QP2010 Ultra</td>
+</tr>
+<tr>
+<td>Parameter Value - Autosampler model</td>
+<td>Add the full name of the autosampler used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals or website.</td>
+<td></td>
+</tr>
+<tr>
+<td>Parameter Value - Column model</td>
+<td>Manufacturer, model number and dimensions in the format shown in the examples:</td>
+<td>Zebron ZB-AAA GC(10 m x 0.25 mm; Phenomenex)</td>
+</tr>
+<tr>
+<td>Parameter Value - Column type</td>
+<td>Polarity of column used. This information can be found on the manufacturer’s website.</td>
+<td>low polarity <strong>OR</strong> medium polarity <strong>OR</strong> high polarity</td>
+</tr>
+<tr>
+<td>Parameter Value - Guard column</td>
+<td>Manufacturer, model number and dimensions in the format shown in the examples:</td>
+<td></td>
+</tr>
+<tr>
+<td>Labeled Extract Name</td>
+<td>Leave blank if you don’t have one.</td>
+<td></td>
+</tr>
+<tr>
+<td>Label</td>
+<td>If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here.</td>
+<td></td>
+</tr>
+<tr>
+<td>Protocol REF - Mass spectrometry</td>
+<td>This is the column marking the start of data pertaining to <strong>Mass spectrometry</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Mass spectrometry</td>
+</tr>
+<tr>
+<td>Parameter Value - Scan polarity</td>
+<td>This should be ‘positive’ for a GC/MS assay.</td>
+<td>positive</td>
+</tr>
+<tr>
+<td>Parameter Value - Scan m/z range</td>
+<td>The range used in the assay.</td>
+<td>50-400</td>
+</tr>
+<tr>
+<td>Parameter Value - Instrument</td>
+<td>Add the full name of the mass spectrometer/detector used for this GC/MS assay, including the instrument manufacturer and model number as reported in manufacturer’s brochures, user manuals or website.</td>
+<td>Thermo Electron Trace DSQ</td>
+</tr>
+<tr>
+<td>Parameter Value - Ion source</td>
+<td>Where applicable to the instrument.</td>
+<td>electron ionization</td>
+</tr>
+<tr>
+<td>Parameter Value - Mass analyzer</td>
+<td>The analyser/detector of the mass fragments generated during the assay.</td>
+<td>quadrupole</td>
+</tr>
+<tr>
+<td>MS Assay Name</td>
+<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>
+<td>Example_1</td>
+</tr>
+<tr>
+<td>Raw Spectral Data File</td>
+<td>This is where you should reference the Raw (unprocessed) MS data files (.RAW). Please add full path of the file in the cell.</td>
+<td>FILES/myfilename1.raw <strong>OR if in folder structure</strong> FILES/RAW_FILES/myfilename1.raw</td>
+</tr>
+<tr>
+<td>Protocol REF - Data transformation</td>
+<td>This is the column marking the start of data pertaining to <strong>Data transformation</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Data transformation</td>
+</tr>
+<tr>
+<td>Normalization name</td>
+<td>These should contain the normalization data files preferably as an Excel spreadsheet file. If you don’t have these then leave the cells/column blank.</td>
+<td>normalized-data.xlsx</td>
+</tr>
+<tr>
+<td>Derived Spectral Data File</td>
+<td>If your data has been transformed into one of the open-source raw data formats, e.g. mzML, or any other converted file, then they should be referenced here. Please add full path of the file in the cell.</td>
+<td>FILES/myfilename1.mzML <strong>OR if in folder structure</strong> FILES/DERIVED_FILES/myfilename1.mzML</td>
+</tr>
+<tr>
+<td>Protocol REF - Metabolite identification</td>
+<td>This is the column marking the start of data pertaining to <strong>Metabolite identification</strong>. The example term MUST be present in all rows of this column.</td>
+<td>Metabolite identification</td>
+</tr>
+<tr>
+<td>Data Transformation Name</td>
+<td>These should contain the data transformation files.</td>
+<td></td>
+</tr>
+<tr>
+<td>Metabolite Assignment File (MAF)</td>
+<td>A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs, where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file.</td>
+<td>m_MTBLS1_GC-MS_positive__metabolite_profiling_v2_maf.tsv</td>
+</tr>
+</tbody>
+</table>
 <h2 id="nmr-assay">NMR Assay<a class="headerlink" href="#nmr-assay" title="Permanent link">¶</a></h2>
 <table>
 <thead>
@@ -886,291 +1208,7 @@
 </tr>
 </tbody>
 </table>
-<p>Can't find what you are looking for? Check out our <a href="../FAQs/#upload-download">FAQ's</a> for most commonly asked questions and solutions.</p>
-<h2 id="lc_ms-assay">LC_MS Assay<a class="headerlink" href="#lc_ms-assay" title="Permanent link">¶</a></h2>
-<table>
-<thead>
-<tr>
-<th>Column Name</th>
-<th>Description</th>
-<th>Example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Sample Name</td>
-<td>A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename.</td>
-<td>ADG10003u_007</td>
-</tr>
-<tr>
-<td>Protocol REF - Extraction</td>
-<td>This is the column marking the start of data pertaining to <strong>Extraction</strong>. The example term MUST be present in all rows of this column.</td>
-<td>Extraction</td>
-</tr>
-<tr>
-<td>Parameter Value - Post Extraction</td>
-<td>This column describes how the sample was extracted into a solvent prior to being injected into the analytical instrument of choice.</td>
-<td>400 µL water</td>
-</tr>
-<tr>
-<td>Parameter Value - Derivatization</td>
-<td>If the sample has been subjected to chemical modification prior to injection.</td>
-<td>sylilation</td>
-</tr>
-<tr>
-<td>Extract Name</td>
-<td>Leave blank if you don’t have one.</td>
-<td></td>
-</tr>
-<tr>
-<td>Protocol REF - Chromatography</td>
-<td>This is the column marking the start of data pertaining to <strong>Chromatography</strong>. The example term MUST be present in all rows of this column.</td>
-<td>Chromatography</td>
-</tr>
-<tr>
-<td>Parameter Value - Chromatography Instrument</td>
-<td>Add the full name of the instrument you used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals, or on their website.</td>
-<td>Shimadzu Nexera UHPLC system</td>
-</tr>
-<tr>
-<td>Parameter Value - Column model</td>
-<td>Manufacturer, model number and dimensions.</td>
-<td>HSS T3 C18 (1.8 μm, 1.0 x 100 mm; Waters)</td>
-</tr>
-<tr>
-<td>Parameter Value - Column type</td>
-<td>Type or phase of column used.</td>
-<td>reverse phase</td>
-</tr>
-<tr>
-<td>Labelled Extract Name</td>
-<td>Leave blank if you don’t have one.</td>
-<td></td>
-</tr>
-<tr>
-<td>Label</td>
-<td>If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here.</td>
-<td></td>
-</tr>
-<tr>
-<td>Protocol REF - Mass spectrometry</td>
-<td>This is the column marking the start of data pertaining to <strong>Mass spectrometry</strong>. The example term MUST be present in all rows of this column.</td>
-<td>Mass spectrometry</td>
-</tr>
-<tr>
-<td>Parameter Value - Scan polarity</td>
-<td>Values should identical within each assay. If you have ‘positive’ or ‘negative’ values in the same assay then split them into separate ‘positive’ and ‘negative’ assays.</td>
-<td>positive</td>
-</tr>
-<tr>
-<td>Parameter Value - Scan m/z range</td>
-<td>The range used in the assay.</td>
-<td>100-1000</td>
-</tr>
-<tr>
-<td>Parameter Value - Instrument</td>
-<td>Add the full name of the mass spectrometer/detector you used for this LC/MS assay, including the instrument manufacturer and model number as reported in manufacturer’s brochures, user manuals, or on their website.</td>
-<td>Bruker micrOTOF-Q II</td>
-</tr>
-<tr>
-<td>Parameter Value - Ion source</td>
-<td>Where applicable to the instrument.</td>
-<td>ESI</td>
-</tr>
-<tr>
-<td>Parameter Value - Mass analyzer</td>
-<td>The analyser/detector of the mass fragments generated during the assay.</td>
-<td>Triple quadrupole</td>
-</tr>
-<tr>
-<td>MS Assay Name</td>
-<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>
-<td>treated 0 min rabbit 1</td>
-</tr>
-<tr>
-<td>Raw Spectral Data File</td>
-<td>This is where you should enter the Raw (unprocessed) MS data files (.RAW).Please add full path of the file in the cell.</td>
-<td>FILES/Sepd340.raw <strong>OR if in folder structure</strong> FILES/RAW_FILES/LC_MS/Sepd340.raw</td>
-</tr>
-<tr>
-<td>Protocol REF - Data transformation</td>
-<td>This is the column marking the start of data pertaining to <strong>Data transformation</strong>. The example term MUST be present in all rows of this column.</td>
-<td>Data transformation</td>
-</tr>
-<tr>
-<td>Normalization name</td>
-<td>these should contain the normalization data files preferably as an Excel spreadsheet file. If you don’t have these then leave the cells/column blank.</td>
-<td>MSpos-Ex1-Col0-48h-Ag_normalized_data.xlsx</td>
-</tr>
-<tr>
-<td>Derived Spectral Data File</td>
-<td>If your data has been transformed into one of the open-source raw data formats e.g. mzML , CDF, or any other converted file, then add them here.Please add full path of the file in the cell.</td>
-<td>FILES/Sepd340.mzML <strong>OR if in folder structure</strong> FILES/DERIVED_FILES/LC_MS/Sepd340.mzML</td>
-</tr>
-<tr>
-<td>Protocol REF - Metabolite identification</td>
-<td>This is the column marking the start of data pertaining to <strong>Metabolite identification</strong>. The example term MUST be present in all rows of this column.</td>
-<td>Metabolite identification</td>
-</tr>
-<tr>
-<td>Data Transformation Name</td>
-<td>These should contain the data transformation files.</td>
-<td></td>
-</tr>
-<tr>
-<td>Metabolite Assignment File (MAF)</td>
-<td>A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs , where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file.</td>
-<td>m_mtbls1_mass_spectrometry_v2_maf.tsv</td>
-</tr>
-</tbody>
-</table>
-<h2 id="gc_ms-assay">GC_MS Assay<a class="headerlink" href="#gc_ms-assay" title="Permanent link">¶</a></h2>
-<table>
-<thead>
-<tr>
-<th>Column Name</th>
-<th>Description</th>
-<th>Example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Sample Name</td>
-<td>A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename.</td>
-<td>Example_1</td>
-</tr>
-<tr>
-<td>Protocol REF - Extraction</td>
-<td>This is the column marking the start of data pertaining to <strong>Extraction</strong>. The example term MUST be present in all rows of this column.</td>
-<td>Extraction</td>
-</tr>
-<tr>
-<td>Parameter Value - Post Extraction</td>
-<td>This how the sample was extracted into a solvent prior to being injected into the analytical instrument of choice.</td>
-<td>2 ml ethyl acetate</td>
-</tr>
-<tr>
-<td>Parameter Value - Derivatization</td>
-<td>If the sample has been subjected to chemical modification prior to injection.</td>
-<td>sylilation</td>
-</tr>
-<tr>
-<td>Extract Name</td>
-<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>
-<td>Example_1</td>
-</tr>
-<tr>
-<td>Protocol REF - Chromatography</td>
-<td>This is the column marking the start of data pertaining to <strong>Chromatography</strong>. The example term MUST be present in all rows of this column.</td>
-<td>Chromatography</td>
-</tr>
-<tr>
-<td>Parameter Value - Chromatography Instrument</td>
-<td>Add the full name of the instrument used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals or website.</td>
-<td>Shimadzu GCMS-QP2010 Ultra</td>
-</tr>
-<tr>
-<td>Parameter Value - Autosampler model</td>
-<td>Add the full name of the autosampler used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals or website.</td>
-<td></td>
-</tr>
-<tr>
-<td>Parameter Value - Column model</td>
-<td>Manufacturer, model number and dimensions in the format shown in the examples:</td>
-<td>Zebron ZB-AAA GC(10 m x 0.25 mm; Phenomenex)</td>
-</tr>
-<tr>
-<td>Parameter Value - Column type</td>
-<td>Polarity of column used. This information can be found on the manufacturer’s website.</td>
-<td>low polarity <strong>OR</strong> medium polarity <strong>OR</strong> high polarity</td>
-</tr>
-<tr>
-<td>Parameter Value - Guard column</td>
-<td>Manufacturer, model number and dimensions in the format shown in the examples:</td>
-<td></td>
-</tr>
-<tr>
-<td>Labeled Extract Name</td>
-<td>Leave blank if you don’t have one.</td>
-<td></td>
-</tr>
-<tr>
-<td>Label</td>
-<td>If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here.</td>
-<td></td>
-</tr>
-<tr>
-<td>Protocol REF - Mass spectrometry</td>
-<td>This is the column marking the start of data pertaining to <strong>Mass spectrometry</strong>. The example term MUST be present in all rows of this column.</td>
-<td>Mass spectrometry</td>
-</tr>
-<tr>
-<td>Parameter Value - Scan polarity</td>
-<td>This should be ‘positive’ for a GC/MS assay.</td>
-<td>positive</td>
-</tr>
-<tr>
-<td>Parameter Value - Scan m/z range</td>
-<td>The range used in the assay.</td>
-<td>50-400</td>
-</tr>
-<tr>
-<td>Parameter Value - Instrument</td>
-<td>Add the full name of the mass spectrometer/detector used for this GC/MS assay, including the instrument manufacturer and model number as reported in manufacturer’s brochures, user manuals or website.</td>
-<td>Thermo Electron Trace DSQ</td>
-</tr>
-<tr>
-<td>Parameter Value - Ion source</td>
-<td>Where applicable to the instrument.</td>
-<td>electron ionization</td>
-</tr>
-<tr>
-<td>Parameter Value - Mass analyzer</td>
-<td>The analyser/detector of the mass fragments generated during the assay.</td>
-<td>quadrupole</td>
-</tr>
-<tr>
-<td>MS Assay Name</td>
-<td>This can be, but doesn’t have to be, the same as the ‘Sample Name’</td>
-<td>Example_1</td>
-</tr>
-<tr>
-<td>Raw Spectral Data File</td>
-<td>This is where you should enter the Raw (unprocessed) MS data files (.RAW). Please add full path of the file in the cell.</td>
-<td>FILES/myfilename1.raw <strong>OR if in folder structure</strong> FILES/RAW_FILES/myfilename1.raw</td>
-</tr>
-<tr>
-<td>Protocol REF - Data transformation</td>
-<td>This is the column marking the start of data pertaining to <strong>Data transformation</strong>. The example term MUST be present in all rows of this column.</td>
-<td>Data transformation</td>
-</tr>
-<tr>
-<td>Normalization name</td>
-<td>These should contain the normalization data files preferably as an Excel spreadsheet file. If you don’t have these then leave the cells/column blank.</td>
-<td>normalized-data.xlsx</td>
-</tr>
-<tr>
-<td>Derived Spectral Data File</td>
-<td>If your data has been transformed into one of the open-source raw data formats, e.g. mzML, or any other converted file, then add them here. Please add full path of the file in the cell.</td>
-<td>FILES/myfilename1.mzML <strong>OR if in folder structure</strong> FILES/DERIVED_FILES/myfilename1.mzML</td>
-</tr>
-<tr>
-<td>Protocol REF - Metabolite identification</td>
-<td>This is the column marking the start of data pertaining to <strong>Metabolite identification</strong>. The example term MUST be present in all rows of this column.</td>
-<td>Metabolite identification</td>
-</tr>
-<tr>
-<td>Data Transformation Name</td>
-<td>These should contain the data transformation files.</td>
-<td></td>
-</tr>
-<tr>
-<td>Metabolite Assignment File (MAF)</td>
-<td>A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs, where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file.</td>
-<td>m_MTBLS1_GC-MS_positive__metabolite_profiling_v2_maf.tsv</td>
-</tr>
-</tbody>
-</table></div>
+<p>Can't find what you are looking for? Check out our <a href="../FAQs/#upload-download">FAQ's</a> for most commonly asked questions and solutions.</p></div>
 
 
 

@@ -229,11 +229,28 @@
   
     
   
-  Submission
+  Extended Guide
 
         </a>
       </li>
     
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Examples/" class="md-tabs__link">
+        
+  
+    
+  
+  Example Studies
+
+      </a>
+    </li>
   
 
       
@@ -402,7 +419,7 @@
             
   
   <span class="md-ellipsis">
-    Submission
+    Extended Guide
     
   </span>
   
@@ -413,7 +430,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Submission
+            Extended Guide
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -546,6 +563,15 @@
   
     <nav class="md-nav" aria-label="Sample">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#delete-selected-samples-from-sample-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Delete selected samples from sample sheet
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#validation-rules" class="md-nav__link">
@@ -692,6 +718,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../Examples/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example Studies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../FAQs/" class="md-nav__link">
         
   
@@ -725,10 +772,14 @@
 <div><h1 id="sample">Sample<a class="headerlink" href="#sample" title="Permanent link">¶</a></h1>
 <h2 id="sample_1">Sample<a class="headerlink" href="#sample_1" title="Permanent link">¶</a></h2>
 <p>The sample information should provide all relevant facts about each sample and any controls/standards included in the study. There is ONE sample sheet per study.</p>
-<p>Sample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).</p>
-<p>A group of samples can be added to the sample table using <strong>+Samples</strong> and pasting a list or selecting to import Raw data file names if appropriate. There is also the option to add as many new rows as required with <strong>+Rows</strong> and edit cells individually.
-    <img alt="Portal" height="1200" src="../assets/images/examplesofsamples.png" width="900"></p>
-<p>Example of required information for different Sample types</p>
+<p>Sample metadata should include a unique sample name, organism, organism part (for controls use e.g., experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (e.g., Gender, Age, Treatment).</p>
+<p>A group of samples can be added to the sample table using <strong>+Samples</strong> and pasting a list or selecting to import Raw data file names if appropriate. There is also the option to add as many new rows as required with <strong>+Rows</strong> and edit cells individually.</p>
+<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span>![Portal](assets/images/examplesofsamples.png){width=900 height=1200}
+</code></pre></div>
+<h3 id="delete-selected-samples-from-sample-sheet">Delete selected samples from sample sheet<a class="headerlink" href="#delete-selected-samples-from-sample-sheet" title="Permanent link">¶</a></h3>
+<p>To delete a sample in the online editor, click the first cell on the left of the sample row to highlight it. Then, select the Delete button that appears next to the Download and View file buttons.</p>
+<p>A second option to delete samples is to download the Sample Sheet from the 'ISA METADATA' section under the 'Files' tab, open with e.g., Excel, delete selected rows, save file without changing file name or extension, re-upload it to the study and synchronize Metadata files. </p>
+<p><em>Example of required information for different Sample types</em></p>
 <table>
 <thead>
 <tr>
@@ -913,24 +964,27 @@
 </table>
 <h3 id="validation-rules">Validation Rules:<a class="headerlink" href="#validation-rules" title="Permanent link">¶</a></h3>
 <ul>
-<li>Sample columns present in the sample file.</li>
-<li>"Sample collection" column completely filled in.</li>
-<li>No empty rows in sample file.</li>
-<li>Organism and Organism Part characteristics and at least a Factor column are required</li>
-<li>Organism name should be at least 5 characters long.</li>
-<li>Organism cannot be 'human' or 'man', please choose the 'Homo sapiens' taxonomy term.</li>
+<li>Only one sample file should be present per study.</li>
+<li>Do not delete or change the order of the columns in the sample file or change column headers.</li>
+<li>'Sample collection' column should be completely filled in.</li>
+<li>All sample names should be unique in sample file.</li>
+<li>No empty rows should be present in sample file.</li>
+<li>Organism and Organism Part characteristics and at least a Factor column are required.</li>
+<li>Organism cannot be 'human' or 'man', please choose the correct taxonomy term (e.g.,'Homo sapiens').</li>
 <li>Organism cannot be one of the invalid terms.</li>
 </ul>
 <p><strong>Invalid organism term:</strong> cat, dog, mouse, horse, flower, man, fish, leave, root, mice, steam, bacteria, value, food, matrix, mus, rat, blood, urine, plasma, hair, fur, skin, saliva, fly, unknown.</p>
+<p>For comprehensive details on the validation rules that apply to Samples, please visit our <a href="https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/sample-validation-rules.md">GitHub validation-rules docs</a> </p>
 <h2 id="factors">Factors<a class="headerlink" href="#factors" title="Permanent link">¶</a></h2>
-<p>The standard information captured in a sample sheet includes the organism and part of the organism studied. Each study will then vary in what sample information can be provided as eg. clinic samples may have gender, age and treatment information available and plant samples might have genetic variants and geological locations. This further information which helps to describe samples and to stratify the groups of interest for analysis and statistics is added to sample tables as factors.</p>
+<p>The standard information captured in a sample sheet includes the organism and part of the organism studied. Each study will then vary in what sample information can be provided as e.g., clinic samples may have gender, age and treatment information available and plant samples might have genetic variants and geological locations. This further information which helps to describe samples and to stratify the groups of interest for analysis and statistics is added to sample tables as factors.</p>
 <h3 id="add-factor-in-the-sample-sheet">Add factor in the sample sheet<a class="headerlink" href="#add-factor-in-the-sample-sheet" title="Permanent link">¶</a></h3>
-<p>From the sample section select <strong>+Add factor</strong>. Type the factor term and use the drop-down to select the most relevant ontology term. If there is no ontology term available, type your free text and press enter to accept (then OK to add to the factor). In the second step you can add a unit if the factor information you are adding includes numerical values, if not simply select add factor in this step.</p>
+<p>In the 'Samples' section select <strong>+Add factor</strong>. Type the factor term and use the drop-down to select the most relevant ontology term. If there is no ontology term available, type your free text and press enter to accept (then OK to add to the factor). In the second step you can add a unit if the factor information you are adding includes numerical values, by clicking on the 'Add factor unit (if necessary)' box and adding the required unit, if not simply select add factor in this step.</p>
 <p>A new column will then be added to the sample sheet so you can add the relevant information for each sample.</p>
 <p>Example on how to add 'Treatment' Factor to Samples 
     <img alt="Portal" height="700" src="../assets/images/NEW_GUIDES/Factors.png" width="700"></p>
 <h3 id="delete-factor-column-in-sample-sheet">Delete factor column in sample sheet<a class="headerlink" href="#delete-factor-column-in-sample-sheet" title="Permanent link">¶</a></h3>
-<p>To delete the factor, download the sample file and select to open with eg. Excel, then simply remove the factor related columns and re-upload the modified file. <strong>There will be 3-4 columns for each factor</strong>; Factor Value[factor_name], Unit (if added), Term source REF, Term accession number.</p>
+<p>To delete a factor using the online editor, simply click on green button present next to the selected factor (edit button) and click on the red delete button present in the editing window. </p>
+<p>As an alternative, download the sample file and select to open with e.g., Excel, then simply remove the factor related columns and re-upload the modified file. <strong>There will be 3-4 columns for each factor</strong>; Factor Value[factor_name], Unit (if added), Term source REF, Term accession number.</p>
 <p><strong><em>It is important not to remove the original columns or alter column headers when editing as the format is a fixed requirement.</em></strong></p>
 <h3 id="view-factor-information">View factor information<a class="headerlink" href="#view-factor-information" title="Permanent link">¶</a></h3>
 <p>A list of all factors added to the study together with the ontology information can be found on the first tab of your study.</p>
