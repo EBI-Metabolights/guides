@@ -956,32 +956,26 @@
 <h2 id="zipping-raw-data-files-folders">Zipping raw data files folders<a class="headerlink" href="#zipping-raw-data-files-folders" title="Permanent link">¶</a></h2>
 <p>If you have uploaded raw data files as .d / .D or .raw / .RAW folders, MetaboLights won’t pass the validation. These raw data folders need to be zipped and referenced in Assays as myfilename1.raw.zip or myfilename2.d.zip. Below instructions will help you to zip your raw data folders locally on your computer before uploading to FTP and MetaboLights (e.g., with a client such as FileZilla).</p>
 <p><strong>Mac OS</strong></p>
-<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos=" 1 "></span> 1. Download the script zipfolder.sh and copy locally on your computer. 
-<span class="linenos" data-linenos=" 2 "></span>    Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’.
-<span class="linenos" data-linenos=" 3 "></span>
-<span class="linenos" data-linenos=" 4 "></span> 2. Copy zipfolder.sh to the newly created ‘RAW_FILES’ folder. Change permission of the script to executable.  Execute below command
-<span class="linenos" data-linenos=" 5 "></span>            chmod 755 zipfolder.sh
-<span class="linenos" data-linenos=" 6 "></span>
-<span class="linenos" data-linenos=" 7 "></span> 3. Run the following command to start zipping as a background process. 
-<span class="linenos" data-linenos=" 8 "></span>    nohup ./zipfolder.sh &gt; zip.out &amp;
-<span class="linenos" data-linenos=" 9 "></span> Zipping script runs in the background. You can verify the log file zip.out if it is appending the logs. You will start to see zip files. Once all the folders are zipped. zip.out log file stops to append content.
-<span class="linenos" data-linenos="10 "></span>
-<span class="linenos" data-linenos="11 "></span> 4. Verify all the folders are zipped. Execute the following commands to check folders count and zip count are matching. If matching, keep the .d/.raw folder out of your directory ‘RAW_FILES’ and upload only zip files to MetaboLights.
-<span class="linenos" data-linenos="12 "></span>    ls *.raw | wc -l   # check number of .raw folders
-<span class="linenos" data-linenos="13 "></span>            ls *.RAW | wc -l   # check number of .RAW folders
-<span class="linenos" data-linenos="14 "></span>    ls *.d | wc -l   # check number of .d folders
-<span class="linenos" data-linenos="15 "></span>            ls *.D | wc -l   # check number of .D folders
-<span class="linenos" data-linenos="16 "></span>
-<span class="linenos" data-linenos="17 "></span>            ls *.zip | wc -l   # check number of zip files
+<p>1- Download the script zipfolder.sh and copy locally on your computer.
+2- Copy zipfolder.sh to the newly created ‘RAW_FILES’ folder. Change permission of the script to executable.  Execute below command</p>
+<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span>    chmod 755 zipfolder.sh
 </code></pre></div>
+<p>3- Run the following command to start zipping as a background process. 
+    nohup ./zipfolder.sh &gt; zip.out &amp;
+     Zipping script runs in the background. You can verify the log file zip.out if it is appending the logs. You will start to see zip files. Once all the folders are zipped. zip.out log file stops to append content. 
+4- Verify all the folders are zipped. Execute the following commands to check folders count and zip count are matching. If matching, keep the .d/.raw folder out of your directory ‘RAW_FILES’ and upload only zip files to MetaboLights.
+    ls *.raw | wc -l   # check number of .raw folders
+        ls *.RAW | wc -l   # check number of .RAW folders
+    ls *.d | wc -l   # check number of .d folders
+        ls *.D | wc -l   # check number of .D folders
+        ls *.zip | wc -l   # check number of zip files</p>
 <p><strong>Windows</strong></p>
-<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span> 1. Download the script zipfolders.ps1 and copy locally on your computer. 
-<span class="linenos" data-linenos="2 "></span> 2. Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.
-<span class="linenos" data-linenos="3 "></span> 3. Copy zipfolders.ps1 to ‘RAW_FILES’ folder. 
-<span class="linenos" data-linenos="4 "></span> 4. Run the script  
-<span class="linenos" data-linenos="5 "></span>            zipfolders.ps1 
-<span class="linenos" data-linenos="6 "></span> 5. Verify all the folders are zipped. Check folders count and zip count are matching. If matching, keep the .d/.raw folders out of your directory and upload only zip files to MetaboLights.
-</code></pre></div>
+<p>1- Download the script zipfolders.ps1 and copy locally on your computer. 
+   2- Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.
+   3- Copy zipfolders.ps1 to ‘RAW_FILES’ folder. 
+   4- Run the script  <br>
+                zipfolders.ps1 
+   5- Verify all the folders are zipped. Check folders count and zip count are matching. If matching, keep the .d/.raw folders out of your directory and upload only zip files to MetaboLights.</p>
 <h2 id="download">Download<a class="headerlink" href="#download" title="Permanent link">¶</a></h2>
 <h3 id="1-download-metadata-files-from-the-online-editor">1. Download metadata files from the online editor<a class="headerlink" href="#1-download-metadata-files-from-the-online-editor" title="Permanent link">¶</a></h3>
 <p>On the Files tab, click blue cloud icons to download individual files or grey cloud icon to download multiple files.</p>
