@@ -23,6 +23,8 @@ Submitters can add or modify a study title by selecting the title section and en
 ## Authors
 Please provide names and details for study authors. This can be done by selecting **+Add person** in the author section or by providing the manuscript DOI in the publication section and selecting the **Import author** option.
 
+The first name, last name/surname, email address and user role (e.g., Author, Investigator, Principal Investigator, Co-Author, etc.) of at least one author, needs to be added. **Very important** The details for the **'Principal Investigator'** need to be present for the study to pass validations. 
+
 
 ![Portal](assets/images/add_study_author.png){width=600}
 

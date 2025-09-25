@@ -9,8 +9,8 @@ Eg. Liquid chromatography - Mass Spectrometry
 *Describe the origin of samples, any relevant treatment, time points etc. and the collection and storage procedure.*
 
 2. **Extraction**
-*Describe any extraction or preparation methods applied to the sample before analysis.
-Please also include any control samples prepared for the assay eg. pooled samples, standards, quality control, solvent blank etc*
+*Describe any extraction or preparation methods applied to the sample before analysis.*
+*Please also include any control samples prepared for the assay e.g., pooled samples, standards, quality control, solvent blank etc*
 
 3. **Chromatography**
 *Provide details of the instrument and column used (make & manufacturer), mobile phase and gradient, and settings such as temperatures, flow rate, injection volume.*

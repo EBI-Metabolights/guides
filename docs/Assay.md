@@ -2,7 +2,8 @@
 ## Assay Overview
 The assay information will describe the assay process for each control and sample in the assay and connect the sample name to both its corresponding raw data file and metabolite identification table. MULTIPLE assays can be added per study.
 
-The assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.
+The assay is divided into sections each starting with a Protocol Ref column, e.g., Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.
+
 
 ### Validation Rules:
 
@@ -19,44 +20,6 @@ The assay is divided into sections each starting with a Protocol Ref column, eg.
 
 For comprehensive details on the validation rules that apply to Assays, please visit our [GitHub validation-rules docs](https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/assay-validation-rules.md) 
 
-## NMR Assay
-
-| Column Name | Description | Example |
-| --- | --- | --- |
-| Test | | Test
-| Sample Name | A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename. | pas101220_104 |
-| Protocol REF - Extraction | This is the column marking the start of data pertaining to **Extraction**. The example term MUST be present in all rows of this column. | Extraction |
-| Parameter Value - Extraction Method | This how a sample was extracted from its source material. | Methanol |
-| Extract Name | Leave blank if you don’t have one. |  |
-| Protocol REF - NMR sample | This is the column marking the start of data pertaining to **NMR sample**. This should be present in every sample row. | NMR sample |
-| Parameter Value - NMR tube type | Size and type of tube. | standard 5 mm glass NMR tube (Wilmad, LabGlass, USA) |
-| Parameter Value - Solvent | Solvent used in the NMR sample. | D2O |
-| Parameter Value - Sample pH | Sample pH value. | 7 |
-| Parameter Value - Temperature | Sample Temperature value. | 298 |
-| Unit | With relevant temperature unit. | Celsius |
-| Labelled Extract Name | Leave blank if you don’t have one. |  |
-| Label | If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here. | hydrogen molecular entity |
-| Protocol REF - NMR spectroscopy | This is the column marking the start of data pertaining to **NMR spectroscopy**. This should be present in every sample row. | NMR spectroscopy |
-| Parameter Value - Instrument | Add the full name of the instrument you used for the NMR study in this assay, including the model number and its operating frequency | Varian Unity Inova 500 MHz spectrometer |
-| Parameter Value - NMR Probe | Add a full description including the name and type of probe used.This information can be found in the ‘Acquisition Parameter Data File’, ‘acqus.txt’ found within the Bruker raw data file structure, in the field marked ‘ $PROBHD= ’. | 5 mm CPTCI 1H-13C/15N/D Z-GRD |
-| Parameter Value - Number of transients | The number of scans acquired. This information can be found in the ‘Acquisition Parameter Data File’, ‘acqus.txt’ found within the Bruker raw data file structure, in the field marked ‘$NS=’. | 128 |
-| Parameter Value - Pulse sequence name | The pulse sequence program used with a short description.This information can be found in the ‘Acquisition Parameter Data File’, ‘acqus.txt’ found within the Bruker raw data file structure, in the field marked ‘ $PULPROG= ’ and in the file ‘pulseprogram.txt’. | 1D 1H with presaturation (presat) |
-| Parameter Value - Magnetic field strength | In Tesla (T) | 11.7 |
-| Unit | Units can be added in exactly the same way as Temperature unit column. | Tesla |
-| Acquisition Parameter Data File | These should contain the acquisition parameter data. In the Bruker raw data file structure, the file is called ‘acqus.txt ’. | acqus1.txt |
-| Protocol REF - NMR assay | This is the column marking the start of data pertaining to **NMR assay**. This should be present in every sample row. | NMR assay |
-| NMR Assay Name | This can be, but doesn’t have to be, the same as the ‘Sample Name’ | 17\_QC1 |
-| Free Induction Decay Data File | This is where you should enter, either the folder or the zipped NMR raw files for each sample in this study. | 17\_QC1.zip |
-| Protocol REF Data transformation | This is the column marking the start of data pertaining to **Data transformation**. This should be present in every sample row. | Data transformation |
-| Normalization name | These should contain the normalization data files. | Total sum |
-| Derived Spectral Data File | If your data has been transformed into one of the open-source raw data formats e.g. JCAMP , nmrML , then add them here.Please add full path of the file in the cell | 17\_QC1.nmrML  **OR if in folder structure** FILES/DERIVED\_FILES/NMR/17\_QC1.nmrML |
-| Protocol REF Metabolite identification | This is the column marking the start of data pertaining to **Metabolite identification**. This should be present in every sample row. | Metabolite identification |
-| Data Transformation Name | These should contain the data transformation files |  |
-| Metabolite Assignment File (MAF) | A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs , where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file. | m\_mtbls1\_NMR\_spectroscopy\_v2\_maf.tsv |
-
-
-
- Can't find what you are looking for? Check out our [FAQ's](FAQs.md#upload-download) for most commonly asked questions and solutions.
 
 ## LC_MS Assay
 
@@ -123,3 +86,44 @@ For comprehensive details on the validation rules that apply to Assays, please v
 | Protocol REF - Metabolite identification | This is the column marking the start of data pertaining to **Metabolite identification**. The example term MUST be present in all rows of this column. | Metabolite identification |
 | Data Transformation Name | These should contain the data transformation files. |  |
 | Metabolite Assignment File (MAF) | A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs, where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file. | m\_MTBLS1\_GC-MS\_positive\_\_metabolite\_profiling\_v2\_maf.tsv |
+
+
+## NMR Assay
+
+
+| Column Name | Description | Example |
+| --- | --- | --- |
+| Test | | Test
+| Sample Name | A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename. | pas101220_104 |
+| Protocol REF - Extraction | This is the column marking the start of data pertaining to **Extraction**. The example term MUST be present in all rows of this column. | Extraction |
+| Parameter Value - Extraction Method | This how a sample was extracted from its source material. | Methanol |
+| Extract Name | Leave blank if you don’t have one. |  |
+| Protocol REF - NMR sample | This is the column marking the start of data pertaining to **NMR sample**. This should be present in every sample row. | NMR sample |
+| Parameter Value - NMR tube type | Size and type of tube. | standard 5 mm glass NMR tube (Wilmad, LabGlass, USA) |
+| Parameter Value - Solvent | Solvent used in the NMR sample. | D2O |
+| Parameter Value - Sample pH | Sample pH value. | 7 |
+| Parameter Value - Temperature | Sample Temperature value. | 298 |
+| Unit | With relevant temperature unit. | Celsius |
+| Labelled Extract Name | Leave blank if you don’t have one. |  |
+| Label | If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here. | hydrogen molecular entity |
+| Protocol REF - NMR spectroscopy | This is the column marking the start of data pertaining to **NMR spectroscopy**. This should be present in every sample row. | NMR spectroscopy |
+| Parameter Value - Instrument | Add the full name of the instrument you used for the NMR study in this assay, including the model number and its operating frequency | Varian Unity Inova 500 MHz spectrometer |
+| Parameter Value - NMR Probe | Add a full description including the name and type of probe used.This information can be found in the ‘Acquisition Parameter Data File’, ‘acqus.txt’ found within the Bruker raw data file structure, in the field marked ‘ $PROBHD= ’. | 5 mm CPTCI 1H-13C/15N/D Z-GRD |
+| Parameter Value - Number of transients | The number of scans acquired. This information can be found in the ‘Acquisition Parameter Data File’, ‘acqus.txt’ found within the Bruker raw data file structure, in the field marked ‘$NS=’. | 128 |
+| Parameter Value - Pulse sequence name | The pulse sequence program used with a short description.This information can be found in the ‘Acquisition Parameter Data File’, ‘acqus.txt’ found within the Bruker raw data file structure, in the field marked ‘ $PULPROG= ’ and in the file ‘pulseprogram.txt’. | 1D 1H with presaturation (presat) |
+| Parameter Value - Magnetic field strength | In Tesla (T) | 11.7 |
+| Unit | Units can be added in exactly the same way as Temperature unit column. | Tesla |
+| Acquisition Parameter Data File | These should contain the acquisition parameter data. In the Bruker raw data file structure, the file is called ‘acqus.txt ’. | acqus1.txt |
+| Protocol REF - NMR assay | This is the column marking the start of data pertaining to **NMR assay**. This should be present in every sample row. | NMR assay |
+| NMR Assay Name | This can be, but doesn’t have to be, the same as the ‘Sample Name’ | 17\_QC1 |
+| Free Induction Decay Data File | This is where you should enter, either the folder or the zipped NMR raw files for each sample in this study. | 17\_QC1.zip |
+| Protocol REF Data transformation | This is the column marking the start of data pertaining to **Data transformation**. This should be present in every sample row. | Data transformation |
+| Normalization name | These should contain the normalization data files. | Total sum |
+| Derived Spectral Data File | If your data has been transformed into one of the open-source raw data formats e.g. JCAMP , nmrML , then add them here.Please add full path of the file in the cell | 17\_QC1.nmrML  **OR if in folder structure** FILES/DERIVED\_FILES/NMR/17\_QC1.nmrML |
+| Protocol REF Metabolite identification | This is the column marking the start of data pertaining to **Metabolite identification**. This should be present in every sample row. | Metabolite identification |
+| Data Transformation Name | These should contain the data transformation files |  |
+| Metabolite Assignment File (MAF) | A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs , where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file. | m\_mtbls1\_NMR\_spectroscopy\_v2\_maf.tsv |
+
+
+
+ Can't find what you are looking for? Check out our [FAQ's](FAQs.md#upload-download) for most commonly asked questions and solutions.

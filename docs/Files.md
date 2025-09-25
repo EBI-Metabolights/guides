@@ -1,6 +1,6 @@
 # Files
 ## Raw data
-Raw data, ie. ***spectral files*** produced by the analytical instrument are a requirement for publication of a MetaboLights study, preferably accompanied with an open source version of the files (eg. mzML, nmrML). Where an instrument file is not available it is acceptable to submit the open source file format only.
+Raw data, ie. ***spectral files*** produced by the analytical instrument are a requirement for publication of a MetaboLights study, preferably accompanied with an open source version of the files (e.g., mzML, nmrML). Where an instrument file is not available it is acceptable to submit the open source file format only.
 
 Each sample should have a corresponding raw data file, both of which should be referenced within the assay table. If providing Raw and Derived files it is recommended to organize files into appropriate folders before uploading (RAW\_FILES and DERIVED\_FILES), and if multiple assay tables are in use, files can be further divided into corresponding assay files.
 
@@ -114,11 +114,42 @@ After clicking **Start Synchronisation**, files will be synced to the study fold
 
 ![Portal](assets/images/metadata2.png){width=400}
 
-### Index Data FIles
+### Index Data Files
 
 After clicking **Start Synchronisation**, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Editor after clicking the **Refresh **button.****
 
 ![Portal](assets/images/metadata2.png){width=400}
+
+
+## Zipping raw data files folders
+If you have uploaded raw data files as .d / .D or .raw / .RAW folders, MetaboLights won’t pass the validation. These raw data folders need to be zipped and referenced in Assays as myfilename1.raw.zip or myfilename2.d.zip. Below instructions will help you to zip your raw data folders locally on your computer before uploading to FTP and MetaboLights (e.g., with a client such as FileZilla).
+
+**Mac OS**
+     1. Download the script zip*folder.sh and copy locally on your computer. 
+        Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. 
+
+     2. Copy zipfolder.sh to the newly created ‘RAW_FILES’ folder. Change permission of the script to executable.  Execute below command
+                chmod 755 zipfolder.sh
+
+     3.	Run the following command to start zipping as a background process. 
+		nohup ./zipfolder.sh > zip.out &
+     Zipping script runs in the background. You can verify the log file zip.out if it is appending the logs. You will start to see zip files. Once all the folders are zipped. zip.out log file stops to append content. 
+
+     4. Verify all the folders are zipped. Execute the following commands to check folders count and zip count are matching. If matching, keep the .d/.raw folder out of your directory ‘RAW_FILES’ and upload only zip files to MetaboLights.
+		ls *.raw | wc -l   # check number of .raw folders
+                ls *.RAW | wc -l   # check number of .RAW folders
+  		ls *.d | wc -l   # check number of .d folders
+                ls *.D | wc -l   # check number of .D folders
+
+                ls *.zip | wc -l   # check number of zip files
+
+**Windows** 
+Download the script zipfolders.ps1 and copy locally on your computer. 
+      2. Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.
+      3. Copy zipfolders.ps1 to ‘RAW_FILES’ folder. 
+      4. Run the script 	zipfolders.ps1
+      5. Verify all the folders are zipped. Check folders count and zip count are matching. If matching, keep the .d/.raw folders out of your directory and upload only zip files to MetaboLights.
+
 
 ## Download
 

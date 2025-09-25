@@ -242,9 +242,9 @@ When editing a study there is always the option to switch between the **Guided S
 
 ![Portal](assets/images/NEW_GUIDES/GuidedSubmission_OnlineEditor.png)
 
-Studies can be edited **online** or **downloaded and edited in eg. MS Excel**. 
+Studies can be edited **online** or **downloaded and edited in e.g., MS Excel**. 
 
-It is important **not to remove existing columns, change column order or alter column headers** when editing, as the format is a fixed requirement linked to validation. Additional columns can be added, eg. in the Samples Section by choosing **+factor**, to better describe samples. This should be done online before downloading files.
+It is important **not to remove existing columns, change column order or alter column headers** when editing, as the format is a fixed requirement linked to validation. Additional columns can be added, e.g., in the Samples Section by choosing **+factor**, to better describe samples. This should be done online before downloading files.
 
 Some sections of metadata require ontology fields. When adding information using the online options, ontology options will appear as you type. If uploading a file without ontologies added, the Online Editor will prompt you to select ontologies in the fields above the tables.
 
@@ -263,14 +263,14 @@ In text fields such as abstract and protocols, formatting options are available 
 | --- | --- |
 | Auto complete column | Click on column header & enter text to add information to the entire column. |
 | Copy paste multiple | Select an entire column (click on header) or highlight several cells to paste the same information into each. |
-| Paste list | Select an entire column (click on header) to paste a list (starting in first cell) from eg. Excel |
+| Paste list | Select an entire column (click on header) to paste a list (starting in first cell) from e.g., Excel |
 | Add sample | Select cell and paste / type sample name |
 | Add multiple samples | Use +samples to add a list of sample name or import names using the names of raw data files |
 | Add row | +row |
 | Delete row | Select end of row to highlight, then delete option. ![Portal](assets/images/image14.png){width=500} |
 | Add columns | Use +factor option to add more columns to sample sheet |
 | Expand table | To view underlying ontology information |
-| Upload / download | Up / download files underlying a specific table to edit offline in eg. text editor or Excel etc (ensure to retain study name & extension) |
+| Upload / download | Up / download files underlying a specific table to edit offline in e.g., text editor or Excel etc (ensure to retain study name & extension) |
 | Filter | ![Portal](assets/images/image33.png){width=400} |
 
 
@@ -306,14 +306,14 @@ There are several parts to this section:
 * `(b) Author information`: A list of all contributing authors.
 * `(c) Abstract`: High level description of the study.
 * `(d) Manuscript publication information:` Manuscript title, authors and public link. A tentative title should be provided if the manuscript is in preparation. This can be updated at any stage by contacting MetaboLights Help directly and a DOI / PMID Identifier can be used to update title/author/abstract directly from the manuscript.
-* `(e) Keywords / Descriptors`: eg. untargeted metabolites, high performance liquid chromatography, oncology
+* `(e) Keywords / Descriptors`: e.g., untargeted metabolites, high performance liquid chromatography, oncology
 * `(f) Descriptive protocols`: When an assay is selected a set of corresponding protocol boxes will automatically be generated in the protocol section to guide the required information.
 
 
 ### Sample information (s_MTBLSxxx.txt)
 
 The sample information should provide all relevant facts about each sample and any controls / standards included in the study. There is ONE sample sheet per study.
-Sample metadata should include a unique sample name, organism, organism part (for controls use eg. experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (eg. Gender, Age, Treatment).
+Sample metadata should include a unique sample name, organism, organism part (for controls use e.g., experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (e.g., Gender, Age, Treatment).
 
 ### Assay information (a_MTBLSxxx.txt)
 
@@ -321,7 +321,7 @@ The assay information will describe the assay process for each control and sampl
 
 MULTIPLE assays can be added per study.
 
-The assay is divided into sections each starting with a Protocol Ref column, eg. Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.
+The assay is divided into sections each starting with a Protocol Ref column, e.g., Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.
 
 ![Portal](assets/images/image24.png){width=400}
 
@@ -367,12 +367,12 @@ Study validation will need to be re-run after making any type of edits to the st
 
 ### Study accession number
 
-When you first create a new study you will be provided with information about the temporary submission request (eg. REQxxx) as shown below. You will also receive this information by email. This **REQxxx** is a temporary identifier and **should not** be included in your manuscript.
+When you first create a new study you will be provided with information about the temporary submission request (e.g., REQxxx) as shown below. You will also receive this information by email. This **REQxxx** is a temporary identifier and **should not** be included in your manuscript.
 
 replace picture 
 ![Portal](assets/images/image12.png)
 
-Once the study passes the required validation and status is promoted to ‘Private’, an accession number (eg. MTBLSxxx) will be issued. This **MTBLSxxx** permanent unique identifier **should be** used to reference the study in manuscripts and other communications. 
+Once the study passes the required validation and status is promoted to ‘Private’, an accession number (e.g., MTBLSxxx) will be issued. This **MTBLSxxx** permanent unique identifier **should be** used to reference the study in manuscripts and other communications. 
 
 As part of MetaboLights new workflow, submitters can change the status of their studies from ‘Private’ to ‘Public’.  You can also use your MetaboLights study URL https://www.ebi.ac.uk/metabolights/MTBLSxxxx to reference your study in any type of publication. 
 

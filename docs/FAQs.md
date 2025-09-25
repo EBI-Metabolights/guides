@@ -86,7 +86,7 @@ Please upload associate raw files and populate the 'RAW Spectral Data File' colu
 ### *What is the difference between "Raw Spectral Data File" and "Derived Spectral Data File"?*
 "Raw Spectral Data File” are the files directly from the analysis platform.
 
-"Derived Spectral Data File” include opensource converted files (eg. your mzML) or any other derived file you may wish to include.
+"Derived Spectral Data File” include opensource converted files (e.g., your mzML) or any other derived file you may wish to include.
 
 ### *How can replicates be defined in the assay table? *
 You could add an additional column to your assays called ‘replicate' which you might prefer to make a clear distinction that it is a replicate.
