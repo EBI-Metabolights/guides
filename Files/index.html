@@ -607,6 +607,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#zipping-raw-data-files-folders" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zipping raw data files folders
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#upload-synchronisation" class="md-nav__link">
     <span class="md-ellipsis">
       Upload &amp; Synchronisation
@@ -672,15 +681,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#zipping-raw-data-files-folders" class="md-nav__link">
-    <span class="md-ellipsis">
-      Zipping raw data files folders
-    </span>
-  </a>
   
 </li>
       
@@ -812,15 +812,15 @@
 <div><h1 id="files">Files<a class="headerlink" href="#files" title="Permanent link">¶</a></h1>
 <h2 id="raw-data">Raw data<a class="headerlink" href="#raw-data" title="Permanent link">¶</a></h2>
 <p>Raw data, ie. <strong><em>spectral files</em></strong> produced by the analytical instrument are a requirement for publication of a MetaboLights study, preferably accompanied with an open source version of the files (e.g., mzML, nmrML). Where an instrument file is not available it is acceptable to submit the open source file format only.</p>
+<h3 id="accepted-file-formats-for-raw-data">Accepted file formats for raw data<a class="headerlink" href="#accepted-file-formats-for-raw-data" title="Permanent link">¶</a></h3>
+<p><strong>Raw file formats:</strong> baf, cmp, d, dat, fid, hr, ibd, jpf, lcd, ms, peg, qgd, raw, ser, wiff + wiff.scan, smp</p>
+<p><strong>Derived file formats:</strong> cdf, cef, cnx, dx, imzml, mgf^1, msp, mzml, mzxml, nmrml, peakml, smp, xlsx^2, xml, xy </p>
+<p><strong>^1 not acceptable alone (must be accompanied with .raw / .mzML data)</strong>
+<strong>^2 not acceptable alone (must be accompanied with spectrum / chromatogram data)</strong></p>
 <p>Each sample should have a corresponding raw data file, both of which should be referenced within the assay table. If providing Raw and Derived files it is recommended to organize files into appropriate folders before uploading (RAW_FILES and DERIVED_FILES), and if multiple assay tables are in use, files can be further divided into corresponding assay files.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Raw data will be published on FILES subfolder so RAW file and Derived files path always need to prefixed with 'FILES' on the assay sheets.</p>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">If you have raw data folders (d, .raw, or any NMR raw data folder), compress them individually.</p>
-<p><strong>Starting on 12th June 2025, MetaboLights will accept only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)</strong>. If your study includes raw data folders, please compress each folder <strong>individually</strong> using a ZIP utility before submission.  <strong>A zip file containing multiple raw folders is not accepted.</strong></p>
-</div>
 <p>Eg. File organisation for LC-MS study with positive &amp; negative ionisation mode</p>
 <p><strong>Assay 1 : LC-MS positive mode assay</strong></p>
 <table>
@@ -900,17 +900,50 @@
 </tr>
 </tbody>
 </table>
-<h3 id="accepted-file-formats-for-raw-data">Accepted file formats for raw data<a class="headerlink" href="#accepted-file-formats-for-raw-data" title="Permanent link">¶</a></h3>
-<p><strong>Raw file formats:</strong> baf, cmp, d, dat, fid, hr, ibd, jpf, lcd, ms, ogd, peg, qgd, raw, ser, wiff + wiff.scan, xp</p>
-<p><strong>Derived file formats:</strong> abf, cdf, cef, cnx, dx, imzml, mgf, msp, mzml, mzxml, nmrml, peakml, smp, xlsx*, xml, xy     ".cdf",
-        ".imzml",
-        ".mzml",
-        ".mzmlb",
-        ".mzxml",
-        ".nmrml",
-        ".scan",
-        ".wiff"</p>
-<p><strong>*not acceptable alone (must be accompanied with spectrum / chromatogram data)</strong></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">If you have raw data folders (d, .raw, or any NMR raw data folder), compress them individually.</p>
+<p><strong>Starting on 12th June 2025, MetaboLights will accept only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)</strong>. If your study includes raw data folders, please compress each folder <strong>individually</strong> using a ZIP utility before submission.  <strong>A zip file containing multiple raw folders is not accepted.</strong></p>
+</div>
+<h2 id="zipping-raw-data-files-folders">Zipping raw data files folders<a class="headerlink" href="#zipping-raw-data-files-folders" title="Permanent link">¶</a></h2>
+<p>If you have uploaded raw data files as .d / .D or .raw / .RAW folders, MetaboLights won’t pass the validation. These raw data folders need to be zipped and referenced in Assays as myfilename1.raw.zip or myfilename2.d.zip. Below instructions will help you to zip your raw data folders locally on your computer before uploading to FTP and MetaboLights (e.g., with a client such as FileZilla).</p>
+<p><strong>Mac OS</strong></p>
+<ol>
+<li>Download the script zipfolder.sh and copy locally on your computer. 
+Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. </li>
+<li>
+<p>Copy zipfolder.sh to the newly created ‘RAW_FILES’ folder. Change permission of the script to executable. Execute below command:</p>
+<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span> chmod 755 zipfolder.sh
+</code></pre></div>
+</li>
+<li>
+<p>Run the following command to start zipping as a background process. </p>
+<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span> nohup ./zipfolder.sh &gt; zip.out &amp;
+</code></pre></div>
+</li>
+</ol>
+<p>Zipping script runs in the background. You can verify the log file zip.out if it is appending the logs. You will start to see zip files. Once all the folders are zipped. zip.out log file stops to append content. 
+4. Verify all the folders are zipped. Execute the following commands to check folders count and zip count are matching. If matching, keep the .d/.raw folder out of your directory ‘RAW_FILES’ and upload only zip files to MetaboLights.</p>
+<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span>     ls *.raw | wc -l   # check number of .raw folders
+<span class="linenos" data-linenos="2 "></span>     ls *.RAW | wc -l   # check number of .RAW folders
+<span class="linenos" data-linenos="3 "></span>     ls *.d | wc -l   # check number of .d folders
+<span class="linenos" data-linenos="4 "></span>     ls *.D | wc -l   # check number of .D folders
+<span class="linenos" data-linenos="5 "></span>     ls *.zip | wc -l   # check number of zip files
+</code></pre></div>
+<p><strong>Windows</strong></p>
+<ol>
+<li>Download the script zipfolders.ps1 and copy locally on your computer. </li>
+<li>Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.</li>
+<li>Copy zipfolders.ps1 to ‘RAW_FILES’ folder. </li>
+<li>
+<p>Run the script   </p>
+<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span> zipfolders.ps1
+</code></pre></div>
+</li>
+<li>
+<p>Verify all the folders are zipped. Check folders count and zip count are matching. If matching, keep the .d/.raw folders out of your directory and upload only zip files to MetaboLights.</p>
+</li>
+</ol>
 <h2 id="upload-synchronisation">Upload &amp; Synchronisation<a class="headerlink" href="#upload-synchronisation" title="Permanent link">¶</a></h2>
 <p>A primary requirement for a MetaboLights study is the inclusion of the raw and/or derived data. Files can be uploaded when first creating the study or at any stage prior to submitting a study for curation. The submitted data will be updated to the study in 2 steps.</p>
 <ol>
@@ -953,45 +986,6 @@
 <h3 id="index-data-files">Index Data Files<a class="headerlink" href="#index-data-files" title="Permanent link">¶</a></h3>
 <p>After clicking <strong>Start Synchronisation</strong>, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Editor after clicking the <strong>Refresh *<em>button.</em></strong>*</p>
 <p><img alt="Portal" src="../assets/images/metadata2.png" width="400"></p>
-<h2 id="zipping-raw-data-files-folders">Zipping raw data files folders<a class="headerlink" href="#zipping-raw-data-files-folders" title="Permanent link">¶</a></h2>
-<p>If you have uploaded raw data files as .d / .D or .raw / .RAW folders, MetaboLights won’t pass the validation. These raw data folders need to be zipped and referenced in Assays as myfilename1.raw.zip or myfilename2.d.zip. Below instructions will help you to zip your raw data folders locally on your computer before uploading to FTP and MetaboLights (e.g., with a client such as FileZilla).</p>
-<p><strong>Mac OS</strong></p>
-<ol>
-<li>Download the script zipfolder.sh and copy locally on your computer. 
-Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. </li>
-<li>
-<p>Copy zipfolder.sh to the newly created ‘RAW_FILES’ folder. Change permission of the script to executable. Execute below command:</p>
-<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span> chmod 755 zipfolder.sh
-</code></pre></div>
-</li>
-<li>
-<p>Run the following command to start zipping as a background process. </p>
-<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span> nohup ./zipfolder.sh &gt; zip.out &amp;
-</code></pre></div>
-</li>
-</ol>
-<p>Zipping script runs in the background. You can verify the log file zip.out if it is appending the logs. You will start to see zip files. Once all the folders are zipped. zip.out log file stops to append content. 
-4. Verify all the folders are zipped. Execute the following commands to check folders count and zip count are matching. If matching, keep the .d/.raw folder out of your directory ‘RAW_FILES’ and upload only zip files to MetaboLights.</p>
-<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span>     ls *.raw | wc -l   # check number of .raw folders
-<span class="linenos" data-linenos="2 "></span>     ls *.RAW | wc -l   # check number of .RAW folders
-<span class="linenos" data-linenos="3 "></span>     ls *.d | wc -l   # check number of .d folders
-<span class="linenos" data-linenos="4 "></span>     ls *.D | wc -l   # check number of .D folders
-<span class="linenos" data-linenos="5 "></span>     ls *.zip | wc -l   # check number of zip files
-</code></pre></div>
-<p><strong>Windows</strong></p>
-<ol>
-<li>Download the script zipfolders.ps1 and copy locally on your computer. </li>
-<li>Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.</li>
-<li>Copy zipfolders.ps1 to ‘RAW_FILES’ folder. </li>
-<li>
-<p>Run the script   </p>
-<div class="language-text highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span> zipfolders.ps1
-</code></pre></div>
-</li>
-<li>
-<p>Verify all the folders are zipped. Check folders count and zip count are matching. If matching, keep the .d/.raw folders out of your directory and upload only zip files to MetaboLights.</p>
-</li>
-</ol>
 <h2 id="download">Download<a class="headerlink" href="#download" title="Permanent link">¶</a></h2>
 <h3 id="1-download-metadata-files-from-the-online-editor">1. Download metadata files from the online editor<a class="headerlink" href="#1-download-metadata-files-from-the-online-editor" title="Permanent link">¶</a></h3>
 <p>On the Files tab, click blue cloud icons to download individual files or grey cloud icon to download multiple files.</p>
