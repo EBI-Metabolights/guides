@@ -813,10 +813,9 @@
 <h2 id="raw-data">Raw data<a class="headerlink" href="#raw-data" title="Permanent link">¶</a></h2>
 <p>Raw data, ie. <strong><em>spectral files</em></strong> produced by the analytical instrument are a requirement for publication of a MetaboLights study, preferably accompanied with an open source version of the files ('Derived files', e.g., mzML, nmrML). Where an instrument file is not available it is acceptable to submit the open source file format only.</p>
 <h3 id="accepted-file-formats-for-raw-data">Accepted file formats for raw data<a class="headerlink" href="#accepted-file-formats-for-raw-data" title="Permanent link">¶</a></h3>
-<p><strong>Raw file formats:</strong> baf, cmp, d, dat, fid, hr, ibd, jpf, lcd, ms, peg, qgd, raw, ser, wiff + wiff.scan, smp</p>
-<p><strong>Derived file formats:</strong> cdf, cef, cnx, dx, imzml, mgf^, msp, mzml, mzxml, nmrml, peakml, smp, xlsx^^, xml, xy </p>
-<p><strong>^ not acceptable alone (must be accompanied with .raw / .mzML data)</strong></p>
-<p><strong>^^ not acceptable alone (must be accompanied with spectrum / chromatogram data)</strong></p>
+<p><strong>Raw file formats:</strong>  baf, cmp, d, dat, fid, hr, ibd, jpf, lcd, ms, peg, qgd, raw, ser, wiff + wiff.scan, smp</p>
+<p><strong>Derived file formats:</strong> cdf, cef^, cnx^, dx^, imzml, mgf^, msp^, mzml, mzxml, nmrml, peakml^, xlsx^, xy^</p>
+<p><strong>^ not acceptable alone (must be accompanied with spectrum / chromatogram data)</strong></p>
 <p>Each sample should have a corresponding raw data file, both of which should be referenced within the assay table. If providing Raw and Derived files it is recommended to organize files into appropriate folders before uploading (RAW_FILES and DERIVED_FILES), and if multiple assay tables are in use, files can be further divided into corresponding assay files.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -922,16 +921,18 @@ Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. 
 </code></pre></div>
 </li>
 </ol>
-<p>Zipping script runs in the background. You can verify the log file zip.out if it is appending the logs. You will start to see zip files. Once all the folders are zipped. zip.out log file stops to append content. All zipped files will be moved into a folder called Zipped.. 
-4. Verify all the folders are zipped. Execute the following commands to check folders count and zip count are matching. If matching, upload only zip files found under the Zipped folder to MetaboLights.</p>
-<div class="language-text highlight"><pre><span></span><code>     find * -name "*.raw" -maxdepth 0 -type d | wc -l   # check number of .raw folders
+<p>Zipping script runs in the background. You can verify the log file zip.out if it is appending the logs. You will start to see zip files. Once all the folders are zipped. zip.out log file stops to append content. All zipped files will be moved into a folder called Zipped.</p>
+<ol>
+<li>Verify all the folders are zipped. Execute the following commands to check folders count and zip count are matching. If matching, upload only zip files found under the Zipped folder to MetaboLights.<div class="language-text highlight"><pre><span></span><code> find * -name "*.raw" -maxdepth 0 -type d | wc -l   # check number of .raw folders
 
-     find * -name “*.RAW” -maxdepth 0 -type d | wc -l   # check number of .RAW folders
+ find * -name “*.RAW” -maxdepth 0 -type d | wc -l   # check number of .RAW folders
 
-     find * -name “*.d” -maxdepth 0 -type d | wc -l   # check number of .d folders
+ find * -name “*.d” -maxdepth 0 -type d | wc -l   # check number of .d folders
 
-     find * -name “*.D” -maxdepth 0 -type d | wc -l   # check number of .D folders
+ find * -name “*.D” -maxdepth 0 -type d | wc -l   # check number of .D folders
 </code></pre></div>
+</li>
+</ol>
 <p>Execute below command under Zipped folder</p>
 <div class="language-text highlight"><pre><span></span><code>     find * -name "*.zip" -maxdepth 0 -type f  | wc -l   # check number of zip files
 </code></pre></div>
@@ -940,19 +941,21 @@ Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. 
 <li>Download the script <a href="https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/scripts/zipfolders.ps1">zipfolders.ps1</a> and copy locally on your computer. Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.</li>
 <li>Copy zipfolders.ps1 to ‘RAW_FILES’ folder. </li>
 <li>
-<p>Run the script zipfolders.ps1
-   Command Prompt or PowerShell
-   If RAW_FILES folder full path is C:/User/RAW_FILES, then Run command will be 
-         <em>C:/User/RAW_FILES/RAW_FILES/zipfolders.ps1</em>
-   You need to type the full path of the script and press enter. If you get script execution permission error, execute the following command. Then execute the run command again.
-         <em>Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser</em>
- On executing the script, you may get the following security warning like below:
-    <img alt="Portal" height="700" src="../assets/images/NEW_GUIDES/SecurityWarning_ZippingFilesSection.png" width="700">
-     Please give R as input and press enter.</p>
+<p>Run the script zipfolders.ps1</p>
+<p>Command Prompt or PowerShell</p>
 </li>
-<li>
-<p>Verify all the folders are zipped and moved into a folder called <strong>Zipped</strong>. Check folders count and zip count are matching. If matching, upload only zip files found under the <strong>Zipped</strong> folder  to MetaboLights.</p>
-</li>
+</ol>
+<p>If RAW_FILES folder full path is C:/User/RAW_FILES, then Run command will be </p>
+<div class="language-text highlight"><pre><span></span><code> *C:/User/RAW_FILES/RAW_FILES/zipfolders.ps1*
+</code></pre></div>
+<p>Type the full path of the script and press enter. If you get script execution permission error, execute the following command. Then execute the run command again.</p>
+<div class="language-text highlight"><pre><span></span><code> *Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser*
+</code></pre></div>
+<p>On executing the script, the following security warning may appear:</p>
+<p><img alt="Portal" height="700" src="../assets/images/NEW_GUIDES/SecurityWarning_ZippingFilesSection.png" width="700"></p>
+<p>Please give R as input and press enter.</p>
+<ol>
+<li>Verify all the folders are zipped and moved into a folder called <strong>Zipped</strong>. Check folders count and zip count are matching. If matching, upload only zip files found under the <strong>Zipped</strong> folder  to MetaboLights.</li>
 </ol>
 <h2 id="upload-synchronisation">Upload &amp; Synchronisation<a class="headerlink" href="#upload-synchronisation" title="Permanent link">¶</a></h2>
 <p>A primary requirement for a MetaboLights study is the inclusion of the raw and/or derived data. Files can be uploaded when first creating the study or at any stage prior to submitting a study for curation. The submitted data will be updated to the study in 2 steps.</p>
