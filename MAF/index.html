@@ -747,47 +747,47 @@
 </tr>
 <tr>
 <td>chemical_formula</td>
-<td>Molecular formula of the identified compound    <code>Optional</code></td>
+<td>Molecular formula of the identified compound.  <code>Optional</code></td>
 <td>(plain text, e.g., C4H9NO2)</td>
 </tr>
 <tr>
 <td>smiles</td>
-<td>SMILES string for the compound    <code>Optional</code></td>
+<td>SMILES string for the compound.  <code>Optional</code></td>
 <td>canonical if available; plain text (e.g., CC(CN)C(O)=O)</td>
 </tr>
 <tr>
 <td>inchi</td>
-<td>Full InChI string for the compound (starting with InChI=; not the InChIKey) <code>Optional</code></td>
+<td>Full InChI string for the compound (starting with InChI=; not the InChIKey).  <code>Optional</code></td>
 <td>e.g., InChI=1S/C4H9NO2/c1-3(2-5)4(6)7/h3H,2,5H2,1H3,(H,6,7)</td>
 </tr>
 <tr>
 <td>metabolite_identification</td>
-<td>Human-readable metabolite name or, if unknown, your metabolites/unknowns/features as reported  <strong><code>Required</code></strong></td>
+<td>Human-readable metabolite name or, if unknown, your metabolites/unknowns/features as reported.  <strong><code>Required</code></strong></td>
 <td>e.g., 3-Aminoisobutyric acid, or Feature 001, Feature 002, Unknown1, etc.</td>
 </tr>
 <tr>
 <td>mass_to_charge</td>
-<td>Precursor/Parent/Feature m/z (numeric). Typically the molecular ion. For MS/MS or MSn provide precursor ion m/z.     <strong><code>Required</code></strong></td>
+<td>Precursor/Parent/Feature m/z (numeric). Typically the molecular ion. For MS/MS or MSn provide precursor ion m/z.  <strong><code>Required</code></strong></td>
 <td>e.g '104' for 3-Aminoisobutyric acid in [M-H]+ mode</td>
 </tr>
 <tr>
 <td>fragmentation</td>
-<td>Fragment/Daughter/Product m/z (numeric). For MS/MS or MSn provide product ion(s)   <code>Recommended, if available</code>  (<strong><code>Required</code></strong> for MRM, Precursor Ion Scan)</td>
+<td>Fragment/Daughter/Product m/z (numeric). For MS/MS or MSn provide product ion(s).  <code>Recommended, if available</code>  (<strong><code>Required</code></strong> for MRM, Precursor Ion Scan)</td>
 <td>e.g. for '3-Aminoisobutyric acid': 86, 87, 69, 58.</td>
 </tr>
 <tr>
 <td>modifications</td>
-<td>Chemical modifications/adducts/derivatisation noted for the feature   <code>Recommended, if available</code></td>
+<td>Chemical modifications/adducts/derivatisation noted for the feature.  <code>Recommended, if available</code></td>
 <td>e.g., [M+Na]+, [M+K]+, TMS-deriv., etc.</td>
 </tr>
 <tr>
 <td>charge</td>
-<td>Observed charge state for the compound/feature.      <code>Recommended, if available</code></td>
+<td>Observed charge state for the compound/feature.  <code>Recommended, if available</code></td>
 <td>e.g., [M-H]+, [M-H]-, OR Positive, Negative, OR +1, -1.</td>
 </tr>
 <tr>
 <td>retention_time</td>
-<td>Chromatographic RT used for the assignment (numeric; unit as used by your pipeline).     <strong><code>Required</code></strong></td>
+<td>Chromatographic RT used for the assignment (numeric; unit as used by your pipeline).  <strong><code>Required</code></strong></td>
 <td>e.g., 3.15</td>
 </tr>
 <tr>
@@ -797,62 +797,62 @@
 </tr>
 <tr>
 <td>species</td>
-<td>Species name corresponding to taxid, aligned with your Sample sheet’s organism term.    <code>Optional</code></td>
+<td>Species name corresponding to taxid, aligned with your Sample sheet’s organism term.  <code>Optional</code></td>
 <td>e.g., Homo sapiens, Mus musculus, etc.</td>
 </tr>
 <tr>
 <td>database</td>
-<td>Name of the spectral/compound database or library used for the match (text). Field often used to report Compound ID present in secondary database    <code>Optional</code></td>
+<td>Name of the spectral/compound database or library used for the match (text). Field often used to report Compound ID present in secondary database.  <code>Optional</code></td>
 <td>e.g., PubChem Compound identifier (CID:XXXX)</td>
 </tr>
 <tr>
 <td>database_version</td>
-<td>Direct URL/URI to the external record or evidence for the identification (resolvable link)  <code>Optional</code></td>
+<td>Direct URL/URI to the external record or evidence for the identification (resolvable link).  <code>Optional</code></td>
 <td>e.g., https://pubchem.ncbi.nlm.nih.gov/</td>
 </tr>
 <tr>
 <td>reliability</td>
-<td>Qualitative confidence level/category for the identification or Metabolomics Standards Initiative (MSI) level  (see https://doi.org/10.1021/es5002105).   <code>Recommended, if available</code></td>
+<td>Qualitative confidence level/category for the identification or Metabolomics Standards Initiative (MSI) level (see https://doi.org/10.1021/es5002105).  <code>Recommended, if available</code></td>
 <td>e.g., 'MSI:2', 'MSI:1' etc.</td>
 </tr>
 <tr>
 <td>uri</td>
-<td>Direct URL/URI to the external record or evidence for the identification (resolvable link).     <code>Optional</code></td>
+<td>Direct URL/URI to the external record or evidence for the identification (resolvable link).  <code>Optional</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>search_engine</td>
-<td>Name (and optional version) of the software/tool used for the identification or match.    <code>Optional</code></td>
+<td>Name (and optional version) of the software/tool used for the identification or match.  <code>Optional</code></td>
 <td>e.g., library search, MZmine, XCMS, etc.</td>
 </tr>
 <tr>
 <td>search_engine_score</td>
-<td>Primary score reported by the search tool (numeric); specify score type in your methods/protocol.    <code>Optional</code></td>
+<td>Primary score reported by the search tool (numeric); specify score type in your methods/protocol.  <code>Optional</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>smallmolecule_abundance_sub</td>
-<td>Aggregated abundance for the metabolite (e.g., subject/condition-level summary). If reporting per-sample values, put those in the auto-added sample columns on the right and leave this blank.    <code>Optional</code></td>
+<td>Aggregated abundance for the metabolite (e.g., subject/condition-level summary). If reporting per-sample values, put those in the auto-added sample columns on the right and leave this blank.  <code>Optional</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>smallmolecule_abundance_stdev_sub</td>
-<td>Standard deviation corresponding to smallmolecule_abundance_sub (numeric).      <code>Optional</code></td>
+<td>Standard deviation corresponding to smallmolecule_abundance_sub (numeric).  <code>Optional</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>smallmolecule_abundance_std_error_sub</td>
-<td>Standard error corresponding to smallmolecule_abundance_sub (numeric).    <code>Optional</code></td>
+<td>Standard error corresponding to smallmolecule_abundance_sub (numeric).  <code>Optional</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>SampleName1</td>
-<td>Quantification value (e.g. concentration, AUC, etc.).   <code>Recommended, if available</code></td>
+<td>Quantification value (e.g. concentration, AUC, etc.).  <code>Recommended, if available</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>SampleName2</td>
-<td>Quantification value (e.g. concentration, AUC, etc.).   <code>Recommended, if available</code></td>
+<td>Quantification value (e.g. concentration, AUC, etc.).  <code>Recommended, if available</code></td>
 <td>---</td>
 </tr>
 </tbody>
@@ -874,33 +874,33 @@
 </tr>
 <tr>
 <td>chemical_formula</td>
-<td>Molecular formula of the identified compound    <code>Optional</code></td>
+<td>Molecular formula of the identified compound.  <code>Optional</code></td>
 <td>(plain text, e.g., C4H9NO2)</td>
 </tr>
 <tr>
 <td>smiles</td>
-<td>SMILES string for the compound    <code>Optional</code></td>
+<td>SMILES string for the compound.  <code>Optional</code></td>
 <td>canonical if available; plain text (e.g., CC(CN)C(O)=O)</td>
 </tr>
 <tr>
 <td>inchi</td>
-<td>Full InChI string for the compound (starting with InChI=; not the InChIKey) <code>Optional</code></td>
+<td>Full InChI string for the compound (starting with InChI=; not the InChIKey).  <code>Optional</code></td>
 <td>e.g., InChI=1S/C4H9NO2/c1-3(2-5)4(6)7/h3H,2,5H2,1H3,(H,6,7)</td>
 </tr>
 <tr>
 <td>metabolite_identification</td>
-<td>Human-readable metabolite name or, if unknown, your metabolites/unknowns/features as reported  <strong><code>Required</code></strong></td>
+<td>Human-readable metabolite name or, if unknown, your metabolites/unknowns/features as reported.  <strong><code>Required</code></strong></td>
 <td>e.g., 3-Aminoisobutyric acid, or Feature 001, Feature 002, Unknown1, etc.</td>
 </tr>
 <tr>
 <td>chemical_shift</td>
-<td>---     <code>Recommended, if available</code></td>
-<td>e.g., ----</td>
+<td>Electronic environment of nuclei relative to a reference standard like tetramethylsilene (TMS). Reported in parts per million (ppm; numerical value).  <code>Recommended, if available</code></td>
+<td>e.g., 4.16</td>
 </tr>
 <tr>
 <td>multiplicity</td>
-<td><code>Recommended, if available</code></td>
-<td>e.g.,-----</td>
+<td>Indicates the splitting or coupling of an NMR signal, reflecting the number of adjacent hydrogens.  <code>Recommended, if available</code></td>
+<td>e.g., 1-H, 2-H, 3-H, etc. Other reporting options include 'Singlet' or 's'; 'Doublet' or 'd'; 'Triplet' or 't'; 'Quartet' or 'q'; 'Multiplet' or 'm'; 'Doublet of doublets' or 'dd'; etc.</td>
 </tr>
 <tr>
 <td>taxid</td>
@@ -909,62 +909,62 @@
 </tr>
 <tr>
 <td>species</td>
-<td>Species name corresponding to taxid, aligned with your Sample sheet’s organism term.    <code>Optional</code></td>
+<td>Species name corresponding to taxid, aligned with your Sample sheet’s organism term.  <code>Optional</code></td>
 <td>e.g., Homo sapiens, Mus musculus, etc.</td>
 </tr>
 <tr>
 <td>database</td>
-<td>Name of the spectral/compound database or library used for the match (text). Field often used to report Compound ID present in secondary database    <code>Optional</code></td>
+<td>Name of the spectral/compound database or library used for the match (text). Field often used to report Compound ID present in secondary database.  <code>Optional</code></td>
 <td>e.g., PubChem Compound identifier (CID:XXXX)</td>
 </tr>
 <tr>
 <td>database_version</td>
-<td>Direct URL/URI to the external record or evidence for the identification (resolvable link)  <code>Optional</code></td>
+<td>Direct URL/URI to the external record or evidence for the identification (resolvable link).  <code>Optional</code></td>
 <td>e.g., https://pubchem.ncbi.nlm.nih.gov/</td>
 </tr>
 <tr>
 <td>reliability</td>
-<td>Qualitative confidence level/category for the identification or Metabolomics Standards Initiative (MSI) level  (see https://doi.org/10.1021/es5002105).   <code>Recommended, if available</code></td>
+<td>Qualitative confidence level/category for the identification or Metabolomics Standards Initiative (MSI) level  (see https://doi.org/10.1021/es5002105).  <code>Recommended, if available</code></td>
 <td>e.g., 'MSI:2', 'MSI:1' etc.</td>
 </tr>
 <tr>
 <td>uri</td>
-<td>Direct URL/URI to the external record or evidence for the identification (resolvable link).     <code>Optional</code></td>
+<td>Direct URL/URI to the external record or evidence for the identification (resolvable link).  <code>Optional</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>search_engine</td>
-<td>Name (and optional version) of the software/tool used for the identification or match.    <code>Optional</code></td>
+<td>Name (and optional version) of the software/tool used for the identification or match.  <code>Optional</code></td>
 <td>e.g., library search, MZmine, XCMS, etc.</td>
 </tr>
 <tr>
 <td>search_engine_score</td>
-<td>Primary score reported by the search tool (numeric); specify score type in your methods/protocol.    <code>Optional</code></td>
+<td>Primary score reported by the search tool (numeric); specify score type in your methods/protocol.  <code>Optional</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>smallmolecule_abundance_sub</td>
-<td>Aggregated abundance for the metabolite (e.g., subject/condition-level summary). If reporting per-sample values, put those in the auto-added sample columns on the right and leave this blank.    <code>Optional</code></td>
+<td>Aggregated abundance for the metabolite (e.g., subject/condition-level summary). If reporting per-sample values, put those in the auto-added sample columns on the right and leave this blank.  <code>Optional</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>smallmolecule_abundance_stdev_sub</td>
-<td>Standard deviation corresponding to smallmolecule_abundance_sub (numeric).      <code>Optional</code></td>
+<td>Standard deviation corresponding to smallmolecule_abundance_sub (numeric).  <code>Optional</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>smallmolecule_abundance_std_error_sub</td>
-<td>Standard error corresponding to smallmolecule_abundance_sub (numeric).    <code>Optional</code></td>
+<td>Standard error corresponding to smallmolecule_abundance_sub (numeric).  <code>Optional</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>SampleName1</td>
-<td>Quantification value (e.g. concentration, AUC, etc.).   <code>Recommended, if available</code></td>
+<td>Quantification value (e.g. concentration, AUC, etc.).  <code>Recommended, if available</code></td>
 <td>---</td>
 </tr>
 <tr>
 <td>SampleName2</td>
-<td>Quantification value (e.g. concentration, AUC, etc.).   <code>Recommended, if available</code></td>
+<td>Quantification value (e.g. concentration, AUC, etc.).  <code>Recommended, if available</code></td>
 <td>---</td>
 </tr>
 </tbody>
