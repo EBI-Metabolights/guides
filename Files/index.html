@@ -909,39 +909,49 @@
 <p>If you have uploaded raw data files as .d / .D or .raw / .RAW folders, MetaboLights won’t pass the validation. These raw data folders need to be zipped and referenced in Assays as myfilename1.raw.zip or myfilename2.d.zip. Below instructions will help you to zip your raw data folders locally on your computer before uploading to FTP and MetaboLights (e.g., with a client such as FileZilla).</p>
 <p><strong>Mac OS</strong></p>
 <ol>
-<li>Download the script zipfolder.sh and copy locally on your computer. 
+<li>Download the script [zipfolder.sh] (https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/scripts/zipfolders.sh) and copy locally on your computer. 
 Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. </li>
 <li>
-<p>Copy zipfolder.sh to the newly created ‘RAW_FILES’ folder. Change permission of the script to executable. Execute below command:</p>
-<div class="language-text highlight"><pre><span></span><code> chmod 755 zipfolder.sh
+<p>Copy zipfolder.sh to the newly created ‘RAW_FILES’ folder. Change permission of the script to executable. Execute the below command under the ‘RAW_FILES’ folder.</p>
+<div class="language-text highlight"><pre><span></span><code> chmod 755 zipfolders.sh
 </code></pre></div>
 </li>
 <li>
 <p>Run the following command to start zipping as a background process. </p>
-<div class="language-text highlight"><pre><span></span><code> nohup ./zipfolder.sh &gt; zip.out &amp;
+<div class="language-text highlight"><pre><span></span><code> nohup ./zipfolders.sh &gt; zip.out &amp;
 </code></pre></div>
 </li>
 </ol>
-<p>Zipping script runs in the background. You can verify the log file zip.out if it is appending the logs. You will start to see zip files. Once all the folders are zipped. zip.out log file stops to append content. 
-4. Verify all the folders are zipped. Execute the following commands to check folders count and zip count are matching. If matching, keep the .d/.raw folder out of your directory ‘RAW_FILES’ and upload only zip files to MetaboLights.</p>
-<div class="language-text highlight"><pre><span></span><code>     ls *.raw | wc -l   # check number of .raw folders
-     ls *.RAW | wc -l   # check number of .RAW folders
-     ls *.d | wc -l   # check number of .d folders
-     ls *.D | wc -l   # check number of .D folders
-     ls *.zip | wc -l   # check number of zip files
+<p>Zipping script runs in the background. You can verify the log file zip.out if it is appending the logs. You will start to see zip files. Once all the folders are zipped. zip.out log file stops to append content. All zipped files will be moved into a folder called Zipped.. 
+4. Verify all the folders are zipped. Execute the following commands to check folders count and zip count are matching. If matching, upload only zip files found under the Zipped folder to MetaboLights.</p>
+<div class="language-text highlight"><pre><span></span><code>     find * -name "*.raw" -maxdepth 0 -type d | wc -l   # check number of .raw folders
+
+     find * -name “*.RAW” -maxdepth 0 -type d | wc -l   # check number of .RAW folders
+
+     find * -name “*.d” -maxdepth 0 -type d | wc -l   # check number of .d folders
+
+     find * -name “*.D” -maxdepth 0 -type d | wc -l   # check number of .D folders
+</code></pre></div>
+<p>Execute below command under Zipped folder</p>
+<div class="language-text highlight"><pre><span></span><code>     find * -name "*.zip" -maxdepth 0 -type f  | wc -l   # check number of zip files
 </code></pre></div>
 <p><strong>Windows</strong></p>
 <ol>
-<li>Download the script zipfolders.ps1 and copy locally on your computer. </li>
-<li>Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.</li>
+<li>Download the script [zipfolders.ps1] (https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/scripts/zipfolders.ps1) and copy locally on your computer. Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.</li>
 <li>Copy zipfolders.ps1 to ‘RAW_FILES’ folder. </li>
 <li>
-<p>Run the script   </p>
-<div class="language-text highlight"><pre><span></span><code> zipfolders.ps1
-</code></pre></div>
+<p>Run the script zipfolders.ps1
+   Command Prompt or PowerShell
+   If RAW_FILES folder full path is C:/User/RAW_FILES, then Run command will be 
+         <em>C:/User/RAW_FILES/RAW_FILES/zipfolders.ps1</em>
+   You need to type the full path of the script and press enter. If you get script execution permission error, execute the following command. Then execute the run command again.
+         <em>Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser</em>
+ On executing the script, you may get the following security warning like below:
+<security warning run only scripts that you trust. while from the internet can be useful this script potentially harm your computer. if trust use unblock-file cmdlet to allow without message. do want c: not once suspend help is> 
+Please give R as input and press enter.</security></p>
 </li>
 <li>
-<p>Verify all the folders are zipped. Check folders count and zip count are matching. If matching, keep the .d/.raw folders out of your directory and upload only zip files to MetaboLights.</p>
+<p>Verify all the folders are zipped and moved into a folder called <strong>Zipped</strong>. Check folders count and zip count are matching. If matching, upload only zip files found under the <strong>Zipped</strong> folder  to MetaboLights.</p>
 </li>
 </ol>
 <h2 id="upload-synchronisation">Upload &amp; Synchronisation<a class="headerlink" href="#upload-synchronisation" title="Permanent link">¶</a></h2>
