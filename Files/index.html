@@ -662,6 +662,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#index-data-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Index Data Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#start-metadata-synchronisation" class="md-nav__link">
     <span class="md-ellipsis">
       Start Metadata Synchronisation
@@ -671,9 +680,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#index-data-files" class="md-nav__link">
+  <a href="#alternative-for-metadata-files-upload-and-synchronization-new-drag-and-drop-feature" class="md-nav__link">
     <span class="md-ellipsis">
-      Index Data Files
+      Alternative for Metadata files Upload and Synchronization: NEW Drag and Drop feature
     </span>
   </a>
   
@@ -991,14 +1000,20 @@ Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. 
 <h3 id="indexing-ftp-folder-content">Indexing FTP folder content<a class="headerlink" href="#indexing-ftp-folder-content" title="Permanent link">¶</a></h3>
 <p>After successfully uploading files (Aspera or FTP), they still need to be indexed (the directory that is eventually made public). This is done through the Files tab in the MetaboLights Editor.</p>
 <p>When you scroll down, you will see two boxes like below.</p>
-<p><img alt="Portal" src="../assets/images/boxes.png"></p>
-<p>Files on MetaboLights are stored as two types - Metadata files or Data files. Metadata files are ISA tabular files such as i_Investigation.txt, s_MTBLSxxx.txt, a_MTBLSxxx.txt and m_MTBLSxxx_maf.tsv. Data files are RAW_FILES and/or DERIVED_FILES produced from the analytical instrument. There are two boxes to allow the submitter to synchronise metadata files and index data  files separately. </p>
+<p><img alt="Portal" src="../assets/images/NEW_GUIDES/boxes.png"></p>
+<p>Files on MetaboLights are stored as two types - Data files or Metadata files. Data files are RAW_FILES and/or DERIVED_FILES produced from the analytical instrument. Metadata files are ISA tabular files such as i_Investigation.txt, s_MTBLSxxx.txt, a_MTBLSxxx.txt and m_MTBLSxxx_maf.tsv. </p>
+<p>There are two boxes to allow the submitter to index data files and synchronise metadata files separately. </p>
+<h3 id="index-data-files">Index Data Files<a class="headerlink" href="#index-data-files" title="Permanent link">¶</a></h3>
+<p>After clicking <strong>Index Data Files</strong>, raw and derived data files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Editor after clicking the <strong>Refresh *<em>button.</em></strong>*</p>
+<p><img alt="Portal" src="../assets/images/NEW_GUIDES/DataFilesIndexing.png" width="400"></p>
 <h3 id="start-metadata-synchronisation">Start Metadata Synchronisation<a class="headerlink" href="#start-metadata-synchronisation" title="Permanent link">¶</a></h3>
 <p>After clicking <strong>Start Synchronisation</strong>, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Editor after clicking the <strong>Refresh *<em>button.</em></strong>*</p>
-<p><img alt="Portal" src="../assets/images/metadata2.png" width="400"></p>
-<h3 id="index-data-files">Index Data Files<a class="headerlink" href="#index-data-files" title="Permanent link">¶</a></h3>
-<p>After clicking <strong>Start Synchronisation</strong>, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Editor after clicking the <strong>Refresh *<em>button.</em></strong>*</p>
-<p><img alt="Portal" src="../assets/images/metadata2.png" width="400"></p>
+<p><img alt="Portal" src="../assets/images/NEW_GUIDES/MetadataSync.png" width="400"></p>
+<h3 id="alternative-for-metadata-files-upload-and-synchronization-new-drag-and-drop-feature">Alternative for Metadata files Upload and Synchronization: <strong>NEW Drag and Drop feature</strong><a class="headerlink" href="#alternative-for-metadata-files-upload-and-synchronization-new-drag-and-drop-feature" title="Permanent link">¶</a></h3>
+<p>The <strong>Drag and Drop feature</strong> provides a simple and efficient way for submitters to upload and synchronize metadata files (i_Investigation.txt, s_MTBLSxxx.txt, a_MTBLSxxx.txt, and m_MTBLSxxx_maf.tsv).</p>
+<p>To use it, simply drag and drop the updated metadata files into the <strong>Drag and Drop</strong> area, or click <strong>browse for files</strong> to select them manually.</p>
+<p>The selected files will be listed below the upload box. Once ready, click <strong>Update All</strong> — the metadata files will then be marked as <strong>Uploaded</strong>.</p>
+<p><img alt="Portal" src="../assets/images/NEW_GUIDES/DragAndDrop.png" width="400"></p>
 <h2 id="download">Download<a class="headerlink" href="#download" title="Permanent link">¶</a></h2>
 <h3 id="1-download-metadata-files-from-the-online-editor">1. Download metadata files from the online editor<a class="headerlink" href="#1-download-metadata-files-from-the-online-editor" title="Permanent link">¶</a></h3>
 <p>On the Files tab, click blue cloud icons to download individual files or grey cloud icon to download multiple files.</p>
