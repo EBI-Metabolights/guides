@@ -6,7 +6,7 @@ Sample metadata should include a unique sample name, organism, organism part (fo
 
 A group of samples can be added to the sample table using **+Samples** and pasting a list or selecting to import Raw data file names if appropriate. There is also the option to add as many new rows as required with **+Rows** and edit cells individually.
 
-    ![Portal](assets/images/examplesofsamples.png){width=900 height=1200}
+ ![Portal](assets/images/examplesofsamples.png){width=900 height=1200}
 
 ### Delete selected samples from sample sheet
 
@@ -15,7 +15,7 @@ To delete a sample in the online editor, click the first cell on the left of the
 A second option to delete samples is to download the Sample Sheet from the 'ISA METADATA' section under the 'Files' tab, open with e.g., Excel, delete selected rows, save file without changing file name or extension, re-upload it to the study and synchronize Metadata files. 
 
 
-*Example of required information for different Sample types*
+### *Example of required information for different Sample types*
 
 
 | Column Name | Description | Example 1 | Example 2 | Example 3| Example 4 | Example 5 | Example 6 | Example 7 |

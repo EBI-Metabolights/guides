@@ -1,5 +1,5 @@
 # MetaboLights Account
-
+## Create account
 You can create an account by selecting 'Login' and [Create a new account](https://www.ebi.ac.uk/metabolights/newAccount).
 
 ![Portal](assets/images/image18a.png){width=600}

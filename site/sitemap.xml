@@ -2,42 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.ebi.ac.uk/metabolights/</loc>
-         <lastmod>2025-06-17</lastmod>
+         <lastmod>2025-10-07</lastmod>
     </url>
     <url>
          <loc>https://www.ebi.ac.uk/metabolights/Assay/</loc>
-         <lastmod>2025-06-17</lastmod>
+         <lastmod>2025-10-07</lastmod>
+    </url>
+    <url>
+         <loc>https://www.ebi.ac.uk/metabolights/Examples/</loc>
+         <lastmod>2025-10-07</lastmod>
     </url>
     <url>
          <loc>https://www.ebi.ac.uk/metabolights/FAQs/</loc>
-         <lastmod>2025-06-17</lastmod>
+         <lastmod>2025-10-07</lastmod>
     </url>
     <url>
          <loc>https://www.ebi.ac.uk/metabolights/Files/</loc>
-         <lastmod>2025-06-17</lastmod>
+         <lastmod>2025-10-07</lastmod>
     </url>
     <url>
          <loc>https://www.ebi.ac.uk/metabolights/MAF/</loc>
-         <lastmod>2025-06-17</lastmod>
+         <lastmod>2025-10-07</lastmod>
     </url>
     <url>
          <loc>https://www.ebi.ac.uk/metabolights/MetaboLights_account/</loc>
-         <lastmod>2025-06-17</lastmod>
+         <lastmod>2025-10-07</lastmod>
     </url>
     <url>
          <loc>https://www.ebi.ac.uk/metabolights/Protocol/</loc>
-         <lastmod>2025-06-17</lastmod>
+         <lastmod>2025-10-07</lastmod>
     </url>
     <url>
          <loc>https://www.ebi.ac.uk/metabolights/Sample/</loc>
-         <lastmod>2025-06-17</lastmod>
+         <lastmod>2025-10-07</lastmod>
     </url>
     <url>
          <loc>https://www.ebi.ac.uk/metabolights/Study_description/</loc>
-         <lastmod>2025-06-17</lastmod>
+         <lastmod>2025-10-07</lastmod>
     </url>
     <url>
          <loc>https://www.ebi.ac.uk/metabolights/Video/</loc>
-         <lastmod>2025-06-17</lastmod>
+         <lastmod>2025-10-07</lastmod>
     </url>
 </urlset>

@@ -35,7 +35,6 @@ extra:
     link: https://bsky.app/profile/metabolights.bsky.social
 nav:
 - MetaboLights Home: https://www.ebi.ac.uk/metabolights
-- MetaboLights Editor: https://www.ebi.ac.uk/metabolights/editor/console
 - index.md
 - Extended Guide:
   - MetaboLights Account: MetaboLights_account.md
@@ -71,7 +70,7 @@ markdown_extensions:
     line_spans: __span
     pygments_lang_class: true
     use_pygments: true
-    linenums: true
+    linenums: false
     linenums_style: pymdownx-inline
 - pymdownx.inlinehilite:
 - pymdownx.snippets:
