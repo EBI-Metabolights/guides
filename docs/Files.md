@@ -46,7 +46,7 @@ If you have uploaded raw data files as .d / .D or .raw / .RAW folders, MetaboLig
 
 **Mac OS**
 
-1. Download the script [zipfolder.sh](https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/scripts/zipfolders.sh) and copy locally on your computer. 
+1. Download the script  zipfolder.sh by Right click & Save this link [zipfolder.sh](https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/scripts/zipfolders.sh) on your computer. 
 Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. 
 2. Copy zipfolder.sh to the newly created ‘RAW_FILES’ folder. Change permission of the script to executable. Execute the below command under the ‘RAW_FILES’ folder.
    
@@ -75,7 +75,7 @@ Zipping script runs in the background. You can verify the log file zip.out if it
 
 **Windows**
 
-1. Download the script [zipfolders.ps1](https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/scripts/zipfolders.ps1) and copy locally on your computer. Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.
+1. Download the script zipfolders.ps1 by Right click & Save this link [zipfolders.ps1](https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/scripts/zipfolders.ps1) on your computer. Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.
 2. Copy zipfolders.ps1 to ‘RAW_FILES’ folder. 
 3. Run the script zipfolders.ps1
 
