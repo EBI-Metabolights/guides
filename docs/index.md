@@ -285,6 +285,10 @@ Where ontologies have not been added within tables a section will appear above t
 
 ![Portal](assets/images/image7.png)
 
+For detailed information on which ontologies are prioritised for each section of your study, please refer to our [GitHub Prioritised-control-lists](https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/prioritised-control-lists/sample-file-control-lists/sample-file.md). 
+
+We also encourage users to explore leading ontology repositories such as the Ontology Lookup Service [OLS](https://www.ebi.ac.uk/ols4/) and [BioPortal] (https://bioportal.bioontology.org/). In addition, [ZOOMA](https://www.ebi.ac.uk/spot/zooma/) is a valuable tool for identifying optimal ontology mappings and converting free-text annotations into consistent ontology terms.  
+
 ## Study Overview
 
 When you create a study the Guided submission process will take you through the setup step-by-step. It will guide you through raw and sample data upload, creating assays and provide you with controlled vocabulary/ontology options in relevant fields. If you don’t have all the information to hand, don’t worry! You can access and edit your entire study at any time when in submission from your [My Studies](https://www.ebi.ac.uk/metabolights/editor/console) page.
