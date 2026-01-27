@@ -117,6 +117,9 @@ There are 2 ways to upload files to FTP. On the Files tab, click **Upload** and 
 
 Aspera is a plugin that is very simple to install in your browser. Select the Aspera Upload option and then Install the plugin. Aspera is a fast way of transferring files which also enables the user to stop the transfer, and later resume where you left off.
 
+Install the plugin by searching **IBM aspera connect** extention in the Chrome Web Store if your browser is Chrome. If your browser is Firefox, you have to search for and install **IBM Aspera Connect** add-on.Then you will be able to upload files by clicking the Upload Files button.
+This page provides detailed information about how to install and transfer files using Aspera in different ways. [https://embl.service-now.com/kb?id=kb_article_view&sysparm_article=KB0011565](https://embl.service-now.com/kb?id=kb_article_view&sysparm_article=KB0011565)
+
 If you see raw data files in the final upload with .aspx appended, the file upload may have paused. Please open Aspera connect on your computer to check the status of your upload and resume upload if necessary. If the upload has completed you can delete the .aspx appended files or contact us to do so. (note) You may need to contact your local IT support if you do not have privileges to install browser plugins.
  Once the Aspera plugin is installed, you can upload files by clicking **Aspera Upload** and then **Upload files** from the pop-up window.
 
