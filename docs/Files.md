@@ -46,7 +46,7 @@ If you have uploaded raw data files as .d / .D or .raw / .RAW folders, MetaboLig
 
 **Mac OS**
 
-1. Download the script [zipfolder.sh](https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/scripts/zipfolders.sh) and copy locally on your computer. 
+1. Download the script  zipfolder.sh by Right click & Save this link [zipfolder.sh](https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/docs/scripts/zipfolders.sh) on your computer. 
 Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. 
 2. Copy zipfolder.sh to the newly created ‘RAW_FILES’ folder. Change permission of the script to executable. Execute the below command under the ‘RAW_FILES’ folder.
    
@@ -75,7 +75,7 @@ Zipping script runs in the background. You can verify the log file zip.out if it
 
 **Windows**
 
-1. Download the script [zipfolders.ps1](https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/scripts/zipfolders.ps1) and copy locally on your computer. Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.
+1. Download the script zipfolders.ps1 by Right click & Save this link [zipfolders.ps1](https://raw.githubusercontent.com/EBI-Metabolights/mtbls-validation/main/docs/scripts/zipfolders.ps1) on your computer. Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. You have N number of raw data folders on this folder.
 2. Copy zipfolders.ps1 to ‘RAW_FILES’ folder. 
 3. Run the script zipfolders.ps1
 
@@ -116,6 +116,9 @@ There are 2 ways to upload files to FTP. On the Files tab, click **Upload** and 
 ### 1. Aspera connect plugin (recommended for small set of files)
 
 Aspera is a plugin that is very simple to install in your browser. Select the Aspera Upload option and then Install the plugin. Aspera is a fast way of transferring files which also enables the user to stop the transfer, and later resume where you left off.
+
+Install the plugin by searching **IBM aspera connect** extention in the Chrome Web Store if your browser is Chrome. If your browser is Firefox, you have to search for and install **IBM Aspera Connect** add-on.Then you will be able to upload files by clicking the Upload Files button.
+This page provides detailed information about how to install and transfer files using Aspera in different ways. [https://embl.service-now.com/kb?id=kb_article_view&sysparm_article=KB0011565](https://embl.service-now.com/kb?id=kb_article_view&sysparm_article=KB0011565)
 
 If you see raw data files in the final upload with .aspx appended, the file upload may have paused. Please open Aspera connect on your computer to check the status of your upload and resume upload if necessary. If the upload has completed you can delete the .aspx appended files or contact us to do so. (note) You may need to contact your local IT support if you do not have privileges to install browser plugins.
  Once the Aspera plugin is installed, you can upload files by clicking **Aspera Upload** and then **Upload files** from the pop-up window.
