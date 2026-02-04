@@ -126,7 +126,7 @@ FTP can be used on any computer, either directly from the command line or throug
 
 You should have received two emails after study creation. One email provides the details about the FTP server and credentials. You can also get these details from the pop-up window by clicking **Files** tab -> **Upload** -> **Private FTP Upload**.
 
-![Portal](assets/images/ftp-details.png)
+![Portal](assets/images/ftp-details_NEW.png)
 
 /// example | 
 
@@ -144,7 +144,7 @@ Remote folder (Remote site): /prod/<private ftp folder name>
 
 After installation of **FileZilla**, open and enter the FTP connection details. You need to enter Host, Username and Password to connect to the FTP server. Once connected **you will not be** able to browse the folder, you need to copy paste the remote folder path in Remote site text box and press enter, then your FTP folder will be browsable on the right side.
 
-![Portal](assets/images/FileZilla1.png){width=600}
+![Portal](assets/images/FileZilla_NEW.png){width=600}
 
 Once the upload folder is opened and browsable, you will be able to drag & drop files from your local system (left side) to the FTP folder (right side).
 

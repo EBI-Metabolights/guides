@@ -8,6 +8,8 @@ A group of samples can be added to the sample table using **+Samples** and pasti
 
  ![Portal](assets/images/examplesofsamples.png){width=900 height=1200}
 
+ In this section, we recommend including few samples using the online editor (to select the proper ontology terms). Then, an easy way to make edits is to download the Sample sheet from the ISA METADATA list (under the Files tab), edit locally with Excel (right click, ‘Open With’), complete it (and please do not delete or alter the column order or column headers), SAVE (file name, extension and file format need to be exactly the same) and then re-upload it to your study folder using Aspera or FTP folder. Then, don't forget to Synchronise Folders, by clicking in the "Synchronize Metadata Files" blue tab in the Metadata Files box under the Files tab. Always remember to refresh the browser window to see the updated files list. 
+
 ### Delete selected samples from sample sheet
 
 To delete a sample in the online editor, click the first cell on the left of the sample row to highlight it. Then, select the Delete button that appears next to the Download and View file buttons.

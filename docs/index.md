@@ -41,13 +41,13 @@
 - [X] Add principal investigator as a contact person.
 - [X] Define at least one study factor and complete its values (At least two rows MUST be filled with different factor values).
 - [X] Ensure sample names are unique and referenced in assay files.
-- [X] If you want to bulk update on your local, follow these steps:
+- [X] In your Samples and Assays we recommend including few samples using the online editor, to select the proper ontology terms. Then, an easy way to make changes to these files and the Metabolite files (MAF) is to follow these steps:
   
-    - Download metadata file on Files tab.
+    - Download corresponding metadata file (e.g., s_REQxxxx.txt) from the ISA METADATA list (under the Files tab).
   
     - Open the metadata file with your favorite editor (Microsoft Excel, OpenOffice, etc) without changing the original format and encoding.
   
-    - Update the metadata data file on your favorite editor.
+    - Update the metadata data file on your favorite editor (do not change file templates, e.g., do not change columns order, column headers, etc.)
   
     - Save it without changing the original file extension, format and encoding.
   
@@ -59,9 +59,10 @@
 
 - [X] Reference your raw data or derived files in the **'Raw Spectral Data File'** or **'Derived Spectral Data File'** column of your ASSAY files. **Be sure all referenced data files start with FILES/ prefix**. Example: FILES/RAW_FILES/myfiles.raw OR FILES/DERIVED_FILES/myfiles.mzML.
   
-- [X] Datasets with ***.wiff*** and ***.wiff.scan*** files require the upload of both types of files. Adding an extra  **'Raw Spectral Data File'** column is required to reference them in the corresponding ASSAY.
+- [X] Datasets with ***.wiff*** and ***.wiff.scan*** files require the upload of both types of files. Although we generally ask submitters not to modify metadata file templates, an additional  **'Raw Spectral Data File'** column is required for these submissions, so that both files can be properly referenced in the corresponding ASSAY.
 
 - [X] Run study validation and fix all errors.
+  
 - [X] Define and update your study release date.
 
 ///
@@ -287,7 +288,7 @@ Where ontologies have not been added within tables a section will appear above t
 
 For detailed information on which ontologies are prioritised for each section of your study, please refer to our [GitHub Prioritised-control-lists](https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/prioritised-control-lists/sample-file-control-lists/sample-file.md). 
 
-We also encourage users to explore leading ontology repositories such as the Ontology Lookup Service [OLS](https://www.ebi.ac.uk/ols4/) and [BioPortal] (https://bioportal.bioontology.org/). In addition, [ZOOMA](https://www.ebi.ac.uk/spot/zooma/) is a valuable tool for identifying optimal ontology mappings and converting free-text annotations into consistent ontology terms.  
+We also encourage users to explore leading ontology repositories such as the Ontology Lookup Service [OLS](https://www.ebi.ac.uk/ols4/) and [BioPortal](https://bioportal.bioontology.org/). In addition, [ZOOMA](https://www.ebi.ac.uk/spot/zooma/) is a valuable tool for identifying optimal ontology mappings and converting free-text annotations into consistent ontology terms.  
 
 ## Study Overview
 
@@ -373,7 +374,6 @@ Study validation will need to be re-run after making any type of edits to the st
 
 When you first create a new study you will be provided with information about the temporary submission request (e.g., REQxxx) as shown below. You will also receive this information by email. This **REQxxx** is a temporary identifier and **should not** be included in your manuscript.
 
-replace picture 
 ![Portal](assets/images/image12.png)
 
 Once the study passes the required validation and status is promoted to ‘Private’, an accession number (e.g., MTBLSxxx) will be issued. This **MTBLSxxx** permanent unique identifier **should be** used to reference the study in manuscripts and other communications. 

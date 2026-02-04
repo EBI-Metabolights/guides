@@ -23,7 +23,7 @@ The Metabolite Annotation File (m\_MTBLSxxx.tsv) should be referenced in the met
 
 * No empty rows in the MAF.
 
-For comprehensive details on the validation rules that apply to Assays, please visit our [GitHub validation-rules docs](https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/metabolite-validation-rules.md) 
+For comprehensive details on the validation rules that apply to Metabolite Annotation Files, please visit our [GitHub validation-rules docs](https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/metabolite-validation-rules.md) 
 
 ## LC-MS and GC-MS MAF
 

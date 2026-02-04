@@ -4,6 +4,11 @@ The assay information will describe the assay process for each control and sampl
 
 The assay is divided into sections each starting with a Protocol Ref column, e.g., Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.
 
+In Assays, similar to in Samples, we recommend including few samples using the online editor (to select the proper ontology terms). Then, an easy way to edit this file is to download it from the ISA METADATA list (under the Files tab), edit locally with Excel (right click, ‘Open With’), complete it (and please do not delete or alter the column order or column headers), SAVE (file name, extension and file format need to be exactly the same) and then re-upload it to your study folder using Aspera or FTP folder. Then, don't forget to Synchronise Folders, by clicking in the "Synchronize Metadata Files" blue tab in the Metadata Files box under the Files tab. Always remember to refresh the browser window to see the updated files list. 
+
+Datasets with .wiff and .wiff.scan files require the upload of both types of files. Although we generally ask submitters not to modify metadata file templates, an additional 'Raw Spectral Data File' column is required for these submissions, so that both files can be properly referenced in the corresponding ASSAY.
+
+
 
 ### Validation Rules:
 
@@ -30,7 +35,7 @@ For comprehensive details on the validation rules that apply to Assays, please v
 | Sample Name | A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename. | ADG10003u\_007 |
 | Protocol REF - Extraction | This is the column marking the start of data pertaining to **Extraction**. The example term MUST be present in all rows of this column. | Extraction |
 | Parameter Value - Post Extraction | This column describes how the sample was extracted into a solvent prior to being injected into the analytical instrument of choice. | 400 µL water |
-| Parameter Value - Derivatization | If the sample has been subjected to chemical modification prior to injection. | sylilation |
+| Parameter Value - Derivatization | If the sample has been subjected to chemical modification prior to injection. | sylilation (Leave blank if you don’t have one)|
 | Extract Name | Leave blank if you don’t have one. |  |
 | Protocol REF - Chromatography | This is the column marking the start of data pertaining to **Chromatography**. The example term MUST be present in all rows of this column. | Chromatography |
 | Parameter Value - Chromatography Instrument | Add the full name of the instrument you used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals, or on their website. | Shimadzu Nexera UHPLC system |
@@ -62,7 +67,7 @@ For comprehensive details on the validation rules that apply to Assays, please v
 | Sample Name | A unique identifier from a particular source (a batch of samples can have a unique Sample name as identified in the Sample table). It’s usually associated with an output spectral data filename. | Example\_1 |
 | Protocol REF - Extraction | This is the column marking the start of data pertaining to **Extraction**. The example term MUST be present in all rows of this column. | Extraction |
 | Parameter Value - Post Extraction | This how the sample was extracted into a solvent prior to being injected into the analytical instrument of choice. | 2 ml ethyl acetate |
-| Parameter Value - Derivatization | If the sample has been subjected to chemical modification prior to injection. | sylilation |
+| Parameter Value - Derivatization | If the sample has been subjected to chemical modification prior to injection. | sylilation (Leave blank if you don’t have one) |
 | Extract Name | This can be, but doesn’t have to be, the same as the ‘Sample Name’ | Example\_1 |
 | Protocol REF - Chromatography | This is the column marking the start of data pertaining to **Chromatography**. The example term MUST be present in all rows of this column. | Chromatography |
 | Parameter Value - Chromatography Instrument | Add the full name of the instrument used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals or website. | Shimadzu GCMS-QP2010 Ultra |
