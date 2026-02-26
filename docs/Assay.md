@@ -44,7 +44,7 @@ For comprehensive details on the validation rules that apply to Assays, please v
 | Labelled Extract Name | Leave blank if you don’t have one. |  |
 | Label | If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here. |  |
 | Protocol REF - Mass spectrometry | This is the column marking the start of data pertaining to **Mass spectrometry**. The example term MUST be present in all rows of this column. | Mass spectrometry |
-| Parameter Value - Scan polarity | Values should identical within each assay. If you have ‘positive’ or ‘negative’ values in the same assay then split them into separate ‘positive’ and ‘negative’ assays. | positive |
+| Parameter Value - Scan polarity | Acquisition polarity. Values should be identical for all samples within each assay. If you have ‘positive’ or ‘negative’ values in the same assay then split them into separate ‘positive’ and ‘negative’ assays. | positive |
 | Parameter Value - Scan m/z range | The range used in the assay. | 100-1000 |
 | Parameter Value - Instrument | Add the full name of the mass spectrometer/detector you used for this LC/MS assay, including the instrument manufacturer and model number as reported in manufacturer’s brochures, user manuals, or on their website. | Bruker micrOTOF-Q II |
 | Parameter Value - Ion source | Where applicable to the instrument. | ESI |
@@ -71,14 +71,14 @@ For comprehensive details on the validation rules that apply to Assays, please v
 | Extract Name | This can be, but doesn’t have to be, the same as the ‘Sample Name’ | Example\_1 |
 | Protocol REF - Chromatography | This is the column marking the start of data pertaining to **Chromatography**. The example term MUST be present in all rows of this column. | Chromatography |
 | Parameter Value - Chromatography Instrument | Add the full name of the instrument used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals or website. | Shimadzu GCMS-QP2010 Ultra |
-| Parameter Value - Autosampler model | Add the full name of the autosampler used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals or website. |  |
-| Parameter Value - Column model | Manufacturer, model number and dimensions in the format shown in the examples: | Zebron ZB-AAA GC(10 m x 0.25 mm; Phenomenex) |
+| Parameter Value - Autosampler model | Add the full name of the autosampler used for the Chromatographic part of this assay, including the manufacturer and model number as reported in manufacturer’s brochures, user manuals or website. | Shimadzu AOC-20i autoinjector |
+| Parameter Value - Column model | Manufacturer, model number and dimensions in the format shown in the examples: | Rxi-5ms (0.18 µm, 0.18 mm x 10 m; Restek) |
 | Parameter Value - Column type | Polarity of column used. This information can be found on the manufacturer’s website. | low polarity **OR** medium polarity **OR** high polarity |
-| Parameter Value - Guard column | Manufacturer, model number and dimensions in the format shown in the examples: |  |
+| Parameter Value - Guard column | Manufacturer, model number and dimensions in the format shown in the examples: | 5 m Integra-Guard (Restek) |
 | Labeled Extract Name | Leave blank if you don’t have one. |  |
-| Label | If you used a chemical or biochemical marker in the sample such as a radioactive isotope of fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument then enter it here. |  |
+| Label | If you used a chemical or biochemical marker in the sample such as a radioactive isotope, stable isotope, or fluorescent dye which is bound to a material in order to make it detectable in an analytical instrument, then enter it here. |  |
 | Protocol REF - Mass spectrometry | This is the column marking the start of data pertaining to **Mass spectrometry**. The example term MUST be present in all rows of this column. | Mass spectrometry |
-| Parameter Value - Scan polarity | This should be ‘positive’ for a GC/MS assay. | positive |
+| Parameter Value - Scan polarity | Acquisition polarity. This is often ‘positive’ for a GC/MS assay. Values should be identical for all samples within each assay. If you have ‘positive’ or ‘negative’ values in the same assay then split them into separate ‘positive’ and ‘negative’ assays. | positive |
 | Parameter Value - Scan m/z range | The range used in the assay. | 50-400 |
 | Parameter Value - Instrument | Add the full name of the mass spectrometer/detector used for this GC/MS assay, including the instrument manufacturer and model number as reported in manufacturer’s brochures, user manuals or website. | Thermo Electron Trace DSQ |
 | Parameter Value - Ion source | Where applicable to the instrument. | electron ionization |
