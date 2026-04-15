@@ -111,7 +111,7 @@ A primary requirement for a MetaboLights study is the inclusion of the raw and/o
 
 ### Uploading to FTP folder
 
-There are 2 ways to upload files to FTP. On the Files tab, click **Upload** and a pop-up box will show both the options.
+There are 3 ways to upload files to FTP. On the Files tab, click **Upload** and a pop-up box will show the options.
 
 ### 1. Aspera connect plugin (recommended for small set of files)
 
@@ -150,6 +150,13 @@ After installation of **FileZilla**, open and enter the FTP connection details. 
 ![Portal](assets/images/FileZilla_NEW.png){width=600}
 
 Once the upload folder is opened and browsable, you will be able to drag & drop files from your local system (left side) to the FTP folder (right side).
+
+### 3. Globus (recommended for very large datasets)
+
+Globus is a fast, reliable, and secure file transfer service designed for the global research community. It is particularly well-suited for transferring massive raw data files that might be difficult to handle via browser-based Aspera or traditional FTP clients.
+
+For a comprehensive guide on how to create an account, integrate it with MetaboLights, and manage permissions for your study, please visit our dedicated **[Globus Integration Guide](Globus.md)**.
+
 
 ### Indexing FTP folder content
 
@@ -223,9 +230,9 @@ You would need a FTP client software like **Filezilla** to access and download. 
 
 ### 4. Download with Globus
 
-[Globus](https://www.globus.org/) provides a more user-friendly, feature-rich directory interface for interacting with the FTP server.The public study Files can be downloaded through [our Globus Endpoint](https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=%2Fpub%2Fdatabases%2Fmetabolights%2Fstudies%2Fpublic%2F&two_pane=false) **'EMBL-EBI Public Data'** and the subfolders of the path ‘/pub/databases/metabolights/studies/public/’
+MetaboLights provides a fast, reliable, and secure way to transfer massive datasets using Globus. 
 
-![Portal](assets/images/globus.png)
+For a complete walkthrough on integrating your Globus account, managing permissions, and performing high-speed uploads and downloads, please refer to our **[Globus Integration Guide](Globus.md)**.
 
 
 /// note

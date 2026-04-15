@@ -43,7 +43,9 @@ nav:
   - Sample: Sample.md
   - Assay: Assay.md
   - MAF: MAF.md
-  - Files: Files.md
+  - Files:
+    - Files Overview: Files.md
+    - Upload using Globus: Globus.md
 - Example Studies: Examples.md
 - FAQs: FAQs.md
 # - Video Tutorial: Video.md
