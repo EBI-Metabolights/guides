@@ -39,7 +39,7 @@ To use Globus to transfer private study files, you must first tell MetaboLights 
 
 ---
 
-## Enabling and Disabling Globus Permissions for a Study
+## Link and Unlink Globus Permissions for a Study
 
 Because your study folders are private until publication, you have strict control over who can access your Globus endpoints.
 
@@ -49,26 +49,26 @@ Because your study folders are private until publication, you have strict contro
 ![Select Upload Method](assets/images/globus/upload_screen.png)
 
 3. Locate the **Globus Permission** toggle group.
-    - **To Enable:** Click the green **Enabled** button. MetaboLights will automatically reach out to Globus to provision an access rule ensuring only your linked Globus identity (username) has access to your study folder.
+    - **To Link:** Click the green **Link** button. MetaboLights will automatically reach out to Globus to provision an access rule ensuring only your linked Globus identity (username) has access to your study folder.
 
-![Globus Permission Enabled](assets/images/globus/globus_activate.png)
+![Globus Permission Linked](assets/images/globus/globus_activate.png)
 
-    - **To Disable:** Click the red **Disabled** button. This immediately revokes your Globus access role from the study folder endpoint, ensuring files are secured.
+    - **To Unlink:** Click the red **Unlink** button. This immediately revokes your Globus access role from the study folder endpoint, ensuring files are secured.
 
-![Globus Permission Disabled](assets/images/globus/globu_upload.png)
+![Globus Permission Unlink](assets/images/globus/globu_upload.png)
 
 !!! tip
-    Always *Disable* your permissions after your file transfers have successfully completed. Keeping permissions scaled down ensures max security for pre-published data.
+    Always *Unlink* your permissions after your file transfers have successfully completed. Keeping permissions scaled down ensures max security for pre-published data.
 
 ---
 
 ## Using Globus to Upload and Download Files
 
-Once your Globus permission is **Enabled**, you are ready to manage your files via the Globus network!
+Once your Globus permission is **Link**, you are ready to manage your files via the Globus network!
 
 ### Uploading Files (Private Studies)
-1. Ensure your Globus permission toggle is set to **Enabled**.
-2. Once enabled, the UI will reveal two critical details:
+1. Ensure your Globus permission toggle is set to **Link**.
+2. Once Linked, the UI will reveal two critical details:
     - **Globus Study Folder URL:** A direct link to access your private study folder in the Globus File Manager.
     - **Globus Collection Folder Path:** The exact path of your study.
     - Use the convenient **Copy Icons** next to the URL or Path to copy the strings to your clipboard.
