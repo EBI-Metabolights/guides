@@ -51,9 +51,9 @@
   
     - Save it without changing the original file extension, format and encoding.
   
-    - Ensure that the local metadata file name is exactly the same as in your study folder on MetaboLights Editor.
+    - Ensure that the local metadata file name is exactly the same as in your study folder on MetaboLights Online Editor.
   
-    - Upload the metadata file and 'synchronise metadata files' on Files tab on MetaboLights Editor.
+    - Upload the metadata file and 'synchronise metadata files' on Files tab on MetaboLights Online Editor.
   
     - Refresh your editor (if needed) 
 
@@ -233,7 +233,7 @@ A Submitter can only create or currently have a maximum of 2 studies in the Subm
 
  All studies can be edited directly online. To access, choose from the options below.
 
-- Navigate to MetaboLights Editor[Home](https://www.ebi.ac.uk/metabolights/editor/console) and  page and click Study overview.
+- Navigate to MetaboLights Online Editor[Home](https://www.ebi.ac.uk/metabolights/editor/console) and  page and click Study overview.
 
 ![Portal](assets/images/NEW_GUIDES/Edit_StudyOverview.png)
 

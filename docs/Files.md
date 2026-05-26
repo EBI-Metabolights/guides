@@ -153,14 +153,14 @@ Once the upload folder is opened and browsable, you will be able to drag & drop 
 
 ### 3. Globus (recommended for very large datasets)
 
-Globus is a fast, reliable, and secure file transfer service designed for the global research community. It is particularly well-suited for transferring massive raw data files that might be difficult to handle via browser-based Aspera or traditional FTP clients.
+Globus is a fast, reliable, and secure file transfer service designed for the global research community. It is particularly well-suited for transferring large raw data files that might be difficult to handle via browser-based Aspera or traditional FTP clients.
 
 For a comprehensive guide on how to create an account, integrate it with MetaboLights, and manage permissions for your study, please visit our dedicated **[Globus Integration Guide](Globus.md)**.
 
 
 ### Indexing FTP folder content
 
-After successfully uploading files (Aspera or FTP), they still need to be indexed (the directory that is eventually made public). This is done through the Files tab in the MetaboLights Editor.
+After successfully uploading files (Aspera or FTP), they still need to be indexed (the directory that is eventually made public). This is done through the Files tab in the MetaboLights Online Editor.
 
 When you scroll down, you will see two boxes like below.
 
@@ -174,14 +174,14 @@ There are two boxes to allow the submitter to index data files and synchronise m
 
 ### Index Data Files
 
-After clicking **Index Data Files**, raw and derived data files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once indexing is done, the status will change like below. Files will show in the MetaboLights Editor automatically.
+After clicking **Index Data Files**, raw and derived data files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once indexing is done, the status will change like below. Files will show in the MetaboLights Online Editor automatically.
 
 ![Portal](assets/images/NEW_GUIDES/DataFilesIndexing.png){width=300}
 
 
 ### Start Metadata Synchronisation
 
-After clicking **Start Synchronisation**, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Editor automatically.
+After clicking **Start Synchronisation**, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Online Editor automatically.
 
 ![Portal](assets/images/NEW_GUIDES/MetadataSync.png){width=300}
 
@@ -230,12 +230,12 @@ You would need a FTP client software like **Filezilla** to access and download. 
 
 ### 4. Download with Globus
 
-MetaboLights provides a fast, reliable, and secure way to transfer massive datasets using Globus. 
+MetaboLights provides a fast, reliable, and secure way to transfer large datasets using Globus. 
 
 For a complete walkthrough on integrating your Globus account, managing permissions, and performing high-speed uploads and downloads, please refer to our **[Globus Integration Guide](Globus.md)**.
 
 
 /// note
 
- You can download metadata files using MetaboLights Editor or API. If you want to download data files, you MUST use FTP, Aspera or Globus clients.
+ You can download metadata files using MetaboLights Online Editor or API. If you want to download data files, you MUST use FTP, Aspera or Globus clients.
 ///

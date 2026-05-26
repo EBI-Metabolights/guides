@@ -19,14 +19,14 @@ Existing users logging in for the first time after migration should follow these
 2. Enter your email address.The system checks whether the email is valid and available in the system.
 ![Portal](assets/images/login-email.png){width=900}
 
-3. If the email is valid,User will be asked to send passowrd restet link to the email. Once user clicks yes,  a password reset email is sent to the user's inbox.
+3. If the email is valid, user will be asked to send password restet link to the email. Once user clicks yes,  a password reset email is sent to the user's inbox.
 ![Portal](assets/images/reset-password.png){width=900}
 
 4. Open the email and click the password reset link.
 
-5. Set a new password.Return to the website.
+5. Set a new password. Return to the website.
 
-6. Enter the same email address again.On the next page, enter the new password you just created.
+6. Enter the same email address again. On the next page, enter the new password you just created.
 ![Portal](assets/images/password.png){width=900}
 
 7. After successful login, review and accept: Data Policy Agreement & Revised Privacy Notice Agreement.

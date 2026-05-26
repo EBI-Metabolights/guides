@@ -1,13 +1,13 @@
 # MetaboLights Globus Integration Guide
 
 !!! note
-    This guide covers everything you need to know about setting up, integrating, and using Globus for uploading and downloading study files in the MetaboLights editor ecosystem.
+    This guide covers everything you need to know about setting up, integrating, and using Globus for uploading and downloading study files in the MetaboLights online editor ecosystem.
 
 ## What is Globus?
 
 **Globus** is a fast, reliable, and secure file transfer service designed for the global research community. It resolves the challenges of transferring large datasets by managing background transfers, automatically recovering from network issues, and providing an intuitive web-based file manager. 
 
-In MetaboLights, Globus is primarily used to securely upload massive raw data files and download public study collections seamlessly.
+In MetaboLights, Globus is primarily used to securely upload large raw data files and download public study collections seamlessly.
 
 ---
 
@@ -22,20 +22,20 @@ If you do not already have a Globus identity, you can quickly create one using y
 
 ---
 
-## Integrating Globus with the MetaboLights Editor
+## Integrating Globus with the MetaboLights Online Editor
 
 To use Globus to transfer private study files, you must first tell MetaboLights who your Globus user is.
 
-1. Log into your **MetaboLights Editor Web Application**.
+1. Log into your **MetaboLights Online Editor**.
 2. Navigate to your **Account Profile** page from the top-right navigation menu.
-3. Locate the **Globus Username** field.
-4. Enter your exact Globus ID/Username (e.g., `user@institution.edu` or `johndoe@globusid.org`).
+3. Locate the **Globus Identity (Username)** field.
+4. Enter your exact Globus Identity (Username) (e.g., `user@institution.edu` or `johndoe@globusid.org`).
 5. Save your profile. _(Without this step, MetaboLights cannot grant Globus permissions to your study!)_
 
 ![Globus Profile Configuration](assets/images/globus/profile_globus.png)
 
 !!! important
-    Ensure your username is spelled correctly. If you do not provide a Globus username in your profile, the Globus upload functionality will remain locked and display a warning.
+    Ensure your username is spelled correctly. If you do not provide a Globus identity (username) in your profile, the Globus upload functionality will remain locked and display a warning.
 
 ---
 
@@ -43,13 +43,13 @@ To use Globus to transfer private study files, you must first tell MetaboLights 
 
 Because your study folders are private until publication, you have strict control over who can access your Globus endpoints.
 
-1. Open your private study in the MetaboLights editor and navigate to the **Files** section.
+1. Open your private study in the MetaboLights online editor and navigate to the **Files** section.
 2. Select **Upload Files** or access the **Globus Upload** tab.
 
 ![Select Upload Method](assets/images/globus/upload_screen.png)
 
 3. Locate the **Globus Permission** toggle group.
-    - **To Enable:** Click the green **Enabled** button. MetaboLights will automatically reach out to Globus to provision an access rule ensuring only your linked Globus username has access to your study folder.
+    - **To Enable:** Click the green **Enabled** button. MetaboLights will automatically reach out to Globus to provision an access rule ensuring only your linked Globus identity (username) has access to your study folder.
 
 ![Globus Permission Enabled](assets/images/globus/globus_activate.png)
 
