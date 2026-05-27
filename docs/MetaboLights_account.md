@@ -5,7 +5,6 @@ We are migrating all our users to a new authentication management system. During
 
 ---
 ## User Login and Registration
-
 - As part of the migration to the new authentication system, the user authentication flow for existing users has been updated. Please follow the steps below to understand and navigate the revised authentication steps.
 
 ---
@@ -13,7 +12,7 @@ We are migrating all our users to a new authentication management system. During
 
 Existing users logging in for the first time after migration should follow these steps:
 
-1. Go to the MetaboLights online editor login [page](https://www.ebi.ac.uk/metabolights/editor/login). Users will be prompted to enter their account email.
+1. Go to the MetaboLights online editor login [page](https://www.ebi.ac.uk/metabolights/editor/). Users will be prompted to enter their account email.
 ![Portal](assets/images/login.png){width=900}
 
 2. Enter your email address. The system checks whether the email is valid and available in the system.
@@ -40,11 +39,11 @@ After completing these steps, you will be redirected to the MetaboLights online 
 
 ---
 
-## New User Registration
+## New User Registration (Create account)
 
 New users who do not yet have an account should follow these steps:
 
-1. Go to the MetaboLights online editor login [page](https://www.ebi.ac.uk/metabolights/editor/login). .
+1. Go to the MetaboLights online editor login [page](https://www.ebi.ac.uk/metabolights/editor/). .
 
 2. Click the **Register** button.
 ![Portal](assets/images/register.png){width=900}
