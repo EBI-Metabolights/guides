@@ -14,7 +14,7 @@
         <link rel="prev" href="../MAF/">
       
       
-        <link rel="next" href="../Examples/">
+        <link rel="next" href="../Globus/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Files - MetaboLights Guides</title>
+        <title>Files Overview - MetaboLights Guides</title>
       
     
     
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Files
+              Files Overview
             
           </span>
         </div>
@@ -610,6 +610,64 @@
   
   
   
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Files
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Files
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
@@ -625,7 +683,7 @@
   <span class="md-ellipsis">
     
   
-    Files
+    Files Overview
   
 
     
@@ -643,7 +701,7 @@
   <span class="md-ellipsis">
     
   
-    Files
+    Files Overview
   
 
     
@@ -746,6 +804,17 @@
     <span class="md-ellipsis">
       
         2. FTP (recommended for large set of files)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-globus-recommended-for-very-large-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Globus (recommended for very large datasets)
       
     </span>
   </a>
@@ -871,6 +940,42 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Globus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Upload using Globus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -979,6 +1084,24 @@
           
   <span class="md-ellipsis">
     Extended Guide
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Files
   </span>
 
         </a>
@@ -1156,7 +1279,7 @@ Assuming your raw data folders are arranged in a folder called ‘RAW_FILES’. 
 </li>
 </ol>
 <h3 id="uploading-to-ftp-folder">Uploading to FTP folder<a class="headerlink" href="#uploading-to-ftp-folder" title="Permanent link">¶</a></h3>
-<p>There are 2 ways to upload files to FTP. On the Files tab, click <strong>Upload</strong> and a pop-up box will show both the options.</p>
+<p>There are 3 ways to upload files to FTP. On the Files tab, click <strong>Upload</strong> and a pop-up box will show the options.</p>
 <h3 id="1-aspera-connect-plugin-recommended-for-small-set-of-files">1. Aspera connect plugin (recommended for small set of files)<a class="headerlink" href="#1-aspera-connect-plugin-recommended-for-small-set-of-files" title="Permanent link">¶</a></h3>
 <p>Aspera is a plugin that is very simple to install in your browser. Select the Aspera Upload option and then Install the plugin. Aspera is a fast way of transferring files which also enables the user to stop the transfer, and later resume where you left off.</p>
 <p>Install the plugin by searching <strong>IBM aspera connect</strong> extention in the Chrome Web Store if your browser is Chrome. If your browser is Firefox, you have to search for and install <strong>IBM Aspera Connect</strong> add-on.Then you will be able to upload files by clicking the Upload Files button.
@@ -1178,17 +1301,20 @@ This page provides detailed information about how to install and transfer files 
 <p>After installation of <strong>FileZilla</strong>, open and enter the FTP connection details. You need to enter Host, Username and Password to connect to the FTP server. Once connected <strong>you will not be</strong> able to browse the folder, you need to copy paste the remote folder path in Remote site text box and press enter, then your FTP folder will be browsable on the right side.</p>
 <p><img alt="Portal" src="../assets/images/FileZilla_NEW.png" width="600"></p>
 <p>Once the upload folder is opened and browsable, you will be able to drag &amp; drop files from your local system (left side) to the FTP folder (right side).</p>
+<h3 id="3-globus-recommended-for-very-large-datasets">3. Globus (recommended for very large datasets)<a class="headerlink" href="#3-globus-recommended-for-very-large-datasets" title="Permanent link">¶</a></h3>
+<p>Globus is a fast, reliable, and secure file transfer service designed for the global research community. It is particularly well-suited for transferring large raw data files that might be difficult to handle via browser-based Aspera or traditional FTP clients.</p>
+<p>For a comprehensive guide on how to create an account, integrate it with MetaboLights, and manage permissions for your study, please visit our dedicated <strong><a href="../Globus/">Globus Integration Guide</a></strong>.</p>
 <h3 id="indexing-ftp-folder-content">Indexing FTP folder content<a class="headerlink" href="#indexing-ftp-folder-content" title="Permanent link">¶</a></h3>
-<p>After successfully uploading files (Aspera or FTP), they still need to be indexed (the directory that is eventually made public). This is done through the Files tab in the MetaboLights Editor.</p>
+<p>After successfully uploading files (Aspera or FTP), they still need to be indexed (the directory that is eventually made public). This is done through the Files tab in the MetaboLights Online Editor.</p>
 <p>When you scroll down, you will see two boxes like below.</p>
 <p><img alt="Portal" src="../assets/images/NEW_GUIDES/boxes.png"></p>
 <p>Files on MetaboLights are stored as two types - Data files or Metadata files. Data files are RAW_FILES and/or DERIVED_FILES produced from the analytical instrument. Metadata files are ISA tabular files such as i_Investigation.txt, s_MTBLSxxx.txt, a_MTBLSxxx.txt and m_MTBLSxxx_maf.tsv. </p>
 <p>There are two boxes to allow the submitter to index data files and synchronise metadata files separately. </p>
 <h3 id="index-data-files">Index Data Files<a class="headerlink" href="#index-data-files" title="Permanent link">¶</a></h3>
-<p>After clicking <strong>Index Data Files</strong>, raw and derived data files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once indexing is done, the status will change like below. Files will show in the MetaboLights Editor automatically.</p>
+<p>After clicking <strong>Index Data Files</strong>, raw and derived data files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once indexing is done, the status will change like below. Files will show in the MetaboLights Online Editor automatically.</p>
 <p><img alt="Portal" src="../assets/images/NEW_GUIDES/DataFilesIndexing.png" width="300"></p>
 <h3 id="start-metadata-synchronisation">Start Metadata Synchronisation<a class="headerlink" href="#start-metadata-synchronisation" title="Permanent link">¶</a></h3>
-<p>After clicking <strong>Start Synchronisation</strong>, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Editor automatically.</p>
+<p>After clicking <strong>Start Synchronisation</strong>, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Online Editor automatically.</p>
 <p><img alt="Portal" src="../assets/images/NEW_GUIDES/MetadataSync.png" width="300"></p>
 <h3 id="alternative-for-metadata-file-upload-and-synchronization-new-drag-and-drop-feature">Alternative for Metadata File Upload and Synchronization: <strong>NEW Drag and Drop feature</strong><a class="headerlink" href="#alternative-for-metadata-file-upload-and-synchronization-new-drag-and-drop-feature" title="Permanent link">¶</a></h3>
 <p>The <strong>Drag and Drop feature</strong> provides a simple and efficient way for submitters to upload and synchronize <strong>Metadata files</strong> (i_Investigation.txt, s_MTBLSxxx.txt, a_MTBLSxxx.txt, and m_MTBLSxxx_maf.tsv).</p>
@@ -1214,11 +1340,11 @@ This page provides detailed information about how to install and transfer files 
 </div>
 <p><img alt="Portal" src="../assets/images/public-ftp.png"></p>
 <h3 id="4-download-with-globus">4. Download with Globus<a class="headerlink" href="#4-download-with-globus" title="Permanent link">¶</a></h3>
-<p><a href="https://www.globus.org/">Globus</a> provides a more user-friendly, feature-rich directory interface for interacting with the FTP server.The public study Files can be downloaded through <a href="https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&amp;origin_path=%2Fpub%2Fdatabases%2Fmetabolights%2Fstudies%2Fpublic%2F&amp;two_pane=false">our Globus Endpoint</a> <strong>'EMBL-EBI Public Data'</strong> and the subfolders of the path ‘/pub/databases/metabolights/studies/public/’</p>
-<p><img alt="Portal" src="../assets/images/globus.png"></p>
+<p>MetaboLights provides a fast, reliable, and secure way to transfer large datasets using Globus. </p>
+<p>For a complete walkthrough on integrating your Globus account, managing permissions, and performing high-speed uploads and downloads, please refer to our <strong><a href="../Globus/">Globus Integration Guide</a></strong>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>You can download metadata files using MetaboLights Editor or API. If you want to download data files, you MUST use FTP, Aspera or Globus clients.</p>
+<p>You can download metadata files using MetaboLights Online Editor or API. If you want to download data files, you MUST use FTP, Aspera or Globus clients.</p>
 </div></div>
 
 
@@ -1274,13 +1400,13 @@ This page provides detailed information about how to install and transfer files 
         
         
           
-          <a href="../Examples/" class="md-footer__link md-footer__link--next" aria-label="Next: Example Studies">
+          <a href="../Globus/" class="md-footer__link md-footer__link--next" aria-label="Next: Upload using Globus">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Example Studies
+                Upload using Globus
               </div>
             </div>
             <div class="md-footer__button md-icon">
