@@ -1,9 +1,4 @@
 # MetaboLights Account
-## Migration
-
-We are migrating all our users to a new authentication management system. During migration time, new user registration won't be available until we migrate all users to the new system. 
-
----
 ## User Login and Registration
 - As part of the migration to the new authentication system, the user authentication flow for existing users has been updated. Please follow the steps below to understand and navigate the revised authentication steps.
 
