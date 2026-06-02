@@ -74,6 +74,15 @@ New users who do not yet have an account should follow these steps:
 - Acceptance of the Data Policy Agreement and Privacy Notice Agreement is required before accessing the MetaboLights online editor.  
 - Profile updates are optional for existing users unless changes are needed.
 
+## My Profile
+To update your Profile information, on the [My Studies/Editor Console](https://www.ebi.ac.uk/metabolights/editor/console) page in the Top-right corner, click your name My Profile menu box will pop up. 
+
+![Portal](assets/images/my-profile-link.png){width=900}
+
+If you click on the My Profile menu, it will open a Profile page where you can update your profile.
+
+![Portal](assets/images/my-profile.png){width=900}
+
 ## My studies
 Your [My Studies](https://www.ebi.ac.uk/metabolights/editor/console) page provides an overview of all studies you have created in MetaboLights.
 
