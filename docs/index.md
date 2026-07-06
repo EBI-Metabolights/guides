@@ -155,6 +155,10 @@ We would recommend you to also include this information in a much abridged form 
 
 ![Validation Tab](assets/images/NEW_GUIDES/QuickStartOverview_ReviewerLink.png)
 
+Private studies also provide a **Private access token**. Share this token only with the intended reviewer, editor, or collaborator, together with the reviewer link when required.
+
+![Private access token](assets/images/reviewer-accesstoken.png)
+
 **Note:** MetaboLights curation will be retained in certain cases.
 
 ///
@@ -388,4 +392,18 @@ You can see a list of all your submission requests (REQxxx), studies (MTBLSxxx) 
 
 Once a study has been completed and the status updated to ‘Private’, a private read-only link will be available at the top of your study page to share with the journal.
 
-![Portal](assets/images/image30.png)
+
+For private studies, MetaboLights also provides a **Private access token** together with the reviewer link. This token allows controlled read-only access to the private study before it is made public.
+
+Use the private access token when a reviewer, editor, or collaborator needs access to a private study but cannot access it through the reviewer link alone.
+
+1. Open your private study in the MetaboLights Online Editor.
+2. Locate the **Reviewer Link** section at the top of the study page.
+3. Copy the **Private access token** shown with the reviewer link.
+4. Share the token only with the intended reviewer, editor, or collaborator.
+
+/// warning
+Treat the private access token as confidential. Anyone with the reviewer link and token may be able to view the private study before publication.
+///
+
+![Portal](assets/images/reviewer-accesstoken.png)
