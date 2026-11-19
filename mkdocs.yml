@@ -49,7 +49,7 @@ nav:
     - Protocols: Protocol.md
     - Metabolites: MAF.md
     - Files:
-      - Files Overview: Files.md
+      - Files: Files.md
       - Upload using Globus: Globus.md
   - Example Studies: Examples.md
   - Troubleshooting: FAQs.md
