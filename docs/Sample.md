@@ -1,20 +1,21 @@
 # Sample
-## Sample
 The sample information should provide all relevant facts about each sample and any controls/standards included in the study. There is ONE sample sheet per study.
 
-Sample metadata should include a unique sample name, organism, organism part (for controls use e.g., experimental blank and solvent) and sample type (ie. control, QC, experimental sample). Further sample descriptors should be included where available by selecting +Factor to add new columns (e.g., Gender, Age, Treatment).
+Sample metadata should include a unique sample name, organism, organism part (for controls use e.g., experimental blank and solvent) and sample type (e.g., experimental sample, pooled quality control sample, solvent blank, etc.). Further sample descriptors should be included where available by selecting **+Factor** to add new columns (e.g., Gender, Age, Treatment).
 
 A group of samples can be added to the sample table using **+Samples** and pasting a list or selecting to import Raw data file names if appropriate. There is also the option to add as many new rows as required with **+Rows** and edit cells individually.
 
- ![Portal](assets/images/examplesofsamples.png){width=900 height=1200}
+As a **new feature** you can now use **Clone sample sheet**, to clone an Sample Sheet from a Public study or from one of your own studies. 
 
- In this section, we recommend including few samples using the online editor (to select the proper ontology terms). Then, an easy way to make edits is to download the Sample sheet from the ISA METADATA list (under the Files tab), edit locally with Excel (right click, ‘Open With’), complete it (and please do not delete or alter the column order or column headers), SAVE (file name, extension and file format need to be exactly the same) and then re-upload it to your study folder using Aspera or FTP folder. Then, don't forget to Synchronise Folders, by clicking in the "Synchronize Metadata Files" blue tab in the Metadata Files box under the Files tab. Always remember to refresh the browser window to see the updated files list. 
+ ![Portal](assets/images/NEW_GUIDES/ExampleofSampleTypes.png){width=900 height=1200}
+
+ In this section, we recommend including few samples using the online editor (to select the proper ontology terms). Then, an easy way to make edits is to download the Sample sheet from the Samples tab or from METADATA FILES list (under the Files tab), edit locally with Excel (right click, ‘Open With’), complete it (and please do not delete or alter the column order or column headers), SAVE (file name, extension and file format need to be exactly the same) and then re-upload it to your study folder using Aspera or FTP folder. Then, don't forget to Synchronise Folders, by clicking in the "Synchronize Metadata Files" blue tab in the Metadata Files box under the Files tab. Always remember to refresh the browser window to see the updated files list. 
 
 ### Delete selected samples from sample sheet
 
 To delete a sample in the online editor, click the first cell on the left of the sample row to highlight it. Then, select the Delete button that appears next to the Download and View file buttons.
 
-A second option to delete samples is to download the Sample Sheet from the 'ISA METADATA' section under the 'Files' tab, open with e.g., Excel, delete selected rows, save file without changing file name or extension, re-upload it to the study and synchronize Metadata files. 
+A second option to delete samples is to download the Sample Sheet from the Samples section or from the METADATA FILES list (under the Files tab), open with e.g., Excel, delete selected rows, save file without changing file name or extension, re-upload it to the study and click on the "Synchronise Metadata & Results Files" blue tab (Metadata & Result Files box under the Files tab), to synchronize Metadata files. 
 
 
 ### *Example of required information for different Sample types*
@@ -23,9 +24,9 @@ A second option to delete samples is to download the Sample Sheet from the 'ISA 
 | Column Name | Description | Example 1 | Example 2 | Example 3| Example 4 | Example 5 | Example 6 | Example 7 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Source Name | Unique source identifier of the Sample or simply repeat 'Sample Name’ | Single standard | Standard mix | Blank1 | QC1 | Sample1 | QC2 | Sample2 |
-| **Characteristics[Organism]** | A living entity | reference compound | reference compound | blank | Homo sapiens | Homo sapiens | Mus musculus | Mus musculus |
-| **Term Source REF** | Selected ontology | BAO | BAO | | NCBITaxon | NCBITaxon | NCBITaxon | NCBITaxon |
-| **Term Accession Number** | Ontology term URL | http://www.bioassayontology.org/bao#BAO_0002092 | http://www.bioassayontology.org/bao#BAO_0002092 | | http://purl.obolibrary.org/obo/NCBITaxon_9606 | http://purl.obolibrary.org/obo/NCBITaxon_9606 | http://purl.obolibrary.org/obo/NCBITaxon_10090 | http://purl.obolibrary.org/obo/NCBITaxon_10090 |
+| **Characteristics[Organism]** | A living entity | reference compound | reference compound | blank sample | Homo sapiens | Homo sapiens | Mus musculus | Mus musculus |
+| **Term Source REF** | Selected ontology | CHEBI | CHEBI | NCBITaxon | NCBITaxon | NCBITaxon | NCBITaxon | NCBITaxon |
+| **Term Accession Number** | Ontology term URL | http://purl.obolibrary.org/obo/CHEBI_747204 | http://purl.obolibrary.org/obo/CHEBI_747204 |http://purl.obolibrary.org/obo/NCBITaxon_2582415 | http://purl.obolibrary.org/obo/NCBITaxon_9606 | http://purl.obolibrary.org/obo/NCBITaxon_9606 | http://purl.obolibrary.org/obo/NCBITaxon_10090 | http://purl.obolibrary.org/obo/NCBITaxon_10090 |
 | **Characteristics[Organism Part]**| A portion of an organism | pure substance | mixture | solvent | blood plasma | blood plasma | blood plasma | blood plasma |
 | **Term Source REF** | Selected ontology | CHEBI | CHEBI | CHEBI | BTO | BTO | BTO | BTO |
 | **Term Accession Number** | Ontology term URL | http://purl.obolibrary.org/obo/CHEBI_60003 | http://purl.obolibrary.org/obo/CHEBI_60004 | http://purl.obolibrary.org/obo/CHEBI_46787 | http://purl.obolibrary.org/obo/BTO_0000131 | http://purl.obolibrary.org/obo/BTO_0000131 | http://purl.obolibrary.org/obo/BTO_0000131 | http://purl.obolibrary.org/obo/BTO_0000131 |
@@ -33,8 +34,8 @@ A second option to delete samples is to download the Sample Sheet from the 'ISA 
 | **Term Source REF** | Selected ontology | | | | | | EFO | EFO |
 | **Term Accession Number** | Ontology term URL | | | | | | http://www.ebi.ac.uk//efo/EFO_0000606 | http://www.ebi.ac.uk//efo/EFO_0000606 |
 | **Characteristics[Sample type]** | Sample role in the experiment | reference compound | reference compound mix | solvent blank | pooled quality control sample | experimental sample | pooled quality control sample | experimental sample |
-| **Term Source REF** | Selected ontology | MSIO | MSIO | MSIO | MTBLS | CHMO | MTBLS | CHMO |
-| **Term Accession Number** | Ontology term URL | http://purl.obolibrary.org/obo/MSIO_0000023 | http://purl.obolibrary.org/obo/MSIO_0000024 | http://purl.obolibrary.org/obo/MSIO_0000026 | http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001090 | http://purl.obolibrary.org/obo/CHMO_0002746 | http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001090 | http://purl.obolibrary.org/obo/CHMO_0002746 |
+| **Term Source REF** | Selected ontology | CHEBI | MSIO | MSIO | MTBLS | CHMO | MTBLS | CHMO |
+| **Term Accession Number** | Ontology term URL | http://purl.obolibrary.org/obo/CHEBI_747204 | http://purl.obolibrary.org/obo/MSIO_0000024 | http://purl.obolibrary.org/obo/MSIO_0000026 | http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001090 | http://purl.obolibrary.org/obo/CHMO_0002746 | http://www.ebi.ac.uk/metabolights/ontology/MTBLS_001090 | http://purl.obolibrary.org/obo/CHMO_0002746 |
 | **Protocol REF** | Predetermined content: **'Sample Collection'**. The example term **MUST** be present in all rows of this column | Sample collection | Sample collection | Sample collection | Sample collection | Sample collection | Sample collection | Sample collection |
 | **Sample Name** | Unique identifier from a particular source. Usually associated with an output spectral data filename. | Leucin standard | Standard Mix | Blank1 | QC1 | Sample1 | QC2 | Sample2 |
 
@@ -76,7 +77,8 @@ Example on how to add 'Treatment' Factor to Samples
 
 To delete a factor using the online editor, simply click on green button present next to the selected factor (edit button) and click on the red delete button present in the editing window. 
 
-As an alternative, download the sample file and select to open with e.g., Excel, then simply remove the factor related columns and re-upload the modified file. **There will be 3-4 columns for each factor**; Factor Value[factor\_name], Unit (if added), Term source REF, Term accession number.
+If you download the sample file, remove the factor-related columns and re-upload the modified file, you must also delete the factor in the online editor to avoid a validation error. Each factor has **three or four associated columns**, all of which must be removed: Factor Value[factor\_name], Unit (if added), Term source REF, Term accession number.
+
 
 ***It is important not to remove the original columns or alter column headers when editing as the format is a fixed requirement.***
 

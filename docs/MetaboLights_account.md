@@ -1,5 +1,11 @@
 # MetaboLights Account
+## Migration
+
+We are migrating all our users to a new authentication management system. During migration time, new user registration won't be available until we migrate all users to the new system. 
+
+---
 ## User Login and Registration
+
 - As part of the migration to the new authentication system, the user authentication flow for existing users has been updated. Please follow the steps below to understand and navigate the revised authentication steps.
 
 ---
@@ -7,7 +13,7 @@
 
 Existing users logging in for the first time after migration should follow these steps:
 
-1. Go to the MetaboLights online editor login [page](https://www.ebi.ac.uk/metabolights/editor/). Users will be prompted to enter their account email.
+1. Go to the MetaboLights online editor login [page](https://www.ebi.ac.uk/metabolights/editor/login). Users will be prompted to enter their account email.
 ![Portal](assets/images/login.png){width=900}
 
 2. Enter your email address. The system checks whether the email is valid and available in the system.
@@ -34,11 +40,11 @@ After completing these steps, you will be redirected to the MetaboLights online 
 
 ---
 
-## New User Registration (Create account)
+## New User Registration
 
 New users who do not yet have an account should follow these steps:
 
-1. Go to the MetaboLights online editor login [page](https://www.ebi.ac.uk/metabolights/editor/). .
+1. Go to the MetaboLights online editor login [page](https://www.ebi.ac.uk/metabolights/editor/login). .
 
 2. Click the **Register** button.
 ![Portal](assets/images/register.png){width=900}
@@ -73,23 +79,3 @@ New users who do not yet have an account should follow these steps:
 - New users must verify their email before they can log in.  
 - Acceptance of the Data Policy Agreement and Privacy Notice Agreement is required before accessing the MetaboLights online editor.  
 - Profile updates are optional for existing users unless changes are needed.
-
-## My Profile
-To update your Profile information, on the [My Studies/Editor Console](https://www.ebi.ac.uk/metabolights/editor/console) page in the Top-right corner, click your name My Profile menu box will pop up. 
-
-![Portal](assets/images/my-profile-link.png){width=900}
-
-If you click on the My Profile menu, it will open a Profile page where you can update your profile.
-
-![Portal](assets/images/my-profile.png){width=900}
-
-## My studies
-Your [My Studies](https://www.ebi.ac.uk/metabolights/editor/console) page provides an overview of all studies you have created in MetaboLights.
-
-![Portal](assets/images/image23.png){width=900}
-
-* (a) Select to view all studies or studies with a particular status
-* (b) View basic outline information for each study including accession number, title, status, release date
-* (c) Choose to edit a study using Guided submission or Online editor tools
-* (d) View the submission tutorial video
-* (e) Create a new study

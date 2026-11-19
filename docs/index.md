@@ -12,13 +12,14 @@
 
 - [X] MetaboLights **accepts only file names containing letters (a–z, A–Z), numbers (0–9), hyphens (-), underscores (_), or dots (.)**. Please ensure that supplementary, derived, and raw data file names comply with this pattern. Otherwise, rename them accordingly. **Space characters are not accepted.**
 
-- [X] **Starting on 12th June 2025, MetaboLights will accepts only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)**. If your study includes raw data folders, please compress each folder **individually** using a ZIP utility before submission.  **A zip file containing multiple raw folders is not accepted.**
+- [X] **Since June 2025, MetaboLights accepts only raw/derived data files and compressed versions of raw/derived data folders (e.g. .d, .raw, or any NMR raw data folder)**. If your study includes raw data folders, please compress each folder **individually** using a ZIP utility before submission.  **A zip file containing multiple raw folders is not accepted.**
 
 - [X] Organize your supplementary, raw and derived data files on your local storage. Create subfolders if needed. **Subfolder names MUST comply with filename pattern**. Ensure subfolder names contain only letters (a–z, A–Z), numbers (0–9), hyphens (-), underscores (_), or dots (.)
 
 - [X] If you want to use FTP to upload your data files, install an FTP client (e.g. FileZilla).
 
 - [X] If you are not principal investigator of the study, collect principal investigator contact information (e.g. email, phone number, fax number, affiliation, etc.).
+
 
 **During Submission:**
 
@@ -43,7 +44,7 @@
 - [X] Ensure sample names are unique and referenced in assay files.
 - [X] In your Samples and Assays we recommend including few samples using the online editor, to select the proper ontology terms. Then, an easy way to make changes to these files and the Metabolite files (MAF) is to follow these steps:
   
-    - Download corresponding metadata file (e.g., s_REQxxxx.txt) from the ISA METADATA list (under the Files tab).
+    - Download corresponding metadata file (e.g., s_REQxxxx.txt) from the corresponding study tab (e.g., Samples or Assays) or from the METADATA FILES list (under the Files tab).
   
     - Open the metadata file with your favorite editor (Microsoft Excel, OpenOffice, etc) without changing the original format and encoding.
   
@@ -53,7 +54,7 @@
   
     - Ensure that the local metadata file name is exactly the same as in your study folder on MetaboLights Online Editor.
   
-    - Upload the metadata file and 'synchronise metadata files' on Files tab on MetaboLights Online Editor.
+    - Upload the metadata file and click on the "Synchronise Metadata & Results Files" blue tab in the Metadata & Result Files box, under the Files tab, on the MetaboLights Online Editor.
   
     - Refresh your editor (if needed) 
 
@@ -73,13 +74,22 @@
 Select [Submit study](https://www.ebi.ac.uk/metabolights/editor/console) in the MetaboLights homepage to create a new submission (or edit an existing one). 
 
 
-**Recommended**: *Use ‘Create New Study’ from the editor console and select ‘Guided Submission’ to be guided through the submission creation step by step.*
+**Recommended**: Use **'Create New Study'** from the editor console 
 
-![Create](assets/images/NEW_GUIDES/QuickStartOverview_Create.png)
+![Create](assets/images/NEW_GUIDES/QuickStartOverview_MyStudies.svg)
 
-Choose to upload your RAW files at this point or later.
+**New feature:** You can now create a study from scratch, clone a public study, or clone one of your studies from 'My Studies'.
+
+![Create study options](assets/images/NEW_GUIDES/QuickStartOverview_CreateOptions.svg){width=75%}
+
+After making your selection, you will see a summary of the main metadata requirements and Data File preparation tips. You can also refer to our guides at any time for help completing each section.
+
+![Study submission prerequisites](assets/images/NEW_GUIDES/QuickStartOverview_Prerequisites.svg)
+
+You can upload your raw data files now or later. We recommend starting your submission early and uploading the files when they are ready.
 
 **Note:** *You will be issued a temporary identifier (REQxxx). Please refer to this identifier in any communication with the MetaboLights team.*
+
 
 ///
 
@@ -141,7 +151,7 @@ Please add to your manuscript the following sentence (typically in the "Methods"
 
 MetaboLights reference:
 
-[1] Yurekten O, Payne T, Tejera N, Amaladoss FX, Martin C, Williams M, O'Donovan C. MetaboLights: open data repository for metabolomics. Nucleic Acids Res. 2024 Jan 5;52(D1):D640-D646. doi:10.1093/nar/gkad1045. PMID:37971328.
+[1] Payne, T., Amaladoss, F.X., Hunter, J.E., Karaman, I., Martin, C., Polliapram, N.R.K., Tejera, N., Williams, M., Yurekten, O. and Vizcaíno, J.A. (2026). MetaboLights in 2027: Public metabolomics data at scale. Nucleic Acids Research. [online] doi:10.1093/nar/gkag1199.
 
 We would recommend you to also include this information in a much abridged form into the abstract itself, e.g. "Data are available via MetaboLights with identifier MTBLSxxx."
 
@@ -178,7 +188,7 @@ Please add to your manuscript the following sentence (typically in the "Methods"
 
 MetaboLights reference:
 
-[1] Yurekten O, Payne T, Tejera N, Amaladoss FX, Martin C, Williams M, O'Donovan C. MetaboLights: open data repository for metabolomics. Nucleic Acids Res. 2024 Jan 5;52(D1):D640-D646. doi:[10.1093/nar/gkad1045](https://doi.org/10.1093/nar/gkad1045). PMID:37971328.
+[1] Payne, T., Amaladoss, F.X., Hunter, J.E., Karaman, I., Martin, C., Polliapram, N.R.K., Tejera, N., Williams, M., Yurekten, O. and Vizcaíno, J.A. (2026). MetaboLights in 2027: Public metabolomics data at scale. Nucleic Acids Research. [online] doi:10.1093/nar/gkag1199.
 
 We would recommend you to also include this information in a much abridged form into the abstract itself, e.g. *"Data are available via MetaboLights with identifier MTBLSxxx."*
 
@@ -372,7 +382,7 @@ Study validation will need to be re-run after making any type of edits to the st
 
 - Permanent unique identifier; MTBLSxxxx.
 - Public url for your metabolomics study https://www.ebi.ac.uk/metabolights/MTBLSxxxx.
-- You may also wish to cite the MetaboLights reference [Yurekten et al](https://doi.org/10.1093/nar/gkad1045).
+- You may also wish to cite the MetaboLights reference [Payne et al](https://doi:10.1093/nar/gkag1199).
 
 ### Study accession number
 

@@ -22,6 +22,7 @@ theme:
   - navigation.tabs.sticky
   - navigation.top
   - navigation.tracking
+  - navigation.sections
   - search.highlight
   - search.share
   - search.suggest
@@ -34,20 +35,24 @@ extra:
   - icon: fontawesome/brands/bluesky
     link: https://bsky.app/profile/metabolights.bsky.social
 nav:
-- MetaboLights Home: https://www.ebi.ac.uk/metabolights
-- index.md
-- Extended Guide:
-  - MetaboLights Account: MetaboLights_account.md
-  - Study Description: Study_description.md
-  - Protocol: Protocol.md
-  - Sample: Sample.md
-  - Assay: Assay.md
-  - MAF: MAF.md
-  - Files:
-    - Files Overview: Files.md
-    - Upload using Globus: Globus.md
-- Example Studies: Examples.md
-- FAQs: FAQs.md
+  - MetaboLights Home: https://www.ebi.ac.uk/metabolights
+  - General:
+    - Checklist And General:
+      - MetaboLights Account: MetaboLights_account.md
+      - Home: index.md
+  - Submission Guide:
+    - Submission overview: Study_description.md
+  - Study Sections:
+    - Overview: Overview.md
+    - Samples: Sample.md
+    - Assays: Assay.md
+    - Protocols: Protocol.md
+    - Metabolites: MAF.md
+    - Files:
+      - Files Overview: Files.md
+      - Upload using Globus: Globus.md
+  - Example Studies: Examples.md
+  - Troubleshooting: FAQs.md
 # - Video Tutorial: Video.md
 plugins:
 - mkdocs-video

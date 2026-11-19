@@ -18,7 +18,7 @@ poetry update
 - Start local server
 
 ```bash
-mkdocs serve
+mkdocs serve or poetry run mkdocs serve
 
 ```
 

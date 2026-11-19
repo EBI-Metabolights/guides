@@ -28,10 +28,9 @@ You can link MetaboLights account to your ORCID account, allowing you to claim y
 ## My studies
 Your [My Studies](https://www.ebi.ac.uk/metabolights/editor/console) page provides an overview of all studies you have created in MetaboLights.
 
-![Portal](assets/images/image23.png){width=600}
+![Portal](assets/images/NEW_GUIDES/Mystudies.png){width=500}
 
 * (a) Select to view all studies or studies with a particular status
 * (b) View basic outline information for each study including accession number, title, status, release date
 * (c) Choose to edit a study using Guided submission or Online editor tools
-* (d) View the submission tutorial video
-* (e) Create a new study
+* (d) Create a new study

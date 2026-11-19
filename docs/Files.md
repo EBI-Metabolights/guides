@@ -2,6 +2,8 @@
 ## Raw data
 Raw data, ie. ***spectral files*** produced by the analytical instrument are a requirement for publication of a MetaboLights study, preferably accompanied with an open source version of the files ('Derived files', e.g., mzML, nmrML). Where an instrument file is not available it is acceptable to submit the open source file format only.
 
+<span style="color: blue"><strong>IMPORTANT</strong></span>: MetaboLights **accepts only file names containing letters (a–z, A–Z), numbers (0–9), hyphens (-), underscores (_), or dots (.)**. Please ensure that supplementary, derived, and raw data file names comply with this pattern. Otherwise, rename them accordingly. **Space characters are not accepted.**
+
 ### Accepted file formats for raw data
 **Raw file formats:**  baf, cmp, d, dat, fid, hr, ibd, jpf, lcd, ms, peg, qgd, raw, ser, wiff + wiff.scan, smp
 
@@ -101,7 +103,7 @@ Please give R as input and press enter.
 
 
 
-## Upload & Synchronisation
+## Upload & Indexing
 
 A primary requirement for a MetaboLights study is the inclusion of the raw and/or derived data. Files can be uploaded when first creating the study or at any stage prior to submitting a study for curation. The submitted data will be updated to the study in 2 steps.
 
@@ -160,31 +162,32 @@ For a comprehensive guide on how to create an account, integrate it with MetaboL
 
 ### Indexing FTP folder content
 
-After successfully uploading files (Aspera or FTP), they still need to be indexed (the directory that is eventually made public). This is done through the Files tab in the MetaboLights Online Editor.
+After successfully uploading data files (Aspera or FTP), they still need to be indexed (the directory that is eventually made public). This is done through the Files tab in the MetaboLights Online Editor.
 
 When you scroll down, you will see two boxes like below.
 
 ![Portal](assets/images/NEW_GUIDES/boxes.png)
-
-
-Files on MetaboLights are stored as two types - Data files or Metadata files. Data files are RAW\_FILES and/or DERIVED\_FILES produced from the analytical instrument. Metadata files are ISA tabular files such as i\_Investigation.txt, s\_MTBLSxxx.txt, a\_MTBLSxxx.txt and m\_MTBLSxxx\_maf.tsv. 
-
-There are two boxes to allow the submitter to index data files and synchronise metadata files separately. 
-
-
-### Index Data Files
 
 After clicking **Index Data Files**, raw and derived data files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once indexing is done, the status will change like below. Files will show in the MetaboLights Online Editor automatically.
 
 ![Portal](assets/images/NEW_GUIDES/DataFilesIndexing.png){width=300}
 
 
+## Metadata Files
+
+Files on MetaboLights are stored as two types - Data files or **Metadata files**. Data files are RAW\_FILES and/or DERIVED\_FILES produced from the analytical instrument. Metadata files are ISA tabular files such as i\_Investigation.txt, s\_MTBLSxxx.txt, a\_MTBLSxxx.txt and m\_MTBLSxxx\_maf.tsv. 
+
+### Metadata File Upload and Synchronization
+
+Metadata files can be Uploaded as described before for data files (Aspera, FTP and Globus). On the Files tab, click **Upload** and a pop-up box will show the options.
+
 ### Start Metadata Synchronisation
 
-After clicking **Start Synchronisation**, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Online Editor automatically.
+There are two boxes to allow the submitter to **index data files** and **synchronise metadata files** separately. 
+
+After clicking **Synchronise Metadata & Results Files** blue tab in the Metadata & Result Files box, files will be synced to the study folder. It may take seconds, minutes or longer to complete. It will depend on the number and size of files. Once synchronisation is done, the status will change like below. Files will show in the MetaboLights Online Editor automatically.
 
 ![Portal](assets/images/NEW_GUIDES/MetadataSync.png){width=300}
-
 ### Alternative for Metadata File Upload and Synchronization: **NEW Drag and Drop feature**
 
 The **Drag and Drop feature** provides a simple and efficient way for submitters to upload and synchronize **Metadata files** (i_Investigation.txt, s_MTBLSxxx.txt, a_MTBLSxxx.txt, and m_MTBLSxxx_maf.tsv).
@@ -193,24 +196,38 @@ To use it, simply drag and drop the updated metadata files into the **Drag and D
 
 The selected files will be listed below the upload box. Once ready, click **Update All** — the metadata files will then be marked as **Uploaded**.
 
+### Supported metadata file formats
+You can now upload and download metadata files in **.txt, .tsv, .csv, .xls, and .ods** formats.
 
-![Portal](assets/images/NEW_GUIDES/DragAndDrop.png){width=400}
+<span style="color: #009DFF"><strong>Important</strong></span>: **Uploading alternative formats is supported ONLY through the Drag and Drop feature**. If you transfer metadata files to your private FTP area using Aspera or an FTP client such as FileZilla, you must use the original filenames and formats: i_Investigation.txt, s_MTBLSxxx.txt, a_MTBLSxxx.txt, and m_MTBLSxxx_maf.tsv.
+
+
+![Portal](assets/images/NEW_GUIDES/DragAndDrop.png){width=800}
+
+
+
+
 
 
 ## Download
 
-### 1. Download metadata files from the online editor
+### 1. Download metadata and data files from the online editor
 
-On the Files tab, click blue cloud icons to download individual files or grey cloud icon to download multiple files.
+From the Samples, Assays, and Metabolites sections, you can download the corresponding metadata files. In the Files tab, use the blue cloud icons to download individual metadata files or a ZIP archive containing multiple metadata files.
 
-### 1. Download metadata files using MetaboLights API
+Also in the Files tab, under the **Data Files** section, use the blue cloud icons to download individual data files.
+
+You can view a list of uploaded data files by clicking the **Download file index** button. The index includes each file's name and path, which you can use to reference the files in the relevant assays.
+ 
+ 
+### 2. Download metadata files using MetaboLights API
 
 You can view/download metadata files by using our web service: typing ```https://www.ebi.ac.uk/metabolights/ws/studies/<studyid\>/<filename>``` to your browser address bar.
 
 
-### 3. Download with FTP and Aspera clients
+### 3. Download from Public Studies with FTP and Aspera clients 
 
-On the Files tab, click **Browse Files** to open a new tab to show study files content from FTP public. If you click **FTP Download**, that will open Explorer with study files FTP public path (Assuming you are using a Mac). If you click **Aspera Download**, study files can be downloaded using Aspera tool - **Download files** button (Assuming you have installed Aspera plugin on your browser).
+On the Files tab, click **Download** dropdown menu and click **Browse Files** to open a new tab to show study files content from FTP public. If you click **FTP Download**, that will open Explorer with study files FTP public path (Assuming you are using a Mac). If you click **Aspera Download**, study files can be downloaded using Aspera tool - **Download files** button (Assuming you have installed Aspera plugin on your browser).
 
 ![Portal](assets/images/ftp-aspera-download.png)
 

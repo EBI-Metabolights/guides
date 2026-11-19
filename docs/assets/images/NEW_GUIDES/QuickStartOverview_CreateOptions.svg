@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="957" height="433" viewBox="0 0 957 433" role="img" aria-labelledby="title desc">
+  <title id="title">Create New Study options</title>
+  <desc id="desc">Dialog asking whether to clone an existing study or create from scratch, with options to create from scratch, clone from public studies, or clone from personal studies.</desc>
+  <rect width="957" height="383" fill="#fff"/>
+  <text x="22" y="36" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#292929">Create New Study</text>
+  <circle cx="923" cy="30" r="12" fill="#d0d0d0"/>
+  <path d="m919 26 8 8m0-8-8 8" stroke="#fff" stroke-width="2"/>
+  <path d="M0 67h957" stroke="#d7d7d7"/>
+  <rect y="68" width="957" height="264" fill="#fafafa"/>
+  <text x="478.5" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#36506c">Would you like to clone from an existing study or create from scratch?</text>
+  <g fill="#fff" stroke="#d5d5d5">
+    <rect x="22.5" y="149.5" width="285" height="192"/>
+    <rect x="335.5" y="149.5" width="286" height="192"/>
+    <rect x="648.5" y="149.5" width="286" height="192"/>
+  </g>
+  <circle cx="165" cy="201" r="20" fill="none" stroke="#19cb65" stroke-width="5"/>
+  <path d="M165 189v24m-12-12h24" stroke="#19cb65" stroke-width="5"/>
+  <circle cx="478.5" cy="201" r="22" fill="#249be5"/>
+  <path d="M465 188c-3 4-4 9-3 13l5-1 4 4 2 7 5 3 4-4-1-5 4-4 8-2 4-5-4-7-6 2-4-5-8 2-4-3-6 5Zm-1 20a20 20 0 0 0 29 10l-5-2-4-6-7-2-4 3-4-2-5-1Z" fill="#fff"/>
+  <path d="M770 186h18l5 5h24a4 4 0 0 1 4 4v25a4 4 0 0 1-4 4h-39a4 4 0 0 1-4-4v-30a4 4 0 0 1 4-4Z" fill="#3478df"/>
+  <circle cx="798" cy="202" r="4" fill="#fff"/>
+  <path d="M790 214c1-7 15-7 16 0v2h-16Z" fill="#fff"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="165" y="270" font-size="18" font-weight="700" fill="#222">Create from scratch</text>
+    <text x="165" y="292" font-size="14" fill="#777">Start a brand new study without</text>
+    <text x="165" y="311" font-size="14" fill="#777">cloning</text>
+    <text x="478.5" y="270" font-size="18" font-weight="700" fill="#222">Clone from public studies</text>
+    <text x="478.5" y="292" font-size="14" fill="#777">clone from an existing public</text>
+    <text x="478.5" y="311" font-size="14" fill="#777">MetaboLights study</text>
+    <text x="791" y="270" font-size="18" font-weight="700" fill="#222">Clone from my studies</text>
+    <text x="791" y="292" font-size="14" fill="#777">Clone from one of your own studies</text>
+  </g>
+  <path d="M0 364h957" stroke="#d7d7d7"/>
+  <rect x="23.5" y="389.5" width="88" height="43" fill="none" stroke="#d5d5d5"/>
+  <text x="67" y="416" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333">Cancel</text>
+  <rect x="864" y="389" width="71" height="43" fill="#72ded2"/>
+  <text x="899.5" y="416" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#fff">Next</text>
+</svg>

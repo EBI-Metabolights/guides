@@ -4,10 +4,24 @@ The assay information will describe the assay process for each control and sampl
 
 The assay is divided into sections each starting with a Protocol Ref column, e.g., Chromatography, which describes the specifics of that part of the assay using controlled vocabulary, so every study using the same system is easily findable.
 
-In Assays, similar to in Samples, we recommend including few samples using the online editor (to select the proper ontology terms). Then, an easy way to edit this file is to download it from the ISA METADATA list (under the Files tab), edit locally with Excel (right click, ‘Open With’), complete it (and please do not delete or alter the column order or column headers), SAVE (file name, extension and file format need to be exactly the same) and then re-upload it to your study folder using Aspera or FTP folder. Then, don't forget to Synchronise Folders, by clicking in the "Synchronize Metadata Files" blue tab in the Metadata Files box under the Files tab. Always remember to refresh the browser window to see the updated files list. 
+In Assays, similar to in Samples, we recommend including few samples using the online editor (to select the proper ontology terms). Then, an easy way to edit this file is to download it from the Assay tab or from the METADATA FILES list (under the Files tab), edit locally with Excel (right click, ‘Open With’), complete it (and please do not delete or alter the column order or column headers), SAVE (file name, extension and file format need to be exactly the same) and then re-upload it to your study folder using Aspera or FTP folder. Then, don't forget to Synchronise Folders, by clicking in the 'Synchronize Metadata Files' blue tab in the Metadata Files box under the Files tab. Always remember to refresh the browser window to see the updated files list. 
 
-Datasets with .wiff and .wiff.scan files require the upload of both types of files. Although we generally ask submitters not to modify metadata file templates, an additional 'Raw Spectral Data File' column is required for these submissions, so that both files can be properly referenced in the corresponding ASSAY.
+**You should not have mixed polarity entries** in your Assays, they should be either alternating, positive, or negative. You can easily generate additional assays to accommodate these. 
 
+**VERY IMPORTANT**, the full pathnames for your files should be referenced in the **'Raw Spectral Data File'** column of your ASSAY files (e.g., FILES/RAW_FILES/myfiles.raw). Similarly, if you have Derived Files, the pathnames need to be referenced in the **'Derived Spectral Data File'** column (e.g., FILES/DERIVED_FILES/myfiles.mzML).
+For NMR studies, the full pathnames should be referenced in the **'Acquisition Parameter Data File'** and **'Free Induction Decay Data File'** columns.
+
+Datasets with **.wiff** and **.wiff.scan** files require the upload of both types of files. Although we generally ask submitters not to modify metadata file templates, an additional **'Raw Spectral Data File'** column is required for these submissions, so that both files can be properly referenced in the corresponding ASSAY (e.g., FILES/RAW_FILES/myfiles.wiff and FILES/RAW_FILES/myfiles.wiff.scan).
+
+
+### Add, Clone, Edit or Delete an Assay
+To create a new Assay you can do it by simply clicking in the **+ Add Assay** button present in the Assay section. This will guide you throught the mandatory information you need to complete. 
+
+As a **new feature** you can now use **Clone assay**, to clone an Assay from a Public study or from one of your own studies. 
+
+You can **Edit** an Assay using the online editor, including few samples using the online editor, downloading the file and editing on Excel as explained above, or by clicking on the **Edit assay**.
+
+To delete an Assay, simply click on the **Delete assay** button.
 
 
 ### Validation Rules:
@@ -24,6 +38,9 @@ Datasets with .wiff and .wiff.scan files require the upload of both types of fil
 * For NMR Assays, Derived Spectral Data Files, Acquisition Parameter Data Files (acqu) and Free Induction Decay Data Files (fid) must be referenced in Assay file.
 
 For comprehensive details on the validation rules that apply to Assays, please visit our [GitHub validation-rules docs](https://github.com/EBI-Metabolights/mtbls-validation/blob/main/docs/validation-rules/assay-validation-rules.md) 
+
+
+
 
 
 ## LC_MS Assay
@@ -128,7 +145,6 @@ For comprehensive details on the validation rules that apply to Assays, please v
 | Protocol REF Metabolite identification | This is the column marking the start of data pertaining to **Metabolite identification**. This should be present in every sample row. | Metabolite identification |
 | Data Transformation Name | These should contain the data transformation files |  |
 | Metabolite Assignment File (MAF) | A TSV file containing information about the metabolites investigated in the study. Information regarding database accession IDs , where in the spectra the metabolite is found and data pertaining to its abundance within the study samples should be in this file. | m\_mtbls1\_NMR\_spectroscopy\_v2\_maf.tsv |
-
 
 
  Can't find what you are looking for? Check out our [FAQ's](FAQs.md#upload-download) for most commonly asked questions and solutions.
