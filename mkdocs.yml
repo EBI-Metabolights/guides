@@ -53,7 +53,6 @@ nav:
       - Upload using Globus: Globus.md
   - Example Studies: Examples.md
   - Troubleshooting: FAQs.md
-  - MetaboLights Search: Metabolights_search.md
 # - Video Tutorial: Video.md
 plugins:
 - mkdocs-video
