@@ -42,8 +42,8 @@ nav:
       - Home: index.md
   - Submission Guide:
     - Submission overview: Study_description.md
-  - MetabolomicsHub: MetabolomicsHub.md
   - Study Sections:
+    - Overview: Overview.md
     - Samples: Sample.md
     - Assays: Assay.md
     - Protocols: Protocol.md

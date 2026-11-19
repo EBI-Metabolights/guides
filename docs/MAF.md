@@ -1,6 +1,14 @@
 # Metabolite Annotation File (MAF)
 ## MAF
-When you create an assay a corresponding metabolite annotation file will add to your study. Metabolite information should include all **metabolites / unknowns / features** identified within the study. You should complete the table with as much information as possible. Sample names should be automatically included in the columns to the right of the table (please contact us if not or download & edit in e.g., Excel), in each column sample values per metabolite should be included.
+When you create an assay a corresponding metabolite annotation file will be added to your study. 
+
+Metabolite information should include all **metabolites / unknowns / features** identified within the study, **m/z values** and RT values (whenever the tecnique permits it). 
+
+Complete the table with as much information as possible, including a ChEBI ID for each metabolite in the ‘database_identifier’ column, if possible. Enter quantitative values for each metabolite in the sample columns on the right-hand side of the sheet, linking each metabolite to the samples in which it was detected. Sample names should appear automatically as column headings. If they do not, download the sheet and add them using a spreadsheet application such as Excel.
+
+As with other metadata files, the MAF file can be downloaded from the Metabolites tab (Download button) or from the METADATA FILES list (under the Files tab), edit locally with Excel (right click, ‘Open With’), complete it (and please do not delete or alter the column order or column headers), SAVE (file name, extension and file format need to be exactly the same) and then re-upload it to your study folder using Aspera or FTP folder. Then, don't forget to Synchronise Folders, by clicking in the "Synchronise Metadata & Results Files" blue tab in the Metadata & Result Files box, under the Files tab. Always remember to refresh the browser window to see the updated files list. 
+
+ If extra columns are required to add more information, add them only after the 'smallmolecule_abundance_std_error_sub column' to avoid validation errors. **Do not otherwise modify the structure of the MAF file**.
 
 The Metabolite Annotation File (m\_MTBLSxxx.tsv) should be referenced in the metabolite assignment file column of each assay. If results are cumulative of multiple assays, enter the same file for each.
 
