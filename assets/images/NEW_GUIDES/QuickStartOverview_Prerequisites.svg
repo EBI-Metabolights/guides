@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="762" viewBox="0 0 940 762" role="img" aria-labelledby="title desc">
+  <title id="title">Prerequisites and guide for study submission</title>
+  <desc id="desc">Submission progress steps, metadata requirements, data file preparation guidance, upload options, and a Get Started button.</desc>
+  <rect width="940" height="762" fill="#f5f5f5"/>
+  <path d="M57 27H900" stroke="#d5d5d5"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle">
+    <circle cx="57" cy="27" r="9" fill="#fff" stroke="#00cbb0"/><circle cx="222" cy="27" r="8" fill="#b9b9b9"/><circle cx="391" cy="27" r="8" fill="#b9b9b9"/><circle cx="561" cy="27" r="8" fill="#b9b9b9"/><circle cx="730" cy="27" r="8" fill="#b9b9b9"/><circle cx="900" cy="27" r="8" fill="#b9b9b9"/>
+    <text x="57" y="48" fill="#0758d2">Prerequisites</text><text x="222" y="48" fill="#333">Submission Details</text><text x="391" y="48" fill="#333">Study Description</text><text x="561" y="48" fill="#333">Publication &amp; Funding</text><text x="730" y="48" fill="#333">Upload Files</text><text x="900" y="48" fill="#333">Done</text>
+  </g>
+  <rect x="61.5" y="70.5" width="838" height="673" fill="#fff" stroke="#d3d3d3"/>
+  <text x="77" y="100" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#222">Prerequisites &amp; Guide for Study Submission</text>
+  <rect x="77" y="122" width="807" height="66" rx="4" fill="#259ce8"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#fff"><text x="95" y="150">Before you begin your submission, please ensure you have the following information and files ready. Prepared data ensures a smooth and</text><text x="95" y="168">efficient submission process.</text></g>
+  <rect x="76.5" y="205.5" width="395" height="210" fill="#fff" stroke="#dedede"/><rect x="488.5" y="205.5" width="395" height="210" fill="#fff" stroke="#dedede"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#222"><text x="96" y="234" font-size="15" font-weight="700">▤ Metadata Requirements</text><text x="507" y="234" font-size="15" font-weight="700">☁ Data File Preparation</text>
+    <g font-size="12">
+      <text x="96" y="269">•  <tspan font-weight="700">Principal Investigator</tspan> contact details (Affiliation, Email, ORCID).</text>
+      <text x="96" y="290">•  <tspan font-weight="700">Study Title</tspan> (min 25 characters) and <tspan font-weight="700">Abstract/Description</tspan> (min</text><text x="111" y="307">60 characters).</text>
+      <text x="96" y="328">•  <tspan font-weight="700">Protocol Descriptions:</tspan> Sample collection, extraction,</text><text x="111" y="345">chromatography/NMR, etc.</text>
+      <text x="96" y="367">•  <tspan font-weight="700">Associated Publications:</tspan> DOI or PubMed ID if available.</text>
+      <text x="507" y="269">•  <tspan font-weight="700">Metadata Files:</tspan> ISA-Tab format (Investigation, Study, Assay</text><text x="522" y="286">files).</text>
+      <text x="507" y="307">•  <tspan font-weight="700">Raw Data Files:</tspan> Proprietary instrument formats (e.g., .raw, .d,</text><text x="522" y="324">.wiff).</text>
+      <text x="507" y="345">•  <tspan font-weight="700">Derived Data Files:</tspan> Open formats (e.g., .mzML, .nmrML) are</text><text x="522" y="362">highly encouraged.</text>
+      <text x="507" y="383">•  <tspan font-weight="700">Naming Conventions:</tspan> Use only alphanumeric characters,</text><text x="522" y="400">underscores, and dots. <tspan font-weight="700">No spaces.</tspan></text>
+    </g>
+  </g>
+  <rect x="76.5" y="432.5" width="807" height="245" fill="#fff" stroke="#dedede"/><text x="113" y="461" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#222">How to upload files?</text>
+  <g fill="#f7f7f7" stroke="#dedede"><rect x="91.5" y="482.5" width="182" height="120"/><rect x="290.5" y="482.5" width="181" height="120"/><rect x="488.5" y="482.5" width="182" height="120"/><rect x="687.5" y="482.5" width="182" height="120"/></g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <path d="M167 520a11 11 0 0 1 21 3 9 9 0 0 1-2 18h-21a9 9 0 0 1 2-18Zm10-5v17m-6-6 6-6 6 6" fill="#347cda" stroke="#347cda" stroke-width="3"/>
+    <path d="M381 508 371 519h7v15h7v-15h7Zm-10 29h20v3h-20Z" fill="#22a6f3"/><circle cx="578" cy="516" r="8" fill="#8c887e"/><rect x="584" y="513" width="20" height="7" rx="2" fill="#8c887e"/><rect x="597" y="518" width="5" height="8" fill="#8c887e"/><circle cx="578" cy="516" r="3" fill="#eee"/>
+    <path d="M777 508c6-7 14 0 10 7 8-3 14 3 9 8 11 0 12 13 1 14h-24c-11-2-9-15 1-15-5-5-3-12 3-14Z" fill="#3d70b5"/>
+    <g font-size="12" font-weight="700" fill="#222"><text x="182.5" y="555">Aspera Upload</text><text x="381" y="555">File Upload</text><text x="579.5" y="555">Private FTP</text><text x="778.5" y="555">Globus</text></g>
+    <g font-size="9" fill="#666"><text x="182.5" y="573">High-speed transfer for large files and</text><text x="182.5" y="585">folders</text><text x="381" y="573">Direct browser-based upload for</text><text x="381" y="585">smaller metadata/result files</text><text x="579.5" y="573">Standard protocol for bulk uploads</text><text x="579.5" y="585">and automated pipelines</text><text x="778.5" y="573">Secure and reliable data transfer with</text><text x="778.5" y="585">Globus</text></g>
+  </g>
+  <path d="M92 630h777" stroke="#eee"/><text x="480" y="658" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#235284">For a detailed guide on preparing and uploading your files, please visit our <tspan fill="#075cff" font-weight="700">Official Documentation →</tspan></text>
+  <rect x="430" y="694" width="101" height="35" rx="7" fill="#00c9aa"/><text x="480.5" y="717" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#fff">Get Started</text>
+</svg>
